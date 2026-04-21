@@ -179,16 +179,24 @@
         <div v-if="showLibraryModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-[200] flex items-center justify-center p-6">
             <div class="bg-slate-800 border border-slate-700 w-full max-w-6xl h-[85vh] rounded-3xl shadow-2xl flex flex-col overflow-hidden">
                 <div class="p-6 border-b border-slate-700 flex justify-between items-center bg-slate-800/50">
-                    <div>
+                    <div class="flex-1">
                         <h2 class="text-xl font-black text-white uppercase tracking-tighter">Widget Library 🧩</h2>
                         <p class="text-xs text-slate-400 uppercase tracking-widest">Hover to preview | Click to add</p>
                     </div>
+
+                    <div class="flex-1 px-4">
+                        <input v-model="searchQuery"
+                               type="text"
+                               placeholder="Search widgets (e.g. games, navigation...)"
+                               class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2 text-sm outline-none focus:border-blue-500 text-white transition-all shadow-inner">
+                    </div>
+
                     <button @click="showLibraryModal = false" class="text-slate-400 hover:text-white text-3xl">✕</button>
                 </div>
 
                 <div class="flex flex-1 overflow-hidden">
                     <div class="w-2/3 p-8 overflow-y-auto custom-scroll grid grid-cols-2 gap-4 border-r border-slate-700/50">
-                        <div v-for="w in libraryWidgets" :key="w.type"
+                        <div v-for="w in filteredWidgets" :key="w.type"
                              @click="addWidget(w.type)"
                              @mouseenter="hoveredWidget = w"
                              @mouseleave="hoveredWidget = null"
@@ -199,8 +207,12 @@
                             </div>
                             <p class="text-[11px] text-slate-400 leading-relaxed">{{ w.desc }}</p>
                         </div>
-                    </div>
 
+                        <div v-if="filteredWidgets.length === 0" class="col-span-2 text-center py-20 opacity-40">
+                            <p class="text-xl">🔍</p>
+                            <p class="text-xs uppercase font-black tracking-widest mt-2">No widgets found</p>
+                        </div>
+                    </div>
                     <div class="w-1/3 bg-slate-900/40 p-8 flex flex-col items-center justify-center text-center">
                         <div v-if="hoveredWidget" class="w-full">
                             <p class="text-[10px] font-black text-blue-500 uppercase mb-4 tracking-widest">Preview</p>
@@ -234,8 +246,10 @@
                     showLibraryModal: false,
                     hoveredWidget: null,
                     uploadedFiles: [],
-                    libEntryId: '', libEntryJson: '',
+                    libEntryId: '',
+                    libEntryJson: '',
                     rawJSONInput: '',
+                    searchQuery: '', // ΔΙΟΡΘΩΣΗ: Πρέπει να είναι μέσα στο data()
                     isUpdatingFromElements: false,
                     library: JSON.parse(localStorage.getItem('nexto_library')) || {},
                     idPresets: ['lobby_casino', 'lobby_casino_live', 'lobby_casino_rng', 'casino_navigation', 'promotions', 'top_providers', 'exclusive_game', 'jackpots', 'winners', 'tournaments'],
@@ -261,8 +275,20 @@
                     elements: []
                 }
             },
+            computed: {
+                filteredWidgets() {
+                    const query = this.searchQuery.toLowerCase().trim();
+                    if (!query) return this.libraryWidgets;
+
+                    return this.libraryWidgets.filter(w => {
+                        return w.name.toLowerCase().includes(query) ||
+                               w.type.toLowerCase().includes(query) ||
+                               w.category.toLowerCase().includes(query) ||
+                               w.desc.toLowerCase().includes(query);
+                    });
+                }
+            },
             watch: {
-                // Παρακολουθεί βαθιά τα elements και το lobbyId για να ενημερώνει το JSON δεξιά
                 elements: {
                     handler() { this.updateRawJSON(); },
                     deep: true

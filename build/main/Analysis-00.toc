@@ -1,5 +1,5 @@
-(['C:\\Users\\giorg\\Desktop\\templates maker\\pythonProject1\\main.py'],
- ['C:\\Users\\giorg\\Desktop\\templates maker\\pythonProject1'],
+(['C:\\Users\\giorg\\Desktop\\templates maker\\templates-maker-app\\main.py'],
+ ['C:\\Users\\giorg\\Desktop\\templates maker\\templates-maker-app'],
  [],
  [('C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\__pyinstaller',
@@ -18,7 +18,88 @@
  0,
  [],
  [('index.html',
-   'C:\\Users\\giorg\\Desktop\\templates maker\\pythonProject1\\index.html',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\index.html',
+   'DATA'),
+  ('library\\carousel_promotions_lobby.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\carousel_promotions_lobby.json',
+   'DATA'),
+  ('library\\custom_category_bonus buy.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\custom_category_bonus buy.json',
+   'DATA'),
+  ('library\\custom_category_instant_wins.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\custom_category_instant_wins.json',
+   'DATA'),
+  ('library\\custom_category_trending_games.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\custom_category_trending_games.json',
+   'DATA'),
+  ('library\\jackpots.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\jackpots.json',
+   'DATA'),
+  ('library\\tournaments.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\tournaments.json',
+   'DATA'),
+  ('library\\trending_games.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\trending_games.json',
+   'DATA'),
+  ('previews\\accordion.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\accordion.png',
+   'DATA'),
+  ('previews\\banner.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\banner.png',
+   'DATA'),
+  ('previews\\cards.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\cards.png',
+   'DATA'),
+  ('previews\\carousel.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\carousel.png',
+   'DATA'),
+  ('previews\\exclusive.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\exclusive.png',
+   'DATA'),
+  ('previews\\games.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\games.png',
+   'DATA'),
+  ('previews\\jackpots.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\jackpots.png',
+   'DATA'),
+  ('previews\\navigation.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\navigation.png',
+   'DATA'),
+  ('previews\\promotions.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\promotions.png',
+   'DATA'),
+  ('previews\\providers.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\providers.png',
+   'DATA'),
+  ('previews\\shuffle.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\shuffle.png',
+   'DATA'),
+  ('previews\\tournaments.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\tournaments.png',
+   'DATA'),
+  ('previews\\winners.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\winners.png',
    'DATA')],
  '3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit '
  '(AMD64)]',
@@ -39,7 +120,7 @@
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
    'PYSOURCE'),
   ('main',
-   'C:\\Users\\giorg\\Desktop\\templates maker\\pythonProject1\\main.py',
+   'C:\\Users\\giorg\\Desktop\\templates maker\\templates-maker-app\\main.py',
    'PYSOURCE')],
  [('_distutils_hack',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -1149,10 +1230,6 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\packaging\\version.py',
    'PYMODULE'),
-  ('packaging._structures',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\packaging\\_structures.py',
-   'PYMODULE'),
   ('packaging.tags',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\packaging\\tags.py',
@@ -1565,13 +1642,13 @@
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
    'CampeonGaming\\python\\Lib\\tracemalloc.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\_py_abc.py',
-   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
    'CampeonGaming\\python\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\_py_abc.py',
    'PYMODULE'),
   ('webview',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -1652,6 +1729,10 @@
   ('webview.platforms.cef',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\platforms\\cef.py',
+   'PYMODULE'),
+  ('webview.platforms.win32',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\platforms\\win32.py',
    'PYMODULE'),
   ('webview.platforms',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -1993,9 +2074,25 @@
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
    'CampeonGaming\\python\\Lib\\json\\scanner.py',
    'PYMODULE')],
- [('webview\\lib\\WebBrowserInterop.x64.dll',
+ [('webview\\lib\\Microsoft.Web.WebView2.Core.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.Core.dll',
+   'BINARY'),
+  ('webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
+   'BINARY'),
+  ('webview\\lib\\WebBrowserInterop.x86.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x86.dll',
+   'BINARY'),
+  ('webview\\lib\\WebBrowserInterop.x64.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x64.dll',
+   'BINARY'),
+  ('webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
    'BINARY'),
   ('webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -2004,22 +2101,6 @@
   ('webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
-   'BINARY'),
-  ('webview\\lib\\Microsoft.Web.WebView2.Core.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.Core.dll',
-   'BINARY'),
-  ('webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
-   'BINARY'),
-  ('webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
-   'BINARY'),
-  ('webview\\lib\\WebBrowserInterop.x86.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x86.dll',
    'BINARY'),
   ('python312.dll',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
@@ -2128,19 +2209,92 @@
  [],
  [],
  [('index.html',
-   'C:\\Users\\giorg\\Desktop\\templates maker\\pythonProject1\\index.html',
-   'DATA'),
-  ('webview\\js\\finish.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
+   'maker\\templates-maker-app\\index.html',
    'DATA'),
-  ('webview\\js\\lib\\polyfill.js',
+  ('library\\carousel_promotions_lobby.json',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
+   'maker\\templates-maker-app\\library\\carousel_promotions_lobby.json',
    'DATA'),
-  ('webview\\js\\state.js',
+  ('library\\custom_category_bonus buy.json',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\state.js',
+   'maker\\templates-maker-app\\library\\custom_category_bonus buy.json',
+   'DATA'),
+  ('library\\custom_category_instant_wins.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\custom_category_instant_wins.json',
+   'DATA'),
+  ('library\\custom_category_trending_games.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\custom_category_trending_games.json',
+   'DATA'),
+  ('library\\jackpots.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\jackpots.json',
+   'DATA'),
+  ('library\\tournaments.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\tournaments.json',
+   'DATA'),
+  ('library\\trending_games.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\trending_games.json',
+   'DATA'),
+  ('previews\\accordion.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\accordion.png',
+   'DATA'),
+  ('previews\\banner.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\banner.png',
+   'DATA'),
+  ('previews\\cards.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\cards.png',
+   'DATA'),
+  ('previews\\carousel.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\carousel.png',
+   'DATA'),
+  ('previews\\exclusive.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\exclusive.png',
+   'DATA'),
+  ('previews\\games.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\games.png',
+   'DATA'),
+  ('previews\\jackpots.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\jackpots.png',
+   'DATA'),
+  ('previews\\navigation.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\navigation.png',
+   'DATA'),
+  ('previews\\promotions.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\promotions.png',
+   'DATA'),
+  ('previews\\providers.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\providers.png',
+   'DATA'),
+  ('previews\\shuffle.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\shuffle.png',
+   'DATA'),
+  ('previews\\tournaments.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\tournaments.png',
+   'DATA'),
+  ('previews\\winners.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\winners.png',
+   'DATA'),
+  ('webview\\lib\\pywebview-android.jar',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
    'DATA'),
   ('webview\\js\\lib\\dom_json.js',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -2150,13 +2304,21 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\customize.js',
    'DATA'),
-  ('webview\\lib\\pywebview-android.jar',
+  ('webview\\js\\state.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\state.js',
+   'DATA'),
+  ('webview\\js\\lib\\polyfill.js',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
    'DATA'),
   ('webview\\js\\api.js',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\api.js',
+   'DATA'),
+  ('webview\\js\\finish.js',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -2166,25 +2328,25 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
-   'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -2193,119 +2355,15 @@
    'DATA'),
   ('base_library.zip',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\build\\main\\base_library.zip',
+   'maker\\templates-maker-app\\build\\main\\base_library.zip',
    'DATA')],
- [('enum',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\enum.py',
-   'PYMODULE'),
-  ('warnings',
+ [('warnings',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
    'CampeonGaming\\python\\Lib\\warnings.py',
-   'PYMODULE'),
-  ('io',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\io.py',
-   'PYMODULE'),
-  ('heapq',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\heapq.py',
-   'PYMODULE'),
-  ('_collections_abc',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\_collections_abc.py',
-   'PYMODULE'),
-  ('codecs',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\codecs.py',
-   'PYMODULE'),
-  ('linecache',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\linecache.py',
-   'PYMODULE'),
-  ('collections.abc',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\collections\\abc.py',
-   'PYMODULE'),
-  ('collections',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\collections\\__init__.py',
-   'PYMODULE'),
-  ('abc',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\abc.py',
-   'PYMODULE'),
-  ('genericpath',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\genericpath.py',
-   'PYMODULE'),
-  ('locale',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\locale.py',
-   'PYMODULE'),
-  ('keyword',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\keyword.py',
-   'PYMODULE'),
-  ('posixpath',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\posixpath.py',
-   'PYMODULE'),
-  ('types',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\types.py',
-   'PYMODULE'),
-  ('reprlib',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\reprlib.py',
-   'PYMODULE'),
-  ('sre_parse',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\sre_parse.py',
-   'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\sre_constants.py',
-   'PYMODULE'),
-  ('re._parser',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\re\\_parser.py',
-   'PYMODULE'),
-  ('re._constants',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\re\\_constants.py',
-   'PYMODULE'),
-  ('re._compiler',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\re\\_compiler.py',
-   'PYMODULE'),
-  ('re._casefix',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\re\\_casefix.py',
-   'PYMODULE'),
-  ('re',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\re\\__init__.py',
-   'PYMODULE'),
-  ('stat',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\stat.py',
    'PYMODULE'),
   ('sre_compile',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
    'CampeonGaming\\python\\Lib\\sre_compile.py',
-   'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\copyreg.py',
-   'PYMODULE'),
-  ('traceback',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\traceback.py',
-   'PYMODULE'),
-  ('weakref',
-   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\weakref.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
@@ -2795,21 +2853,125 @@
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
    'CampeonGaming\\python\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('_weakrefset',
+  ('collections.abc',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\_weakrefset.py',
+   'CampeonGaming\\python\\Lib\\collections\\abc.py',
+   'PYMODULE'),
+  ('collections',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\collections\\__init__.py',
+   'PYMODULE'),
+  ('io',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\io.py',
+   'PYMODULE'),
+  ('codecs',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\codecs.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\posixpath.py',
+   'PYMODULE'),
+  ('weakref',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\weakref.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\_collections_abc.py',
+   'PYMODULE'),
+  ('keyword',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\keyword.py',
+   'PYMODULE'),
+  ('re._parser',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\re\\_parser.py',
+   'PYMODULE'),
+  ('re._constants',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\re\\_constants.py',
+   'PYMODULE'),
+  ('re._compiler',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\re\\_compiler.py',
+   'PYMODULE'),
+  ('re._casefix',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\re\\_casefix.py',
+   'PYMODULE'),
+  ('re',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\re\\__init__.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\sre_constants.py',
    'PYMODULE'),
   ('functools',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
    'CampeonGaming\\python\\Lib\\functools.py',
    'PYMODULE'),
-  ('ntpath',
+  ('stat',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
-   'CampeonGaming\\python\\Lib\\ntpath.py',
+   'CampeonGaming\\python\\Lib\\stat.py',
+   'PYMODULE'),
+  ('sre_parse',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\sre_parse.py',
+   'PYMODULE'),
+  ('copyreg',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\copyreg.py',
+   'PYMODULE'),
+  ('locale',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\locale.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\genericpath.py',
+   'PYMODULE'),
+  ('heapq',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\heapq.py',
+   'PYMODULE'),
+  ('linecache',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\linecache.py',
+   'PYMODULE'),
+  ('traceback',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\traceback.py',
+   'PYMODULE'),
+  ('types',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\types.py',
+   'PYMODULE'),
+  ('abc',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\abc.py',
    'PYMODULE'),
   ('operator',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
    'CampeonGaming\\python\\Lib\\operator.py',
+   'PYMODULE'),
+  ('reprlib',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\reprlib.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\ntpath.py',
+   'PYMODULE'),
+  ('enum',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\enum.py',
+   'PYMODULE'),
+  ('_weakrefset',
+   'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
+   'CampeonGaming\\python\\Lib\\_weakrefset.py',
    'PYMODULE'),
   ('os',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '

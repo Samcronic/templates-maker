@@ -1,5 +1,5 @@
 ('C:\\Users\\giorg\\Desktop\\templates '
- 'maker\\pythonProject1\\build\\main\\PYZ-00.pyz',
+ 'maker\\templates-maker-app\\build\\main\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
    'CampeonGaming\\python\\Lib\\__future__.py',
@@ -827,10 +827,6 @@
   ('packaging._parser',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\packaging\\_parser.py',
-   'PYMODULE'),
-  ('packaging._structures',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\packaging\\_structures.py',
    'PYMODULE'),
   ('packaging._tokenizer',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -1823,6 +1819,10 @@
   ('webview.platforms.qt',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\platforms\\qt.py',
+   'PYMODULE'),
+  ('webview.platforms.win32',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\platforms\\win32.py',
    'PYMODULE'),
   ('webview.platforms.winforms',
    'C:\\Users\\giorg\\Desktop\\templates '

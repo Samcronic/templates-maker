@@ -1,5 +1,5 @@
 ('C:\\Users\\giorg\\Desktop\\templates '
- 'maker\\pythonProject1\\build\\main\\main.pkg',
+ 'maker\\templates-maker-app\\build\\main\\main.pkg',
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,
@@ -12,27 +12,27 @@
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\build\\main\\PYZ-00.pyz',
+   'maker\\templates-maker-app\\build\\main\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\build\\main\\localpycs\\struct.pyc',
+   'maker\\templates-maker-app\\build\\main\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\build\\main\\localpycs\\pyimod01_archive.pyc',
+   'maker\\templates-maker-app\\build\\main\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\build\\main\\localpycs\\pyimod02_importers.pyc',
+   'maker\\templates-maker-app\\build\\main\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\build\\main\\localpycs\\pyimod03_ctypes.pyc',
+   'maker\\templates-maker-app\\build\\main\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\build\\main\\localpycs\\pyimod04_pywin32.pyc',
+   'maker\\templates-maker-app\\build\\main\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -55,20 +55,8 @@
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
    'PYSOURCE'),
   ('main',
-   'C:\\Users\\giorg\\Desktop\\templates maker\\pythonProject1\\main.py',
+   'C:\\Users\\giorg\\Desktop\\templates maker\\templates-maker-app\\main.py',
    'PYSOURCE'),
-  ('webview\\lib\\WebBrowserInterop.x64.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x64.dll',
-   'BINARY'),
-  ('webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
-   'BINARY'),
-  ('webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
-   'BINARY'),
   ('webview\\lib\\Microsoft.Web.WebView2.Core.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.Core.dll',
@@ -77,13 +65,25 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
    'BINARY'),
+  ('webview\\lib\\WebBrowserInterop.x86.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x86.dll',
+   'BINARY'),
+  ('webview\\lib\\WebBrowserInterop.x64.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x64.dll',
+   'BINARY'),
   ('webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
    'BINARY'),
-  ('webview\\lib\\WebBrowserInterop.x86.dll',
+  ('webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x86.dll',
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
+   'BINARY'),
+  ('webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
    'BINARY'),
   ('python312.dll',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
@@ -190,19 +190,92 @@
    'CampeonGaming\\python\\DLLs\\libffi-8.dll',
    'BINARY'),
   ('index.html',
-   'C:\\Users\\giorg\\Desktop\\templates maker\\pythonProject1\\index.html',
-   'DATA'),
-  ('webview\\js\\finish.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
+   'maker\\templates-maker-app\\index.html',
    'DATA'),
-  ('webview\\js\\lib\\polyfill.js',
+  ('library\\carousel_promotions_lobby.json',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
+   'maker\\templates-maker-app\\library\\carousel_promotions_lobby.json',
    'DATA'),
-  ('webview\\js\\state.js',
+  ('library\\custom_category_bonus buy.json',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\state.js',
+   'maker\\templates-maker-app\\library\\custom_category_bonus buy.json',
+   'DATA'),
+  ('library\\custom_category_instant_wins.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\custom_category_instant_wins.json',
+   'DATA'),
+  ('library\\custom_category_trending_games.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\custom_category_trending_games.json',
+   'DATA'),
+  ('library\\jackpots.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\jackpots.json',
+   'DATA'),
+  ('library\\tournaments.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\tournaments.json',
+   'DATA'),
+  ('library\\trending_games.json',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\library\\trending_games.json',
+   'DATA'),
+  ('previews\\accordion.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\accordion.png',
+   'DATA'),
+  ('previews\\banner.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\banner.png',
+   'DATA'),
+  ('previews\\cards.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\cards.png',
+   'DATA'),
+  ('previews\\carousel.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\carousel.png',
+   'DATA'),
+  ('previews\\exclusive.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\exclusive.png',
+   'DATA'),
+  ('previews\\games.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\games.png',
+   'DATA'),
+  ('previews\\jackpots.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\jackpots.png',
+   'DATA'),
+  ('previews\\navigation.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\navigation.png',
+   'DATA'),
+  ('previews\\promotions.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\promotions.png',
+   'DATA'),
+  ('previews\\providers.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\providers.png',
+   'DATA'),
+  ('previews\\shuffle.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\shuffle.png',
+   'DATA'),
+  ('previews\\tournaments.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\tournaments.png',
+   'DATA'),
+  ('previews\\winners.png',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\previews\\winners.png',
+   'DATA'),
+  ('webview\\lib\\pywebview-android.jar',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
    'DATA'),
   ('webview\\js\\lib\\dom_json.js',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -212,13 +285,21 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\customize.js',
    'DATA'),
-  ('webview\\lib\\pywebview-android.jar',
+  ('webview\\js\\state.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\state.js',
+   'DATA'),
+  ('webview\\js\\lib\\polyfill.js',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
    'DATA'),
   ('webview\\js\\api.js',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\api.js',
+   'DATA'),
+  ('webview\\js\\finish.js',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -228,25 +309,25 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
-   'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -255,7 +336,7 @@
    'DATA'),
   ('base_library.zip',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\build\\main\\base_library.zip',
+   'maker\\templates-maker-app\\build\\main\\base_library.zip',
    'DATA')],
  'python312.dll',
  False,
