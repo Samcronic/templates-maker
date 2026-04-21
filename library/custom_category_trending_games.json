@@ -1,0 +1,164 @@
+{
+  "id" : "custom_category_trending_games",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Trending Games",
+        "de" : "Trending Games but in German"
+      }
+    },
+    "games" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "game",
+          "id" : "zbnkhacjkittoscprlksifuripinfulv",
+          "comment" : "Fortune Teller"
+        },
+        {
+          "type" : "game",
+          "id" : "fpejbxethhnbqsrrjfwqjgfirxdkxrpw",
+          "comment" : "Photo Safari"
+        },
+        {
+          "type" : "game",
+          "id" : "xrfvlvayuoyqywoqbojvignmpywfzhff",
+          "comment" : "Big Bass Boxing Bonus Round"
+        },
+        {
+          "type" : "game",
+          "id" : "vfuhqzzihczlfuwwrvcjjbuhqooeqlag",
+          "comment" : "Argonauts"
+        },
+        {
+          "type" : "game",
+          "id" : "tzserckjaiwqtyzhvyhiiitetovuuoxd",
+          "comment" : "8 Balls of Fire Blazing Bounty"
+        },
+        {
+          "type" : "game",
+          "id" : "ellljdszxqenbspfwdrnbqeadbkrvnon",
+          "comment" : "Cosmic Drop"
+        },
+        {
+          "type" : "game",
+          "id" : "lyzqjqtxiuqvbrwhdloskubmjhmcjonu",
+          "comment" : "Piggy Staxx"
+        },
+        {
+          "type" : "game",
+          "id" : "imhgcjdlssenknbvqbucgaljvqnrwocg",
+          "comment" : "Manic Fairy"
+        },
+        {
+          "type" : "game",
+          "id" : "sedbjidrqllmdiqzqzqtqustallutyye",
+          "comment" : "Vault Raiders DoubleMax"
+        },
+        {
+          "type" : "game",
+          "id" : "mkigozaxctjasyvmddtkffgwsykobgar",
+          "comment" : "Bloody Pesos"
+        },
+        {
+          "type" : "game",
+          "id" : "wjozjucjrsjsisobkjkwuvlgytmhtboq",
+          "comment" : "PowerPlay: Fire Blaze Blue Wizard"
+        },
+        {
+          "type" : "game",
+          "id" : "wbtjmsvlgoceegtkbkqhejttadqsfshr",
+          "comment" : "Age of the Gods: Wheels of Olympus"
+        },
+        {
+          "type" : "game",
+          "id" : "cowxapadjwguwypkrpdfclpfxbtqdhts",
+          "comment" : "Mega Fire Blaze: Piggies and the Bank™ PPJP"
+        },
+        {
+          "type" : "game",
+          "id" : "kenhmfyhvanxpxykshyvbmtbbugzaaig",
+          "comment" : "Age of the Gods: Maze Keeper"
+        },
+        {
+          "type" : "game",
+          "id" : "zdhtodovwgkdyxfzuczlqauedpdjlnlv",
+          "comment" : "PowerPlay: Mega Fire Blaze: Khonsu God of Moon"
+        },
+        {
+          "type" : "game",
+          "id" : "blxlthzpzyhwelhtromqlwdtujbknqjq",
+          "comment" : "Leprechaun\u2019s Luck: Cash Collect: Megaways™ PowerPlay Jackpot"
+        },
+        {
+          "type" : "game",
+          "id" : "aiymnyvilepswtygbrmmsifehwwdedwz",
+          "comment" : "Shark Blitz"
+        },
+        {
+          "type" : "game",
+          "id" : "wjrjqnmskpsldafgxxhshsshmkgtghmf",
+          "comment" : "Age of the Gods Norse: King of Asgard"
+        },
+        {
+          "type" : "game",
+          "id" : "wnnivjzisqddgdmvhhstmlynpmizasmn",
+          "comment" : "Age of the Gods: King of Olympus™ Fire Blaze Xtreme"
+        },
+        {
+          "type" : "game",
+          "id" : "irvphghgwpgycyygngcvoybcanqgyfqy",
+          "comment" : "Double Heat: Crown™"
+        },
+        {
+          "type" : "game",
+          "id" : "sfnddyaiqmgnmwzdbnpmyxltncceeauo",
+          "comment" : "Age of the Gods: Book of Oracle"
+        },
+        {
+          "type" : "game",
+          "id" : "hlzsevujmpoubaqxipwwrlgruujozhbo",
+          "comment" : "Buffalo Blitz™"
+        },
+        {
+          "type" : "game",
+          "id" : "yeasbgzucerowylpyryirnzdylrsgeve",
+          "comment" : "Crocodile Blitz"
+        },
+        {
+          "type" : "game",
+          "id" : "bqmrrwddsrulzigkyittikyglodotaav",
+          "comment" : "Full Moon: White Panda™ PowerPlay Jackpot"
+        },
+        {
+          "type" : "game",
+          "id" : "hvxjpvhpgazqbbbgeoypktdfjidfbkhg",
+          "comment" : "Age of the Gods: Furious 4™ "
+        },
+        {
+          "type" : "game",
+          "id" : "nsctkpicdqveezrcuicigcaoddivpokq",
+          "comment" : "81 Joker Hot Reels™"
+        },
+        {
+          "type" : "game",
+          "id" : "pavrlxtnxuzwmvlsukscgfdxelxqqboy",
+          "comment" : "King Blitz"
+        },
+        {
+          "type" : "game",
+          "id" : "ymhflclcpodvzlbzfhhhblotszlqtqqm",
+          "comment" : "Age of the Gods:  Apollo Power"
+        },
+        {
+          "type" : "game",
+          "id" : "lntmyijuwhknzomovfgbefyfygcbksdz",
+          "comment" : "Macabra Linx™ PowerPlay Jackpot"
+        }
+      ]
+    }
+  },
+  "type" : "component"
+}

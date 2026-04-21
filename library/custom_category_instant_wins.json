@@ -1,0 +1,210 @@
+{
+  "id" : "custom_category_instant_wins",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Instant Wins",
+        "de" : "Crash Spiele",
+        "fi" : "Crash-pelit",
+        "no" : "Crash Spill",
+        "pt" : "Jogos de Crash",
+        "BR_pt" : "Jogos Crash",
+        "es" : "Juegos Crash",
+        "fr" : "Crash Games",
+        "it" : "Giochi Crash",
+        "pl" : "Gry Crash",
+        "CA_en" : "Crash Games",
+        "CA_fr" : "Crash Games",
+        "tr" : "Crash Oyunları"
+      }
+    },
+    "categorycta" : {
+      "type" : "text",
+      "value" : {
+        "en" : "SHOW ALL",
+        "de" : "ALLE ANZEIGEN",
+        "fi" : "NÄYTÄ KAIKKI",
+        "no" : "VIS ALT",
+        "pt" : "MOSTRAR TUDO",
+        "fr" : "TOUT MONTRER",
+        "es" : "MOSTRAR TODO"
+      }
+    },
+    "categorylink" : {
+      "type" : "link",
+      "to" : "/casino/crash_games"
+    },
+    "icon" : {
+      "type" : "image",
+      "name" : "Property 1=Crash Games.svg"
+    },
+    "games" : {
+      "type" : "list",
+      "value" : [
+        {
+          "id" : "pragmatic_spaceman",
+          "comment" : "PRAGMATIC-Spaceman",
+          "type" : "game"
+        },
+        {
+          "id" : "smartsoft_jetx",
+          "comment" : "SMARTSOFT-JetX",
+          "type" : "game"
+        },
+        {
+          "id" : "smartsoft_cricket_x",
+          "comment" : "SMARTSOFT-Cricket X",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_big_bass_crash",
+          "comment" : "PRAGMATIC-Big Bass Crash™",
+          "type" : "game"
+        },
+        {
+          "id" : "evoplay_goblin_run",
+          "comment" : "EVOPLAY-Goblin Run",
+          "type" : "game"
+        },
+        {
+          "id" : "betsoft_triple_cash_or_crash",
+          "comment" : "BETSOFT-Triple Cash Or Crash™",
+          "type" : "game"
+        },
+        {
+          "id" : "betsolutions_zeppelin",
+          "comment" : "BETSOLUTIONS-Zeppelin",
+          "type" : "game"
+        },
+        {
+          "id" : "kagaming_bear_run",
+          "comment" : "KA GAMING-Bear Run",
+          "type" : "game"
+        },
+        {
+          "id" : "funky_games_plinko_ufo",
+          "comment" : "FUNKY GAMES-Plinko UFO",
+          "type" : "game"
+        },
+        {
+          "id" : "evoplay_high_striker",
+          "comment" : "EVOPLAY-High Striker",
+          "type" : "game"
+        },
+        {
+          "id" : "funky_games_cash_or_crash",
+          "comment" : "FUNKY GAMES - Cash Or Crash",
+          "type" : "game"
+        },
+        {
+          "id" : "funky_games_odds_hi_lo",
+          "comment" : "FUNKY GAMES - Odds Hi Lo",
+          "type" : "game"
+        },
+        {
+          "id" : "funta_gaming_dice",
+          "comment" : "FUNTA GAMING - Dice",
+          "type" : "game"
+        },
+        {
+          "id" : "gamzix_pilot_coin",
+          "comment" : "GAMZIX - Pilot Coin",
+          "type" : "game"
+        },
+        {
+          "id" : "evoplay_long_ball",
+          "comment" : "EVOPLAY - Long Ball",
+          "type" : "game"
+        },
+        {
+          "id" : "evoplay_football_manager",
+          "comment" : "EVOPLAY - Football Manager",
+          "type" : "game"
+        },
+        {
+          "id" : "evoplay_save_the_hamster",
+          "comment" : "EVOPLAY - Save The Hamster",
+          "type" : "game"
+        },
+        {
+          "id" : "evoplay_christmas_crash",
+          "comment" : "EVOPLAY - Christmas Crash",
+          "type" : "game"
+        },
+        {
+          "id" : "evoplay_lucky_crumbling",
+          "comment" : "EVOPLAY - Lucky Crumbling",
+          "type" : "game"
+        },
+        {
+          "id" : "betsolutions_dice",
+          "comment" : "BETSOLUTIONS - Dice",
+          "type" : "game"
+        },
+        {
+          "id" : "betsolutions_high_low",
+          "comment" : "BETSOLUTIONS - High low",
+          "type" : "game"
+        },
+        {
+          "id" : "elbet_rocketman",
+          "comment" : "ELBET - Rocketman",
+          "type" : "game"
+        },
+        {
+          "id" : "betsoft_plinko_rush",
+          "comment" : "BETSOFT - Plinko Rush",
+          "type" : "game"
+        },
+        {
+          "id" : "funky_games_mines_or_treat",
+          "comment" : "FUNKY GAMES - Mines or Treat",
+          "type" : "game"
+        },
+        {
+          "id" : "funky_games_easter_run",
+          "comment" : "FUNKY GAMES - Easter Run",
+          "type" : "game"
+        },
+        {
+          "id" : "funky_games_meow_hilo",
+          "comment" : "FUNKY GAMES - Meow HiLo",
+          "type" : "game"
+        },
+        {
+          "id" : "funky_games_plinkos",
+          "comment" : "FUNKY GAMES - PlinkoS",
+          "type" : "game"
+        },
+        {
+          "id" : "gameart_yellow_diver",
+          "comment" : "GAMEART - Yellow Diver",
+          "type" : "game"
+        },
+        {
+          "id" : "gamzix_pilot",
+          "comment" : "GAMZIX - Pilot",
+          "type" : "game"
+        },
+        {
+          "id" : "inbet_airplane",
+          "comment" : "INBET - Airplane",
+          "type" : "game"
+        },
+        {
+          "id" : "kagaming_air_combat_1942",
+          "comment" : "KA GAMING - Air Combat 1942",
+          "type" : "game"
+        },
+        {
+          "id" : "netgame_mriya",
+          "comment" : "NETGAME - Mriya",
+          "type" : "game"
+        }
+      ]
+    }
+  },
+  "type" : "component"
+}

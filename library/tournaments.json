@@ -1,0 +1,36 @@
+{
+  "id" : "tournaments",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : "Tournaments"
+    },
+    "tournaments" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "pragmatic-play-drops-and-wins-2026"
+        },
+        {
+          "type" : "text",
+          "value" : "playson-booongo-big-sunday-blast"
+        },
+        {
+          "type" : "text",
+          "value" : "kalamba-games-kash-drops"
+        },
+        {
+          "type" : "text",
+          "value" : "spinomenal-spinoleague-2026"
+        },
+        {
+          "type" : "text",
+          "value" : "evoplay-season-of-legends"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "id" : "custom_category_bonus buy",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Bonus Buy",
+        "de" : "Bonus Buy Spiele",
+        "fi" : "Osta bonus -pelit",
+        "no" : "Bonus Buy Spill",
+        "pt" : "Jogos de Bonus Buy",
+        "BR_pt" : "Jogos de Bonus Buy",
+        "es" : "Juegos de Bonus Buy",
+        "fr" : "Jeux Bonus Buy",
+        "it" : "Giochi per l'acquisto di bonus",
+        "pl" : "Bonus Buy Gry",
+        "CA_en" : "Bonus Buy Games",
+        "CA_fr" : "Jeux Bonus Buy",
+        "tr" : "Bonus Satın Alma"
+      }
+    },
+    "categorycta" : {
+      "type" : "text",
+      "value" : {
+        "en" : "SHOW ALL",
+        "de" : "ALLE ANZEIGEN",
+        "fi" : "NÄYTÄ KAIKKI",
+        "no" : "VIS ALT",
+        "pt" : "MOSTRAR TUDO",
+        "fr" : "TOUT MONTRER",
+        "es" : "MOSTRAR TODO"
+      }
+    },
+    "categorylink" : {
+      "type" : "link",
+      "to" : "/casino/bonus_buy"
+    },
+    "icon" : {
+      "type" : "image",
+      "name" : "Property 1=Bonus Buy.svg"
+    },
+    "games" : {
+      "type" : "list",
+      "value" : [
+        {
+          "id" : "endorphina_panda_strike",
+          "comment" : "Panda Strike",
+          "type" : "game"
+        },
+        {
+          "id" : "rubyplay_voltage_blitz_rapid",
+          "comment" : "Ruby - Voltage Blitz Rapid",
+          "type" : "game"
+        },
+        {
+          "id" : "rubyplay_voltage_blitz_vortex",
+          "comment" : "Ruby - Voltage Blitz Vortex",
+          "type" : "game"
+        },
+        {
+          "id" : "hacksaw_gaming_chaos_crew",
+          "comment" : "Hacksaw - Chaos Crew",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_book_of_fallen",
+          "comment" : "Book of Fallen- Pragmatic Play",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_aztec_powernudge",
+          "comment" : "Pragmatic-Aztec Powernudge",
+          "type" : "game"
+        },
+        {
+          "id" : "hacksaw_gaming_hand_of_anubis",
+          "comment" : "Hacksaw-Hand of Anubis",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_barnyard_megahays_megaways",
+          "comment" : "Pragmatic-Barnyard Megahays Megaways",
+          "type" : "game"
+        },
+        {
+          "id" : "playson_book_of_gold_multichance",
+          "comment" : "Playson-Book of Gold: Multichance",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_oracle_of_gold",
+          "comment" : "Oracle of Gold",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_the_dog_house_megaways",
+          "comment" : "Pragmatic-The Dog House Megaways",
+          "type" : "game"
+        },
+        {
+          "id" : "endorphina_minotaur_dice",
+          "comment" : "Endorphina-Minotaur (Dice)",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_great_rhino_megaways",
+          "comment" : "Pragmatic-Great Rhino Megaways",
+          "type" : "game"
+        },
+        {
+          "id" : "playson_legend_of_cleopatra_megaways",
+          "comment" : "Playson-Legend of Cleopatra Megaways",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_gates_of_olympus",
+          "comment" : "Pragmatic-Gates of Olympus",
+          "type" : "game"
+        },
+        {
+          "id" : "fbastards_bad_babushkas",
+          "comment" : "FBastards-Bad Babushkas",
+          "type" : "game"
+        },
+        {
+          "id" : "pgsoft_asgardian_rising",
+          "comment" : "PG Soft-Asgardian Rising",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_buffalo_king_megaways",
+          "comment" : "Pragmatic-Buffalo King Megaways",
+          "type" : "game"
+        },
+        {
+          "id" : "endorphina_raging_wings",
+          "comment" : "Raging Wings",
+          "type" : "game"
+        },
+        {
+          "id" : "endorphina_fortune_snake",
+          "comment" : "Fortune Snake",
+          "type" : "game"
+        },
+        {
+          "id" : "rubyplay_go_high_olympus",
+          "comment" : "Go High Olympus",
+          "type" : "game"
+        },
+        {
+          "id" : "hacksaw_gaming_le_viking",
+          "comment" : "Le Viking",
+          "type" : "game"
+        },
+        {
+          "id" : "rubyplay_sugar_rush_fever",
+          "comment" : "Sugar Rush Fever",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_starlight_princess_super_scatter",
+          "comment" : "Starlight Princess Super Scatter",
+          "type" : "game"
+        },
+        {
+          "id" : "hacksaw_gaming_2_wild_2_die",
+          "comment" : "2 Wild 2 Die",
+          "type" : "game"
+        },
+        {
+          "id" : "pragmatic_gears_of_horus",
+          "comment" : "Gears of Horus",
+          "type" : "game"
+        }
+      ]
+    }
+  },
+  "type" : "component"
+}

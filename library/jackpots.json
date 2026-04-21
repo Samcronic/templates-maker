@@ -1,0 +1,36 @@
+{
+  "id" : "jackpots",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : "Jackpots"
+    },
+    "jackpots" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "demo-jackpot-major"
+        },
+        {
+          "type" : "text",
+          "value" : "demo-jackpot-minor"
+        },
+        {
+          "type" : "text",
+          "value" : "demo-jackpot-mini"
+        },
+        {
+          "type" : "text",
+          "value" : "demo-jackpot-sensational"
+        },
+        {
+          "type" : "text",
+          "value" : "demo-jackpot-big"
+        }
+      ]
+    }
+  }
+}
