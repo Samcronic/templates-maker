@@ -61,13 +61,21 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
    'BINARY'),
-  ('webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
+  ('webview\\lib\\WebBrowserInterop.x86.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x86.dll',
+   'BINARY'),
+  ('webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
    'BINARY'),
   ('webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
+   'BINARY'),
+  ('webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
    'BINARY'),
   ('webview\\lib\\Microsoft.Web.WebView2.Core.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
@@ -77,14 +85,6 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x64.dll',
    'BINARY'),
-  ('webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
-   'BINARY'),
-  ('webview\\lib\\WebBrowserInterop.x86.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x86.dll',
-   'BINARY'),
   ('python312.dll',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
    'CampeonGaming\\python\\python312.dll',
@@ -93,13 +93,13 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\Python.Runtime.dll',
    'BINARY'),
-  ('clr_loader\\ffi\\dlls\\x86\\ClrLoader.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\dlls\\x86\\ClrLoader.dll',
-   'BINARY'),
   ('clr_loader\\ffi\\dlls\\amd64\\ClrLoader.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\dlls\\amd64\\ClrLoader.dll',
+   'BINARY'),
+  ('clr_loader\\ffi\\dlls\\x86\\ClrLoader.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\dlls\\x86\\ClrLoader.dll',
    'BINARY'),
   ('_decimal.pyd',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
@@ -273,22 +273,6 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\previews\\winners.png',
    'DATA'),
-  ('webview\\lib\\pywebview-android.jar',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
-   'DATA'),
-  ('webview\\js\\lib\\polyfill.js',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
-   'DATA'),
-  ('webview\\js\\finish.js',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
-   'DATA'),
-  ('webview\\js\\api.js',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\api.js',
-   'DATA'),
   ('webview\\js\\customize.js',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\customize.js',
@@ -297,37 +281,53 @@
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\lib\\dom_json.js',
    'DATA'),
+  ('webview\\js\\finish.js',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
+   'DATA'),
+  ('webview\\lib\\pywebview-android.jar',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
+   'DATA'),
+  ('webview\\js\\api.js',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\api.js',
+   'DATA'),
   ('webview\\js\\state.js',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\state.js',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+  ('webview\\js\\lib\\polyfill.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
    'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
    'C:\\Users\\giorg\\Desktop\\templates '
    'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Users\\giorg\\Desktop\\templates '

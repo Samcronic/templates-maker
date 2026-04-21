@@ -161,9 +161,23 @@
                                 </select>
                             </div>
 
-                            <div class="col-span-2">
+                            <div class="col-span-2 relative">
                                 <label class="text-[9px] font-bold text-blue-500 uppercase tracking-widest mb-1.5 block ml-1">Background Asset URL</label>
-                                <input v-model="el.background.value" class="w-full bg-slate-950/50 border border-slate-700 rounded-xl p-3 text-xs outline-none font-mono text-slate-400 italic">
+                                <div class="relative group/bg">
+                                    <input v-model="el.background.value"
+                                           class="w-full bg-slate-950/50 border border-slate-700 rounded-xl p-3 text-xs outline-none font-mono text-slate-400 italic"
+                                           placeholder="Enter URL or select from Assets...">
+
+                                <div v-if="uploadedFiles.length > 0"
+                                         class="absolute z-[110] left-0 right-0 mt-2 bg-slate-800 border border-slate-700 rounded-2xl shadow-2xl overflow-hidden opacity-0 invisible group-focus-within/bg:opacity-100 group-focus-within/bg:visible transition-all max-h-40 overflow-y-auto custom-scroll border-t-4 border-green-500">
+                                        <div class="px-3 py-2 text-[8px] font-black text-slate-500 uppercase bg-slate-900/50">Uploaded Assets</div>
+                                        <div v-for="file in uploadedFiles"
+                                             @mousedown="el.background.value = file.name"
+                                             class="px-4 py-2.5 text-xs text-slate-300 hover:bg-green-600 hover:text-white cursor-pointer border-b border-white/5 last:border-0 font-medium font-mono">
+                                            {{ file.name }}
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div v-if="el.hasOwnProperty('custom_category')" class="col-span-1">
