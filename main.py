@@ -4,8 +4,6 @@ import json
 import base64
 import webview
 
-
-# Συνάρτηση για να βρίσκει τα paths των αρχείων (απαραίτητο για το .exe)
 def resource_path(relative_path):
     try:
         base_path = sys._MEIPASS
@@ -13,12 +11,9 @@ def resource_path(relative_path):
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
-
 class Api:
     def get_library(self):
-        """Διαβάζει αυτόματα όλα τα .json από τον τοπικό φάκελο 'library'."""
         library_data = {}
-        # Ο φάκελος 'library' πρέπει να είναι στον ίδιο κατάλογο με το exe/script
         exe_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
         library_path = os.path.join(exe_dir, 'library')
 
@@ -53,24 +48,18 @@ class Api:
 
             base_path = result[0]
 
-            # 1. Δημιουργία φακέλου Lobby
             lobby_path = os.path.join(base_path, lobby_id)
             if not os.path.exists(lobby_path):
                 os.makedirs(lobby_path)
 
-            # Αποθήκευση του κεντρικού config.json μέσα στο lobby folder
             with open(os.path.join(lobby_path, 'config.json'), 'w', encoding='utf-8') as f:
-                # Αν το main_config είναι string (από το UI), το γράφουμε απευθείας
                 f.write(main_config)
 
-            # 2. Δημιουργία φακέλων για τα Components (Library)
             for lib in library_configs:
                 lib_id = lib['id']
                 lib_content = lib['config']
 
-                # Μετατροπή σε JSON string με σωστά ελληνικά (ensure_ascii=False)
-                lib_json_str = json.dumps(lib_content, indent=2, ensure_ascii=False) if isinstance(lib_content, (
-                dict, list)) else lib_content
+                lib_json_str = json.dumps(lib_content, indent=2, ensure_ascii=False) if isinstance(lib_content, (dict, list)) else lib_content
 
                 lib_folder_path = os.path.join(base_path, lib_id)
                 if not os.path.exists(lib_folder_path):
@@ -79,7 +68,6 @@ class Api:
                 with open(os.path.join(lib_folder_path, 'config.json'), 'w', encoding='utf-8') as f:
                     f.write(lib_json_str)
 
-            # 3. Αποθήκευση εικόνων ΜΕΣΑ ΣΤΟΝ ΦΑΚΕΛΟ ΤΟΥ LOBBY
             for file_info in files:
                 try:
                     header, data_b64 = file_info['data'].split(',', 1)
@@ -95,7 +83,6 @@ class Api:
         except Exception as e:
             return f"Σφάλμα: {str(e)}"
 
-
 api = Api()
 window = webview.create_window(
     'Nexto Gaming Config Builder',
@@ -107,5 +94,4 @@ window = webview.create_window(
 )
 
 if __name__ == '__main__':
-    # Το debug=True βοηθάει να βλέπεις σφάλματα στην κονσόλα αν κάτι δεν πάει καλά
     webview.start(debug=True)
