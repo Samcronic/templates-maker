@@ -104,6 +104,17 @@
                     </div>
 
                     <div class="absolute top-6 right-6 flex items-center gap-4">
+                        <div class="flex flex-col gap-1 mr-2">
+                            <button @click="moveElement(index, -1)" :disabled="index === 0"
+                                    class="text-slate-500 hover:text-blue-400 disabled:opacity-20 transition-colors">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 15l7-7 7 7"></path></svg>
+                            </button>
+                            <button @click="moveElement(index, 1)" :disabled="index === elements.length - 1"
+                                    class="text-slate-500 hover:text-blue-400 disabled:opacity-20 transition-colors">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                        </div>
+
                         <button @click="el.isCollapsed = !el.isCollapsed" class="text-[9px] font-extrabold uppercase tracking-[0.2em] px-3 py-1 rounded-full border border-slate-700 hover:bg-slate-700 transition-all">
                             {{ el.isCollapsed ? 'Open' : 'Close' }}
                         </button>
@@ -117,9 +128,12 @@
                             {{ el.component.value }}
                         </span>
 
-                        <div v-if="el.isCollapsed && el.id" class="flex items-center gap-3">
-                            <span class="text-[9px] font-bold text-slate-500 uppercase tracking-widest">ID:</span>
-                            <span class="text-[10px] font-mono text-amber-400 bg-amber-400/5 px-2 py-0.5 rounded">{{ el.id.value || 'N/A' }}</span>
+                        <div v-if="el.isCollapsed && el.hasOwnProperty('id')" class="flex items-center gap-2 ml-4 group/id">
+                            <span class="text-[8px] font-black text-slate-600 uppercase tracking-widest">ID:</span>
+                            <input v-model="el.id.value"
+                                   @click.stop
+                                   class="bg-slate-950/40 border border-transparent hover:border-slate-700 focus:border-blue-500/50 rounded px-2 py-0.5 text-[10px] font-mono text-amber-400 outline-none transition-all w-32"
+                                   placeholder="N/A">
                         </div>
                     </div>
 
@@ -387,6 +401,15 @@
                     });
                 },
                 removeElement(index) { this.elements.splice(index, 1); },
+
+                // Νέα συνάρτηση για μετακίνηση με βελάκια
+                moveElement(index, direction) {
+                    const newIndex = index + direction;
+                    if (newIndex < 0 || newIndex >= this.elements.length) return;
+                    const element = this.elements.splice(index, 1)[0];
+                    this.elements.splice(newIndex, 0, element);
+                },
+
                 copyToClipboard() { navigator.clipboard.writeText(this.rawJSONInput); alert("Copied to clipboard!"); },
                 saveToLibrary() {
                     if(!this.libEntryId || !this.libEntryJson) return;
@@ -406,31 +429,25 @@
                 },
                 removeFile(idx) { this.uploadedFiles.splice(idx, 1); },
 
-                // Η ΔΙΟΡΘΩΜΕΝΗ ΣΥΝΑΡΤΗΣΗ ΓΙΑ ΣΥΝΔΕΣΗ ΜΕ PYTHON
                 async exportPackage() {
                     console.log("Export started via Python Bridge...");
-
-                    // 1. Μετατροπή των uploaded images σε Base64
                     const filePromises = this.uploadedFiles.map(file => {
                         return new Promise((resolve) => {
                             const reader = new FileReader();
                             reader.onload = (e) => resolve({
                                 name: file.name,
-                                data: e.target.result // Αυτό περιέχει το base64 string
+                                data: e.target.result
                             });
                             reader.readAsDataURL(file);
                         });
                     });
 
                     const processedFiles = await Promise.all(filePromises);
-
-                    // 2. Προετοιμασία των Library Configs από το localStorage (αν υπάρχουν)
                     const libraryConfigs = Object.keys(this.library).map(key => ({
                         id: key,
                         config: this.library[key]
                     }));
 
-                    // 3. Δημιουργία του αντικειμένου που περιμένει η Python
                     const exportData = {
                         lobbyId: this.lobbyId,
                         config: this.rawJSONInput,
@@ -438,7 +455,6 @@
                         libraryConfigs: libraryConfigs
                     };
 
-                    // 4. Κλήση της Python API
                     if (window.pywebview && window.pywebview.api) {
                         window.pywebview.api.export_to_folder(exportData).then(response => {
                             alert(response);

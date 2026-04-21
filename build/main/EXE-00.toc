@@ -4,7 +4,7 @@
  False,
  False,
  'C:\\Users\\giorg\\Desktop\\templates '
- 'maker\\pythonProject1\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-windowed.ico',
+ 'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-windowed.ico',
  None,
  False,
  False,
@@ -60,54 +60,54 @@
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
    'PYSOURCE'),
   ('pyi_rth_inspect',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('pyi_rth_pkgutil',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
    'PYSOURCE'),
   ('pyi_rth_multiprocessing',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
   ('pyi_rth_setuptools',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
    'PYSOURCE'),
   ('main',
    'C:\\Users\\giorg\\Desktop\\templates maker\\templates-maker-app\\main.py',
    'PYSOURCE'),
-  ('webview\\lib\\Microsoft.Web.WebView2.Core.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.Core.dll',
-   'BINARY'),
-  ('webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
-   'BINARY'),
-  ('webview\\lib\\WebBrowserInterop.x86.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x86.dll',
-   'BINARY'),
-  ('webview\\lib\\WebBrowserInterop.x64.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x64.dll',
-   'BINARY'),
-  ('webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
-   'BINARY'),
   ('webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
    'BINARY'),
   ('webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
+   'BINARY'),
+  ('webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
+   'BINARY'),
+  ('webview\\lib\\Microsoft.Web.WebView2.Core.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.Core.dll',
+   'BINARY'),
+  ('webview\\lib\\WebBrowserInterop.x64.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x64.dll',
+   'BINARY'),
+  ('webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
+   'BINARY'),
+  ('webview\\lib\\WebBrowserInterop.x86.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x86.dll',
    'BINARY'),
   ('python312.dll',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
@@ -115,15 +115,15 @@
    'BINARY'),
   ('pythonnet\\runtime\\Python.Runtime.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\Python.Runtime.dll',
-   'BINARY'),
-  ('clr_loader\\ffi\\dlls\\amd64\\ClrLoader.dll',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\dlls\\amd64\\ClrLoader.dll',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\Python.Runtime.dll',
    'BINARY'),
   ('clr_loader\\ffi\\dlls\\x86\\ClrLoader.dll',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\dlls\\x86\\ClrLoader.dll',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\dlls\\x86\\ClrLoader.dll',
+   'BINARY'),
+  ('clr_loader\\ffi\\dlls\\amd64\\ClrLoader.dll',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\clr_loader\\ffi\\dlls\\amd64\\ClrLoader.dll',
    'BINARY'),
   ('_decimal.pyd',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
@@ -187,7 +187,7 @@
    'EXTENSION'),
   ('_cffi_backend.cp312-win_amd64.pyd',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\_cffi_backend.cp312-win_amd64.pyd',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\_cffi_backend.cp312-win_amd64.pyd',
    'EXTENSION'),
   ('_elementtree.pyd',
    'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
@@ -299,63 +299,63 @@
    'DATA'),
   ('webview\\lib\\pywebview-android.jar',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
-   'DATA'),
-  ('webview\\js\\lib\\dom_json.js',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\lib\\dom_json.js',
-   'DATA'),
-  ('webview\\js\\customize.js',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\customize.js',
-   'DATA'),
-  ('webview\\js\\state.js',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\state.js',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
    'DATA'),
   ('webview\\js\\lib\\polyfill.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
-   'DATA'),
-  ('webview\\js\\api.js',
-   'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\api.js',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
    'DATA'),
   ('webview\\js\\finish.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+  ('webview\\js\\api.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\api.js',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+  ('webview\\js\\customize.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\customize.js',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+  ('webview\\js\\lib\\dom_json.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\lib\\dom_json.js',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+  ('webview\\js\\state.js',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\webview\\js\\state.js',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'C:\\Users\\giorg\\Desktop\\templates '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
    'ipsum.txt',
    'DATA'),
   ('base_library.zip',
@@ -365,10 +365,10 @@
  [],
  False,
  False,
- 1776765374,
+ 1776767685,
  [('runw.exe',
    'C:\\Users\\giorg\\Desktop\\templates '
-   'maker\\pythonProject1\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
+   'maker\\templates-maker-app\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
    'EXECUTABLE')],
  'C:\\Users\\GeorgiosPapakostas\\OneDrive - '
  'CampeonGaming\\python\\python312.dll')
