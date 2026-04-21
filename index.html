@@ -13,220 +13,235 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
 
     <style>
-        .custom-scroll::-webkit-scrollbar { width: 6px; }
-        .custom-scroll::-webkit-scrollbar-thumb { background: #475569; border-radius: 10px; }
-        .component-card:hover { border-color: #3b82f6; transform: translateY(-2px); }
-        .sortable-ghost { opacity: 0.1; background: #3b82f6 !important; }
-        .sortable-drag { opacity: 0.8; background: #1e293b !important; }
-        .drag-handle { cursor: grab; }
-        .drag-handle:active { cursor: grabbing; }
-        .drop-zone-active { border-color: #3b82f6 !important; background: rgba(59, 130, 246, 0.1); }
-        .reorder-active .component-card { border-style: dashed; }
-        textarea::-webkit-scrollbar { width: 4px; }
-        textarea::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
-        .library-card:hover { border-color: #3b82f6; background: rgba(59, 130, 246, 0.1); }
-        .preview-container { transition: all 0.3s ease; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
+
+        body { font-family: 'Inter', sans-serif; background: radial-gradient(circle at top left, #0f172a, #020617); }
+        .custom-scroll::-webkit-scrollbar { width: 5px; }
+        .custom-scroll::-webkit-scrollbar-track { background: transparent; }
+        .custom-scroll::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+        .custom-scroll::-webkit-scrollbar-thumb:hover { background: #475569; }
+
+        .glass-panel { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); }
+        .component-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .component-card:hover { border-color: #3b82f6; box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.3); }
+
+        .btn-primary { background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3); }
+        .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4); }
+
+        .library-card { transition: all 0.2s ease; border: 1px solid rgba(255,255,255,0.03); }
+        .library-card:hover { background: rgba(59, 130, 246, 0.08); border-color: rgba(59, 130, 246, 0.5); transform: scale(1.02); }
+
+        .code-area { font-family: 'JetBrains Mono', monospace; }
+        input, select, textarea { transition: border-color 0.2s, box-shadow 0.2s; }
+        input:focus { border-color: #3b82f6 !important; box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2) !important; }
     </style>
 </head>
-<body class="bg-slate-900 p-6 min-h-screen text-slate-200 font-sans">
-    <div id="app" class="max-w-[1600px] mx-auto flex gap-6">
+<body class="text-slate-200 min-h-screen p-4 lg:p-8">
+    <div id="app" class="max-w-[1700px] mx-auto flex gap-8">
 
-        <div class="w-1/4 flex flex-col gap-4 h-[92vh]">
-            <div class="bg-slate-800 p-5 rounded-2xl border border-slate-700 shadow-xl">
-                <h2 class="text-sm font-black text-green-400 uppercase mb-4 tracking-widest leading-none">Assets (Drag & Drop)</h2>
-                <div @dragover.prevent="dragActive = true" @dragleave.prevent="dragActive = false" @drop.prevent="handleFileUpload" :class="{'drop-zone-active': dragActive}" class="border-2 border-dashed border-slate-600 rounded-xl p-4 text-center transition-all mb-4 cursor-pointer">
-                    <p class="text-[10px] text-slate-400 uppercase font-bold">Drop Images Here</p>
+        <div class="w-1/4 flex flex-col gap-6 h-[90vh]">
+            <div class="glass-panel p-6 rounded-3xl shadow-2xl overflow-hidden relative">
+                <div class="absolute top-0 left-0 w-1 h-full bg-green-500"></div>
+                <h2 class="text-[11px] font-extrabold text-green-400 uppercase mb-4 tracking-[0.2em] flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> Assets Manager
+                </h2>
+                <div @dragover.prevent="dragActive = true" @dragleave.prevent="dragActive = false" @drop.prevent="handleFileUpload"
+                     :class="{'border-blue-500 bg-blue-500/10': dragActive}"
+                     class="border-2 border-dashed border-slate-700 rounded-2xl p-6 text-center transition-all mb-4 group cursor-pointer">
+                    <div class="text-slate-500 group-hover:text-blue-400 transition-colors">
+                        <svg class="w-8 h-8 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        <p class="text-[10px] uppercase font-bold tracking-widest">Drop Images</p>
+                    </div>
                 </div>
-                <div class="max-h-32 overflow-y-auto custom-scroll space-y-2 pr-1">
-                    <div v-for="(file, idx) in uploadedFiles" :key="idx" class="flex items-center justify-between bg-slate-900/50 p-2 rounded-lg border border-slate-700">
-                        <span class="text-[10px] truncate text-slate-300 w-4/5">{{ file.name }}</span>
-                        <button @click="removeFile(idx)" class="text-red-500 hover:text-red-400 text-xs px-1">✕</button>
+                <div class="max-h-40 overflow-y-auto custom-scroll space-y-2 pr-2">
+                    <div v-for="(file, idx) in uploadedFiles" :key="idx" class="flex items-center justify-between bg-slate-900/80 p-3 rounded-xl border border-slate-800 hover:border-slate-700 transition-colors">
+                        <span class="text-[10px] truncate text-slate-400 font-mono">{{ file.name }}</span>
+                        <button @click="removeFile(idx)" class="text-slate-600 hover:text-red-400 transition-colors">✕</button>
                     </div>
                 </div>
             </div>
 
-            <button @click="showLibraryModal = true" class="w-full bg-blue-600 hover:bg-blue-500 text-white p-5 rounded-2xl border-b-4 border-blue-800 font-black flex flex-col items-center gap-1 transition-all active:translate-y-1 shadow-xl">
-                <span class="text-xs tracking-widest uppercase">Open Full Library</span>
-                <span class="text-[9px] opacity-70 font-normal uppercase tracking-tighter">Add new widgets to your config</span>
+            <button @click="showLibraryModal = true" class="btn-primary w-full p-6 rounded-3xl text-white font-black flex flex-col items-center gap-1 transition-all active:scale-95">
+                <span class="text-xs tracking-widest uppercase">Open Widget Library</span>
+                <span class="text-[9px] opacity-70 font-medium uppercase tracking-widest">Drag & Drop Components</span>
             </button>
 
-            <div class="bg-slate-800 p-5 rounded-2xl border border-amber-500/50 shadow-xl flex-1 flex flex-col overflow-hidden">
-                <h2 class="text-sm font-black text-amber-400 uppercase mb-4 tracking-widest leading-none">Library (JSON Store)</h2>
-                <div class="space-y-2 mb-3">
-                    <input v-model="libEntryId" placeholder="Filename (e.g. winners_row)..." class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs outline-none focus:border-amber-500">
-                    <textarea v-model="libEntryJson" placeholder="Paste JSON here..." class="w-full h-16 bg-slate-900 border border-slate-700 rounded-lg p-2 text-[10px] font-mono outline-none focus:border-amber-500 custom-scroll"></textarea>
-                    <button @click="saveToLibrary" class="w-full bg-amber-600 hover:bg-amber-500 text-white font-bold py-2 rounded-lg text-[10px] uppercase transition">Save to Library Folder</button>
+            <div class="glass-panel p-6 rounded-3xl shadow-2xl flex-1 flex flex-col overflow-hidden relative">
+                <div class="absolute top-0 left-0 w-1 h-full bg-amber-500"></div>
+                <h2 class="text-[11px] font-extrabold text-amber-400 uppercase mb-4 tracking-[0.2em]">JSON Repository</h2>
+                <div class="space-y-3 mb-4">
+                    <input v-model="libEntryId" placeholder="Component Name..." class="w-full bg-slate-900/50 border border-slate-700 rounded-xl p-3 text-xs outline-none font-semibold">
+                    <textarea v-model="libEntryJson" placeholder="Paste JSON Schema..." class="w-full h-24 bg-slate-900/50 border border-slate-700 rounded-xl p-3 text-[10px] font-mono outline-none custom-scroll"></textarea>
+                    <button @click="saveToLibrary" class="w-full bg-amber-500/10 hover:bg-amber-500 text-amber-500 hover:text-slate-900 font-bold py-3 rounded-xl text-[10px] uppercase transition-all border border-amber-500/20">Store in Library</button>
                 </div>
-                <div class="flex-1 overflow-y-auto custom-scroll pr-1">
-                    <div v-for="(content, id) in library" :key="id" class="flex items-center justify-between bg-slate-900/50 p-2 rounded border border-slate-700 mb-1 group">
-                        <span class="text-[10px] font-mono text-amber-200 truncate">{{ id }}.json</span>
-                        <button @click="removeFromLibrary(id)" class="text-red-500 opacity-0 group-hover:opacity-100 transition text-[10px]">✕</button>
+                <div class="flex-1 overflow-y-auto custom-scroll pr-2 space-y-2">
+                    <div v-for="(content, id) in library" :key="id" class="flex items-center justify-between bg-slate-900/40 p-3 rounded-xl border border-slate-800 group transition-all hover:bg-slate-900/80">
+                        <span class="text-[10px] font-mono text-amber-200/70">{{ id }}.json</span>
+                        <button @click="removeFromLibrary(id)" class="text-red-500 opacity-0 group-hover:opacity-100 transition-opacity">✕</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="w-2/4 space-y-4 h-[92vh] overflow-y-auto custom-scroll pr-4" :class="{'reorder-active': isReorderEnabled}">
-            <div class="bg-slate-800 p-6 rounded-2xl border-t-4 border-blue-500 shadow-xl mb-4 flex items-center gap-4">
+        <div class="w-2/4 space-y-6 h-[90vh] overflow-y-auto custom-scroll pr-4 pb-10" :class="{'reorder-active': isReorderEnabled}">
+            <div class="glass-panel p-8 rounded-[2rem] shadow-2xl flex items-center gap-6 border-b-4 border-blue-500/30">
                 <div class="flex-1">
-                    <label class="text-[10px] font-black text-blue-400 uppercase tracking-widest">Active Lobby ID</label>
-                    <input v-model="lobbyId" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-3 mt-1 outline-none focus:ring-2 focus:ring-blue-500 text-white font-mono text-lg shadow-inner">
+                    <label class="text-[10px] font-black text-blue-400 uppercase tracking-[0.25em] mb-2 block">Project Lobby Identifier</label>
+                    <input v-model="lobbyId" class="w-full bg-slate-900/50 border border-slate-700 rounded-2xl p-4 outline-none text-blue-100 font-mono text-xl shadow-inner tracking-tight">
                 </div>
-                <button @click="toggleReorder" :class="isReorderEnabled ? 'bg-orange-600 border-orange-400' : 'bg-slate-700 border-slate-500'" class="mt-5 px-4 py-3 rounded-xl border-b-4 font-black text-[10px] uppercase tracking-tighter transition-all active:translate-y-1">
-                    {{ isReorderEnabled ? '🔒 Lock Positions' : '🔃 Enable Reorder' }}
+                <button @click="toggleReorder" :class="isReorderEnabled ? 'bg-orange-500 shadow-orange-500/20' : 'bg-slate-800'" class="mt-6 px-6 py-4 rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all hover:scale-105 active:scale-95 shadow-xl">
+                    {{ isReorderEnabled ? '🔒 Save Layout' : '🔃 Reorder' }}
                 </button>
             </div>
 
-            <div id="sortable-list" class="space-y-4">
-                <div v-for="(el, index) in elements" :key="index" class="bg-slate-800 p-5 rounded-2xl relative border-l-8 border-slate-600 component-card transition-all shadow-lg" :class="{'p-4': el.isCollapsed}">
+            <div id="sortable-list" class="space-y-5">
+                <div v-for="(el, index) in elements" :key="index"
+                     class="glass-panel p-6 rounded-3xl relative border-l-[6px] component-card shadow-xl"
+                     :class="[el.isCollapsed ? 'border-slate-600' : 'border-blue-500']">
 
-                    <div v-if="isReorderEnabled" class="drag-handle absolute left-[-30px] top-1/2 -translate-y-1/2 text-orange-500 p-2">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 9h2V7H8v2zm0 4h2v-2H8v2zm0 4h2v-2H8v2zm6-10v2h2V7h-2zm0 6h2v-2h-2v2zm0 4h2v-2h-2v2z"/></svg>
+                    <div v-if="isReorderEnabled" class="drag-handle absolute -left-10 top-1/2 -translate-y-1/2 text-orange-500 hover:text-orange-400 p-2 cursor-grab active:cursor-grabbing">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 8h16M4 16h16"></path></svg>
                     </div>
 
-                    <div class="absolute top-4 right-4 flex items-center gap-4">
-                        <button @click="el.isCollapsed = !el.isCollapsed" class="text-[10px] font-black uppercase tracking-widest transition" :class="el.isCollapsed ? 'text-amber-400' : 'text-slate-500 hover:text-white'">
-                            {{ el.isCollapsed ? 'Expand' : 'Collapse' }}
+                    <div class="absolute top-6 right-6 flex items-center gap-4">
+                        <button @click="el.isCollapsed = !el.isCollapsed" class="text-[9px] font-extrabold uppercase tracking-[0.2em] px-3 py-1 rounded-full border border-slate-700 hover:bg-slate-700 transition-all">
+                            {{ el.isCollapsed ? 'Open' : 'Close' }}
                         </button>
-                        <button @click="removeElement(index)" class="text-slate-500 hover:text-red-400 transition text-sm">✕</button>
+                        <button @click="removeElement(index)" class="text-slate-500 hover:text-red-500 transition-colors">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                        </button>
                     </div>
 
-                    <div class="flex items-center gap-4" :class="el.isCollapsed ? 'mb-0 pr-40' : 'mb-4'">
-                        <span class="bg-slate-900 text-blue-400 text-[10px] px-3 py-1 rounded-full font-black border border-blue-900/50 uppercase whitespace-nowrap">
+                    <div class="flex items-center gap-4" :class="el.isCollapsed ? '' : 'mb-6 pb-4 border-b border-white/5'">
+                        <span class="bg-blue-500/10 text-blue-400 text-[11px] px-4 py-1.5 rounded-xl font-extrabold border border-blue-500/20 uppercase tracking-tighter">
                             {{ el.component.value }}
                         </span>
 
-                        <div v-if="el.isCollapsed && el.id" class="flex items-center gap-2 flex-1">
-                            <span class="text-[9px] font-black text-slate-500 uppercase whitespace-nowrap">ID:</span>
-                            <input v-model="el.id.value" class="bg-slate-900 border border-slate-700 rounded px-2 py-0.5 text-[10px] text-amber-200 w-full max-w-[200px] font-mono outline-none focus:border-blue-500">
+                        <div v-if="el.isCollapsed && el.id" class="flex items-center gap-3">
+                            <span class="text-[9px] font-bold text-slate-500 uppercase tracking-widest">ID:</span>
+                            <span class="text-[10px] font-mono text-amber-400 bg-amber-400/5 px-2 py-0.5 rounded">{{ el.id.value || 'N/A' }}</span>
                         </div>
                     </div>
 
                     <template v-if="!el.isCollapsed">
-                        <div class="grid grid-cols-2 gap-4 mt-6 bg-slate-900/40 p-5 rounded-xl border border-slate-700/50">
+                        <div class="grid grid-cols-2 gap-6 mt-2">
                             <div v-if="el.hasOwnProperty('id')" class="relative">
-                                <label class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Component ID</label>
-                                <div class="relative mt-1 group">
-                                    <input
-                                        v-model="el.id.value"
-                                        class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs outline-none text-amber-200 focus:border-blue-500 transition-all"
-                                        placeholder="Επίλεξε ή γράψε ID..."
-                                    >
-                                    <div class="absolute z-[100] left-0 right-0 mt-1 bg-slate-800 border border-slate-700 rounded-xl shadow-2xl overflow-hidden opacity-0 invisible group-focus-within:opacity-100 group-focus-within:visible transition-all max-h-60 overflow-y-auto custom-scroll">
-                                        <div class="p-2 border-b border-slate-700/50 text-[9px] font-black text-slate-500 uppercase tracking-widest bg-slate-900/50">Presets</div>
-                                        <div v-for="preset in idPresets"
-                                             @mousedown="el.id.value = preset"
-                                             class="px-3 py-2 text-xs text-slate-300 hover:bg-blue-600 hover:text-white cursor-pointer transition-colors border-b border-slate-700/30 last:border-0">
+                                <label class="text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1.5 block ml-1">Component Identifier</label>
+                                <div class="relative group">
+                                    <input v-model="el.id.value" class="w-full bg-slate-950/50 border border-slate-700 rounded-xl p-3 text-xs outline-none text-amber-200" placeholder="e.g. hero_banner">
+                                    <div class="absolute z-[100] left-0 right-0 mt-2 bg-slate-800 border border-slate-700 rounded-2xl shadow-2xl overflow-hidden opacity-0 invisible group-focus-within:opacity-100 group-focus-within:visible transition-all max-h-60 overflow-y-auto custom-scroll border-t-4 border-blue-500">
+                                        <div v-for="preset in idPresets" @mousedown="el.id.value = preset" class="px-4 py-2.5 text-xs text-slate-300 hover:bg-blue-600 hover:text-white cursor-pointer border-b border-white/5 last:border-0 font-medium">
                                             {{ preset }}
-                                        </div>
-                                        <div class="p-2 border-t border-slate-700 bg-slate-900/80">
-                                            <div class="text-[9px] font-black text-amber-500 uppercase mb-1">Custom Value</div>
-                                            <div class="text-[10px] text-slate-400 italic">Πληκτρολόγησε απευθείας στο πεδίο παραπάνω</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div v-if="el.hasOwnProperty('display')">
-                                <label class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Display Mode</label>
-                                <select v-model="el.display.value" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs mt-1 outline-none">
-                                    <option value="row">row</option>
-                                    <option value="grid">grid</option>
-                                    <option value="carousel">carousel</option>
-                                    <option value="ordinal">ordinal</option>
+                                <label class="text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1.5 block ml-1">View Mode</label>
+                                <select v-model="el.display.value" class="w-full bg-slate-950/50 border border-slate-700 rounded-xl p-3 text-xs outline-none cursor-pointer">
+                                    <option value="row">Row (Slider)</option>
+                                    <option value="grid">Grid (Static)</option>
+                                    <option value="carousel">Carousel (Large)</option>
+                                    <option value="ordinal">Ordinal (List)</option>
                                 </select>
                             </div>
 
                             <div class="col-span-2">
-                                <label class="text-[10px] font-black text-blue-500 uppercase tracking-widest">Asset Background</label>
-                                <input v-model="el.background.value" placeholder="ή πληκτρολόγησε όνομα..." class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs mt-1 outline-none font-mono italic text-slate-400">
+                                <label class="text-[9px] font-bold text-blue-500 uppercase tracking-widest mb-1.5 block ml-1">Background Asset URL</label>
+                                <input v-model="el.background.value" class="w-full bg-slate-950/50 border border-slate-700 rounded-xl p-3 text-xs outline-none font-mono text-slate-400 italic">
                             </div>
 
-                            <div v-if="el.hasOwnProperty('custom_category')">
-                                <label class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Custom Category</label>
-                                <input
-                                    v-model="el.custom_category.value"
-                                    @input="el.platform_category.value = ''"
-                                    class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs mt-1 outline-none font-mono text-blue-400"
-                                >
+                            <div v-if="el.hasOwnProperty('custom_category')" class="col-span-1">
+                                <label class="text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1.5 block ml-1">Custom Category Tag</label>
+                                <input v-model="el.custom_category.value" @input="el.platform_category.value = ''" class="w-full bg-slate-950/50 border border-slate-700 rounded-xl p-3 text-xs outline-none text-blue-400 font-bold">
                             </div>
 
-                            <div v-if="el.hasOwnProperty('platform_category')">
-                                    <label class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Platform Category</label>
-                                    <input
-                                        v-model="el.platform_category.value"
-                                        @input="el.custom_category.value = ''"
-                                        class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-xs mt-1 outline-none font-mono text-orange-400"
-                                    >
-                                </div>
+                            <div v-if="el.hasOwnProperty('platform_category')" class="col-span-1">
+                                <label class="text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1.5 block ml-1">Platform Backend ID</label>
+                                <input v-model="el.platform_category.value" @input="el.custom_category.value = ''" class="w-full bg-slate-950/50 border border-slate-700 rounded-xl p-3 text-xs outline-none text-orange-400 font-bold">
+                            </div>
                         </div>
                     </template>
                 </div>
             </div>
         </div>
 
-        <div class="w-1/4 h-[92vh] flex flex-col">
-            <div class="bg-[#0d1117] rounded-2xl border border-slate-700 p-5 flex-1 flex flex-col shadow-2xl overflow-hidden">
-                <h2 class="text-[10px] font-black text-slate-500 uppercase mb-4 tracking-widest">Live JSON Source</h2>
-                <textarea v-model="rawJSONInput" @input="handleManualJSONInput" class="flex-1 bg-transparent text-blue-300 text-[10px] outline-none border-none resize-none custom-scroll p-2 font-mono" spellcheck="false"></textarea>
-                <div class="flex flex-col gap-2 mt-4">
-                    <button @click="copyToClipboard" class="w-full bg-slate-700 hover:bg-slate-600 text-white font-black py-3 rounded-xl transition uppercase tracking-widest text-[10px]">Copy 📋</button>
-                    <button @click="exportPackage" class="w-full bg-green-600 hover:bg-green-500 text-white font-black py-4 rounded-xl transition uppercase tracking-widest text-xs shadow-lg">Export 📦</button>
+        <div class="w-1/4 h-[90vh] flex flex-col">
+            <div class="glass-panel rounded-[2rem] p-6 flex-1 flex flex-col shadow-2xl border-t-4 border-slate-600 relative overflow-hidden">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 class="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em]">Source Code</h2>
+                    <span class="text-[9px] bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded font-bold uppercase">v2.0 Auto-Sync</span>
+                </div>
+                <textarea v-model="rawJSONInput" @input="handleManualJSONInput" class="flex-1 bg-transparent text-blue-300 text-[11px] outline-none border-none resize-none custom-scroll p-4 font-mono leading-relaxed bg-slate-950/30 rounded-2xl border border-white/5" spellcheck="false"></textarea>
+                <div class="grid grid-cols-1 gap-3 mt-6">
+                    <button @click="copyToClipboard" class="w-full bg-slate-800 hover:bg-slate-700 text-white font-black py-4 rounded-2xl transition-all uppercase tracking-widest text-[10px] border border-white/5 shadow-lg active:scale-95">Copy JSON 📋</button>
+                    <button @click="exportPackage" class="w-full bg-green-600 hover:bg-green-500 text-white font-black py-5 rounded-2xl transition-all uppercase tracking-widest text-xs shadow-2xl shadow-green-500/20 active:scale-95 flex items-center justify-center gap-2">
+                        Build Package 📦
+                    </button>
                 </div>
             </div>
         </div>
 
-        <div v-if="showLibraryModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-[200] flex items-center justify-center p-6">
-            <div class="bg-slate-800 border border-slate-700 w-full max-w-6xl h-[85vh] rounded-3xl shadow-2xl flex flex-col overflow-hidden">
-                <div class="p-6 border-b border-slate-700 flex justify-between items-center bg-slate-800/50">
+        <div v-if="showLibraryModal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-xl z-[200] flex items-center justify-center p-6">
+            <div class="glass-panel border border-white/10 w-full max-w-7xl h-[85vh] rounded-[3rem] shadow-full flex flex-col overflow-hidden">
+                <div class="p-8 border-b border-white/5 flex justify-between items-center bg-slate-900/20">
                     <div class="flex-1">
-                        <h2 class="text-xl font-black text-white uppercase tracking-tighter">Widget Library 🧩</h2>
-                        <p class="text-xs text-slate-400 uppercase tracking-widest">Hover to preview | Click to add</p>
+                        <h2 class="text-3xl font-black text-white uppercase tracking-tighter leading-none">Component Hub</h2>
+                        <p class="text-[10px] text-slate-500 uppercase font-extrabold tracking-widest mt-2 ml-1">Library / Casino Templates</p>
                     </div>
 
-                    <div class="flex-1 px-4">
-                        <input v-model="searchQuery"
-                               type="text"
-                               placeholder="Search widgets (e.g. games, navigation...)"
-                               class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2 text-sm outline-none focus:border-blue-500 text-white transition-all shadow-inner">
+                    <div class="flex-1 max-w-lg mx-10 relative">
+                        <span class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        </span>
+                        <input v-model="searchQuery" type="text" placeholder="Search by name or category..."
+                               class="w-full bg-slate-950/50 border border-slate-700 rounded-2xl pl-12 pr-6 py-4 text-sm outline-none focus:border-blue-500 text-white transition-all shadow-2xl">
                     </div>
 
-                    <button @click="showLibraryModal = false" class="text-slate-400 hover:text-white text-3xl">✕</button>
+                    <button @click="showLibraryModal = false" class="bg-slate-800 hover:bg-red-500 w-12 h-12 rounded-2xl flex items-center justify-center text-white transition-colors">✕</button>
                 </div>
 
                 <div class="flex flex-1 overflow-hidden">
-                    <div class="w-2/3 p-8 overflow-y-auto custom-scroll grid grid-cols-2 gap-4 border-r border-slate-700/50">
+                    <div class="w-2/3 p-10 overflow-y-auto custom-scroll grid grid-cols-2 gap-5 border-r border-white/5">
                         <div v-for="w in filteredWidgets" :key="w.type"
                              @click="addWidget(w.type)"
                              @mouseenter="hoveredWidget = w"
                              @mouseleave="hoveredWidget = null"
-                             class="library-card bg-slate-900 border border-slate-700 p-5 rounded-2xl cursor-pointer transition-all flex flex-col gap-2 group">
-                            <div class="flex justify-between items-start">
+                             class="library-card bg-slate-900/50 p-6 rounded-3xl cursor-pointer flex flex-col gap-3 group relative overflow-hidden">
+
+                            <div class="flex justify-between items-start relative z-10">
                                 <span class="text-xs font-black text-blue-400 uppercase tracking-widest">{{ w.name }}</span>
-                                <span class="text-[10px] bg-slate-800 px-2 py-0.5 rounded text-slate-500 group-hover:text-blue-400 transition">{{ w.category }}</span>
+
+                                <span class="text-[9px] bg-slate-800 px-3 py-1 rounded-lg text-slate-400 group-hover:opacity-0 transition-all uppercase font-bold">
+                                    {{ w.category }}
+                                </span>
                             </div>
-                            <p class="text-[11px] text-slate-400 leading-relaxed">{{ w.desc }}</p>
+
+                            <p class="text-[11px] text-slate-500 leading-relaxed group-hover:text-slate-300 relative z-10">{{ w.desc }}</p>
+
+                            <div class="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-all transform translate-x-2 group-hover:translate-x-0">
+                                <span class="bg-blue-600 text-white text-[9px] font-black px-3 py-1.5 rounded-lg shadow-xl border border-blue-400/30">
+                                    + ADD WIDGET
+                                </span>
+                            </div>
                         </div>
 
-                        <div v-if="filteredWidgets.length === 0" class="col-span-2 text-center py-20 opacity-40">
-                            <p class="text-xl">🔍</p>
-                            <p class="text-xs uppercase font-black tracking-widest mt-2">No widgets found</p>
+                        <div v-if="filteredWidgets.length === 0" class="col-span-2 text-center py-20 opacity-20">
+                            <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            <p class="text-xs uppercase font-black tracking-widest mt-2">Zero matching widgets</p>
                         </div>
                     </div>
-                    <div class="w-1/3 bg-slate-900/40 p-8 flex flex-col items-center justify-center text-center">
-                        <div v-if="hoveredWidget" class="w-full">
-                            <p class="text-[10px] font-black text-blue-500 uppercase mb-4 tracking-widest">Preview</p>
-                            <div class="aspect-video bg-slate-800 rounded-xl border-2 border-blue-500/20 shadow-2xl overflow-hidden flex items-center justify-center mb-6">
+
+                    <div class="w-1/3 bg-slate-950/40 p-10 flex flex-col items-center justify-center text-center relative">
+                        <div v-if="hoveredWidget" class="w-full animate-in fade-in zoom-in duration-300">
+                            <div class="aspect-video bg-slate-900/80 rounded-3xl border-2 border-blue-500/20 shadow-2xl overflow-hidden flex items-center justify-center mb-8 p-4 relative">
                                 <img :src="`previews/${hoveredWidget.image}`"
-                                     class="max-w-full max-h-full object-contain shadow-2xl rounded-lg"
-                                     @error="(e) => e.target.src = 'https://placehold.co/600x400/1e293b/3b82f6?text=No+Image'">
+                                     class="max-w-full max-h-full object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]"
+                                     @error="(e) => e.target.src = 'https://placehold.co/600x400/1e293b/3b82f6?text=Widget+Preview'">
                             </div>
-                            <h3 class="text-white font-bold uppercase tracking-tighter">{{ hoveredWidget.name }}</h3>
-                            <p class="text-xs text-slate-500 mt-2">{{ hoveredWidget.desc }}</p>
-                        </div>
-                        <div v-else class="flex flex-col items-center gap-4 opacity-30">
-                            <div class="w-16 h-16 border-4 border-dashed border-slate-600 rounded-full"></div>
-                            <p class="text-[10px] uppercase font-black tracking-widest">Hover a widget</p>
+                            <h3 class="text-2xl font-black text-white uppercase tracking-tighter">{{ hoveredWidget.name }}</h3>
+                            <p class="text-sm text-slate-400 mt-4 leading-relaxed max-w-xs mx-auto">{{ hoveredWidget.desc }}</p>
                         </div>
                     </div>
                 </div>
@@ -249,7 +264,7 @@
                     libEntryId: '',
                     libEntryJson: '',
                     rawJSONInput: '',
-                    searchQuery: '', // ΔΙΟΡΘΩΣΗ: Πρέπει να είναι μέσα στο data()
+                    searchQuery: '',
                     isUpdatingFromElements: false,
                     library: JSON.parse(localStorage.getItem('nexto_library')) || {},
                     idPresets: ['lobby_casino', 'lobby_casino_live', 'lobby_casino_rng', 'casino_navigation', 'promotions', 'top_providers', 'exclusive_game', 'jackpots', 'winners', 'tournaments'],
@@ -279,7 +294,6 @@
                 filteredWidgets() {
                     const query = this.searchQuery.toLowerCase().trim();
                     if (!query) return this.libraryWidgets;
-
                     return this.libraryWidgets.filter(w => {
                         return w.name.toLowerCase().includes(query) ||
                                w.type.toLowerCase().includes(query) ||
@@ -373,7 +387,7 @@
                     });
                 },
                 removeElement(index) { this.elements.splice(index, 1); },
-                copyToClipboard() { navigator.clipboard.writeText(this.rawJSONInput); alert("Copied!"); },
+                copyToClipboard() { navigator.clipboard.writeText(this.rawJSONInput); alert("Copied to clipboard!"); },
                 saveToLibrary() {
                     if(!this.libEntryId || !this.libEntryJson) return;
                     try {
@@ -381,8 +395,8 @@
                         this.library[this.libEntryId] = jsonData;
                         localStorage.setItem('nexto_library', JSON.stringify(this.library));
                         this.libEntryId = ''; this.libEntryJson = '';
-                        alert("Saved to library!");
-                    } catch(e) { alert("Invalid JSON!"); }
+                        alert("Stored successfully!");
+                    } catch(e) { alert("Invalid JSON format!"); }
                 },
                 removeFromLibrary(id) { delete this.library[id]; localStorage.setItem('nexto_library', JSON.stringify(this.library)); },
                 handleFileUpload(e) {
@@ -391,17 +405,49 @@
                     this.dragActive = false;
                 },
                 removeFile(idx) { this.uploadedFiles.splice(idx, 1); },
-                exportPackage() {
-                    const zip = new JSZip();
-                    zip.file("config.json", this.rawJSONInput);
-                    const assets = zip.folder("assets");
-                    this.uploadedFiles.forEach(f => assets.file(f.name, f));
-                    zip.generateAsync({type:"blob"}).then(content => {
-                        const link = document.createElement('a');
-                        link.href = URL.createObjectURL(content);
-                        link.download = `config_package_${Date.now()}.zip`;
-                        link.click();
+
+                // Η ΔΙΟΡΘΩΜΕΝΗ ΣΥΝΑΡΤΗΣΗ ΓΙΑ ΣΥΝΔΕΣΗ ΜΕ PYTHON
+                async exportPackage() {
+                    console.log("Export started via Python Bridge...");
+
+                    // 1. Μετατροπή των uploaded images σε Base64
+                    const filePromises = this.uploadedFiles.map(file => {
+                        return new Promise((resolve) => {
+                            const reader = new FileReader();
+                            reader.onload = (e) => resolve({
+                                name: file.name,
+                                data: e.target.result // Αυτό περιέχει το base64 string
+                            });
+                            reader.readAsDataURL(file);
+                        });
                     });
+
+                    const processedFiles = await Promise.all(filePromises);
+
+                    // 2. Προετοιμασία των Library Configs από το localStorage (αν υπάρχουν)
+                    const libraryConfigs = Object.keys(this.library).map(key => ({
+                        id: key,
+                        config: this.library[key]
+                    }));
+
+                    // 3. Δημιουργία του αντικειμένου που περιμένει η Python
+                    const exportData = {
+                        lobbyId: this.lobbyId,
+                        config: this.rawJSONInput,
+                        files: processedFiles,
+                        libraryConfigs: libraryConfigs
+                    };
+
+                    // 4. Κλήση της Python API
+                    if (window.pywebview && window.pywebview.api) {
+                        window.pywebview.api.export_to_folder(exportData).then(response => {
+                            alert(response);
+                        }).catch(err => {
+                            alert("Σφάλμα Python API: " + err);
+                        });
+                    } else {
+                        alert("Python Bridge not found! Τρέξε την εφαρμογή μέσω του main.py");
+                    }
                 }
             },
             mounted() {

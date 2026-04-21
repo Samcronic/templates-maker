@@ -14,6 +14,7 @@ def resource_path(relative_path):
 class Api:
     def get_library(self):
         library_data = {}
+        # Παίρνουμε το path που βρίσκεται το .exe
         exe_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
         library_path = os.path.join(exe_dir, 'library')
 
@@ -42,23 +43,26 @@ class Api:
             files = data.get('files', [])
             library_configs = data.get('libraryConfigs', [])
 
+            # Χρησιμοποιούμε το window instance για το dialog
             result = window.create_file_dialog(webview.FOLDER_DIALOG)
-            if not result:
+            if not result or len(result) == 0:
                 return "Η εξαγωγή ακυρώθηκε."
 
             base_path = result[0]
 
+            # Δημιουργία φακέλου για το κύριο Lobby
             lobby_path = os.path.join(base_path, lobby_id)
             if not os.path.exists(lobby_path):
                 os.makedirs(lobby_path)
 
+            # Σώσιμο config.json
             with open(os.path.join(lobby_path, 'config.json'), 'w', encoding='utf-8') as f:
                 f.write(main_config)
 
+            # Σώσιμο βιβλιοθήκης (αν υπάρχει)
             for lib in library_configs:
                 lib_id = lib['id']
                 lib_content = lib['config']
-
                 lib_json_str = json.dumps(lib_content, indent=2, ensure_ascii=False) if isinstance(lib_content, (dict, list)) else lib_content
 
                 lib_folder_path = os.path.join(base_path, lib_id)
@@ -68,11 +72,11 @@ class Api:
                 with open(os.path.join(lib_folder_path, 'config.json'), 'w', encoding='utf-8') as f:
                     f.write(lib_json_str)
 
+            # Σώσιμο εικόνων/assets
             for file_info in files:
                 try:
                     header, data_b64 = file_info['data'].split(',', 1)
                     file_data = base64.b64decode(data_b64)
-
                     with open(os.path.join(lobby_path, file_info['name']), 'wb') as f:
                         f.write(file_data)
                 except:
@@ -88,10 +92,11 @@ window = webview.create_window(
     'Nexto Gaming Config Builder',
     resource_path('index.html'),
     js_api=api,
-    width=1650,
-    height=1000,
+    width=1600,  # Αρχικό πλάτος
+    height=1000, # Αρχικό ύψος
     resizable=True
 )
 
 if __name__ == '__main__':
-    webview.start(debug=True)
+    window.maximized = True
+    webview.start()
