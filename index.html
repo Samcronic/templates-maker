@@ -5,7 +5,6 @@
     <title>Nexto Gaming - Ultimate Config Builder</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
@@ -15,7 +14,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
 
-        body { font-family: 'Inter', sans-serif; background: radial-gradient(circle at top left, #0f172a, #020617); }
+        :root { --main-theme: #3b82f6; }
+        body { font-family: 'Inter', sans-serif; background: radial-gradient(circle at top left, #0f172a, #020617); transition: all 0.3s ease; }
         .custom-scroll::-webkit-scrollbar { width: 5px; }
         .custom-scroll::-webkit-scrollbar-track { background: transparent; }
         .custom-scroll::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
@@ -23,17 +23,23 @@
 
         .glass-panel { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); }
         .component-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
-        .component-card:hover { border-color: #3b82f6; box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.3); }
+        .component-card:hover { border-color: var(--main-theme); box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.3); }
 
-        .btn-primary { background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3); }
-        .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4); }
+        .btn-primary { background: var(--main-theme); box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3); }
+        .btn-primary:hover { transform: translateY(-1px); filter: brightness(1.1); }
 
         .library-card { transition: all 0.2s ease; border: 1px solid rgba(255,255,255,0.03); }
-        .library-card:hover { background: rgba(59, 130, 246, 0.08); border-color: rgba(59, 130, 246, 0.5); transform: scale(1.02); }
+        .library-card:hover { background: rgba(59, 130, 246, 0.08); border-color: var(--main-theme); transform: scale(1.02); }
 
         .code-area { font-family: 'JetBrains Mono', monospace; }
         input, select, textarea { transition: border-color 0.2s, box-shadow 0.2s; }
-        input:focus { border-color: #3b82f6 !important; box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2) !important; }
+        input:focus { border-color: var(--main-theme) !important; box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2) !important; }
+
+        .theme-dot { width: 12px; height: 12px; border-radius: 99px; cursor: pointer; border: 2px solid rgba(255,255,255,0.1); transition: transform 0.2s; }
+        .theme-dot:hover { transform: scale(1.2); }
+
+        .preview-img-container { position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.08); }
+        .preview-img { width: 100%; height: auto; object-fit: contain; display: block; }
     </style>
 </head>
 <body class="text-slate-200 min-h-screen p-4 lg:p-8">
@@ -83,24 +89,46 @@
             </div>
         </div>
 
-        <div class="w-2/4 space-y-6 h-[90vh] overflow-y-auto custom-scroll pr-4 pb-10" :class="{'reorder-active': isReorderEnabled}">
+        <div class="w-2/4 space-y-6 h-[90vh] overflow-y-auto custom-scroll pr-4 pb-10">
             <div class="glass-panel p-8 rounded-[2rem] shadow-2xl flex items-center gap-6 border-b-4 border-blue-500/30">
                 <div class="flex-1">
                     <label class="text-[10px] font-black text-blue-400 uppercase tracking-[0.25em] mb-2 block">Project Lobby Identifier</label>
                     <input v-model="lobbyId" class="w-full bg-slate-900/50 border border-slate-700 rounded-2xl p-4 outline-none text-blue-100 font-mono text-xl shadow-inner tracking-tight">
                 </div>
-                <button @click="toggleReorder" :class="isReorderEnabled ? 'bg-orange-500 shadow-orange-500/20' : 'bg-slate-800'" class="mt-6 px-6 py-4 rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all hover:scale-105 active:scale-95 shadow-xl">
-                    {{ isReorderEnabled ? '🔒 Save Layout' : '🔃 Reorder' }}
+                <button @click="isPosMode = !isPosMode" :class="isPosMode ? 'bg-orange-500 shadow-orange-500/20' : 'bg-slate-800'" class="mt-6 px-6 py-4 rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all hover:scale-105 active:scale-95 shadow-xl">
+                    {{ isPosMode ? '🔒 Lock Positions' : '🔢 Positioning' }}
                 </button>
             </div>
 
-            <div id="sortable-list" class="space-y-5">
+            <div v-if="elements.length > 0" class="flex items-center justify-between px-4 py-2 bg-slate-900/30 rounded-2xl border border-white/5">
+                <div class="flex gap-2">
+                    <button @click="setAllCollapse(true)" class="text-[9px] font-bold text-slate-400 hover:text-white uppercase tracking-widest bg-slate-800/50 px-3 py-1.5 rounded-lg border border-white/5 transition-all">
+                        Collapse All
+                    </button>
+                    <button @click="setAllCollapse(false)" class="text-[9px] font-bold text-slate-400 hover:text-white uppercase tracking-widest bg-slate-800/50 px-3 py-1.5 rounded-lg border border-white/5 transition-all">
+                        Expand All
+                    </button>
+                </div>
+                <button @click="clearAllElements" class="text-[9px] font-bold text-red-400 hover:text-red-300 uppercase tracking-widest flex items-center gap-2 px-3 py-1.5 rounded-lg hover:bg-red-500/10 transition-all">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                    Clear All
+                </button>
+            </div>
+
+            <div id="sortable-list" class="space-y-5 transition-all" :class="{'pl-16': isPosMode}">
                 <div v-for="(el, index) in elements" :key="index"
                      class="glass-panel p-6 rounded-3xl relative border-l-[6px] component-card shadow-xl"
-                     :class="[el.isCollapsed ? 'border-slate-600' : 'border-blue-500']">
+                     :style="{ zIndex: elements.length - index }"
+                     :class="[el.isCollapsed ? 'border-slate-600' : 'border-blue-500', el.isActive === false ? 'opacity-40 grayscale' : '']">
 
-                    <div v-if="isReorderEnabled" class="drag-handle absolute -left-10 top-1/2 -translate-y-1/2 text-orange-500 hover:text-orange-400 p-2 cursor-grab active:cursor-grabbing">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 8h16M4 16h16"></path></svg>
+                    <div v-if="isPosMode" class="absolute -left-14 top-1/2 -translate-y-1/2 z-[100]">
+                        <div class="flex flex-col items-center gap-1">
+                            <input type="number"
+                                   :value="index + 1"
+                                   @change="repositionElement(index, $event.target.value)"
+                                   class="w-10 h-10 bg-orange-600 text-white rounded-xl text-center text-sm font-bold border-2 border-orange-400 shadow-lg focus:ring-2 ring-orange-300 outline-none transition-all appearance-none">
+                            <span class="text-[8px] text-orange-400 font-black uppercase tracking-tighter bg-slate-900 px-1 rounded">POS</span>
+                        </div>
                     </div>
 
                     <div class="absolute top-6 right-6 flex items-center gap-4">
@@ -118,7 +146,17 @@
                         <button @click="el.isCollapsed = !el.isCollapsed" class="text-[9px] font-extrabold uppercase tracking-[0.2em] px-3 py-1 rounded-full border border-slate-700 hover:bg-slate-700 transition-all">
                             {{ el.isCollapsed ? 'Open' : 'Close' }}
                         </button>
-                        <button @click="removeElement(index)" class="text-slate-500 hover:text-red-500 transition-colors">
+
+                        <button @click="el.isActive = !el.isActive" :class="el.isActive !== false ? 'text-blue-400' : 'text-slate-600'" class="hover:scale-110 transition-transform" title="Toggle Visibility">
+                            <svg v-if="el.isActive !== false" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                            <svg v-else class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.5a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l18 18"></path></svg>
+                        </button>
+
+                        <button @click="duplicateElement(index)" class="text-slate-500 hover:text-blue-400 transition-colors" title="Duplicate">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2"></path></svg>
+                        </button>
+
+                        <button @click="removeElement(index)" class="text-slate-500 hover:text-red-500 transition-colors" title="Delete">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
                         </button>
                     </div>
@@ -168,7 +206,7 @@
                                            class="w-full bg-slate-950/50 border border-slate-700 rounded-xl p-3 text-xs outline-none font-mono text-slate-400 italic"
                                            placeholder="Enter URL or select from Assets...">
 
-                                <div v-if="uploadedFiles.length > 0"
+                                    <div v-if="uploadedFiles.length > 0"
                                          class="absolute z-[110] left-0 right-0 mt-2 bg-slate-800 border border-slate-700 rounded-2xl shadow-2xl overflow-hidden opacity-0 invisible group-focus-within/bg:opacity-100 group-focus-within/bg:visible transition-all max-h-40 overflow-y-auto custom-scroll border-t-4 border-green-500">
                                         <div class="px-3 py-2 text-[8px] font-black text-slate-500 uppercase bg-slate-900/50">Uploaded Assets</div>
                                         <div v-for="file in uploadedFiles"
@@ -198,11 +236,50 @@
         <div class="w-1/4 h-[90vh] flex flex-col">
             <div class="glass-panel rounded-[2rem] p-6 flex-1 flex flex-col shadow-2xl border-t-4 border-slate-600 relative overflow-hidden">
                 <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em]">Source Code</h2>
-                    <span class="text-[9px] bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded font-bold uppercase">v2.0 Auto-Sync</span>
+                    <h2 class="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em]">{{ isPreviewMode ? 'Live Preview' : 'Source Code' }}</h2>
+                    <div class="flex gap-4 items-center">
+                        <button @click="isPreviewMode = !isPreviewMode" class="bg-blue-500/20 hover:bg-blue-500/40 text-blue-400 text-[9px] font-black px-3 py-1 rounded-lg transition-all border border-blue-500/30 uppercase">
+                            {{ isPreviewMode ? 'Show JSON' : 'Show Preview' }}
+                        </button>
+                        <div class="flex gap-2">
+                            <div @click="setTheme('blue')" class="theme-dot bg-blue-500"></div>
+                            <div @click="setTheme('emerald')" class="theme-dot bg-emerald-500"></div>
+                            <div @click="setTheme('purple')" class="theme-dot bg-purple-500"></div>
+                        </div>
+                    </div>
                 </div>
-                <textarea v-model="rawJSONInput" @input="handleManualJSONInput" class="flex-1 bg-transparent text-blue-300 text-[11px] outline-none border-none resize-none custom-scroll p-4 font-mono leading-relaxed bg-slate-950/30 rounded-2xl border border-white/5" spellcheck="false"></textarea>
+
+                <textarea v-if="!isPreviewMode" v-model="rawJSONInput" @input="handleManualJSONInput" class="flex-1 bg-transparent text-blue-300 text-[11px] outline-none border-none resize-none custom-scroll p-4 font-mono leading-relaxed bg-slate-950/30 rounded-2xl border border-white/5" spellcheck="false"></textarea>
+
+                <div v-else class="flex-1 overflow-y-auto custom-scroll space-y-6 p-4 bg-slate-950/30 rounded-2xl border border-white/5 relative">
+                    <div class="sticky top-0 z-[120] flex justify-end mb-2">
+                        <button @click="showPreviewLabels = !showPreviewLabels"
+                                class="bg-slate-800/80 hover:bg-blue-600 p-2 rounded-xl transition-all border border-white/10 shadow-xl"
+                                :title="showPreviewLabels ? 'Hide Labels' : 'Show Labels'">
+                            <svg v-if="showPreviewLabels" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                            <svg v-else class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.5a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l18 18"></path></svg>
+                        </button>
+                    </div>
+
+                    <div v-for="(el, idx) in elements.filter(e => e.isActive !== false)" :key="idx" class="flex flex-col gap-2">
+                        <div v-if="showPreviewLabels" class="flex items-center gap-2 px-1">
+                            <span class="text-[9px] font-black text-blue-400 uppercase tracking-widest bg-blue-500/10 px-2 py-0.5 rounded">
+                                {{ el.component.value }}
+                            </span>
+                            <span v-if="el.id && el.id.value" class="text-[8px] text-slate-500 font-mono">#{{ el.id.value }}</span>
+                        </div>
+
+                        <div class="preview-img-container bg-slate-900/50">
+                            <img :src="getPreviewImage(el)"
+                                 class="preview-img"
+                                 @error="(e) => e.target.src = 'https://placehold.co/600x300/1e293b/3b82f6?text=' + el.component.value">
+                        </div>
+                    </div>
+                    <div v-if="elements.length === 0" class="h-full flex items-center justify-center text-slate-600 text-[10px] uppercase font-bold text-center">No widgets added to preview</div>
+                </div>
+
                 <div class="grid grid-cols-1 gap-3 mt-6">
+                    <button @click="undo" :disabled="historyIndex <= 0" class="w-full bg-slate-800 hover:bg-slate-700 text-white font-black py-4 rounded-2xl transition-all uppercase tracking-widest text-[10px] border border-white/5 shadow-lg active:scale-95 disabled:opacity-30">Undo Last Action (Ctrl+Z) ↩️</button>
                     <button @click="copyToClipboard" class="w-full bg-slate-800 hover:bg-slate-700 text-white font-black py-4 rounded-2xl transition-all uppercase tracking-widest text-[10px] border border-white/5 shadow-lg active:scale-95">Copy JSON 📋</button>
                     <button @click="exportPackage" class="w-full bg-green-600 hover:bg-green-500 text-white font-black py-5 rounded-2xl transition-all uppercase tracking-widest text-xs shadow-2xl shadow-green-500/20 active:scale-95 flex items-center justify-center gap-2">
                         Build Package 📦
@@ -240,32 +317,24 @@
 
                             <div class="flex justify-between items-start relative z-10">
                                 <span class="text-xs font-black text-blue-400 uppercase tracking-widest">{{ w.name }}</span>
-
                                 <span class="text-[9px] bg-slate-800 px-3 py-1 rounded-lg text-slate-400 group-hover:opacity-0 transition-all uppercase font-bold">
                                     {{ w.category }}
                                 </span>
                             </div>
-
                             <p class="text-[11px] text-slate-500 leading-relaxed group-hover:text-slate-300 relative z-10">{{ w.desc }}</p>
-
                             <div class="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-all transform translate-x-2 group-hover:translate-x-0">
                                 <span class="bg-blue-600 text-white text-[9px] font-black px-3 py-1.5 rounded-lg shadow-xl border border-blue-400/30">
                                     + ADD WIDGET
                                 </span>
                             </div>
                         </div>
-
-                        <div v-if="filteredWidgets.length === 0" class="col-span-2 text-center py-20 opacity-20">
-                            <svg class="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                            <p class="text-xs uppercase font-black tracking-widest mt-2">Zero matching widgets</p>
-                        </div>
                     </div>
 
                     <div class="w-1/3 bg-slate-950/40 p-10 flex flex-col items-center justify-center text-center relative">
                         <div v-if="hoveredWidget" class="w-full animate-in fade-in zoom-in duration-300">
-                            <div class="aspect-video bg-slate-900/80 rounded-3xl border-2 border-blue-500/20 shadow-2xl overflow-hidden flex items-center justify-center mb-8 p-4 relative">
+                            <div class="aspect-video bg-slate-900/80 rounded-3xl border-2 border-blue-500/20 shadow-2xl overflow-hidden flex items-center justify-center mb-8 p-0 relative">
                                 <img :src="`previews/${hoveredWidget.image}`"
-                                     class="max-w-full max-h-full object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]"
+                                     class="w-full h-full object-top object-contain display-block"
                                      @error="(e) => e.target.src = 'https://placehold.co/600x400/1e293b/3b82f6?text=Widget+Preview'">
                             </div>
                             <h3 class="text-2xl font-black text-white uppercase tracking-tighter">{{ hoveredWidget.name }}</h3>
@@ -283,9 +352,11 @@
         createApp({
             data() {
                 return {
+                    showPreviewLabels: true,
+                    isPreviewMode: false,
                     lobbyId: 'lobby_casino_rng',
                     dragActive: false,
-                    isReorderEnabled: false,
+                    isPosMode: false, // Updated variable name
                     showLibraryModal: false,
                     hoveredWidget: null,
                     uploadedFiles: [],
@@ -294,6 +365,8 @@
                     rawJSONInput: '',
                     searchQuery: '',
                     isUpdatingFromElements: false,
+                    history: [],
+                    historyIndex: -1,
                     library: JSON.parse(localStorage.getItem('nexto_library')) || {},
                     idPresets: ['lobby_casino', 'lobby_casino_live', 'lobby_casino_rng', 'casino_navigation', 'promotions', 'top_providers', 'exclusive_game', 'jackpots', 'winners', 'tournaments'],
                     libraryWidgets: [
@@ -302,7 +375,7 @@
                         { type: 'spacer', name: 'Spacer', category: 'Layout', desc: 'Προσθέτει κάθετο κενό μεταξύ των widgets.', image: 'spacer.png' },
                         { type: 'games', name: 'Games', category: 'Content', desc: 'Η βασική λίστα παιχνιδιών. Υποστηρίζει φίλτρα Brand και Category.', image: 'games.png' },
                         { type: 'providers', name: 'Providers', category: 'Content', desc: 'Λίστα με λογότυπα παρόχων.', image: 'providers.png' },
-                        { type: 'exclusiveGame', name: 'ExclusiveGame', category: 'Content', desc: 'Προβολή ενός επιλεγμένου "αποκλειστικού" παιχνιδιού.', image: 'exclusive.png' },
+                        { type: 'exclusiveGame', name: 'ExclusiveGame', category: 'Content', desc: 'Προβολή ενός επιλεγμένου \"αποκλειστικού\" παιχνιδιού.', image: 'exclusive.png' },
                         { type: 'tournaments', name: 'Tournaments', category: 'Content', desc: 'Εμφανίζει ενεργά και επερχόμενα τουρνουά.', image: 'tournaments.png' },
                         { type: 'shuffle', name: 'Shuffle', category: 'Content', desc: 'Κουμπί που επιλέγει και ανοίγει ένα τυχαίο παιχνίδι.', image: 'shuffle.png' },
                         { type: 'banner', name: 'Banner', category: 'Widgets', desc: 'Στατικό banner με κείμενο και alignment.', image: 'banner.png' },
@@ -322,59 +395,83 @@
                 filteredWidgets() {
                     const query = this.searchQuery.toLowerCase().trim();
                     if (!query) return this.libraryWidgets;
-                    return this.libraryWidgets.filter(w => {
-                        return w.name.toLowerCase().includes(query) ||
-                               w.type.toLowerCase().includes(query) ||
-                               w.category.toLowerCase().includes(query) ||
-                               w.desc.toLowerCase().includes(query);
-                    });
+                    return this.libraryWidgets.filter(w => w.name.toLowerCase().includes(query) || w.type.toLowerCase().includes(query) || w.category.toLowerCase().includes(query) || w.desc.toLowerCase().includes(query));
                 }
             },
             watch: {
-                elements: {
-                    handler() { this.updateRawJSON(); },
-                    deep: true
-                },
+                elements: { handler() { this.updateRawJSON(); this.saveToHistory(); }, deep: true },
                 lobbyId() { this.updateRawJSON(); }
             },
             methods: {
+                // New Positioning Method (Manual Indexing)
+                repositionElement(oldIndex, newPos) {
+                    let newIndex = parseInt(newPos) - 1;
+                    if (isNaN(newIndex) || newIndex < 0) newIndex = 0;
+                    if (newIndex >= this.elements.length) newIndex = this.elements.length - 1;
+
+                    const element = this.elements.splice(oldIndex, 1)[0];
+                    this.elements.splice(newIndex, 0, element);
+                },
+                setAllCollapse(state) {
+                    this.elements.forEach(el => el.isCollapsed = state);
+                },
+                clearAllElements() {
+                    if (confirm("Are you sure you want to delete all widgets?")) {
+                        this.elements = [];
+                    }
+                },
+                getPreviewImage(el) {
+                    if (el.background && el.background.value) {
+                        const uploaded = this.uploadedFiles.find(f => f.name === el.background.value);
+                        if (uploaded) return URL.createObjectURL(uploaded);
+                        return el.background.value;
+                    }
+                    const widget = this.libraryWidgets.find(w => w.type === el.component.value);
+                    return widget ? `previews/${widget.image}` : '';
+                },
+                saveToHistory() {
+                    const state = JSON.stringify(this.elements);
+                    if (this.history[this.historyIndex] === state) return;
+                    this.history = this.history.slice(0, this.historyIndex + 1);
+                    this.history.push(state);
+                    if (this.history.length > 20) this.history.shift();
+                    this.historyIndex = this.history.length - 1;
+                },
+                undo() {
+                    if (this.historyIndex > 0) {
+                        this.isUpdatingFromElements = true;
+                        this.historyIndex--;
+                        this.elements = JSON.parse(this.history[this.historyIndex]);
+                        this.$nextTick(() => { this.isUpdatingFromElements = false; });
+                    }
+                },
+                setTheme(color) {
+                    const themes = { blue: '#3b82f6', emerald: '#10b981', purple: '#a855f7' };
+                    document.documentElement.style.setProperty('--main-theme', themes[color]);
+                },
                 updateRawJSON() {
                     if (this.isUpdatingFromElements) return;
-                    const cleanElements = this.elements.map(el => {
-                        let newEl = { type: "map", component: el.component };
-                        const fields = ['id', 'display', 'background', 'custom_category', 'platform_category'];
-                        fields.forEach(field => {
-                            if (el[field] && el[field].value !== "") {
-                                newEl[field] = el[field];
-                            }
+                    const cleanElements = this.elements
+                        .filter(el => el.isActive !== false)
+                        .map(el => {
+                            let newEl = { type: "map", component: el.component };
+                            ['id', 'display', 'background', 'custom_category', 'platform_category'].forEach(field => {
+                                if (el[field] && el[field].value !== "") newEl[field] = el[field];
+                            });
+                            return newEl;
                         });
-                        return newEl;
-                    });
-                    this.rawJSONInput = JSON.stringify({
-                        id: this.lobbyId,
-                        component: { type: "list", value: cleanElements },
-                        type: "component"
-                    }, null, 2);
+                    this.rawJSONInput = JSON.stringify({ id: this.lobbyId, component: { type: "list", value: cleanElements }, type: "component" }, null, 2);
                 },
                 addWidget(type) { this.addElement(type); this.showLibraryModal = false; },
                 addElement(type) {
-                    let obj = {
-                        type: "map",
-                        isCollapsed: false,
-                        component: { type: "text", value: type },
-                        id: { type: "text", value: "" },
-                        background: { type: "text", value: "" }
-                    };
-
-                    if (type === 'games') {
-                        obj.custom_category = { type: "text", value: "" };
-                        obj.platform_category = { type: "text", value: "" };
-                        obj.display = { type: "text", value: "row" };
-                    }
-                    if (['navigation', 'carousel', 'promotions', 'winners', 'jackpots'].includes(type)) {
-                         obj.display = { type: "text", value: "row" };
-                    }
+                    let obj = { type: "map", isCollapsed: false, isActive: true, component: { type: "text", value: type }, id: { type: "text", value: "" }, background: { type: "text", value: "" } };
+                    if (type === 'games') { obj.custom_category = { type: "text", value: "" }; obj.platform_category = { type: "text", value: "" }; obj.display = { type: "text", value: "row" }; }
+                    if (['navigation', 'carousel', 'promotions', 'winners', 'jackpots'].includes(type)) obj.display = { type: "text", value: "row" };
                     this.elements.push(obj);
+                },
+                duplicateElement(index) {
+                    const copy = JSON.parse(JSON.stringify(this.elements[index]));
+                    this.elements.splice(index + 1, 0, copy);
                 },
                 handleManualJSONInput() {
                     try {
@@ -383,13 +480,8 @@
                         if (parsed.component && Array.isArray(parsed.component.value)) {
                             this.isUpdatingFromElements = true;
                             this.elements = parsed.component.value.map(item => {
-                                let el = {
-                                    isCollapsed: true,
-                                    type: "map",
-                                    component: item.component || { type: "text", value: "unknown" }
-                                };
-                                const fields = ['id', 'display', 'background', 'custom_category', 'platform_category'];
-                                fields.forEach(f => {
+                                let el = { isCollapsed: true, isActive: true, type: "map", component: item.component || { type: "text", value: "unknown" } };
+                                ['id', 'display', 'background', 'custom_category', 'platform_category'].forEach(f => {
                                     if (item[f]) el[f] = JSON.parse(JSON.stringify(item[f]));
                                     else if (f === 'id' || f === 'background') el[f] = { type: "text", value: "" };
                                 });
@@ -399,37 +491,18 @@
                         }
                     } catch (e) { }
                 },
-                toggleReorder() {
-                    this.isReorderEnabled = !this.isReorderEnabled;
-                    this.$nextTick(() => {
-                        const el = document.getElementById('sortable-list');
-                        if (this.isReorderEnabled) {
-                            this.sortableInstance = Sortable.create(el, {
-                                animation: 250, handle: '.drag-handle',
-                                onEnd: (evt) => {
-                                    const item = this.elements.splice(evt.oldIndex, 1)[0];
-                                    this.elements.splice(evt.newIndex, 0, item);
-                                }
-                            });
-                        } else if (this.sortableInstance) { this.sortableInstance.destroy(); }
-                    });
-                },
                 removeElement(index) { this.elements.splice(index, 1); },
-
-                // Νέα συνάρτηση για μετακίνηση με βελάκια
                 moveElement(index, direction) {
                     const newIndex = index + direction;
                     if (newIndex < 0 || newIndex >= this.elements.length) return;
                     const element = this.elements.splice(index, 1)[0];
                     this.elements.splice(newIndex, 0, element);
                 },
-
                 copyToClipboard() { navigator.clipboard.writeText(this.rawJSONInput); alert("Copied to clipboard!"); },
                 saveToLibrary() {
                     if(!this.libEntryId || !this.libEntryJson) return;
                     try {
-                        const jsonData = JSON.parse(this.libEntryJson);
-                        this.library[this.libEntryId] = jsonData;
+                        this.library[this.libEntryId] = JSON.parse(this.libEntryJson);
                         localStorage.setItem('nexto_library', JSON.stringify(this.library));
                         this.libEntryId = ''; this.libEntryJson = '';
                         alert("Stored successfully!");
@@ -438,50 +511,29 @@
                 removeFromLibrary(id) { delete this.library[id]; localStorage.setItem('nexto_library', JSON.stringify(this.library)); },
                 handleFileUpload(e) {
                     const files = e.dataTransfer ? e.dataTransfer.files : e.target.files;
-                    for (let f of files) { this.uploadedFiles.push(f); }
+                    for (let f of files) this.uploadedFiles.push(f);
                     this.dragActive = false;
                 },
                 removeFile(idx) { this.uploadedFiles.splice(idx, 1); },
-
                 async exportPackage() {
-                    console.log("Export started via Python Bridge...");
                     const filePromises = this.uploadedFiles.map(file => {
                         return new Promise((resolve) => {
                             const reader = new FileReader();
-                            reader.onload = (e) => resolve({
-                                name: file.name,
-                                data: e.target.result
-                            });
+                            reader.onload = (e) => resolve({ name: file.name, data: e.target.result });
                             reader.readAsDataURL(file);
                         });
                     });
-
                     const processedFiles = await Promise.all(filePromises);
-                    const libraryConfigs = Object.keys(this.library).map(key => ({
-                        id: key,
-                        config: this.library[key]
-                    }));
-
-                    const exportData = {
-                        lobbyId: this.lobbyId,
-                        config: this.rawJSONInput,
-                        files: processedFiles,
-                        libraryConfigs: libraryConfigs
-                    };
-
+                    const libraryConfigs = Object.keys(this.library).map(key => ({ id: key, config: this.library[key] }));
+                    const exportData = { lobbyId: this.lobbyId, config: this.rawJSONInput, files: processedFiles, libraryConfigs: libraryConfigs };
                     if (window.pywebview && window.pywebview.api) {
-                        window.pywebview.api.export_to_folder(exportData).then(response => {
-                            alert(response);
-                        }).catch(err => {
-                            alert("Σφάλμα Python API: " + err);
-                        });
-                    } else {
-                        alert("Python Bridge not found! Τρέξε την εφαρμογή μέσω του main.py");
-                    }
+                        window.pywebview.api.export_to_folder(exportData).then(response => alert(response)).catch(err => alert("Σφάλμα Python API: " + err));
+                    } else alert("Python Bridge not found! Τρέξε την εφαρμογή μέσω του main.py");
                 }
             },
             mounted() {
                 this.updateRawJSON();
+                window.addEventListener('keydown', (e) => { if (e.ctrlKey && e.key === 'z') this.undo(); });
             }
         }).mount('#app')
     </script>
