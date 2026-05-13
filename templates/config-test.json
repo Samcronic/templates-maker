@@ -1,0 +1,63 @@
+{
+  "id": "lobby_casino_rng",
+  "component": {
+    "type": "list",
+    "value": [
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "navigation"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "carousel"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "shuffle"
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "tournaments"
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "banner"
+        }
+      }
+    ]
+  },
+  "type": "component"
+}
