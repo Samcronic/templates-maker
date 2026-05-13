@@ -1,0 +1,49 @@
+{
+  "id": "lobby_casino_rng",
+  "component": {
+    "type": "list",
+    "value": [
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "navigation"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "spacer"
+        },
+        "variant": {
+          "type": "text",
+          "value": "xl"
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "providers"
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        }
+      }
+    ]
+  },
+  "type": "component"
+}
