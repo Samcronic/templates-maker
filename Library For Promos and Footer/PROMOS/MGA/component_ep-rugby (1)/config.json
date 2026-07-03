@@ -1,0 +1,381 @@
+{
+  "id" : "ep-rugby",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Rugby Early Payout",
+        "de" : "Rugby Vorzeitige Auszahlung",
+        "fi" : "Rugbyn varhainen voitonmaksu",
+        "no" : "Rugby tidlig utbetaling",
+        "pt" : "Pagamento Antecipado no Rugby",
+        "es" : "Pago Anticipado en Rugby",
+        "it" : "Incasso Anticipato Rugby",
+        "fr" : "Paiement Anticipé Rugby",
+        "BR_pt" : "Pagamento Antecipado no Rugby",
+        "pl" : "Wczesna Wypłata - Rugby",
+        "tr" : "Rugby Erken Ödeme",
+        "ru" : "Досрочная выплата в регби",
+        "az" : "Rugby Erkən Ödəniş",
+        "et" : "Ragbi varane väljamakse",
+        "hu" : "Rögbi korai kifizetés",
+        "sr" : "Early payout za ragbi",
+        "cs" : "Předčasná výplata u rugby",
+        "el" : "Πρώιμη Πληρωμή Ράγκμπι",
+        "mk" : "Рана исплата за рагби",
+        "sq" : "Pagesë E Parakohshme Në Rugby",
+        "ro" : "Rugby Plată Anticipată",
+        "sl" : "Rugby predčasno izplačilo",
+        "hr" : "Prijevremena isplata \u2013 ragbi",
+        "bg" : "Ранно изплащане за ръгби",
+        "BD_bn" : "রাগবিতে আগাম অর্থ পরিশোধ"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Bet pays early if your team takes a 12+ point lead!",
+        "de" : "Wette wird vorzeitig ausgezahlt, wenn Ihr Team mit 12+ Punkten in Führung liegt!",
+        "fi" : "Veto maksetaan varhain, jos joukkueesi johtaa 12+ pisteellä!",
+        "no" : "Spillet utbetales tidlig hvis laget ditt leder med 12+ poeng!",
+        "pt" : "Aposta é paga antecipadamente se a tua equipa ganhar vantagem de 12+ pontos!",
+        "es" : "¡La apuesta se paga anticipadamente si tu equipo se adelanta por 12+ puntos!",
+        "it" : "La scommessa paga in anticipo se la tua squadra è in vantaggio di oltre 12 punti!",
+        "fr" : "Le pari paie tôt si votre équipe prend une avance de plus de 12 points !",
+        "BR_pt" : "A aposta é paga antecipadamente se o seu time abrir vantagem de 12+ pontos!",
+        "pl" : "Zakład opłaca się wcześnie, jeśli drużyna obejmie ponad 12-punktowe prowadzenie!",
+        "tr" : "Takımın 12 veya daha fazla puan farkı yakaladığında bahis erken ödenir!",
+        "ru" : "Ставка выплачивается досрочно, если ваша команда набирает 12+ очков!",
+        "az" : "Komandan 12 və ya daha çox xal fərqi ilə önə keçərsə, mərc erkən ödənilir!",
+        "et" : "Kihlvedu tasub end varakult ära, kui tiim läheb 12+ punktiga juhtima!",
+        "hu" : "A fogadást korán elkönyveljük, ha a csapatod legalább 12 pontos előnyt szerez!",
+        "sr" : "Opklada će postati dobitna ranije ukoliko vaš tim ostvari prednost od 12 ili više poena.",
+        "cs" : "Sázka je vyplacena předčasně, pokud váš tým získá náskok 12 a více bodů!",
+        "el" : "Το στοίχημα πληρώνεται νωρίτερα αν η ομάδα σου πάρει προβάδισμα 12+ πόντων!",
+        "mk" : "Облогот се исплаќа порано ако вашиот тим води со 12+ поени!",
+        "sq" : "Fito bastin më herët nëse skuadra jote kalon në avantazh me 12 ose më shumë pikë!",
+        "ro" : "Pariul este plătit în avans dacă echipa ta conduce cu 12+ puncte!",
+        "sl" : "Stava se izplača predčasno, če tvoja ekipa doseže prednost 12+ točk!",
+        "hr" : "Par je dobitni ako vaš tim povede 12+ bodova razlike!",
+        "bg" : "Залогът се изплаща по-рано, ако вашият отбор поведе с 12+ точки!",
+        "BD_bn" : "ম্যাচ চলাকালীন যেকোনো সময় দল 12+ পয়েন্টে এগিয়ে গেলে আর্লি পেআউট কার্যকর হবে!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "ep-rugby.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "sports"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./ep-rugby.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Is your team leading by 12 points or more?\nThat\u2019s all it takes for your bet to win, no matter the final score!",
+              "de" : "Liegt Ihr Team mit 12 Punkten oder mehr in Führung?\nDas ist alles, was nötig ist, damit Ihre Wette gewinnt, unabhängig vom Endergebnis!",
+              "fi" : "Johtaako joukkueesi vähintään 12 pisteellä?\nSiinä tapauksessa vetosi voittaa lopullisesta tuloksesta huolimatta!",
+              "no" : "Ligger laget ditt foran med 12 poeng eller mer?\nDet er alt som trengs for at innsatsen din skal vinne, uavhengig av sluttresultatet!",
+              "pt" : "A tua equipa está a vencer por 12 pontos ou mais?\nÉ tudo o que precisas para a tua aposta ganhar, independentemente do resultado final!",
+              "es" : "¿Tu equipo va ganando por 12 puntos o más?\n¡Eso es todo lo que necesitas para ganar la apuesta, sin importar el resultado final!",
+              "it" : "La tua squadra è in vantaggio di 12 o più punti?\nBasta questo per far vincere la tua scommessa, indipendentemente dal punteggio finale!",
+              "fr" : "Votre équipe mène de 12 points ou plus ?\nC`est tout ce qu`il faut pour que votre pari soit gagnant, quel que soit le score final !",
+              "BR_pt" : "Seu time está vencendo por 12 pontos ou mais?\nIsso é tudo o que você precisa para ganhar a aposta, não importa o resultado final!",
+              "pl" : "Czy Twoja drużyna prowadzi 12 punktami lub więcej?\nTylko tyle wystarczy, aby Twój zakład wygrał, bez względu na końcowy wynik!",
+              "tr" : "Takımın 12 ya da daha fazla puan farkıyla önde mi?\nMaçın final skoru ne olursa olsun, bu bahsinin kazanması için yeterli!",
+              "ru" : "Ваша команда лидирует с разницей 12 очков или более?\nЭтого достаточно, чтобы ваша ставка выиграла, независимо от окончательного счета!",
+              "az" : "Komandan 12 və ya daha çox xal fərqi ilə öndədirmi?\nYekun hesabdan asılı olmayaraq, bu mərci qazanmaq üçün bu kifayətdir!",
+              "et" : "Kas su tiim juhib 12 või enama punktiga?\nSellest piisab, et sinu panus võidaks, olemata lõpuskoorist!",
+              "hu" : "A csapatod már legalább 12 ponttal vezet?\nCsupán ennyi kell ahhoz, hogy nyerjen a fogadásod! A végeredmény nem számít!",
+              "sr" : "Da li vaš tim vodi za 12 ili više poena?\nTo je sve što je potrebno da vaša opklada bude dobitna, bez obzira na konačan rezultat!",
+              "cs" : "Vede váš tým o 12 nebo více bodů?\nJakmile k tomu dojde, sázka je výherní, ať už zápas dopadne jakkoliv.",
+              "el" : "Η ομάδα σου προηγείται με 12 ή περισσότερους πόντους;\nΑυτό είναι το μόνο που χρειάζεται για να κερδίσεις το στοίχημά σου, ανεξάρτητα από το τελικό σκορ!",
+              "mk" : "Дали вашиот тим води со 12 поени или повеќе?\nТоа е доволно за вашиот облог да биде добитен, без разлика на конечниот резултат!",
+              "sq" : "A është skuadra jote 12 pikë ose më shumë përpara?\nKjo është e gjitha që nevojitet për të fituar bastin, pavarësisht rezultatit përfundimtar!",
+              "ro" : "Echipa ta conduce cu 12 puncte sau mai multe?\nDoar de asta este nevoie ca pariul tău să fie unul câștigător, indiferent de rezultatul final!",
+              "sl" : "Ali tvoja ekipa vodi za 12 točk ali več?\nTo je vse, kar potrebuješ, da bo tvoja stava dobitna, ne glede na končni rezultat!",
+              "hr" : "Vodi li vaš tim s 12 ili više bodova razlike?\nTo je sve što je potrebno da se vaš par smatra dobitnim, bez obzira na konačni rezultat!",
+              "bg" : "Вашият отбор води ли с 12 или повече точки?\nТова е всичко, което е необходимо, за да спечели залогът Ви, независимо от крайния резултат!",
+              "BD_bn" : "আপনার দল কি 12 বা তার বেশি পয়েন্টে এগিয়ে আছে?\nচূড়ান্ত স্কোর যাই হোক না কেন, আপনার বাজি জেতার জন্য শুধু এটুকুই যথেষ্ট!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "How it works:",
+              "de" : "So funktioniert es:",
+              "fi" : "Toimi näin:",
+              "no" : "Hvordan det fungerer:",
+              "pt" : "Como funciona:",
+              "es" : "Cómo funciona:",
+              "it" : "Come funziona:",
+              "fr" : "Comment ça marche:",
+              "BR_pt" : "Como funciona:",
+              "pl" : "Jak to zrobić?",
+              "tr" : "Nasıl çalışır:",
+              "ru" : "Как это работает:",
+              "az" : "Necə işləyir:",
+              "et" : "Kuidas see toimib:",
+              "hu" : "Hogyan működik:",
+              "sr" : "Kako funkcioniše:",
+              "cs" : "Jak to funguje:",
+              "el" : "Πώς λειτουργεί:",
+              "mk" : "Како функционира:",
+              "sq" : "Si funksionon:",
+              "ro" : "Cum funcționează:",
+              "sl" : "Kako deluje:",
+              "hr" : "Kako to funkcionira:",
+              "bg" : "Как работи:",
+              "BD_bn" : "যেভাবে কাজ করে:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Place a pre-match bet on the Full-Time Result market (1x2) for eligible competitions",
+                  "de" : "Platzieren Sie vor dem Spiel eine Wette auf den Markt \"Endstand\" (1x2) für teilnahmeberechtigte Wettbewerbe",
+                  "fi" : "Aseta pre-match-veto lopullisen tuloksen markkinalla (1x2) kelvollisissa kilpailuissa",
+                  "no" : "Plasser et pre-match spill på markedet for fulltidresultat (1x2) for kvalifiserte konkurranser",
+                  "pt" : "Faz uma aposta pré-jogo no mercado Resultado Final (1X2) em competições elegíveis.",
+                  "es" : "Realiza una apuesta pre-partido en el mercado Resultado Final (1x2) en competiciones elegibles.",
+                  "it" : "Piazza una scommessa pre-partita sul mercato \u201cRisultato finale\u201d (1x2) per le competizioni ammesse",
+                  "fr" : "Placez un pari d`avant-match sur le marché du résultat à temps plein (1x2) pour les compétitions éligibles",
+                  "BR_pt" : "Faça uma aposta pré-jogo no mercado Resultado Final (1x2) em competições elegíveis.",
+                  "pl" : "Postaw zakład przedmeczowy na rynek Wynik końcowy (1X2) w kwalifikujących się rozgrywkach.",
+                  "tr" : "Uygun organizasyonlarda Maç Sonucu (1x2) pazarında, maç başlamadan önce bir bahis oyna.",
+                  "ru" : "Сделайте предматчевую ставку на рынке «Результат по окончании матча» (1x2) для соответствующих соревнований.",
+                  "az" : "Uyğun yarışlarda Maçın Yekun Nəticəsi (1x2) bazarında, oyun başlamazdan əvvəl mərc et.",
+                  "et" : "Tee matšieelne panus täisaja tulemuse turul (1x2) kvalifitseeruvale võistlusele",
+                  "hu" : "Tegyél meg egy mérkőzés előtti fogadást a Végeredmény piacon (1x2) a promócióban résztvevő bajnokságok mérkőzésein",
+                  "sr" : "Postavite opkladu na tržište konačnog rezultata (1x2) pre početka utakmice na relevantnim turnirima.",
+                  "cs" : "Uzavřete předzápasovou sázku na výsledek v řádné hrací době (1x2) u vybraných soutěží.",
+                  "el" : "Τοποθετείς ένα στοίχημα πριν τον αγώνα στην αγορά \"Τελικό Αποτέλεσμα (1x2)\" για τις επιλέξιμες διοργανώσεις.",
+                  "mk" : "Поставете облог пред натпеварот на пазарот Краен резултат (1x2) за квалификуваните натпревари",
+                  "sq" : "Vendos një bast para fillimit të ndeshjes (pre-match) në tregun Rezultati Final (1x2) për kompeticionet e pranueshme.",
+                  "ro" : "1. Plasează un pariu pre-meci pe piața \u201eRezultat final\u201d (1X2) pe competițiile eligibile.",
+                  "sl" : "Položi predtekmovalno stavo na končni rezultat (1x2) za veljavna tekmovanja.",
+                  "hr" : "Okladite se prije početka utakmice na njen ishod na kraju (1x2) za dostupna natjecanja.",
+                  "bg" : "Направете предварителен залог на пазара краен резултат (1x2) за класиращи се състезания.",
+                  "BD_bn" : "যোগ্য প্রতিযোগিতাগুলির জন্য ফুল-টাইম রেজাল্ট মার্কেটে (1X2) একটি প্রি-ম্যাচ বাজি ধরুন।"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "If your team leads by 12 + points at any stage, we will payout your bet early",
+                  "de" : "Wenn Ihr Team zu irgendeinem Zeitpunkt mit 12 oder mehr Punkten führt, zahlen wir Ihre Wette vorzeitig aus",
+                  "fi" : "Jos joukkueesi johtaa missä tahansa vaiheessa 12+ pisteellä, maksamme voittosi varhain",
+                  "no" : "Hvis laget ditt leder med 12 + poeng på et hvilket som helst tidspunkt, utbetaler vi spillet ditt tidlig",
+                  "pt" : "Se a tua equipa estiver a vencer por 12 ou mais pontos em qualquer momento do jogo, a tua aposta será paga antecipadamente.",
+                  "es" : "Si tu equipo se adelanta por 12 o más puntos en cualquier momento del partido, pagaremos tu apuesta de forma anticipada.",
+                  "it" : "Se la tua squadra è in vantaggio di 12 + punti in qualsiasi fase, pagheremo la tua scommessa in anticipo",
+                  "fr" : "Si votre équipe mène de plus de 12 points à n`importe quel moment, nous vous rembourserons votre mise plus tôt que prévu",
+                  "BR_pt" : "Se o seu time abrir vantagem de 12 ou mais pontos em qualquer momento da partida, nós pagamos sua aposta antecipadamente.",
+                  "pl" : "Jeśli Twoja drużyna obejmie prowadzenie różnicą 12 lub więcej punktów na dowolnym etapie meczu, wypłacimy wygraną wcześniej.",
+                  "tr" : "Takımın maçın herhangi bir anında 12+ puan farkla öne geçerse, bahsin erken ödenir.",
+                  "ru" : "Если ваша команда лидирует с разницей в 12 и более очков на любом этапе, мы досрочно выплатим вашу ставку.",
+                  "az" : "Komandan oyunun istənilən anında 12+ xal fərqi ilə önə keçərsə, mərcin erkən ödəniləcək.",
+                  "et" : "Kui su meeskond juhib üheski etapis 12+ punktiga, maksame panuse varem välja",
+                  "hu" : "Ha a csapatod bármikor 12 pontos előnyt szerez, korai kifizetéssel jutalmazunk",
+                  "sr" : "Ako vaš tim u bilo kom trenutku vodi za 12 ili više poena, mi ćemo vam ranije isplatiti opkladu.",
+                  "cs" : "Pokud váš tým kdykoliv během zápasu povede o 12 nebo více bodů, sázku vám vyplatíme předčasně.",
+                  "el" : "Εάν η ομάδα σου προηγείται με 12+ πόντους σε οποιοδήποτε σημείο, θα εισπράξεις το ποντάρισμά σου νωρίτερα.",
+                  "mk" : "Ако вашиот тим води со 12+ поени во кој било момент, ќе го исплатиме вашиот облог порано",
+                  "sq" : "Nëse skuadra jote kalon në avantazh me 12+ pikë në çdo moment të ndeshjes, ne do ta paguajmë bastin tënd më herët.",
+                  "ro" : "2. Dacă echipa ta conduce cu 12+ puncte în orice stadiu, îți vom plăti pariul în avans.",
+                  "sl" : "Če tvoja ekipa v katerem koli trenutku vodi z 12 ali več točkami, bomo tvojo stavo izplačali predčasno.",
+                  "hr" : "Ako vaš tim u bilo kojoj fazi povede s 12+ bodova razlike, par je dobitni.",
+                  "bg" : "Ако вашият отбор поведе с 12 или повече точки на който и да е етап, ние ще изплатим залога Ви преждевременно.",
+                  "BD_bn" : "যদি আপনার দল যেকোনো পর্যায়ে 12+ পয়েন্টে এগিয়ে থাকে, আমরা আপনার বাজির টাকা আগেই পরিশোধ করে দেব।"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "BET NOW",
+              "de" : "JETZT WETTEN",
+              "fi" : "LYÖ VETOA NYT",
+              "no" : "SATS NÅ",
+              "pt" : "APOSTE AGORA",
+              "es" : "APUESTA AHORA",
+              "it" : "SCOMMETTI ORA",
+              "fr" : "PARIEZ MAINTENANT",
+              "BR_pt" : "APOSTE AGORA",
+              "pl" : "OBSTAW TERAZ",
+              "tr" : "ŞİMDİ BAHİS YAP",
+              "ru" : "СТАВЬТЕ СЕЙЧАС",
+              "az" : "İNDİ MƏRC ET",
+              "et" : "PANUSTA KOHE",
+              "hu" : "FOGADJ",
+              "sr" : "NA KLAĐENJE!",
+              "cs" : "VSADIT",
+              "el" : "ΠΑΙΧΝΙΔΙ",
+              "mk" : "ОБЛОЖИ СЕ СЕГА",
+              "sq" : "VENDOS BAST TANI",
+              "ro" : "PARIAZĂ ACUM",
+              "sl" : "STAVI ZDAJ",
+              "hr" : "KLADITE SE SADA",
+              "bg" : "ЗАЛОЖЕТЕ СЕГА",
+              "BD_bn" : "এখনই বাজি ধরুন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/sports"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "id" : "wednesday-double-fun",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Wednesday's double fun",
+        "de" : "Mittwochs Doppelspaß",
+        "fi" : "Keskiviikon tuplahuvit",
+        "no" : "Onsdagens dobbelmoro",
+        "pt" : "Quarta-feira de diversão dupla",
+        "BR_pt" : "Quarta-feira de diversão dupla",
+        "es" : "Doble diversión del miércoles",
+        "CL_es" : "Doble diversión del miércoles",
+        "fr" : "Double plaisir du mercredi",
+        "it" : "Doppio divertimento di mercoledì",
+        "pl" : "Podwójna środa = podwójna zabawa",
+        "az" : "Çərşənbənin ikiqat əyləncəsi",
+        "ru" : "Двойное удовольствие в среду",
+        "tu" : "Çarşambanın çift eğlencesi",
+        "et" : "Kolmapäevane topeltlõbu",
+        "hu" : "Szerdai dupla izgalom",
+        "cs" : "Středeční dvojitá zábava",
+        "sr" : "Dupli užitak sredom",
+        "el" : "Τετάρτη με διπλή διασκέδαση",
+        "mk" : "Двојна забава во среда",
+        "sq" : "Argëtim i dyfishtë të mërkurën",
+        "ro" : "Distracția dublă de Miercuri",
+        "sl" : "Sreda z dvojno zabavo!",
+        "hr" : "Srijedom je dvostruka zabava",
+        "bg" : "Двойно забавление в сряда",
+        "BD_bn" : "বুধবারের দ্বিগুণ আনন্দ"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Get ${bonus_amount} Live Casino Bonus & ${fs_amount} FS",
+        "de" : "Erhalten Sie einen Live-Casino-Bonus in Höhe von ${bonus_amount} & ${fs_amount} GS",
+        "fi" : "Lunasta ${bonus_amount} live-kasinobonus ja ${fs_amount} IK",
+        "no" : "Få ${bonus_amount} Live Casino Bonus & ${fs_amount} GS",
+        "pt" : "Receba ${bonus_amount} de Bônus do Casino ao Vivo & ${fs_amount} Rodadas Grátis",
+        "BR_pt" : "Receba ${bonus_amount} de Bônus do Cassino ao Vivo & ${fs_amount} Rodadas Grátis",
+        "es" : "Recibe ${bonus_amount} de Bono del Casino en Vivo & ${fs_amount} Giros Gratis",
+        "CL_es" : "Recibe ${bonus_amount} de Bono del Casino en Vivo & ${fs_amount} Giros Gratis",
+        "fr" : "Obtenez un bonus de Live casino de ${bonus_amount} et ${fs_amount} TG",
+        "it" : "Ottieni ${bonus_amount} di bonus per il casinò live e ${fs_amount} GG",
+        "pl" : "Zgarnij ${bonus_amount} Bonusu do Kasyna na żywo i ${fs_amount} Darmowych spinów!",
+        "az" : "${bonus_amount} Live Casino Bonusu və ${fs_amount} FS əldə edin",
+        "ru" : "Получите бонус ${bonus_amount} для live-казино и ${fs_amount} Фриспинов",
+        "tu" : "${bonus_amount} Live Casino Bonusu ve ${fs_amount} FS kazanın",
+        "et" : "Saa ${bonus_amount} live-kasiino boonust & ${fs_amount} TK",
+        "hu" : "Szerezz ${bonus_amount} Élő kaszinóbónuszt és ${fs_amount} IP-t",
+        "cs" : "Získejte bonus ${bonus_amount} do živého kasina a ${fs_amount} FS",
+        "sr" : "Uzmite ${bonus_amount} bonusa za Kazino uživo i ${fs_amount} BS",
+        "el" : "${bonus_amount} Live Casino Μπόνους & ${fs_amount} FS",
+        "mk" : "Добијте бонус од ${bonus_amount} за казино во живо и ${fs_amount} бесплатни вртења",
+        "sq" : "Merr ${bonus_amount} Bonus Live Casino & ${fs_amount} Rrotullime Falas",
+        "ro" : "Obține ${bonus_amount} Bonus în Cazinoul Live & ${fs_amount} Rotiri Gratuite",
+        "sl" : "Pridobi ${bonus_amount} bonus za kazino v živo in ${fs_amount} brezplačnih vrtljajev",
+        "hr" : "Dobijte ${bonus_amount} bonusa za kasino uživo i ${fs_amount} Besplatnih vrtnji",
+        "bg" : "Вземете бонус за казино на живо на стойност ${bonus_amount} и бонус за безплатни игри на стойност ${fs_amount}",
+        "BD_bn" : "${bonus_amount} লাইভ ক্যাসিনো বোনাস এবং ${fs_amount} ফ্রি স্পিন"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "wednesday-double-fun.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "casino"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./wednesday-double-fun.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "This Wednesday, you can wager ${wager_amount} on Live Casino, and you\u2019ll receive a ${bonus_amount} Live Casino bonus.\nPlus, you\u2019ll get ${fs_amount} Free Spins on \"${slot_game_1}\"... double the excitement in one go!",
+              "de" : "An diesem Mittwoch können Sie ${wager_amount} im Live-Casino setzen und erhalten einen Live-Casino-Bonus in Höhe von ${bonus_amount}.\nAußerdem erhalten Sie ${fs_amount} Gratis-Spins auf \"${slot_game_1}\"... doppelte Spannung auf einen Schlag!",
+              "fi" : "Kun panostat tänä keskiviikkona ${wager_amount} live-kasinoon, saat ${bonus_amount} live-kasinobonuksen.\nSaat lisäksi ${fs_amount} ilmaiskierrosta peliin \"${slot_game_1}\"... tuplasti jännitystä yhdellä kerralla!",
+              "no" : "Denne onsdagen kan du satse ${wager_amount} på Live Casino, og motta en ${bonus_amount} Live Casino bonus.\nI tillegg får du ${fs_amount} gratisspinn på \"${slot_game_1}\"... dobbelt så mye spenning på en gang!",
+              "pt" : "Esta quarta-feira, pode apostar ${wager_amount} no Casino ao Vivo e receberá um Bônus do Casino ao Vivo de ${bonus_amount}.\nAlém disso, receberá ${fs_amount} Rodadas Grátis em \"${slot_game_1}\"\u2026 dupla emoção de uma só vez!",
+              "BR_pt" : "Esta quarta-feira, você pode apostar ${wager_amount} no Cassino ao Vivo e receberá um Bônus de Cassino ao Vivo de ${bonus_amount}.\nAlém disso, você ganhará ${fs_amount} Rodadas Grátis em \"${slot_game_1}\"\u2026 dupla emoção em um só movimento!",
+              "es" : "Este miércoles, puedes apostar ${wager_amount} en el Casino en Vivo y recibirás un Bono del Casino en Vivo de ${bonus_amount}.\nAdemás, recibirás ${fs_amount} Giros Gratis en \u201c${slot_game_1}\u201d\u2026 ¡doble emoción de una sola vez!",
+              "CL_es" : "Este miércoles, puedes apostar ${wager_amount} en Casino en Vivo y recibirás un Bono del Casino en Vivo de ${bonus_amount}.\nAdemás, obtendrás ${fs_amount} Giros Gratis en \u201c${slot_game_1}\u201d\u2026 ¡doble emoción de un solo golpe!",
+              "fr" : "Ce mercredi, vous pouvez miser ${wager_amount} sur le Live casino et vous recevrez un bonus de Live casino de ${bonus_amount}.\nDe plus, vous obtiendrez ${fs_amount} tours gratuits sur \"${slot_game_1}\" ... doublez le plaisir en une seule fois !",
+              "it" : "Questo mercoledì, puoi scommettere ${wager_amount} sul Casinò Live e riceverai un bonus Casinò Live di ${bonus_amount}.\nInoltre, riceverai ${fs_amount} giri gratuiti su \u201c${slot_game_1}\u201d... il doppio del divertimento in un colpo solo!",
+              "pl" : "W tę środę postaw ${wager_amount} w Kasynie na żywo, a otrzymasz ${bonus_amount} bonusu do wykorzystania na żywo!\nDo tego czeka na Ciebie ${fs_amount} Darmowych spinów w grze \u201e${slot_game_1}\u201d \u2013 podwójna dawka emocji za jednym razem!",
+              "az" : "Bu Çərşənbə, Canlı Kazinoda ${wager_amount} mərc edin və ${bonus_amount} Live Casino bonusu qazanın.\nÜstəlik, \u201c${slot_game_1}\u201d üçün ${fs_amount} Free Spin də əldə edəcəksiniz... ikiqat həyəcan bir yerdə!",
+              "ru" : "В эту среду вы можете поставить ${wager_amount} в Live Casino и получить бонус Live Casino ${bonus_amount}.\nКроме того, вы получите ${fs_amount} Фриспинов в игре \"${slot_game_1}\"... двойное удовольствие за один раз!",
+              "tu" : "Bu Çarşamba, Live Casino\u2019da ${wager_amount} bahis yapın ve ${bonus_amount} Live Casino bonusu kazanın.\nAyrıca, \u201c${slot_game_1}\u201d için ${fs_amount} Free Spin de alacaksınız... tek seferde iki kat heyecan!",
+              "et" : "Kolmapäeval võid live-kasiinos panustada ${wager_amount} ja saad ${bonus_amount} live-kasiino boonuse.\nLisaks saad ${fs_amount} tasuta keerutust mängus \"${slot_game_1}\"... topeltlõbu ühe keerutusega!",
+              "hu" : "Ezen a szerdán az Élő Kaszinóban ${wager_amount} értékű tét megjátszása után ${bonus_amount} Élő kaszinóbónusz üti a markod.\nSőt, ${fs_amount} Ingyen Pörgetést kapsz a \"${slot_game_1}\" nyerőgépre... dupla izgalom egy csapással!",
+              "cs" : "Tuto středu můžete vsadit ${wager_amount} v živém kasinu a získáte bonus ${bonus_amount} do živého kasina.\nNavíc získáte ${fs_amount} bezplatných otočení na \"${slot_game_1}\"... dvojnásobné vzrušení najednou!",
+              "sr" : "Ako ove srede uložite ${wager_amount} u Kazinu uživo, dobijate bonus za Kazino uživo od ${bonus_amount}.\nPored toga, dobićete i ${fs_amount} besplatnih spinova u igri \u201e${slot_game_1}\u201c... Dvostruki užitak samo za vas!",
+              "el" : "Αυτή την Τετάρτη, μπορείς να ποντάρεις ${wager_amount} στο Live Casino για ένα μπόνους Live Casino ${bonus_amount}.\nΕπιπλέον, θα λάβεις ${fs_amount} Free Spins στο \"${slot_game_1}\"... διπλή συγκίνηση με μία κίνηση!",
+              "mk" : "Оваа среда, ако обложите ${wager_amount} на казино во живо, ќе добиете бонус од ${bonus_amount} за казино во живо.\nПлус, ќе добиете ${fs_amount} бесплатни вртења на \u201c${slot_game_1}\u201c... двојна возбуда одеднаш!",
+              "sq" : "Këtë të mërkurë, mund të vendosësh ${wager_amount} në Live Casino dhe do të marrësh një bonus Live Casino prej ${bonus_amount}.\nPlus, do të marrësh ${fs_amount} Rrotullime Falas në \"${slot_game_1}\"... dyfish emocioni në një!",
+              "ro" : "În această Miercuri, poți paria ${wager_amount} în cazinoul live, și vei primi ${bonus_amount} bonus în cazinoul live.\nPlus, obții ${fs_amount} Rotiri Gratuite la \"${slot_game_1}\"... dublul distracției dintr-un foc!",
+              "sl" : "To sredo lahko na kazino v živo vložiš ${wager_amount} in prejmeš ${bonus_amount} bonus za kazino v živo.\nPoleg tega dobiš še ${fs_amount} brezplačnih vrtljajev na \"${slot_game_1}\"\u2026 dvojna zabava naenkrat!",
+              "hr" : "Ove srijede možete odigrati ${wager_amount} u kasinu uživo i ostvariti ${bonus_amount} bonusa za kasino uživo.\nOsim toga, ostvarit ćete ${fs_amount} besplatnih vrtnji na \"${slot_game_1}\"\u2026 dvostruko više uzbuđenja u jednom potezu!",
+              "bg" : "Тази сряда можете да заложите ${wager_amount} в казино на живо и ще получите бонус от ${bonus_amount} в казино на живо.\nПлюс това ще получите ${fs_amount} безплатни завъртания на \"${slot_game_1}\"... двойно повече вълнение наведнъж!",
+              "BD_bn" : "এই বুধবার, আপনি লাইভ ক্যাসিনোতে ${wager_amount} বাজি ধরতে পারেন এবং একটি ${bonus_amount} লাইভ ক্যাসিনো বোনাস পাবেন।\nএছাড়াও, আপনি \"${slot_game_1}\"-এ ${fs_amount} ফ্রি স্পিন পাবেন... একবারে দ্বিগুণ উত্তেজনা!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Simply:",
+              "de" : "Ganz einfach:",
+              "fi" : "Se on näin helppoa:",
+              "no" : "Enkelt:",
+              "pt" : "Simplesmente:",
+              "BR_pt" : "Simplesmente:",
+              "es" : "Simplemente:",
+              "CL_es" : "Simplemente:",
+              "fr" : "C`est simple :",
+              "it" : "Semplicemente:",
+              "pl" : "Po prostu:",
+              "az" : "Sadəcə:",
+              "ru" : "Просто:",
+              "tu" : "Sadece:",
+              "et" : "Lihtsalt:",
+              "hu" : "Íme hogyan:",
+              "cs" : "Jednoduše:",
+              "sr" : "Jednostavno:",
+              "el" : "Απλά:",
+              "mk" : "Едноставно:",
+              "sq" : "Thjesht:",
+              "ro" : "Doar:",
+              "sl" : "Preprosto:",
+              "hr" : "Jednostavno:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Play your favourite Live Casino games",
+                  "de" : "Spielen Sie Ihre Lieblingsspiele im Live-Casino",
+                  "fi" : "Pelaa live-kasinon lempipelejäsi",
+                  "no" : "Spill dine favorittspill i Live Casino",
+                  "pt" : "Jogue os seus jogos favoritos de Casino ao Vivo",
+                  "BR_pt" : "Jogue seus jogos favoritos de Cassino ao Vivo",
+                  "es" : "Juega tus juegos favoritos del Casino en Vivo",
+                  "CL_es" : "Juega tus juegos favoritos del Casino en Vivo",
+                  "fr" : "Jouez à vos jeux de Live casino préférés",
+                  "it" : "Gioca ai tuoi giochi preferiti del Casinò Live",
+                  "pl" : "Zagraj w swoje ulubione gry Kasyna na żywo",
+                  "az" : "Sevdiyiniz Live Casino oyunlarını oynayın",
+                  "ru" : "Играйте в свои любимые игры в Live Casino",
+                  "tu" : "Favori Live Casino oyunlarınızı oynayın",
+                  "et" : "Mängi oma lemmik-live-kasiino mänge",
+                  "hu" : "Játssza a kedvenc Élő kaszinójátékaiddal",
+                  "cs" : "Hrajte své oblíbené hry v živém kasinu",
+                  "sr" : "Igrajte svoje omiljene igre u Kazinu uživo",
+                  "el" : "Παίζεις τα αγαπημένα σου Live Casino παιχνίδια",
+                  "mk" : "Играјте ги вашите омилени игри за казино во живо",
+                  "sq" : "Luaj lojërat e tua të preferuara Live Casino",
+                  "ro" : "Joacă la mesele tale live preferate",
+                  "sl" : "Igraj svoje najljubše igre v kazinoju v živo",
+                  "hr" : "Igrajte svoje omiljene igre u Kasinu uživo",
+                  "bg" : "Играйте любимите си игри с казино на живо",
+                  "BD_bn" : "আপনার প্রিয় লাইভ ক্যাসিনো গেম খেলুন"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Wager ${wager_amount} or more",
+                  "de" : "Setzen Sie ${wager_amount} oder mehr",
+                  "fi" : "Panosta vähintään ${wager_amount}",
+                  "no" : "Sats ${wager_amount} eller mer",
+                  "pt" : "Aposte ${wager_amount} ou mais",
+                  "BR_pt" : "Aposte ${wager_amount} ou mais",
+                  "es" : "Apuesta ${wager_amount} o más",
+                  "CL_es" : "Apuesta ${wager_amount} o más",
+                  "fr" : "Misez au moins ${wager_amount}",
+                  "it" : "Scommetti almeno ${wager_amount}",
+                  "pl" : "Postaw min. ${wager_amount}",
+                  "az" : "${wager_amount} və ya daha çox mərc edin",
+                  "ru" : "Сделайте ставку на сумму ${wager_amount} или более",
+                  "tu" : "${wager_amount} veya daha fazlasını bahis yapın",
+                  "et" : "Panusta ${wager_amount} või rohkem",
+                  "hu" : "Tegyél fel legalább ${wager_amount}-ot",
+                  "cs" : "Vsaďte ${wager_amount} nebo více",
+                  "sr" : "Uložite najmanje ${wager_amount}",
+                  "el" : "Ποντάρεις τουλάχιστον ${wager_amount}",
+                  "mk" : "Обложете ${wager_amount} или повеќе",
+                  "sq" : "Vë bast ${wager_amount} ose më shumë",
+                  "ro" : "Pariază ${wager_amount} sau mai mult",
+                  "sl" : "Vloži ${wager_amount} ali več",
+                  "hr" : "Uložite ${wager_amount} ili više",
+                  "bg" : "Разиграйте ${wager_amount} или повече",
+                  "BD_bn" : "বাজি ${wager_amount} বা তার বেশি"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Get ${bonus_amount} Live Casino Bonus & ${fs_amount} Free Spins",
+                  "de" : "Erhalten Sie einen Live-Casino-Bonus von ${bonus_amount} und ${fs_amount} Gratis-Spins",
+                  "fi" : "Lunasta ${bonus_amount} live-kasinobonus ja ${fs_amount} ilmaiskierrosta",
+                  "no" : "Få ${bonus_amount} Live Casino-bonus og ${fs_amount} gratisspinn",
+                  "pt" : "Receba ${bonus_amount} de Bônus do Casino ao Vivo & ${fs_amount} Rodadas Grátis",
+                  "BR_pt" : "Receba ${bonus_amount} de Bônus de  Cassino ao Vivo & ${fs_amount} Rodadas Grátis",
+                  "es" : "Recibe ${bonus_amount} de Bono del Casino en Vivo & ${fs_amount} Giros Gratis",
+                  "CL_es" : "Obtén ${bonus_amount} de Bono del Casino en Vivo & ${fs_amount} Giros Gratis",
+                  "fr" : "Obtenez un bonus de Live casino de ${bonus_amount} et ${fs_amount} tours gratuits",
+                  "it" : "Ottieni un bonus di ${bonus_amount} per il Casinò Live e ${fs_amount} giri gratuiti",
+                  "pl" : "Zgarnij ${bonus_amount} Bonusu do Kasyna Na Żywo i ${fs_amount} Darmowych Spinów!",
+                  "az" : "${bonus_amount} Canlı Kazino Bonusu və ${fs_amount} Pulsuz Fırlatma qazanın",
+                  "ru" : "Получите бонус Live Casino ${bonus_amount} и ${fs_amount} бесплатных вращений",
+                  "tu" : "${bonus_amount} Live Casino Bonusu ve ${fs_amount} Free Spin kazanın",
+                  "et" : "Saa ${bonus_amount} live-kasiino boonust & ${fs_amount} tasuta keerutust",
+                  "hu" : "Szerezz ${bonus_amount} Élő kaszinóbónuszt és ${fs_amount} Ingyen Pörgetést",
+                  "cs" : "Získejte bonus ${bonus_amount} do živého kasina a ${fs_amount} bezplatných otočení",
+                  "sr" : "Uzmite bonus u Kazinu uživo od ${bonus_amount} i ${fs_amount} besplatnih spinova",
+                  "el" : "Κερδίζεις ${bonus_amount} Live Casino Μπόνους & ${fs_amount} Free Spins",
+                  "mk" : "Добијте бонус од ${bonus_amount} за казино во живо и ${fs_amount} бесплатни вртења",
+                  "sq" : "Merr ${bonus_amount} Bonus Live Casino & ${fs_amount} Rrotullime Falas",
+                  "ro" : "Obține ${bonus_amount} Bonus în Cazinoul Live & ${fs_amount} Rotiri Gratuite",
+                  "sl" : "Pridobi ${bonus_amount} bonus za kazino v živo in ${fs_amount} brezplačnih vrtljajev",
+                  "hr" : "Dobijte ${bonus_amount} bonusa za kasino uživo i ${fs_amount} besplatnih vrtnji",
+                  "bg" : "Вземете бонус от казино на живо на стойност ${bonus_amount} и безплатни завъртания на стойност ${fs_amount}",
+                  "BD_bn" : "${bonus_amount} লাইভ ক্যাসিনো বোনাস এবং ${fs_amount} ফ্রি স্পিন পাবেন"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "For countries where Pragmatic Play is unavailable, Free Spins will be awarded on Betsoft`s \"${slot_game_2}\" slot game.",
+              "de" : "Für Länder, in denen Pragmatic Play nicht verfügbar ist, werden Gratisspins für das Slot-Spiel \"${slot_game_2}\" von Betsoft vergeben.",
+              "fi" : "Maissa, joissa Pragmatic Play ei ole käytettävissä, ilmaiskierrokset myönnetään Betsoftin kolikkopeliin \"${slot_game_2}\".",
+              "no" : "I land hvor Pragmatic Play ikke er tilgjengelig, vil gratisspinn bli tildelt på Betsofts \"${slot_game_2}\" spilleautomat.",
+              "pt" : "Para os países onde a Pragmatic Play não está disponível, as Rodadas Grátis serão concedidas no jogo de caça-níqueis \"${slot_game_2}\" da Betsoft.",
+              "BR_pt" : "Para os países onde a Pragmatic Play não está disponível, as Rodadas Grátis serão concedidas no jogo de caça-níqueis \"${slot_game_2}\" da Betsoft.",
+              "es" : "Para los países en los que Pragmatic Play no está disponible, se conceden tiradas gratuitas para el juego de tragaperras \"${slot_game_2}\" de Betsoft .",
+              "CL_es" : "En los países donde Pragmatic Play no esté disponible, los giros gratis se otorgarán en el juego de tragamonedas \"${slot_game_2}\" de Betsoft.",
+              "fr" : "Pour les pays où Pragmatic Play n`est pas disponible, les tours gratuits seront attribués sur la machine à sous \"${slot_game_2}\" de Betsoft.",
+              "it" : "Per i Paesi in cui Pragmatic Play non è disponibile, vengono assegnati giri gratuiti per il gioco di slot \"${slot_game_2}\" di Betsoft.",
+              "pl" : "W krajach, w których Pragmatic Play nie jest dostępny, darmowe spiny są przyznawane za grę slotową \"${slot_game_2}\" od Betsoft.",
+              "az" : "Əgər ölkənizdə \"Pragmatic Play\" əlçatan deyilsə, Pulsuz fırlatmalar, \"Betsoft\"un \"${slot_game_2}\" slot oyununda təqdim ediləcək.",
+              "ru" : "Для стран, где Pragmatic Play недоступен, бесплатные спины будут начислены на слот-игру Betsoft \"${slot_game_2}\".",
+              "tu" : "Pragmatic Play\u2019in kullanılamadığı ülkelerde, Ücretsiz Spin\u2019ler Betsoft\u2019un \"${slot_game_2}\" slot oyununda tanımlanacaktır.",
+              "et" : "Riikides, kus pole Pragmatic Play saadaval, kingime tasuta keerutused Betsofti \"${slot_game_2}\u201c mänguautomaadile.",
+              "hu" : "Azokban az országokban, amelyekben a Pragmatic Play nem elérhető, az Ingyen Pörgetések a Betsoft \"${slot_game_2}\" nyerőgépén lesznek használhatók.",
+              "cs" : "V zemích, kde není k dispozici Pragmatic Play, budou bezplatná otočení udělena na hře Betsoft \"${slot_game_2}\".",
+              "sr" : "U zemljama u kojima Pragmatic Play nije dostupan, besplatni spinovi će biti dodeljeni na Betsoft-ovoj slot igri \u201e${slot_game_2}\u201c.",
+              "el" : "Για χώρες όπου η Pragmatic Play δεν είναι διαθέσιμη, τα Free Spins θα πιστωθούν στο παιχνίδι \"${slot_game_2}\" της Betsoft.",
+              "mk" : "За земји каде што Pragmatic Play не е достапна, бесплатните вртења ќе бидат доделени на слот-играта \"${slot_game_2}\" од Betsoft.",
+              "sq" : "Për vendet ku Pragmatic Play nuk është i disponueshëm, Rrotullimet Falas do të jepen në slot-in \"${slot_game_2}\" nga Betsoft.",
+              "ro" : "În țările în care furnizorul Pragmatic Play nu este disponibil, Rotirile Gratuite vor fi creditate la slotul \"${slot_game_2}\" de la Betsoft.",
+              "sl" : "V državah, kjer Pragmatic Play ni na voljo, bodo brezplačni vrtljaji dodeljeni na igralnem avtomatu \"${slot_game_2}\" od Betsofta.",
+              "hr" : "U zemljama u kojima Pragmatic Play nije dostupan, besplatne vrtnje bit će dodijeljene na slot igri \"${slot_game_2}\" pružatelja Betsoft.",
+              "bg" : "За държави, където Pragmatic Play не е наличен, безплатните завъртания ще бъдат присъдени на слот играта \"${slot_game_2}\" на Betsoft.",
+              "BD_bn" : "যেসব দেশে Pragmatic Play উপলব্ধ নয়, সেখানে ফ্রি স্পিন Betsoft-এর \"${slot_game_2}\" স্লট গেমে প্রদান করা হবে।"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "PLAY NOW",
+              "de" : "JETZT SPIELEN",
+              "fi" : "PELAA NYT",
+              "no" : "SPILL NÅ",
+              "pt" : "JOGAR AGORA",
+              "BR_pt" : "JOGAR AGORA",
+              "es" : "JUGAR AHORA",
+              "CL_es" : "JUGAR AHORA",
+              "fr" : "JOUER MAINTENANT",
+              "it" : "GIOCA ORA",
+              "pl" : "ZAGRAJ TERAZ",
+              "az" : "İNDİ OYNA",
+              "ru" : "ИГРАТЬ СЕЙЧАС",
+              "tu" : "ŞİMDİ OYNA",
+              "et" : "MÄNGI KOHE",
+              "hu" : "JÁTSSZ MOST",
+              "cs" : "ZAČÍT HRÁT",
+              "sr" : "IGRAJ SAD",
+              "el" : "ΠΑΙΧΝΙΔΙ",
+              "mk" : "ИГРАЈ СЕГА",
+              "sq" : "LUAJ TANI",
+              "ro" : "JOACĂ ACUM",
+              "sl" : "IGRAJ ZDAJ",
+              "hr" : "IGRAJ SADA",
+              "bg" : "ИГРАЙТЕ СЕГА",
+              "BD_bn" : "এখনই খেলুন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/casino/live"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "min_spin_value" : {
+        "EUR" : "\u20ac0.20",
+        "*" : "\u20ac0.20",
+        "USD" : "$0.20",
+        "CAD" : "C$0.20",
+        "AUD" : "A$0.20",
+        "BRL" : "R$0.20",
+        "NOK" : "kr2",
+        "NZD" : "NZ$0.20",
+        "CLP" : "$50",
+        "MXN" : "$1",
+        "GBP" : "£0.20",
+        "PLN" : "0.80zł",
+        "PEN" : "S/.0.20",
+        "ZAR" : "R3",
+        "CHF" : "Fr0.20",
+        "NGN" : "\u20a680",
+        "JPY" : "¥40",
+        "AZN" : "\u20bc0.40",
+        "TRY" : "2 TL",
+        "KZT" : "80 KZT",
+        "RUB" : "16 RUB",
+        "UZS" : "1600 so'm",
+        "ARS" : "40 ARS",
+        "INR" : "14 INR",
+        "HUF" : "60Ft",
+        "CZK" : "5 Kč",
+        "RON" : "1 RON",
+        "ALL" : "20 ALL",
+        "MKD" : "10 MKD",
+        "RSD" : "20 RSD"
+      },
+      "min_spin_value_2" : {
+        "EUR" : "\u20ac0.20",
+        "*" : "\u20ac0.20",
+        "USD" : "$0.20",
+        "CAD" : "C$0.20",
+        "AUD" : "A$0.20",
+        "BRL" : "R$0.20",
+        "NOK" : "kr2",
+        "NZD" : "NZ$0.20",
+        "CLP" : "$50",
+        "MXN" : "$1",
+        "GBP" : "£0.20",
+        "PLN" : "0.80zł",
+        "PEN" : "S/.0.20",
+        "ZAR" : "R3",
+        "CHF" : "Fr0.20",
+        "NGN" : "\u20a680",
+        "JPY" : "¥40",
+        "AZN" : "\u20bc0.40",
+        "TRY" : "2 TL",
+        "KZT" : "80 KZT",
+        "RUB" : "16 RUB",
+        "UZS" : "1600 so'm",
+        "ARS" : "40 ARS",
+        "INR" : "14 INR",
+        "HUF" : "60Ft",
+        "CZK" : "5 Kč",
+        "RON" : "1 RON",
+        "ALL" : "20 ALL",
+        "MKD" : "10 MKD",
+        "RSD" : "20 RSD"
+      },
+      "fs_winnings" : {
+        "EUR" : "\u20ac0.10",
+        "*" : "\u20ac0.10",
+        "USD" : "$0.10",
+        "CAD" : "C$0.10",
+        "AUD" : "A$0.10",
+        "BRL" : "R$0.10",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "CLP" : "$25",
+        "MXN" : "$0.50",
+        "GBP" : "£0.10",
+        "PLN" : "0.40zł",
+        "PEN" : "S/.0.10",
+        "ZAR" : "R1.50",
+        "CHF" : "Fr0.10",
+        "NGN" : "\u20a640",
+        "JPY" : "¥20",
+        "AZN" : "\u20bc 0.20",
+        "TRY" : "1 TL",
+        "KZT" : "40 KZT",
+        "RUB" : "8 RUB",
+        "UZS" : "800 so'm",
+        "ARS" : "20 ARS",
+        "INR" : "7 INR",
+        "HUF" : "30Ft",
+        "CZK" : "2.5 Kč",
+        "RON" : "0.5 RON",
+        "ALL" : "10 ALL",
+        "MKD" : "5 MKD",
+        "RSD" : "10 RSD"
+      },
+      "wager_amount" : {
+        "EUR" : "\u20ac50",
+        "*" : "\u20ac50",
+        "USD" : "$50",
+        "CAD" : "C$50",
+        "AUD" : "A$50",
+        "BRL" : "R$100",
+        "NOK" : "kr500",
+        "NZD" : "NZ$50",
+        "CLP" : "$40,000",
+        "MXN" : "$300",
+        "GBP" : "£50",
+        "PLN" : "200zł",
+        "PEN" : "S/.50",
+        "ZAR" : "R500",
+        "CHF" : "Fr50",
+        "NGN" : "\u20a65000",
+        "JPY" : "¥7500",
+        "AZN" : "\u20bc 50",
+        "TRY" : "500 TL",
+        "KZT" : "7500 KZT",
+        "RUB" : "2500 RUB",
+        "UZS" : "500,000 so'm",
+        "ARS" : "5000 ARS",
+        "INR" : "5000 INR",
+        "HUF" : "17500Ft",
+        "CZK" : "1000 Kč",
+        "RON" : "200 RON",
+        "ALL" : "4,000 ALL",
+        "MKD" : "2500 MKD",
+        "RSD" : "5,000 RSD"
+      },
+      "bonus_amount" : {
+        "EUR" : "\u20ac5",
+        "*" : "\u20ac5",
+        "USD" : "$5",
+        "CAD" : "C$5",
+        "AUD" : "A$5",
+        "BRL" : "R$10",
+        "NOK" : "kr50",
+        "NZD" : "NZ$5",
+        "CLP" : "$4,000",
+        "MXN" : "$30",
+        "GBP" : "£5",
+        "PLN" : "20zł",
+        "PEN" : "S/.5",
+        "ZAR" : "R50",
+        "CHF" : "Fr5",
+        "NGN" : "\u20a6500",
+        "JPY" : "¥750",
+        "AZN" : "\u20bc5",
+        "TRY" : "50 TL",
+        "KZT" : "750 KZT",
+        "RUB" : "250 RUB",
+        "UZS" : "50,000 so'm",
+        "ARS" : "500 ARS",
+        "INR" : "500 INR",
+        "HUF" : "1750Ft",
+        "CZK" : "100 Kč",
+        "RON" : "20 RON",
+        "ALL" : "400 ALL",
+        "MKD" : "250 MKD",
+        "RSD" : "500 RSD"
+      },
+      "min_bet" : {
+        "EUR" : "\u20ac0.50",
+        "*" : "\u20ac0.50",
+        "USD" : "$0.50",
+        "CAD" : "C$0.50",
+        "AUD" : "A$0.50",
+        "BRL" : "R$1",
+        "NOK" : "kr5",
+        "NZD" : "NZ$0.50",
+        "CLP" : "$250",
+        "MXN" : "$5",
+        "GBP" : "£0.50",
+        "PLN" : "2zł",
+        "PEN" : "S/.1",
+        "ZAR" : "R5",
+        "CHF" : "Fr0.50",
+        "NGN" : "\u20a650",
+        "JPY" : "¥80",
+        "AZN" : "\u20bc1",
+        "TRY" : "5 TL",
+        "KZT" : "50 KZT",
+        "RUB" : "50 RUB",
+        "UZS" : "5,000 so'm",
+        "ARS" : "50 ARS",
+        "INR" : "50 INR",
+        "HUF" : "175 Ft",
+        "CZK" : "10 Kč",
+        "RON" : "2 RON",
+        "ALL" : "40 ALL",
+        "MKD" : "25 MKD",
+        "RSD" : "50 RSD"
+      },
+      "max_bet" : {
+        "EUR" : "\u20ac5",
+        "*" : "\u20ac5",
+        "USD" : "$5",
+        "CAD" : "C$5",
+        "AUD" : "A$5",
+        "BRL" : "R$10",
+        "NOK" : "kr50",
+        "NZD" : "NZ$5",
+        "CLP" : "$2,500",
+        "MXN" : "$50",
+        "GBP" : "£5",
+        "PLN" : "20zł",
+        "PEN" : "S/.10",
+        "ZAR" : "R50",
+        "CHF" : "Fr5",
+        "NGN" : "\u20a6500",
+        "JPY" : "¥800",
+        "AZN" : "\u20bc10",
+        "TRY" : "50 TL",
+        "KZT" : "500 KZT",
+        "RUB" : "500 RUB",
+        "UZS" : "50,000 so'm",
+        "ARS" : "500 ARS",
+        "INR" : "500 INR",
+        "HUF" : "1750 Ft",
+        "CZK" : "100 Kč",
+        "RON" : "20 RON",
+        "ALL" : "400 ALL",
+        "MKD" : "250 MKD",
+        "RSD" : "500 RSD"
+      },
+      "fs_amount" : {
+        "*" : "150",
+        "BR" : "150",
+        "AU" : "150",
+        "NZ" : "150"
+      },
+      "wagering_req" : {
+        "*" : "x35",
+        "BR" : "x35",
+        "AU" : "x35",
+        "NZ" : "x35"
+      },
+      "slot_game_1" : {
+        "*" : "Sweet Rush Bonanza",
+        "BR" : "Sweet Rush Bonanza",
+        "AU" : "Sweet Rush Bonanza",
+        "NZ" : "Sweet Rush Bonanza"
+      },
+      "slot_game_2" : {
+        "*" : "Triple Juicy Drops",
+        "BR" : "Triple Juicy Drops",
+        "AU" : "Triple Juicy Drops",
+        "NZ" : "Triple Juicy Drops"
+      },
+      "start_time" : {
+        "*" : "00.00",
+        "BR" : "00.00",
+        "AU" : "00.00",
+        "NZ" : "00.00"
+      },
+      "end_time" : {
+        "*" : "23.59",
+        "BR" : "23.59",
+        "AU" : "23.59",
+        "NZ" : "23.59"
+      },
+      "timezone" : {
+        "*" : "CET/CEST",
+        "BR" : "BRT",
+        "AU" : "AEST/AEDT",
+        "NZ" : "NZST/NZDT"
+      }
+    }
+  }
+}

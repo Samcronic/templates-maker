@@ -1,0 +1,381 @@
+{
+  "id" : "ep-football",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "al" : "PAGESË E PARAKOHSHME NË FUTBOLL",
+        "az" : "Futbolda Erkən Ödəniş",
+        "bg" : "Ранно изплащане за футбол",
+        "cs" : "Předčasná Výplata: Fotbal",
+        "de" : "Vorzeitige Auszahlung Fußball",
+        "el" : "Πρώιμη Πληρωμή Ποδόσφαιρο",
+        "en" : "Early Payout Football",
+        "es" : "Pago Anticipado Futbol",
+        "et" : "Jalgpalli Varane Väljamakse",
+        "fi" : "Varhainen Voitonmaksu",
+        "fr" : "Paiement Anticipé Football",
+        "hr" : "Prijevremena isplata \u2013 nogomet",
+        "hu" : "Korai Kifizetés: Foci",
+        "it" : "Pagamento Anticipato Calcio",
+        "mk" : "Рана исплата за фудбал",
+        "no" : "Tidlig Utbetaling Fotboll",
+        "pl" : "Wczesna Wpłata Piłka Nożna",
+        "pt" : "Pagamento Antecipado Futebol",
+        "ro" : "Plată Anticipată Fotbal",
+        "ru" : "Досрочная Выплата Футбол",
+        "sl" : "Predčasno izplačilo - nogomet",
+        "sr" : "Early Payout: Fudbal",
+        "tr" : "Futbol Erken Ödeme",
+        "BR_pt" : "Pagamento Antecipado",
+        "BD_bn" : "আর্লি পেআউট ফুটবল অফার"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "al" : "Fito më herët nëse skuadra jote kalon në avantazh me 2 gola!",
+        "az" : "Komandanız 2 qol öndədirsə, erkən qalib gəl!",
+        "bg" : "Спечелете преждевременно, ако Вашият отбор поведе с два гола!",
+        "cs" : "Vyhrajte okamžitě, pokud váš tým vede o dva góly!",
+        "de" : "Gewinnen Sie frühzeitig, wenn Ihre Mannschaft zwei Tore Vorsprung hat!",
+        "el" : "Αν η ομάδα σου προηγηθεί με 2 γκολ, κέρδισες!",
+        "en" : "Win early if your team is two goals ahead!",
+        "es" : "¡Gana pronto si tu equipo lleva dos goles de ventaja!",
+        "et" : "Võida varakult, kui meeskond juhib kahe väravaga!",
+        "fi" : "Voita aiemmin, jos joukkueesi johtaa kahdella maalilla!",
+        "fr" : "Avant le coup de sifflet final de l'arbitre, gagnez votre pari si votre équipe préférée a deux buts d'avance!",
+        "hr" : "Oklada je dobitna ako vaš tim vodi dva razlike!",
+        "hu" : "Nyerj korán, ha a csapatod kétgólos vezetést szerez!",
+        "it" : "Vinci in anticipo se la tua squadra è in vantaggio di due gol!",
+        "mk" : "Освој рано ако твојот тим води со два гола!",
+        "no" : "To mål foran? Seieren er din - vinn tidlig!",
+        "pl" : "Wygraj wcześniej, jeśli twoja drużyna ma dwa gole przewagi!",
+        "pt" : "A tua equipa está a vencer por 2 golos? Relaxa e recebe o pagamento antecipado \u2014 já ganhaste!",
+        "ro" : "Câștigă în avans dacă echipa ta conduce cu două goluri!",
+        "ru" : "Выиграйте досрочно, если ваша команда впереди на два гола!",
+        "sl" : "Zmagaš prej, če tvoja ekipa vodi za dva gola!",
+        "sr" : "Isplata dobitka čim vaš tim vodi sa dva gola razlike!",
+        "tr" : "Takımın iki gol öne geçtiğinde erken kazan!",
+        "BR_pt" : "Ganhe cedo se sua equipe estiver dois gols à frente!",
+        "BD_bn" : "আপনার দল যদি দুই গোলে এগিয়ে যায়, তবে আগেই জিতুন!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "ep-football.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "sports"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./ep-football.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "al" : "A është skuadra jote 2 gola përpara? Relaksohu dhe merr pagesën më herët \u2014 ti tashmë ke fituar!",
+              "az" : "Komandanız 2 qol öndədir? Rahatlanın və erkən ödəniş alın, siz artıq qalibsiniz!",
+              "bg" : "Вашият отбор води ли с 2 гола? Отпуснете се и вземете печалбата си преждевременно \u2013 Вие вече спечелихте!",
+              "cs" : "Vede váš tým o 2 góly? Nemusíte čekat do konce zápasu, výhra je vyplacena předčasně, máte vyhráno!",
+              "de" : "2 Tore in Führung? Zeit zu entspannen und frühzeitig auszuzahlen, denn Sie haben bereits gewonnen!",
+              "el" : "Η ομάδα σου προηγείται με 2 γκολ; Απολαμβάνεις την νίκη και παίρνεις νωρίτερα τα κέρδη σου!",
+              "en" : "Is your team 2 goals ahead? Chill out and get paid out early, you have already won!",
+              "es" : "¿Tu equipo va ganando por 2 goles de diferencia?",
+              "et" : "Kas meeskond juhib kahe väravaga? Võta rahulikult ja naudi varajast tasu, sest oled juba võitnud!",
+              "fi" : "Johtaako joukkueesi kahdella maalilla? Voit olla varma, että saat varhaisen voitonmaksun, olet jo voittanut!",
+              "fr" : "Votre équipe a-t-elle 2 buts d`avance? Rassurez-vous et faites-vous payer plus tôt, vous avez déjà gagné!",
+              "hr" : "Vodi li vaš tim dva razlike? Opustite se i dobijte novce prije kraja utakmice, oklada je dobitna!",
+              "hu" : "A csapatod 2 góllal vezet? Dőlj hátra és kérj korai kifizetést, hiszen már nyertél!",
+              "it" : "La tua squadra è in vantaggio di 2 gol? Stai tranquillo e ricevi il pagamento in anticipo, hai già vinto!",
+              "mk" : "Дали твојот тим води со 2 гола? Опушти се и добиј рана исплата, веќе си победил!",
+              "no" : "Leder laget ditt med to mål? Du kan være sikker på en tidlig utbetaling, du har allerede vunnet!",
+              "pl" : "Twoja drużyna prowadzi różnicą 2 goli? Już nie musisz się martwić - my wypłacamy wygraną od razu!",
+              "pt" : "Ganha antecipadamente se a tua equipa estiver a vencer por dois golos!",
+              "ro" : "Echipa ta conduce cu 2 goluri? Relaxează-te și fii plătit în avans, deja ai câștigat!",
+              "ru" : "Ваша команда впереди на 2 гола? Расслабьтесь и получите деньги раньше, вы уже выиграли!",
+              "sl" : "Je tvoja ekipa 2 gola v prednosti? Sprosti se in prejmi plačilo, saj si že zmagal!",
+              "sr" : "Da li vaš tim vodi sa 2 gola razlike? Opustite se i zatražite isplatu ranije, kao da ste već pobedili!",
+              "tr" : "Takımın 2 gol önde mi? Rahatla ve erken ödemeni al, sen zaten kazandın!",
+              "BR_pt" : "Seu time está vencendo por 2 gols de diferença?",
+              "BD_bn" : "যদি আপনার দল 2 গোলে এগিয়ে যায়, নিশ্চিন্ত থাকুন \u2014 আগেই পেআউট পাবেন, আপনি ইতিমধ্যেই জিতেছেন!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "al" : "Si funksionon:",
+              "az" : "Necə işləyir:",
+              "bg" : "Как работи:",
+              "cs" : "Jak to funguje:",
+              "de" : "So funktioniert es:",
+              "el" : "Πώς λειτουργεί:",
+              "en" : "How it works:",
+              "es" : "Relájate y cobra antes ¡ya has ganado!",
+              "et" : "Kuidas see toimib:",
+              "fi" : "Toimi näin:",
+              "fr" : "Comment ça marche:",
+              "hr" : "Kako to funkcionira:",
+              "hu" : "Hogyan működik:",
+              "it" : "Come funziona:",
+              "mk" : "Како функционира:",
+              "no" : "Hvordan det fungerer:",
+              "pl" : "Jak to działa?",
+              "pt" : "Como funciona:",
+              "ro" : "Cum funcționează:",
+              "ru" : "Как это работает:",
+              "sl" : "Kako deluje:",
+              "sr" : "Kako funkcioniše:",
+              "tr" : "Nasıl çalışır:",
+              "BR_pt" : "Relaxa e receba o pagamento antecipado, a aposta já é sua!",
+              "BD_bn" : "কীভাবে কাজ করেঃ"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "al" : "Vendos një bast para fillimit të ndeshjes (pre-match) në tregun Rezultati Final (1x2) për kompeticionet e pranueshme.",
+                  "az" : "Uygun yarışmalarda oyundan əvvəl Tam Zaman Nəticəsi (1x2) bazarına mərc qoyun.",
+                  "bg" : "Направете залог преди мача на пазара \u201eКраен резултат\u201c (1X2) за класиращите се състезания.",
+                  "cs" : "Umístěte před zápasem sázku na konečný výsledek (1x2) u vybraných soutěží.",
+                  "de" : "Platzieren Sie vor dem Spiel eine Wette auf den Markt für das Endergebnis (1x2) für teilnahmeberechtigte Wettbewerbe.",
+                  "el" : "Τοποθετείς ένα στοίχημα πριν τον αγώνα στην αγορά Τελικού Αποτελέσματος (1x2) για τις επιλέξιμες διοργανώσεις.",
+                  "en" : "Place a pre-match bet on the Full-Time Result market (1x2) for eligible competitions.",
+                  "es" : "Realiza una apuesta pre-partido en el mercado Resultado Final (1x2) en competiciones elegibles.",
+                  "et" : "Kehtival võistlusel osalemiseks tee matšieelne panus täisaja tulemuse turul (1x2).",
+                  "fi" : "Aseta pre match -veto ottelun lopputuloksesta (1x2) hyväksyttyihin otteluihin.",
+                  "fr" : "Placez une mise en pré-match sur le Résultat Temps-Plein (1x2) pour être éligible.",
+                  "hr" : "Okladite se prije početka utakmice na njen ishod na kraju (1x2) za dostupna natjecanja.",
+                  "hu" : "Tegyél meg egy mérkőzés előtti fogadást a Végeredmény piacon (1x2) a promócióban résztvevő bajnokságok mérkőzésein.",
+                  "it" : "Piazzare una scommessa pre-partita sul mercato Risultato finale (1x2) per le competizioni ammissibili.",
+                  "mk" : "Поставете облог пред натпреварот на пазарот Краен резултат (1x2) за квалификуваните натпревари.",
+                  "no" : "Plasser et spill før kampstart på markedet for fulltidresultat (1x2) for kvalifiserte konkurranser.",
+                  "pl" : "Postaw zakład na rynek Wynik Końcowy (1X2) przed startem meczu.",
+                  "pt" : "Faz uma aposta pré-jogo no mercado Resultado Final (1X2) em competições elegíveis.",
+                  "ro" : "Plasează un pariu pre-meci pe piața Rezultat Final (1x2) pe competițiile eligibile.",
+                  "ru" : "Разместите предматчевую ставку на рынке \"Результат тайма\" (1x2) для подходящих соревнований.",
+                  "sl" : "Položi predtekmovalno stavo na končni rezultat (1x2) za veljavna tekmovanja.",
+                  "sr" : "Postavite opkladu na tržište konačnog rezultata (1x2) pre početka utakmice na relevantnim turnirima.",
+                  "tr" : "Uygun organizasyonlarda Maç Sonucu (1x2) pazarında, maç başlamadan önce bir bahis oyna.",
+                  "BR_pt" : "Faça uma aposta pré-jogo no mercado Resultado Final (1x2) em competições elegíveis.",
+                  "BD_bn" : "যোগ্য প্রতিযোগিতাগুলির জন্য ফুল-টাইম রেজাল্ট মার্কেটে (1X2) ম্যাচের আগে বাজি ধরুন।"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "al" : "Nëse skuadra jote kalon në avantazh me 2 gola në çdo moment të ndeshjes, ne do ta paguajmë bastin tënd menjëherë.",
+                  "az" : "Komandanız matçın istənilən anında 2 qol fərqi ilə öndə olarsa - mərciniz dərhal ödənəcək!",
+                  "bg" : "Ако Вашият отбор поведе с 2 гола на който и да е етап от мача, ние ще изплатим залога Ви преждевременно.",
+                  "cs" : "Pokud váš tým kdykoliv v průběhu zápasu povede o 2 góly, sázku vám vyplatíme předčasně.",
+                  "de" : "Wenn Ihre Mannschaft zu irgendeinem Zeitpunkt mit 2 Toren in Führung liegt, zahlen wir Ihre Wette vorzeitig aus.",
+                  "el" : "Εάν η ομάδα σου προηγείται με 2 γκολ σε οποιοδήποτε στάδιο, θα πληρώσουμε νωρίτερα το στοίχημά σου.",
+                  "en" : "If your team leads by 2 goals at any stage, we will pay out your bet early.",
+                  "es" : "Si tu equipo se adelanta por 2 goles en cualquier momento del partido, pagaremos tu apuesta de forma anticipada.",
+                  "et" : "Kui su meeskond juhib üheski etapis 2 väravaga, maksame sinu panuse varem välja.",
+                  "fi" : "Jos joukkueesi johtaa 2 maalin erolla missä tahansa vaiheessa, maksamme voittosi välittömästi.",
+                  "fr" : "Si votre équipe mène de 2 points à n`importe quel moment, nous vous verserons vos gains.",
+                  "hr" : "Ako vaš tim u bilo kojoj fazi utakmice vodi sa dva gola razlike, unaprijed ćemo vam isplatiti dobitak.",
+                  "hu" : "Ha a csapatod bármikor 2-gólos előnyt szerez, korai kifizetéssel jutalmazunk.",
+                  "it" : "Se la tua squadra è in vantaggio di 2 gol in qualsiasi momento, pagheremo la tua scommessa in anticipo.",
+                  "mk" : "Ако вашиот тим води со 2 гола во кој било момент, ќе го исплатиме вашиот облог порано.",
+                  "no" : "Hvis laget ditt leder med 2 mål på et hvilket som helst tidspunkt, utbetaler vi spillet ditt tidlig.",
+                  "pl" : "Jeśli Twoja drużyna osiągnie przewagę 2 goli, automatycznie wypłacamy Ci wygraną!",
+                  "pt" : "Se a tua equipa estiver a vencer por 2 golos em qualquer momento do jogo, pagamos a tua aposta antecipadamente.",
+                  "ro" : "Dacă echipa ta conduce cu 2 goluri în orice stadiu, îți vom plăti pariul mai devreme.",
+                  "ru" : "Если ваша команда будет вести с преимуществом в 2 гола на любом этапе, мы выплатим вашу ставку досрочно.",
+                  "sl" : "Če tvoja ekipa v katerem koli trenutku vodi z 2 goli, bomo tvojo stavo izplačali predčasno.",
+                  "sr" : "Ako vaš tim u bilo kom trenutku vodi sa 2 gola razlike, mi ćemo vam ranije isplatiti opkladu.",
+                  "tr" : "Takımın maçın herhangi bir anında 2 gol farkla öne geçerse, bahsin erken ödenir.",
+                  "BR_pt" : "Se o seu time abrir vantagem de 2 gols em qualquer momento da partida, nós pagamos sua aposta antecipadamente.",
+                  "BD_bn" : "যদি আপনার দল যেকোনো পর্যায়ে 2 গোলে এগিয়ে থাকে, আমরা আপনার বাজির টাকা আগেই পরিশোধ করে দেব।"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "al" : "VENDOS BAST TANI",
+              "az" : "İNDİ MƏRC ET",
+              "bg" : "ЗАЛОЖЕТЕ СЕГА",
+              "cs" : "VSADIT",
+              "de" : "JETZT WETTEN",
+              "el" : "ΠΑΙΧΝΙΔΙ",
+              "en" : "BET NOW",
+              "es" : "APUESTA AHORA",
+              "et" : "PANUSTA KOHE",
+              "fi" : "LYÖ VETOA NYT",
+              "fr" : "PARIEZ MAINTENANT",
+              "hr" : "KLADITE SE SADA",
+              "hu" : "FOGADJ",
+              "it" : "SCOMMETTI ORA",
+              "mk" : "ОБЛОЖИ СЕ СЕГА",
+              "no" : "SATS NÅ",
+              "pl" : "OBSTAW TERAZ",
+              "pt" : "APOSTE AGORA",
+              "ro" : "PARIAZĂ ACUM",
+              "ru" : "СДЕЛАТЬ СТАВКУ СЕЙЧАС",
+              "sl" : "STAVI ZDAJ",
+              "sr" : "NA KLAĐENJE!",
+              "tr" : "ŞİMDİ BAHİS YAP",
+              "BR_pt" : "APOSTE AGORA",
+              "BD_bn" : "এখনই বাজি ধরুন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/sports"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "id" : "friday-free-spins",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Friday's Free Spins",
+        "de" : "Freitags Gratisspins",
+        "fi" : "Perjantain ilmaiskierrokset",
+        "no" : "Fredagens gratisspinn",
+        "pt" : "Rodadas Grátis de Sexta-feira",
+        "BR_pt" : "Rodadas Grátis de Sexta-feira",
+        "es" : "Giros Gratis del Viernes",
+        "CL_es" : "Giros Gratis del Viernes",
+        "fr" : "Tours gratuits du vendredi",
+        "it" : "Giri gratuiti del venerdì",
+        "pl" : "Piątkowe darmowe spiny",
+        "az" : "Cümə günü Free Spinləri",
+        "ru" : "Фриспины в пятницу",
+        "tr" : "Cuma\u2019nın Free Spinleri",
+        "et" : "Reede tasuta keerutused",
+        "hu" : "Pénteki ingyen pörgetések",
+        "cs" : "Páteční free spiny",
+        "sr" : "Besplatni spinovi petkom",
+        "el" : "Free Spins Παρασκευής",
+        "mk" : "Бесплатни вртења во петок",
+        "sq" : "Rrotullimet Falas të së Premtes",
+        "ro" : "Rotirile Gratis de Vineri",
+        "sl" : "Petkovi brezplačni vrtljaji",
+        "hr" : "Besplatne vrtnje petkom",
+        "bg" : "Безплатни завъртания в петък",
+        "BD_bn" : "শুক্রবারের ফ্রি স্পিন"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Let ${fs_amount} FS kick off the fun",
+        "de" : "So geht der Spaß mit ${fs_amount} GS los",
+        "fi" : "Käynnistä hauskanpito ${fs_amount} IK:lla",
+        "no" : "Start moroa med ${fs_amount} GS",
+        "pt" : "Deixe ${fs_amount} Rodadas Grátis iniciarem a diversão",
+        "BR_pt" : "Deixe ${fs_amount} Rodadas Grátis começarem a diversão",
+        "es" : "Deja que ${fs_amount} Giros Gratis comiencen la diversión",
+        "CL_es" : "Que ${fs_amount} Giros Gratis den inicio a la diversión",
+        "fr" : "Laissez ${fs_amount} TG lancer la fête !",
+        "it" : "Lascia che ${fs_amount} GG dia il via al divertimento",
+        "pl" : "Niech ${fs_amount} spinów rozpocznie zabawę!",
+        "az" : "Əyləncəni başlatmaq üçün ${fs_amount} FS",
+        "ru" : "Пусть ${fs_amount} ФС начнет веселье",
+        "tr" : "Eğlenceyi başlatmak için ${fs_amount} FS",
+        "et" : "Saa ${fs_amount} TK, et lõbu lahti läheks",
+        "hu" : "Indítsd a játékot ${fs_amount} IP-vel",
+        "cs" : "Páteční zábava začíná s ${fs_amount} free spiny.",
+        "sr" : "Nek zabava počne sa ${fs_amount} BS-a",
+        "el" : "Διασκέδαση με ${fs_amount} FS",
+        "mk" : "Започни ја забавата со ${fs_amount} бесплатни вртења",
+        "sq" : "Lejo që ${fs_amount} Rrotullime Falas të nisin argëtimin",
+        "ro" : "Lasă ${fs_amount} Rotiri Gratis să dea startul distracției!",
+        "sl" : "Naj se zabava začne z ${fs_amount} brezplačnih vrtljajev!",
+        "hr" : "Neka vam ${fs_amount} Besplatnih vrtnji pokrene zabavu",
+        "bg" : "Нека тези ${fs_amount} безплатни завъртания дадат старт на забавлението!",
+        "BD_bn" : "${fs_amount} ফ্রি স্পিন দিয়ে আনন্দ শুরু হোক!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "friday-free-spins.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : {
+            "en" : "CASINO",
+            "bg" : "КАЗИНО",
+            "cz" : "KASINO",
+            "de" : "CASINO",
+            "es" : "CASINO",
+            "fi" : "KASINO",
+            "fr" : "CASINO",
+            "hr" : "KASINO",
+            "it" : "CASINÒ",
+            "mk" : "КАЗИНО",
+            "no" : "KASINO",
+            "pt" : "CASINO",
+            "ro" : "CAZINO",
+            "ru" : "КАЗИНО",
+            "sl" : "KAZINO",
+            "sq" : "KAZINO",
+            "sr" : "KAZINO"
+          }
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./friday-free-spins.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Ready for Friday? Celebrate with an exclusive bonus!\nMake your deposit and unlock ${fs_amount} Free Spins on \"${slot_game_1}\"!",
+              "de" : "Bereit für Freitag? Feiern Sie mit einem exklusiven Bonus!\nTätigen Sie Ihre Einzahlung und sichern Sie sich ${fs_amount} Gratisspins auf \"${slot_game_1}\"!",
+              "fi" : "Oletko valmis perjantaihin? Juhlista sitä eksklusiivisella bonuksella!\nTee talletus ja lunasta ${fs_amount} ilmaiskierrosta peliin \"${slot_game_1}\"!",
+              "no" : "Klar for fredag? Feir med en eksklusiv bonus!\nGjør ditt innskudd og få ${fs_amount} gratisspinn på \"${slot_game_1}\"!",
+              "pt" : "Pronto para sexta-feira? Celebre com um bônus exclusivo!\nFaça o seu depósito e desbloqueie ${fs_amount} Rodadas Grátis em  \"${slot_game_1}\"!",
+              "BR_pt" : "Preparado para sexta-feira? Celebre com um bônus exclusivo!\nFaça seu depósito e desbloqueie ${fs_amount} Rodadas Grátis em  \"${slot_game_1}\"!",
+              "es" : "¿Listo para el viernes? ¡Celebra con un bono exclusivo!\nHaz tu depósito y desbloquea ${fs_amount} Giros Gratis en \u201c${slot_game_1}\u201d!",
+              "CL_es" : "¿Listo para el viernes? ¡Celebra con un bono exclusivo!\nRealiza tu depósito y desbloquea ${fs_amount} Giros Gratis en \u201c${slot_game_1}\u201d!",
+              "fr" : "Prêt pour vendredi ? Fêtez ça avec un bonus exclusif !\nEffectuez votre dépôt et débloquez ${fs_amount} tours gratuits sur \"${slot_game_1}\" !",
+              "it" : "Pronto per venerdì? Festeggia con un bonus esclusivo!\nEffettua il tuo deposito e sblocca ${fs_amount} giri gratuiti su \u201c${slot_game_1}\u201d!",
+              "pl" : "Gotowy na piątek? Świętuj z ekskluzywnym bonusem!\nWpłać depozyt i odblokuj ${fs_amount} darmowych spinów na grze \u201e${slot_game_1}\u201d!",
+              "az" : "Cüməyə hazırsınız? Eksklüziv bonusla qeyd edin!\nDepozit edin və \u201c${slot_game_1}\u201d oyununda ${fs_amount} Free Spin açın!",
+              "ru" : "Готовы к пятнице? Отпразднуйте ее с эксклюзивным бонусом!\nСделайте депозит и получите ${fs_amount} бесплатных вращений в игре \"${slot_game_1}\"!",
+              "tr" : "Cumaya hazır mısın? Özel bir bonusla kutla!\nYatırımını yap ve \u201c${slot_game_1}\u201d üzerinde ${fs_amount} Free Spin aç!",
+              "et" : "Reedeks valmis? Tähista eksklusiivse boonusega!\nTee sissemakse ja ava ${fs_amount} tasuta keerutust mängus \"${slot_game_1}\"!",
+              "hu" : "Készen állsz a péntekre? Ünnepeld egy exkluzív bónusszal!\nVégezz el befizetést és szerezz ${fs_amount} Ingyen Pörgetést a \"${slot_game_1}\" nyerőgépre!",
+              "cs" : "Připraveni na pátek? Využijte exkluzivní nabídku.\nProveďte vklad a získejte ${fs_amount} free spinů na \"${slot_game_1}\"!",
+              "sr" : "Spremni za petak? Proslavite uz ekskluzivni bonus!\nUplatite depozit i osvojite besplatne spinove od ${fs_amount} na slotu \"${slot_game_1}\"!",
+              "el" : "Φουλ για την Παρασκευή; Γιόρτασε με ένα αποκλειστικό μπόνους!\nΚάνεις την κατάθεσή σου και ξεκλειδώνεις ${fs_amount} Free Spins στο \"${slot_game_1}\"!",
+              "mk" : "Подготвени за петок? Прославете со ексклузивен бонус!\nУплатете депозит и отклучете ${fs_amount} бесплатни вртења на \u201c${slot_game_1}\u201c!",
+              "sq" : "Gati për të Premten? Festo me një bonus ekskluziv!\nBëj depozitën tënde dhe zhblloko ${fs_amount} Rrotullime Falas në \"${slot_game_1}\"",
+              "ro" : "Gata de Vineri? Celebrează cu un bonus exclusiv! Realizează o depunere și poți obține ${fs_amount} Rotiri Gratuite la \"${slot_game_1}\"!",
+              "sl" : "Ste pripravljeni na petek? Praznujte z ekskluzivnim bonusom!\nIzvedite vplačilo in odklenite ${fs_amount} brezplačnih vrtljajev na \"${slot_game_1}\"!",
+              "hr" : "Spremni za petak? Proslavite ga uz ekskluzivni bonus! Izvršite uplatu na račun i otključajte ${fs_amount} Besplatnih vrtnji na igri \"${slot_game_1}\"!",
+              "bg" : "Готови ли сте за петък? Празнувайте с изключителен бонус!\nНаправете депозит и отключете ${fs_amount} Free Spins за \u201e${slot_game_1}\u201c!",
+              "BD_bn" : "শুক্রবারের জন্য প্রস্তুত? এক্সক্লুসিভ বোনাসে উদযাপন করুন!\nডিপোজিট করুন এবং \"${slot_game_1}\"-এ আনলক করুন ${fs_amount} ফ্রি স্পিন!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Choose your preferred payment option",
+                  "de" : "Wählen Sie Ihre bevorzugte Zahlungsoption",
+                  "fi" : "Valitse haluamasi maksutapa",
+                  "no" : "Velg din foretrukne betalingsmåte",
+                  "pt" : "Escolher o seu método de pagamento preferido",
+                  "BR_pt" : "Escolher sua forma de pagamento preferida",
+                  "es" : "Elegir tu método de pago preferido",
+                  "CL_es" : "Elegir tu método de pago preferido",
+                  "fr" : "Choisissez votre mode de paiement préféré.",
+                  "it" : "Scegli l`opzione di pagamento che preferisci.",
+                  "pl" : "Wybierzesz preferowaną metodę płatności",
+                  "az" : "Xoşuna gələn ödəniş üsulunu seç",
+                  "ru" : "Выберите предпочтительный способ оплаты.",
+                  "tr" : "Tercih ettiğin ödeme yöntemini seç",
+                  "et" : "Vali eelistatud makseviis",
+                  "hu" : "Válaszd ki a kívánt fizetési módot",
+                  "cs" : "Vyberte si preferovaný způsob platby",
+                  "sr" : "Izaberite svoju omiljenu opciju plaćanja",
+                  "el" : "Επιλέγεις τον επιθυμητό τρόπο πληρωμής",
+                  "mk" : "Изберете го вашиот претпочитан начин на плаќање",
+                  "sq" : "Zgjidh metodën e preferuar të pagesës",
+                  "ro" : "Alege-ți metoda de plată dorită",
+                  "sl" : "Izberite želeno možnost plačila",
+                  "hr" : "Odaberite željenu opciju plaćanja",
+                  "bg" : "Изберете предпочитания от вас начин на плащане",
+                  "BD_bn" : "আপনার পছন্দের পেমেন্ট অপশনটি বেছে নিন"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Select this promotion from the drop-down list",
+                  "de" : "Wählen Sie diese Aktion aus der Auswahlliste",
+                  "fi" : "Valitse tämä kampanja pudotusvalikosta",
+                  "no" : "Velg denne kampanjen fra rullegardinlisten",
+                  "pt" : "Selecionar esta promoção na lista suspensa",
+                  "BR_pt" : "Selecionar esta promoção na lista suspensa",
+                  "es" : "Seleccionar esta promoción en el menú desplegable",
+                  "CL_es" : "Seleccionar esta promoción en el menú desplegable",
+                  "fr" : "Sélectionnez cette promotion dans la liste.",
+                  "it" : "Seleziona questa promozione dall`elenco a discesa.",
+                  "pl" : "Zaznaczysz tę promocję z rozwijanej listy",
+                  "az" : "Açılan siyahıdan bu kampaniyanı seç",
+                  "ru" : "Выберите эту акцию из раскрывающегося списка.",
+                  "tr" : "Açılır listeden bu promosyonu seç",
+                  "et" : "Vali ripploendist see soodustus",
+                  "hu" : "Válaszd ki ezt a promóciót a legördülő menüből",
+                  "cs" : "Zvolte tuto akci z nabídky bonusů",
+                  "sr" : "Odaberite ovu promociju iz padajuće liste",
+                  "el" : "Επιλέγεις αυτή την προσφορά από την αναπτυσσόμενη λίστα",
+                  "mk" : "Изберете ја оваа промоција од паѓачката листа",
+                  "sq" : "Përzgjidh këtë promocion nga lista rënëse",
+                  "ro" : "Selectează această promoție din listă",
+                  "sl" : "Izberite to promocijo iz spustnega seznama",
+                  "hr" : "Odaberite ovu promociju s padajućeg popisa",
+                  "bg" : "Изберете тази промоция от падащото меню",
+                  "BD_bn" : "ড্রপ-ডাউন লিস্ট থেকে এই প্রমোশনটি সিলেক্ট করুন"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Deposit at least ${min_deposit} and we`ll add your Free Spins",
+                  "de" : "Zahlen Sie mindestens ${min_deposit} ein und wir schreiben Ihnen Ihre Gratisspins gut",
+                  "fi" : "Talleta vähintään ${min_deposit}, niin lisäämme ilmaiskierrokset",
+                  "no" : "Sett inn minst ${min_deposit}, så legger vi til gratisspinnene dine",
+                  "pt" : "Depositar pelo menos ${min_deposit} e adicionaremos as suas Rodadas Grátis\"",
+                  "BR_pt" : "Depositar pelo menos ${min_deposit} e nós adicionaremos suas Rodadas Grátis",
+                  "es" : "Depositar al menos ${min_deposit} y añadiremos tus Giros Gratis\"",
+                  "CL_es" : "Depositar al menos ${min_deposit} y añadiremos tus Giros Gratis\"",
+                  "fr" : "Déposez au moins ${min_deposit} et nous ajouterons vos tours gratuits.",
+                  "it" : "Deposita almeno ${min_deposit} e ti regaleremo i tuoi giri gratuiti.",
+                  "pl" : "Wpłacisz minimum ${min_deposit}, a my dodamy Darmowe Spiny do Twojego konta!",
+                  "az" : "Minimum ${min_deposit} depozit et və pulsuz fırlatmalar hesabına əlavə olunsun",
+                  "ru" : "Внесите депозит не менее ${min_deposit}, и мы добавим вам Фриспины.",
+                  "tr" : "En az ${min_deposit} yatır ve bedava döndürmeler eklensin",
+                  "et" : "Maksa sisse ${min_deposit} ja meie lisame sinu tasuta keerutused",
+                  "hu" : "Fizess be legalább ${min_deposit}-ot, és jóváírjuk az Ingyen Pörgetéseid",
+                  "cs" : "Vložte alespoň ${min_deposit} a free spiny vám připíšeme",
+                  "sr" : "Uplatite najmanje ${min_deposit}, a mi ćemo vam dodati besplatne spinove",
+                  "el" : "Καταθέτεις τουλάχιστον ${min_deposit} και θα πιστώσουμε τα Free Spins",
+                  "mk" : "Уплатете најмалку ${min_deposit} и ние ќе ги додадеме вашите бесплатни вртења",
+                  "sq" : "Depozito të paktën ${min_deposit} dhe ne do t\u2019ju shtojmë Rrotullimet Falas",
+                  "ro" : "Depune cel puțin ${min_deposit} și îți vom adăuga Rotirile Gratis",
+                  "sl" : "Naložite vsaj ${min_deposit} in dodali vam bomo brezplačne vrtljaje.",
+                  "hr" : "Uplatite najmanje ${min_deposit} i dodijelit ćemo vam besplatne vrtnje",
+                  "bg" : "Депозирайте поне ${min_deposit} и ние ще добавим Вашите безплатни завъртания",
+                  "BD_bn" : "ন্যূনতম ${min_deposit} ডিপোজিট করুন এবং আমরা আপনার ফ্রি স্পিনগুলো যোগ করে দেব"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "For countries where Pragmatic Play is unavailable, Free Spins will be awarded on Betsoft`s \"${slot_game_2}\" slot game.",
+              "de" : "Für Länder, in denen Pragmatic Play nicht verfügbar ist, werden Gratisspins für das Slot-Spiel \"${slot_game_2}\" von Betsoft vergeben.",
+              "fi" : "Maissa, joissa Pragmatic Play ei ole käytettävissä, ilmaiskierrokset myönnetään Betsoftin kolikkopeliin \"${slot_game_2}\".",
+              "no" : "Ι land der Pragmatic Play ikke er tilgjengelig, vil gratisspinn bli utdelt på Betsofts spilleautomat \"${slot_game_2}\".",
+              "pt" : "Para os países onde a Pragmatic Play não está disponível, as Rodadas Grátis serão concedidas no jogo de caça-níqueis \u201c${slot_game_2}\u201d da Betsoft.",
+              "BR_pt" : "Para os países onde a Pragmatic Play não está disponível, as Rodadas Grátis serão concedidas no jogo de caça-níqueis \u201c${slot_game_2}\u201d da Betsoft.",
+              "es" : "Para los países en los que Pragmatic Play no está disponible, se conceden tiradas gratuitas para el juego de tragaperras \"${slot_game_2}\" de Betsoft.",
+              "CL_es" : "En los países donde Pragmatic Play no esté disponible, los giros gratis se otorgarán en el juego de tragamonedas \"${slot_game_2}\" de Betsoft.",
+              "fr" : "Pour les pays où Pragmatic Play n`est pas disponible, les tours gratuits seront attribués sur la machine à sous \"${slot_game_2}\" de Betsoft.",
+              "it" : "Per i Paesi in cui Pragmatic Play non è disponibile, vengono assegnati giri gratuiti per il gioco di slot \"${slot_game_2}\" di Betsoft.",
+              "pl" : "W krajach, w których Pragmatic Play nie jest dostępny, darmowe spiny są przyznawane za grę slotową \"${slot_game_2}\" od Betsoft.",
+              "az" : "Əgər ölkənizdə \"Pragmatic Play\" əlçatan deyilsə, Pulsuz fırlatmalar, \"Betsoft\"un \"${slot_game_2}\" slot oyununda təqdim ediləcək.",
+              "ru" : "Для стран, где Pragmatic Play недоступен, бесплатные спины будут начислены на слот-игру Betsoft \"${slot_game_2}\".",
+              "tr" : "Pragmatic Play\u2019in kullanılamadığı ülkelerde, Ücretsiz Spin\u2019ler Betsoft\u2019un \"${slot_game_2}\" slot oyununda tanımlanacaktır.",
+              "et" : "Riikides, kus pole Pragmatic Play saadaval, kingime tasuta keerutused Betsofti \"${slot_game_2}\u201c mänguautomaadile.",
+              "hu" : "Azokban az országokban, amelyekben a Pragmatic Play nem elérhető, az Ingyen Pörgetések a Betsoft \"${slot_game_2}\" nyerőgépén lesznek használhatók.",
+              "cs" : "V zemích, kde není Pragmatic Play dostupný, budou free spiny připsány na automat Betsoftu \"${slot_game_2}\".",
+              "sr" : "U zemljama u kojima Pragmatic Play nije dostupan, besplatni spinovi će biti dodeljeni na Betsoft-ovoj slot igri \u201e${slot_game_2}\u201c.",
+              "el" : "Για χώρες όπου η Pragmatic Play δεν είναι διαθέσιμη, τα Free Spins θα πιστωθούν στο παιχνίδι \"${slot_game_2}\" της Betsoft.",
+              "mk" : "За земји каде што Pragmatic Play не е достапна, бесплатните вртења ќе бидат доделени на слот-играта \"${slot_game_2}\" од Betsoft.",
+              "sq" : "Për vendet ku Pragmatic Play nuk është i disponueshëm, Rrotullimet Falas do të jepen në slot-in \"${slot_game_2}\" nga Betsoft.",
+              "ro" : "În țările în care furnizorul Pragmatic Play nu este disponibil, Rotirile Gratis vor fi creditate la slotul ${slot_game_2} de la Betsoft.",
+              "sl" : "Za države, v katerih Pragmatic Play ni na voljo, bodo brezplačni vrtljaji dodeljeni na igralnem avtomatu Betsoft \"${slot_game_2}\".",
+              "hr" : "U zemljama u kojima Pragmatic Play nije dostupan, besplatne vrtnje bit će dodijeljene na slot igri \"${slot_game_2}\" pružatelja Betsoft.",
+              "bg" : "За държави, в които игрите на Pragmatic Play не са достъпни, тези безплатни завъртания ще бъдат предоставени за слота \u201e${slot_game_2}\u201c на Betsoft.",
+              "BD_bn" : "যেসব দেশে Pragmatic Play উপলব্ধ নয়, সেখানে Betsoft-এর \"${slot_game_2}\" স্লট গেমে ফ্রি স্পিন প্রদান করা হবে।"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "DEPOSIT NOW",
+              "de" : "JETZT EINZAHLEN",
+              "fi" : "TALLETA NYT",
+              "no" : "SETT INN NÅ",
+              "pt" : "DEPOSITE AGORA",
+              "BR_pt" : "DEPOSITAR AGORA",
+              "es" : "DEPOSITAR AHORA",
+              "CL_es" : "¡DEPÓSITAR AHORA!",
+              "fr" : "DÉPOSEZ MAINTENANT",
+              "it" : "DEPOSITA ORA",
+              "pl" : "DOKONAJ WPŁATY",
+              "az" : "İNDİ DEPOZİT ET",
+              "ru" : "ДЕПОЗИТ СЕЙЧАС",
+              "tr" : "HEMEN YATIRIM YAP",
+              "et" : "TEE SISSEMAKSE KOHE",
+              "hu" : "BEFIZETÉS",
+              "cs" : "VLOŽIT",
+              "sr" : "UPLATA ODMAH",
+              "el" : "ΚΑΤΑΘΕΣΗ",
+              "mk" : "УПЛАТИ СЕГА",
+              "sq" : "DEPOZITO TANI",
+              "ro" : "DEPUNE ACUM",
+              "sl" : "POLOG",
+              "hr" : "UPLATITE SADA",
+              "bg" : "ДЕПОЗИРАЙТЕ СЕГА",
+              "BD_bn" : "এখনই ডিপোজিট করুন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "min_spin_value" : {
+        "EUR" : "\u20ac0.20",
+        "*" : "\u20ac0.20",
+        "USD" : "$0.20",
+        "CAD" : "C$0.20",
+        "AUD" : "A$0.20",
+        "BRL" : "R$0.20",
+        "NOK" : "kr2",
+        "NZD" : "NZ$0.20",
+        "CLP" : "$50",
+        "MXN" : "$1",
+        "GBP" : "£0.20",
+        "PLN" : "0.80zł",
+        "PEN" : "S/.0.20",
+        "ZAR" : "R3",
+        "CHF" : "Fr0.20",
+        "NGN" : "\u20a680",
+        "JPY" : "¥40",
+        "AZN" : "\u20bc0.40",
+        "TRY" : "2 TL",
+        "KZT" : "80 KZT",
+        "RUB" : "16 RUB",
+        "UZS" : "1600 so'm",
+        "ARS" : "40 ARS",
+        "INR" : "14 INR",
+        "HUF" : "60Ft",
+        "CZK" : "5 Kč",
+        "RON" : "1 RON",
+        "ALL" : "20 ALL",
+        "MKD" : "10 MKD",
+        "RSD" : "20 RSD"
+      },
+      "min_spin_value_2" : {
+        "EUR" : "\u20ac0.20",
+        "*" : "\u20ac0.20",
+        "USD" : "$0.20",
+        "CAD" : "C$0.20",
+        "AUD" : "A$0.20",
+        "BRL" : "R$0.20",
+        "NOK" : "kr2",
+        "NZD" : "NZ$0.20",
+        "CLP" : "$50",
+        "MXN" : "$1",
+        "GBP" : "£0.20",
+        "PLN" : "0.80zł",
+        "PEN" : "S/.0.20",
+        "ZAR" : "R3",
+        "CHF" : "Fr0.20",
+        "NGN" : "\u20a680",
+        "JPY" : "¥40",
+        "AZN" : "\u20bc0.40",
+        "TRY" : "2 TL",
+        "KZT" : "80 KZT",
+        "RUB" : "16 RUB",
+        "UZS" : "1600 so'm",
+        "ARS" : "40 ARS",
+        "INR" : "14 INR",
+        "HUF" : "60Ft",
+        "CZK" : "5 Kč",
+        "RON" : "1 RON",
+        "ALL" : "20 ALL",
+        "MKD" : "10 MKD",
+        "RSD" : "20 RSD"
+      },
+      "fs_winnings" : {
+        "EUR" : "\u20ac0.10",
+        "*" : "\u20ac0.10",
+        "USD" : "$0.10",
+        "CAD" : "C$0.10",
+        "AUD" : "A$0.10",
+        "BRL" : "R$0.10",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "CLP" : "$25",
+        "MXN" : "$0,50",
+        "GBP" : "£0.10",
+        "PLN" : "0.40zł",
+        "PEN" : "S/.0.10",
+        "ZAR" : "R1.50",
+        "CHF" : "Fr0.10",
+        "NGN" : "\u20a640",
+        "JPY" : "¥20",
+        "AZN" : "\u20bc0.20",
+        "TRY" : "1 TL",
+        "KZT" : "40 KZT",
+        "RUB" : "8 RUB",
+        "UZS" : "800 so'm",
+        "ARS" : "20 ARS",
+        "INR" : "7 INR",
+        "HUF" : "30Ft",
+        "CZK" : "2.5 Kč",
+        "RON" : "0.5 RON",
+        "ALL" : "10 ALL",
+        "MKD" : "5 MKD",
+        "RSD" : "10 RSD"
+      },
+      "min_deposit" : {
+        "EUR" : "\u20ac50",
+        "*" : "\u20ac50",
+        "USD" : "$50",
+        "CAD" : "C$50",
+        "AUD" : "A$50",
+        "BRL" : "R$100",
+        "NOK" : "kr500",
+        "NZD" : "NZ$50",
+        "CLP" : "$40,000",
+        "MXN" : "$300",
+        "GBP" : "£50",
+        "PLN" : "200zł",
+        "PEN" : "S/.50",
+        "ZAR" : "R500",
+        "CHF" : "Fr50",
+        "NGN" : "\u20a65000",
+        "JPY" : "¥7500",
+        "AZN" : "\u20bc 50",
+        "TRY" : "500 TL",
+        "KZT" : "7500 KZT",
+        "RUB" : "2500 RUB",
+        "UZS" : "500,000 so'm",
+        "ARS" : "5000 ARS",
+        "INR" : "5000 INR",
+        "HUF" : "17500Ft",
+        "CZK" : "1000 Kč",
+        "RON" : "200 RON",
+        "ALL" : "4,000 ALL",
+        "MKD" : "2,500 MKD",
+        "RSD" : "5,000 RSD"
+      },
+      "fs_amount" : {
+        "*" : "350",
+        "BR" : "350",
+        "AU" : "350",
+        "NZ" : "350"
+      },
+      "wagering_req" : {
+        "*" : "x35",
+        "BR" : "x35",
+        "AU" : "x35",
+        "NZ" : "x35"
+      },
+      "slot_game_1" : {
+        "*" : "Gates of Olympus Super Scatter",
+        "BR" : "Gates of Olympus Super Scatter",
+        "AU" : "Gates of Olympus Super Scatter",
+        "NZ" : "Gates of Olympus Super Scatter"
+      },
+      "slot_game_2" : {
+        "*" : "Trinity Reels",
+        "BR" : "Trinity Reels",
+        "AU" : "Trinity Reels",
+        "NZ" : "Trinity Reels"
+      },
+      "start_time" : {
+        "*" : "00.00",
+        "BR" : "00.00",
+        "AU" : "00.00",
+        "NZ" : "00.00"
+      },
+      "end_time" : {
+        "*" : "23.59",
+        "BR" : "23.59",
+        "AU" : "23.59",
+        "NZ" : "23.59"
+      },
+      "timezone" : {
+        "*" : "CET/CEST",
+        "BR" : "BRT",
+        "AU" : "AEST/AEDT",
+        "NZ" : "NZST/NZDT"
+      }
+    }
+  }
+}

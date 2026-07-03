@@ -1,0 +1,381 @@
+{
+  "id" : "ep-american-football",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Early Payout American Football",
+        "de" : "Vorzeitige Auszahlung American Football",
+        "fi" : "Varhainen Voitonmaksu",
+        "no" : "Tidlig Utbetaling Amerikansk fotball",
+        "pt" : "Pagamento Antecipado Futebol Americano",
+        "es" : "Pago Anticipado Fútbol Americano",
+        "pl" : "Wczesna Wypłata Futbol Amerykański",
+        "it" : "Pagamento Anticipato Football Americano",
+        "fr" : "Paiement Anticipé Football Américain",
+        "BR_pt" : "Pagamento Antecipado",
+        "tr" : "Amerikan Futbolu Erken Ödeme",
+        "ru" : "Досрочная Выплата Американский Футбол",
+        "az" : "Amerikan Futbolunda Erkən Ödəniş",
+        "et" : "Ameerika Jalgpalli Varane Väljamakse",
+        "hu" : "Korai Kifizetés: Amerikai Foci",
+        "sr" : "Early Payout: Američki Fudbal",
+        "cs" : "Předčasná Vplata Americký Fotbal",
+        "el" : "Πρώιμη Πληρωμή Αμερικάνικο Ποδόσφαιρο",
+        "mk" : "Рана исплата за американски фудбал",
+        "al" : "Pagesë E Parakohshme Në Futboll Amerikan",
+        "ro" : "Plată Anticipată Fotbal American",
+        "sl" : "Predčasno izplačilo - ameriški nogomet",
+        "hr" : "Prijevremena isplata \u2013 američki nogomet",
+        "bg" : "Ранно изплащане за американски футбол",
+        "BD_bn" : "আগাম পেআউট আমেরিকান ফুটবল"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Win your bet early if your team leads by 17 points at any stage of the match!",
+        "de" : "Gewinnen Sie Ihre Wette vorzeitig, wenn Ihr Team zu irgendeinem Zeitpunkt des Spiels mit 17 Punkten führt!",
+        "fi" : "Voita vetosi varhain, jos joukkueesi johtaa 17 pisteellä missä tahansa ottelun vaiheessa!",
+        "no" : "Vinn innsatsen din tidlig hvis laget ditt leder med 17 poeng på noe tidspunkt i kampen!",
+        "pt" : "Ganha a tua aposta antecipadamente se a tua equipa estiver a ganhar por 17 pontos em qualquer momento do jogo!",
+        "es" : "¡Gana tu apuesta anticipadamente si tu equipo va ganando por 17 puntos en cualquier fase del partido!",
+        "pl" : "Wygraj wcześniej, jeśli Twoja drużyna prowadzi 17 punktami na dowolnym etapie meczu!",
+        "it" : "Vinci in anticipo la tua scommessa se la tua squadra è in vantaggio di 17 punti in qualsiasi fase dell'incontro!",
+        "fr" : "Gagnez votre pari si votre équipe mène de 17 points à n'importe quel moment du match !",
+        "BR_pt" : "Ganhe a sua aposta antecipadamente se o seu time estiver liderando por 17 pontos em qualquer momento da partida!",
+        "tr" : "Takımın maçın herhangi bir anında 17 puan farkla öne geçerse bahsini erken kazan!",
+        "ru" : "Выиграйте свою ставку раньше, если ваша команда лидирует с разницей в 17 очков на любом этапе матча!",
+        "az" : "Komandan oyunun istənilən anında 17 xal fərqi ilə önə keçərsə, mərci erkən qazan!",
+        "et" : "Võida panus varakult, kui tiim läheb mis tahes matšietapis 17 punktiga juhtima!",
+        "hu" : "Nyerj korán, ha a csapatod 17-pontos vezetést szerez a mérkőzés bármely pontján!",
+        "sr" : "Osvojite vašu opkladu, čim vaš tim povede sa 17 poena razlike (u bilo kojoj fazi meča)!",
+        "cs" : "Vyhrajte svou sázku předčasně, pokud váš tým vede v jakékoli fázi zápasu o 17 bodů!",
+        "el" : "Αν η ομάδα σου προηγηθεί με 17 πόντους σε οποιοδήποτε σημείο του αγώνα, κέρδισες!",
+        "mk" : "Освој рано ако твојот тим води со 17 поени во кој било момент од натпреварот!",
+        "al" : "Fito bastin më herët nëse skuadra jote kalon në avantazh me 17 pikë në çdo moment të ndeshjes!",
+        "ro" : "Câștigă pariul în avans dacă echipa ta conduce cu 17 puncte în orice moment al meciului!",
+        "sl" : "Stava se izplača predčasno, če tvoja ekipa v katerem koli trenutku tekme vodi za 17 točk!",
+        "hr" : "Isplatite dobitak ranije ako vaš tim vodi 17 poena razlike u bilo kojoj fazi utakmice!",
+        "bg" : "Спечелете залога си преждевременно, ако вашият отбор поведе със 17 точки на който и да е етап от мача!",
+        "BD_bn" : "ম্যাচ চলাকালীন যেকোনো সময় দল 17 পয়েন্টে এগিয়ে গেলে আর্লি পেআউট কার্যকর হবে।"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "ep-american-football.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "sports"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./ep-american-football.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Is your team 17 points ahead? You automatically win regardless of the final score!",
+              "de" : "Hat Ihr Team 17 Punkte Vorsprung? Egal wie das Spiel ausgeht, Sie haben schon gewonnen!",
+              "fi" : "Onko joukkueesi 17 pistettä edellä? Voitat automaattisesti lopullisesta pistetuloksesta riippumatta!",
+              "no" : "Leder laget ditt med 17 poeng? Du vinner automatisk uansett sluttresultat!",
+              "pt" : "A tua equipa está a ganhar por 17 pontos?",
+              "es" : "¿Tu equipo va ganando por 17 puntos?",
+              "pl" : "Czy Twoja drużyna prowadzi 17 punktami? Wygrywasz automatycznie \u2014 bez względu na końcowy wynik!",
+              "it" : "La tua squadra è in vantaggio di 17 punti? Vinci automaticamente, indipendentemente dal punteggio finale!",
+              "fr" : "Votre équipe a 17 points d'avance ? Vous gagnez automatiquement quel que soit le score final !",
+              "BR_pt" : "Seu time está vencendo por 17 pontos? Você ganha automaticamente, independentemente do resultado final!",
+              "tr" : "Takımın 17 puan önde mi? Maçın final skoru ne olursa olsun otomatik olarak kazanırsın!",
+              "ru" : "Ваша команда опережает на 17 очков? Вы автоматически выигрываете, независимо от окончательного счета!",
+              "az" : "Komandan 17 xal öndədirmi? Yekun hesabdan asılı olmayaraq avtomatik olaraq qazanırsan!",
+              "et" : "Kas meeskond juhib 17 punktiga? Siis võidad automaatselt, hoolimata lõpuskoorist!",
+              "hu" : "A csapatod már 17 ponttal vezet? A nyereményed automatikusan jóváíródik, a végeredménytől függetlenül!",
+              "sr" : "Vaš tim vodi sa 17 poena razlike? Automatski dobijate, bez obzira na konačan rezultat!",
+              "cs" : "Má váš tým náskok 17 bodů? Automaticky vyhráváte bez ohledu na konečné skóre!",
+              "el" : "Η ομάδα σου προηγείται με 17 πόντους; Κερδίζεις ανεξάρτητα από το τελικό σκορ!",
+              "mk" : "Дали твојот тим води со 17 поени? Автоматски победуваш, без разлика на конечниот резултат!",
+              "al" : "A është skuadra jote 17 pikë përpara? Ti fiton automatikisht, pavarësisht rezultatit përfundimtar!",
+              "ro" : "Echipa ta conduce cu 17 puncte? Câștigi automat indiferent de rezultatul final!",
+              "sl" : "Ali tvoja ekipa vodi za 17 točk? Stava se avtomatično izplača, ne glede na končni rezultat!",
+              "hr" : "Vodi li vaš tim 17 razlike? Par je automatski dobitni bez obzira na konačni rezultat!",
+              "bg" : "Вашият отбор води ли със 17 точки? Вие печелите автоматично, независимо от крайния резултат!",
+              "BD_bn" : "আপনার দল কি 17 পয়েন্টে এগিয়ে আছে? চূড়ান্ত স্কোর যাই হোক না কেন, আপনি স্বয়ংক্রিয়ভাবে জিতে যাবেন!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "How it works:",
+              "de" : "So funktioniert es:",
+              "fi" : "Toimi näin:",
+              "no" : "Hvordan det fungerer:",
+              "pt" : "Ganhas automaticamente, independentemente do resultado final!",
+              "es" : "¡Ganas automáticamente, sin importar el resultado final!",
+              "pl" : "Jak to działa?",
+              "it" : "Come funziona:",
+              "fr" : "Comment ça marche:",
+              "BR_pt" : "Como funciona:",
+              "tr" : "Nasıl çalışır:",
+              "ru" : "Как это работает:",
+              "az" : "Necə işləyir:",
+              "et" : "Kuidas see toimib:",
+              "hu" : "Hogyan működik:",
+              "sr" : "Kako funkcioniše:",
+              "cs" : "Jak to funguje:",
+              "el" : "Πώς λειτουργεί:",
+              "mk" : "Како функционира:",
+              "al" : "Si funksionon:",
+              "ro" : "Cum funcționează:",
+              "sl" : "Kako deluje:",
+              "hr" : "Kako to funkcionira:",
+              "bg" : "Общи условия:",
+              "BD_bn" : "এটি যেভাবে কাজ করে:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Place a pre-match bet on the Winner (including Overtime)market for eligible competitions with the Early Payout indicator.",
+                  "de" : "Platzieren Sie eine Pre-Match-Wette auf den Markt \"Gewinner\" (einschließlich Verlängerung) für berechtigte Wettbewerbe mit dem Indikator \"Frühe Auszahlung\".",
+                  "fi" : "Aseta pre-match-veto \"Voittaja\" (mukaan lukien jatkoaika) -markkinaan kelvollisissa kilpailuissa, joissa on varhaisen voitonmaksun indikaattori.",
+                  "no" : "Plasser et spill før kampstart på \"Vinner\" (inkludert overtid)-markedet for kvalifiserte konkurranser med indikatoren for \"tidlig utbetaling\".",
+                  "pt" : "Faz uma aposta pré-jogo no mercado Vencedor (incluindo Prolongamento) em competições elegíveis com o indicador de Pagamento Antecipado.",
+                  "es" : "Realiza una apuesta pre-partido en el mercado Ganador (Incluye Prórroga) en competiciones elegibles con el indicador de Pago Anticipado.",
+                  "pl" : "Postaw zakład przedmeczowy na rynku \"Zwycięzca\" (w tym dogrywka) w kwalifikujących się rozgrywkach oznaczonych symbolem Wczesna Wypłata.",
+                  "it" : "Piazzare una scommessa pre-partita sul mercato Vincente (inclusi i tempi supplementari) per le competizioni idonee con l'indicatore di pagamento anticipato.",
+                  "fr" : "Placez un pari d'avant-match sur le marché du vainqueur (y compris les prolongations) pour les compétitions éligibles avec l'indicateur de paiement anticipé.",
+                  "BR_pt" : "Faça uma aposta pré-jogo no mercado Vencedor (Incluindo Prorrogação) em competições elegíveis com o indicador de Pagamento Antecipado.",
+                  "tr" : "Early Payout göstergesi bulunan uygun organizasyonlarda, \u201cKazanan (Uzatmalar dahil)\u201d pazarında maç başlamadan önce bir bahis oyna.",
+                  "ru" : "Разместите предматчевую ставку на рынке \"Победитель\" для соревнований с индикатором \"Досрочная выплата\".",
+                  "az" : "Early Payout göstəricisi olan uyğun yarışlarda \u201cQalib\u201d (əlavə vaxtlar daxil olmaqla) bazarında oyun başlamazdan əvvəl mərc et.",
+                  "et" : "Tee matšieelne panus võitjaturul (sh üleajal) kvalifitseeruvatele võistlustele, millel on varase väljamakse tunnus.",
+                  "hu" : "Tegyél meg egy mérkőzés előtti fogadást a \"Győztes\" (hosszabbítást beleértve) piacon a promócióban résztvevő bajnokságok Korai Kifizetés szimbólummal ellátott mérkőzésein.",
+                  "sr" : "Postavite opkladu pre utakmice na tržište \u201ePobednik\u201c (uključujući produžetke) za bilo koje takmičenje koje sadrži simbol Early Payout.",
+                  "cs" : "Vsaďte si před zápasem na vítěze (včetně prodloužení) v rámci způsobilých soutěží s indikátorem předčasné výplaty.",
+                  "el" : "Τοποθετείς ένα στοίχημα πριν τον αγώνα στην αγορά Νικητής (συμπεριλαμβανομένης της παράτασης) για επιλέξιμες διοργανώσεις με την ένδειξη Πρώιμη Πληρωμή.",
+                  "mk" : "Поставете облог пред натпреварот на пазарот Победник (вклучувајќи продолженија) за квалификувани натпреварувања со индикатор Рана исплата.",
+                  "al" : "Vendos një bast para fillimit të ndeshjes (pre-match) në tregun \u201cFituesi (përfshirë kohën shtesë)\u201d për kompeticionet e pranueshme që kanë indikatorin Early Payout.",
+                  "ro" : "1. Plasează un pariu pre-meci pe piața \u201eCâștigător\u201d (inclusiv prelungiri) pe competițiile eligibile, cu indicatorul Plată Anticipată.",
+                  "sl" : "Stavi pred tekmo na zmagovalca (vključno s podaljškom) pri upravičenih tekmah s simbolom predčasnega izplačila.",
+                  "hr" : "Prije početka susreta odigrajte okladu na pobjednika (uključujući produžetke) za natjecanja s oznakom prijevremene isplate.",
+                  "bg" : "Направете предварителен залог на пазара победител (включително продължения) за класиращи се състезания с индикатор за ранно изплащане.",
+                  "BD_bn" : "আর্লি পেআউট' ইন্ডিকেটরযুক্ত যোগ্য প্রতিযোগিতাগুলোর জন্য 'উইনার (ওভারটাইম সহ)' মার্কেটে ম্যাচের আগে বাজি ধরুন।"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "If your team leads by 17 points at any stage, we will payout your bet early.",
+                  "de" : "Wenn Ihr Team zu irgendeinem Zeitpunkt mit 17 Punkten führt, zahlen wir Ihre Wette vorzeitig aus.",
+                  "fi" : "Jos joukkueesi johtaa missä tahansa vaiheessa 17 pisteellä, maksamme vetosi varhain.",
+                  "no" : "Hvis laget ditt leder med 17 poeng på et hvilket som helst tidspunkt, vil vi betale ut innsatsen din tidlig.",
+                  "pt" : "Se a tua equipa assumir uma vantagem de 17 pontos em qualquer fase do jogo, a tua aposta será paga antecipadamente.",
+                  "es" : "Si tu equipo se adelanta por 17 puntos en cualquier momento del partido, pagaremos tu apuesta de forma anticipada.",
+                  "pl" : "Jeśli Twoja drużyna obejmie prowadzenie różnicą 17 punktów w dowolnym momencie meczu, wypłacimy Twój zakład wcześniej!",
+                  "it" : "Se la tua squadra è in vantaggio di 17 punti in qualsiasi momento, pagheremo la tua scommessa in anticipo.",
+                  "fr" : "Si votre équipe mène de 20 points à n'importe quel moment, nous paierons votre pari de manière anticipée.",
+                  "BR_pt" : "Se o seu time abrir vantagem de 17 pontos em qualquer momento da partida, pagaremos sua aposta antecipadamente.",
+                  "tr" : "Takımın maçın herhangi bir anında 17 puan farkla öne geçerse, bahsin erken ödenir.",
+                  "ru" : "Если ваша команда на любом этапе ведет с перевесом в 17 очков, мы досрочно выплатим вашу ставку.",
+                  "az" : "Komandan oyunun istənilən anında 17 xal fərqi ilə önə keçərsə, mərcin erkən ödəniləcək.",
+                  "et" : "Kui su meeskond juhib üheski etapis 17 punktiga, maksame panuse varem välja.",
+                  "hu" : "Ha a csapatod bármikor 17-pontos előnyt szerez, korai kifizetéssel jutalmazunk.",
+                  "sr" : "Ako vaš tim u bilo kom trenutku vodi sa 17 poena razlike, mi ćemo vam opkladu isplatiti ranije.",
+                  "cs" : "Pokud váš tým v jakékoli fázi vede o 17 bodů, vyplatíme vaši sázku předčasně.",
+                  "el" : "Εάν η ομάδα σου προηγείται με 17 πόντους σε οποιοδήποτε σημείο του αγώνα, θα πληρώσουμε το στοίχημά σου νωρίτερα.",
+                  "mk" : "Ако вашиот тим води со 17 поени во кој било момент, ќе го исплатиме вашиот облог порано.",
+                  "al" : "Nëse skuadra jote kalon në avantazh me 17 pikë në çdo moment të ndeshjes, ne do ta paguajmë bastin tënd më herët.",
+                  "ro" : "2. Dacă echipa ta conduce cu 17 puncte în orice moment, îți vom plăti pariul în avans.",
+                  "sl" : "Če tvoja ekipa v katerem koli trenutku vodi za 17 točk, bo stava izplačana predčasno.",
+                  "hr" : "Ako vaš tim u bilo kojoj fazi povede 17 razlike, par je dobitni.",
+                  "bg" : "Ако вашият отбор води със 17 точки на който и да е етап, ще изплатим залога ви преждевременно.",
+                  "BD_bn" : "যদি আপনার দল যেকোনো পর্যায়ে 17 পয়েন্টে এগিয়ে থাকে, আমরা আপনার বাজির টাকা আগেই পরিশোধ করে দেব।"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "BET NOW",
+              "de" : "JETZT WETTEN",
+              "fi" : "LYO VETOA NYT",
+              "no" : "SATS NÅ",
+              "pt" : "APOSTE AGORA",
+              "es" : "APUESTA AHORA",
+              "pl" : "POSTAW TERAZ",
+              "it" : "SCOMMETTI ORA",
+              "fr" : "PARIEZ MAINTENANT",
+              "BR_pt" : "APOSTE AGORA",
+              "tr" : "ŞİMDİ BAHİS YAP",
+              "ru" : "СТАВЬТЕ СЕЙЧАС",
+              "az" : "İNDİ MƏRC ET",
+              "et" : "PANUSTA KOHE",
+              "hu" : "FOGADJ",
+              "sr" : "NA KLAĐENJE!",
+              "cs" : "SÁZET",
+              "el" : "ΠΑΙΧΝΙΔΙ",
+              "mk" : "ОБЛОЖИ СЕ СЕГА",
+              "al" : "VENDOS BAST TANI",
+              "ro" : "PARIAZĂ ACUM",
+              "sl" : "STAVI ZDAJ",
+              "hr" : "KLADITE SE SADA",
+              "bg" : "ЗАЛОЖЕТЕ СЕГА",
+              "BD_bn" : "এখনই বাজি ধরুন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/sports"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    }
+  }
+}

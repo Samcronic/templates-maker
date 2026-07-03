@@ -1,0 +1,26 @@
+{
+  "id" : "kyc_aml_policies",
+  "title" : "kyc_aml_policies",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "kyc_aml_policies.html"
+    },
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "AML and KYC Policy",
+        "de" : "AML und KYC Policy",
+        "es" : "Política AML y KYC",
+        "fi" : "Rahanpesun vastainen käytäntö (AML)- ja tunne asiakkaasi (KYC) -käytäntö",
+        "fr" : "Politique de lutte contre le blanchiment d'argent et le financement du terrorisme",
+        "it" : "Politica AML e KYC",
+        "ja" : "AML・KYCポリシー",
+        "no" : "AML og KYC-policy",
+        "pt" : "Política de AML e KYC"
+      }
+    }
+  },
+  "type" : "component"
+}

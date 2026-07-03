@@ -1,0 +1,41 @@
+{
+  "id" : "underage_gaming_policy",
+  "title" : "underage_gaming_policy",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "underage_gaming_policy.html"
+    },
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "UNDERAGE GAMBLING POLICY",
+        "de" : "RICHTLINIE ZUM GLÜCKSSPIEL FÜR MINDERJÄHRIGE",
+        "fi" : "ALAIKÄISTEN RAHAPELIPOLITIIKKA",
+        "fr" : "POLITIQUE DE JEU POUR LES MINEURS",
+        "it" : "POLITICA SUL GIOCO D'AZZARDO MINORILE",
+        "no" : "RETNINGSLINJER FOR PENGESPILL FOR MINDREÅRIGE",
+        "pt" : "POLÍTICA DE JOGO PARA MENORES",
+        "ru" : "ПОЛИТИКА ИГР ДЛЯ НЕСОВЕРШЕННОЛЕТНИХ",
+        "tr" : "REŞİTSİZ OYUN POLİTİKASI",
+        "uz" : "VOQEA O'YIN SİYOSATI",
+        "kz" : "ВОҚЕА ОЙЫН САЯСАТЫ",
+        "az" : "MƏSULİYYƏTSİZ OYUN SİYASƏTİ",
+        "cs" : "POLITIKA PRO NEZLETILÉ HRÁČE",
+        "el" : "ΠΟΛΙΤΙΚΗ ΓΙΑ ΤΟΥΣ ΑΝΗΛΙΚΟΥΣ ΠΑΙΧΤΕΣ",
+        "es" : "POLÍTICA DE JUEGO PARA MENORES",
+        "et" : "ALAEALISTE MÄNGUPOLIITIKA",
+        "hu" : "KISKORÚAK JÁTÉKPOLITIKÁJA",
+        "sl" : "POLITIKA ZA MLADE IGRAČE",
+        "hr" : "POLITIKA ZA MLADE IGRAČE",
+        "sq" : "LOJË E PËRGJEGJSHME PËR MIRRËSINJËT",
+        "sr" : "POLITIKA ZA MLADE IGRAČE",
+        "mk" : "ПОЛИТИКА ЗА МЛАДИ ИГРАЧИ",
+        "bg" : "ПОЛИТИКА ЗА МЛАДИ ИГРАЧИ",
+        "MK_mk" : "ПОЛИТИКА ЗА МЛАДИ ИГРАЧИ"
+      }
+    }
+  },
+  "type" : "component"
+}

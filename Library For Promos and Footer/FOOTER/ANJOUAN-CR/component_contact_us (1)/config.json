@@ -1,0 +1,37 @@
+{
+  "id" : "contact_us",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "contact_us.html"
+    },
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "CONTACT US",
+        "az" : "BİZİMLƏ ƏLAQƏ SAXLAYIN",
+        "cs" : "KONTAKTUJTE NÁS",
+        "de" : "KONTAKTIERE UNS",
+        "el" : "ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ",
+        "es" : "CONTÁCTENOS",
+        "fi" : "OTA MEIHIN YHTEYTTÄ",
+        "fr" : "NOUS CONTACTER",
+        "hr" : "KONTAKTIRAJTE NAS",
+        "hu" : "LÉPJEN VELÜNK KAPCSOLATBA",
+        "it" : "CONTATTACI",
+        "mk" : "КОНТАКТИРАЈТЕ НÈ",
+        "no" : "KONTAKT OSS",
+        "pl" : "SKONTAKTUJ SIĘ Z NAMI",
+        "pt" : "CONTATE-NOS",
+        "ro" : "CONTACTAȚI-NE",
+        "ru" : "СВЯЖИТЕСЬ С НАМИ",
+        "sl" : "KONTAKTIRAJTE NAS",
+        "sq" : "NA KONTAKTONI",
+        "sr" : "KONTAKTIRAJTE NAS",
+        "tr" : "BİZE ULAŞIN"
+      }
+    }
+  },
+  "type" : "component"
+}

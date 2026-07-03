@@ -1,0 +1,25 @@
+{
+  "id": "account_payouts_bonuses",
+  "component": {
+    "type": "map",
+    "template": {
+      "type": "template",
+      "name": "account_payouts_bonuses.html"
+    },
+    "title": {
+      "type": "text",
+      "value": {
+        "en": "ACCOUNT, PAYOUTS, BONUSES",
+        "de": "KONTO, AUSZAHLUNGEN, BONI",
+        "es": "CUENTA, PAGOS, BONOS",
+        "fi": "TILI, MAKSUT, BONUKSET",
+        "fr": "COMPTE, PAIEMENTS, BONUS",
+        "it": "ACCOUNT, PAGAMENTI, BONUS",
+        "no": "KONTO, UTBETALINGER, BONUSER",
+        "pl": "KONTO, WYPŁATY, PREMIE",
+        "pt": "CONTA, PAGAMENTOS, BÔNUS"
+      }
+    }
+  },
+  "type": "component"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dispute_resolution",
+  "component": {
+    "type": "map",
+    "template": {
+      "type": "template",
+      "name": "dispute_resolution.html"
+    },
+    "title": {
+      "type": "text",
+      "value": {
+        "en": "DISPUTE RESOLUTION",
+        "de": "STREITBEILEGUNG",
+        "es": "RESOLUCIÓN DE CONFLICTOS",
+        "fi": "RIIDANRATKAISU",
+        "fr": "RÉSOLUTION DES DIFFÉRENDS",
+        "it": "SOLUZIONE DELLA DISPUTA",
+        "no": "TVISTLØSNING",
+        "pl": "ROZSTRZYGANIE SPORÓW",
+        "pt": "RESOLUÇÃO DE DISPUTAS"
+      }
+    }
+  },
+  "type": "component"
+}

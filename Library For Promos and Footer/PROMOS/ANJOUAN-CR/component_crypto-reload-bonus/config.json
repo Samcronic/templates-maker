@@ -1,0 +1,474 @@
+{
+  "id" : "crypto-reload-bonus",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "${percentage} CRYPTO BONUS",
+        "de" : "${percentage} KRYPTO-BONUS",
+        "fi" : "${percentage} KRYPTOBONUS",
+        "no" : "${percentage} KRYPTOBONUS",
+        "pt" : "BÔNUS CRIPTO DE ${percentage}",
+        "es" : "BONO CRIPTO DE ${percentage}",
+        "CL_es" : "${percentage} BONO CRIPTO",
+        "it" : "${percentage} DI BONUS IN CRIPTOVALUTA",
+        "fr" : "${percentage} DE BONUS CRYPTO",
+        "pl" : "${percentage} BONUS W KRYPTOWALUCIE",
+        "az" : "${percentage} KRİPTO BONUS",
+        "ru" : "${percentage} КРИПТО-БОНУС",
+        "tr" : "${percentage} KRİPTO BONSU",
+        "et" : "${percentage} KRÜPTO BOONUS",
+        "hu" : "${percentage}-os KRIPTO BÓNUSZ",
+        "sr" : "${percentage} KRIPTO BONUS",
+        "cs" : "${percentage} KRYPTO BONUS",
+        "el" : "${percentage} CRYPTO ΜΠΟΝΟΥΣ",
+        "mk" : "${percentage} КРИПТО БОНУС",
+        "sq" : "${percentage} Bonus Kripto",
+        "ro" : "${percentage} BONUS CRYPTO",
+        "sl" : "${percentage} KRIPTO BONUS",
+        "hr" : "KRIPTO BONUS od ${percentage}",
+        "bg" : "${percentage} КРИПТО БОНУС",
+        "BD_bn" : "${percentage} ক্রিপ্টো বোনাস"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Unlock a Crypto Bonus of up to 1 BTC!",
+        "de" : "Krypto-Bonus von bis zu 1 BTC freischalten!",
+        "fi" : "Lunasta jopa 1 BTC kryptobonus!",
+        "no" : "Lås opp en kryptobonus på opptil 1 BTC!",
+        "pt" : "Desbloqueie um Bônus Cripto de até 1 BTC!",
+        "es" : "¡Desbloquea un bono cripto de hasta 1 BTC!",
+        "CL_es" : "Desbloquea un Bono Cripto de hasta 1 BTC!",
+        "it" : "Sblocca un Bonus Crypto fino a 1 BTC!",
+        "fr" : "Débloquez un Bonus Crypto jusqu'à 1 BTC !",
+        "pl" : "Odbierz bonus w kryptowalucie aż do 1 BTC!",
+        "az" : "1 BTC-yə qədər Kripto Bonusu aç!",
+        "ru" : "Получите до 1 BTC в виде крипто-бонуса!",
+        "tr" : "1 BTC\u2019ye kadar Kripto Bonusu kazanın!",
+        "et" : "Teeni kuni 1 BTC krüptoboonus!",
+        "hu" : "Szerezz egy 1 BTC-ig terjedő Kripto Bónuszt!",
+        "sr" : "Otključajte kripto bonus u iznosu do 1 BTC!",
+        "cs" : "Získejte krypto bonus až do výše 1 BTC!",
+        "el" : "Παίρνεις ένα Crypto Μπόνους έως 1 BTC!",
+        "mk" : "Отклучете крипто бонус до 1 BTC!",
+        "sq" : "Zhblloko bonus kripto deri në 1 BTC!",
+        "ro" : "Revendică un bonus crypto de până la 1 BTC",
+        "sl" : "Zasluži si kripto bonus do 1 BTC",
+        "hr" : "Otključajte kripto bonus do 1 BTC!",
+        "bg" : "Отключете крипто бонус до 1 BTC!",
+        "BD_bn" : "আনলক করুন 1 BTC পর্যন্ত একটি ক্রিপ্টো বোনাস!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "crypto-reload-bonus.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "casino"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./crypto-reload-bonus.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Deposit with your favorite cryptocurrency and we\u2019ll match it up to 1 BTC!\nMake it yours 3 times every single week!\nAll you need to do:",
+              "de" : "Zahlen Sie mit Ihrer bevorzugten Kryptowährung ein und wir gleichen den Betrag bis zu 1 BTC an!\nHolen Sie sich diesen Bonus dreimal pro Woche!\nAlles, was Sie tun müssen:",
+              "fi" : "Tee talletus lempikryptovaluutassasi, niin annamme vastaan jopa 1 BTC!\nTee siitä omasi 3 kertaa joka ikinen viikko!\nSe on näin helppoa:",
+              "no" : "Sett inn med din favorittkryptovaluta, så matcher vi beløpet opptil 1 BTC!\nFå denne bonusen tre ganger i uken!\nAlt du trenger å gjøre:",
+              "pt" : "Deposite com sua criptomoeda favorita e nós igualaremos até 1 BTC!\nFaça isso até 3 vezes toda semana!\nTudo o que você precisa fazer:",
+              "es" : "¡Deposita con tu criptomoneda favorita y te igualamos hasta 1 BTC!\n¡Hazlo hasta 3 veces cada semana!\nLo único que debes hacer:",
+              "CL_es" : "Deposita con tu criptomoneda favorita y te igualamos hasta 1 BTC!\nHazlo tuyo hasta 3 veces cada semana!\nLo único que necesitas hacer:",
+              "it" : "Deposita con la tua criptovaluta preferita e noi la abbineremo fino a 1 BTC!\nFallo tuo 3 volte ogni singola settimana\nTutto quello che dovete fare:",
+              "fr" : "Déposez avec votre crypto-monnaie préférée et nous l'égalerons jusqu'à 1 BTC !\nFaites-le vôtre 3 fois par semaine !\nTout ce que vous avez à faire :",
+              "pl" : "Wpłać w swojej ulubionej kryptowalucie, a my dodamy do 1 BTC!\nZgarnij ten bonus aż 3 razy w tygodniu!\nJak to działa:",
+              "az" : "Sevimli kriptovalyutanızla depozit edin və biz onu 1 BTC-yə qədər uyğunlaşdıracağıq! Hər həftə bunu 3 dəfə əldə edin!\nEtməli olduğunuz yeganə şey:",
+              "ru" : "Сделайте депозит в любимой криптовалюте, и мы компенсируем его до 1 BTC!\nСделайте это 3 раза в неделю!\nВсе, что вам нужно сделать:",
+              "tr" : "Favori kripto paranızla yatırım yapın, biz de 1 BTC\u2019ye kadar eşleştirelim! Her hafta 3 kez bu bonusu kazanın!\nYapmanız gerekenler:",
+              "et" : "Tee sissemakse oma lemmik-krüptovaluutaga ja me paneme sellele 1 bitcoin\u2019i juurde! Teeni see välja 3 korda nädalas!\nKõik, mida tegema pead:",
+              "hu" : "Fizess be a kedvenc kriptovalutádban, és kiegyenlítjük a befizetésed akár 1 BTC-ig!\nSzerezd meg akár heti három alkalommal!\nÍme hogyan:",
+              "sr" : "Uplatite depozit u vašoj omiljenoj kriptovaluti i mi ćemo ga izjednačiti do 1 BTC!\nImate pravo na ovaj bonus čak 3 puta nedeljno!\nSve što treba da uradite:",
+              "cs" : "Vložte prostředky pomocí své oblíbené kryptoměny a my vám bonus dorovnáme až do výše 1 BTC.\nTuto nabídku můžete využít až x3 každý týden!\nVše, co musíte udělat:",
+              "el" : "Κάνεις κατάθεση με το αγαπημένο σου κρυπτονόμισμα και παίρνεις έως και 1 BTC!\nΜπορείς να το αποκτήσεις 3 φορές κάθε εβδομάδα!\nΤο μόνο που χρειάζεται:",
+              "mk" : "Уплатете депозит со вашата омилена криптовалута и ние ќе го израмниме до 1 BTC!\nДобивајте го 3 пати секоја недела!\nСè што треба да направите:",
+              "sq" : "Depozitoni me kriptomonedhën tuaj të preferuar dhe ne do ta barazojmë bonusin deri në 1 BTC!\nGjithçka që duhet të bëni",
+              "ro" : "Depune utilizând criptomoneda preferată iar noi vom plusa până la 1 BTC! Revendică oferta de 3 ori în fiecare săptămână!\nIată ce trebuie să faci:",
+              "sl" : "Vplačaj s svojo najljubšo kriptovaluto in podvojimo tvoj polog do 1 BTC!\nIzkoristi ga 3-krat vsak teden!\nVse, kar moraš narediti:",
+              "hr" : "Izvršite uplatu vašom omiljenom kripto valutom i mi ćemo ju udvostručiti do 1 BTC!\nIskoristite ponudu 3 puta tjedno!",
+              "bg" : "Депозирайте с любимата си криптовалута и ние ще я удвоим до 1 BTC!\nВъзползвайте се от този бонус 3 пъти всяка седмица!\nВсичко, което трябва да направите:",
+              "BD_bn" : "আপনার প্রিয় ক্রিপ্টোকারেন্সির মাধ্যমে ডিপোজিট করুন এবং আমরা সেটির সমপরিমাণ 1 BTC পর্যন্ত বোনাস দেব!\nপ্রতি সপ্তাহে 3 বার এটি আপনার করে নিন!\nআপনাকে শুধু যা করতে হবে:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Deposit via Cryptocurrency",
+                  "de" : "Zahlen Sie mit Kryptowährung ein",
+                  "fi" : "Tee talletus kryptovaluutassa",
+                  "no" : "Sett inn via kryptovaluta",
+                  "pt" : "Depositar via Criptomoeda",
+                  "es" : "Depositar mediante criptomoneda",
+                  "CL_es" : "Depositar vía Criptomoneda",
+                  "it" : "Depositare tramite criptovaluta",
+                  "fr" : "Déposer via Cryptocurrency",
+                  "pl" : "Wpłać za pomocą kryptowaluty",
+                  "az" : "Kriptovalyuta ilə depozit edin",
+                  "ru" : "Депозит через криптовалюту",
+                  "tr" : "Kripto para ile yatırım yapın",
+                  "et" : "Tee krüptovaluuta sissemakse",
+                  "hu" : "Fizess be kriptovalután keresztül",
+                  "sr" : "Izvršite uplatu u kriptovaluti",
+                  "cs" : "Provést vklad pomocí kryptoměny",
+                  "el" : "Κάνεις κατάθεση μέσω Κρυπτονομίσματος",
+                  "mk" : "Уплатете депозит преку криптовалута",
+                  "sq" : "Depozitoni përmes kriptomonedhës",
+                  "ro" : "Depune utilizând criptomonede",
+                  "sl" : "Vplačaj s kriptovaluto",
+                  "hr" : "Sve što trebate:",
+                  "bg" : "Депозирайте чрез криптовалута",
+                  "BD_bn" : "ক্রিপ্টোকারেন্সির মাধ্যমে জমা করুন"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "The Bonus will be credited automatically.",
+                  "de" : "Der Bonus wird automatisch gutgeschrieben.",
+                  "fi" : "Bonus hyvitetään automaattisesti.",
+                  "no" : "Bonusen blir kreditert automatisk.",
+                  "pt" : "O bônus será creditado automaticamente.",
+                  "es" : "El bono se acreditará automáticamente.",
+                  "CL_es" : "El Bono será acreditado automáticamente.",
+                  "it" : "Il Bonus verrà accreditato automaticamente.",
+                  "fr" : "Le bonus sera crédité automatiquement.",
+                  "pl" : "Bonus zostanie przyznany automatycznie",
+                  "az" : "Bonus avtomatik olaraq hesabınıza əlavə olunacaq.",
+                  "ru" : "Бонус будет начислен автоматически.",
+                  "tr" : "Bonus otomatik olarak hesabınıza tanımlanacaktır.",
+                  "et" : "Boonus kantakse automaatselt kontole",
+                  "hu" : "A bónusz automatikusan jóváíródik",
+                  "sr" : "Bonus će biti automatski dodeljen.",
+                  "cs" : "Bonus bude připsán automaticky.",
+                  "el" : "Το Μπόνους θα πιστωθεί αυτόματα.",
+                  "mk" : "Бонусот автоматски ќе биде додаден на вашата сметка.",
+                  "sq" : "Bonusi do të kreditohet automatikisht.",
+                  "ro" : "Bonusul va fi creditat automat.",
+                  "sl" : "Bonus bo dodeljen samodejno.",
+                  "hr" : "Izvršiti uplatu kriptovalutom\nBonus će se automatski dodijeliti.",
+                  "bg" : "Бонусът ще бъде кредитиран автоматично."
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "DEPOSIT NOW",
+              "de" : "JETZT EINZAHLEN",
+              "fi" : "TALLETA NYT",
+              "no" : "SETT INN NÅ",
+              "pt" : "DEPOSITAR AGORA",
+              "es" : "DEPOSITAR AHORA",
+              "CL_es" : "DEPÓSITA AHORA",
+              "it" : "DEPOSITARE ORA",
+              "fr" : "DÉPOSER MAINTENANT",
+              "pl" : "WPŁAĆ TERAZ",
+              "az" : "İNDİ DEPOZİT ET",
+              "ru" : "ВНЕСТИ СЕЙЧАС",
+              "tr" : "ŞİMDİ YATIRIM YAP",
+              "et" : "TEE SISSEMAKSE KOHE",
+              "hu" : "BEFIZETÉS MOST",
+              "sr" : "UPLATI SAD",
+              "cs" : "VLOŽIT VKLAD",
+              "el" : "ΚΑΤΑΘΕΣΗ",
+              "mk" : "УПЛАТИ СЕГА",
+              "sq" : "DEPOZITO TANI",
+              "ro" : "DEPUNE ACUM",
+              "sl" : "VPLAČAJ ZDAJ",
+              "hr" : "UPLATI SADA",
+              "bg" : "ДЕПОЗИРАЙТЕ СЕГА",
+              "BD_bn" : "এখনই ডিপোজিট করুন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount" : {
+        "EUR" : "\u20ac100.000",
+        "*" : "\u20ac100.000",
+        "USD" : "$100.000",
+        "CAD" : "C$150.000",
+        "AUD" : "A$150.000",
+        "BRL" : "R$650.000",
+        "NOK" : "kr1.000.000",
+        "NZD" : "NZ$150.000",
+        "CLP" : "$100.000.000",
+        "MXN" : "$2.250.000",
+        "GBP" : "£100.000",
+        "PLN" : "425.000zł",
+        "PEN" : "S/.100000",
+        "ZAR" : "R1000000",
+        "CHF" : "Fr100000",
+        "NGN" : "\u20a610000000",
+        "JPY" : "¥15000000",
+        "AZN" : "\u20bc200.300",
+        "TRY" : "5,000,000 TL",
+        "KZT" : "60.000.000 KZT",
+        "RUB" : "10.000.000 RUB",
+        "UZS" : "2,000,000,000 so'm",
+        "ARS" : "10000000 ARS",
+        "INR" : "10000000 INR",
+        "HUF" : "35000000 Ft",
+        "CZK" : "Kč2000000",
+        "RON" : "400,000 RON",
+        "ALL" : "8,000,000 ALL",
+        "MKD" : "5,000,000 MKD",
+        "RSD" : "10,000,000 RSD"
+      },
+      "min_deposit" : {
+        "EUR" : "\u20ac25",
+        "*" : "\u20ac25",
+        "USD" : "$25",
+        "CAD" : "C$30",
+        "AUD" : "A$30",
+        "BRL" : "R$150",
+        "NOK" : "kr350",
+        "NZD" : "NZ$30",
+        "CLP" : "$25.000",
+        "MXN" : "$500",
+        "GBP" : "£25",
+        "PLN" : "90zł",
+        "PEN" : "S/.25",
+        "ZAR" : "R250",
+        "CHF" : "Fr25",
+        "NGN" : "\u20a62500",
+        "JPY" : "¥3750",
+        "AZN" : "\u20bc50",
+        "TRY" : "1100 TL",
+        "KZT" : "7500 KZT",
+        "RUB" : "1250 RUB",
+        "UZS" : "500,000 so'm",
+        "ARS" : "2500 ARS",
+        "INR" : "2500 INR",
+        "HUF" : "8750 Ft",
+        "CZK" : "Kč500",
+        "RON" : "100 RON",
+        "ALL" : "2,000 ALL",
+        "MKD" : "1,250 MKD",
+        "RSD" : "2,500 RSD"
+      },
+      "max_bet" : {
+        "EUR" : "\u20ac5",
+        "*" : "\u20ac5",
+        "USD" : "$5",
+        "CAD" : "C$5",
+        "AUD" : "A$10",
+        "BRL" : "R$30",
+        "NOK" : "kr50",
+        "NZD" : "NZ$10",
+        "CLP" : "$5.000",
+        "MXN" : "$100",
+        "GBP" : "£5",
+        "PLN" : "20zł",
+        "PEN" : "S/.10",
+        "ZAR" : "R50",
+        "CHF" : "Fr5",
+        "NGN" : "\u20a6500",
+        "JPY" : "¥800",
+        "AZN" : "\u20bc10",
+        "TRY" : "250 TL",
+        "KZT" : "3000 KZT",
+        "RUB" : "500 RUB",
+        "UZS" : "100,000 so'm",
+        "ARS" : "500 ARS",
+        "INR" : "500 INR",
+        "HUF" : "1750 Ft",
+        "CZK" : "Kč100",
+        "RON" : "20 RON",
+        "ALL" : "400 ALL",
+        "MKD" : "250 MKD",
+        "RSD" : "500 RSD"
+      },
+      "min_bet" : {
+        "EUR" : "\u20ac0.50",
+        "*" : "\u20ac0.50",
+        "USD" : "$0.50",
+        "CAD" : "C$0.50",
+        "AUD" : "A$1",
+        "BRL" : "R$3",
+        "NOK" : "kr5",
+        "NZD" : "NZ$1",
+        "CLP" : "$500",
+        "MXN" : "$10",
+        "GBP" : "£0.50",
+        "PLN" : "2zł",
+        "PEN" : "S/.1",
+        "ZAR" : "R5",
+        "CHF" : "Fr0.5",
+        "NGN" : "\u20a650",
+        "JPY" : "¥80",
+        "AZN" : "\u20bc1",
+        "TRY" : "25 TL",
+        "KZT" : "300 KZT",
+        "RUB" : "50 RUB",
+        "UZS" : "10,000 so'm",
+        "ARS" : "50 ARS",
+        "INR" : "50 INR",
+        "HUF" : "175 Ft",
+        "CZK" : "Kč10",
+        "RON" : "2 RON",
+        "ALL" : "40 ALL",
+        "MKD" : "25 MKD",
+        "RSD" : "50 RSD"
+      },
+      "percentage" : {
+        "*" : "100%",
+        "TR" : "% 100"
+      },
+      "wagering_req" : {
+        "*" : "x40",
+        "TR" : "x40"
+      }
+    }
+  }
+}

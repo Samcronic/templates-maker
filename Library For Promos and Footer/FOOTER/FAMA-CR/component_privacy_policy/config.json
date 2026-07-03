@@ -1,0 +1,111 @@
+{
+  "id": "privacy_policy",
+  "component": {
+    "type": "selector",
+    "*": {
+      "type": "reference",
+      "name": "famagousta"
+    },
+    "DE": {
+      "type": "reference",
+      "name": "costa rica"
+    },
+    "NL": {
+      "type": "reference",
+      "name": "costa rica"
+    },
+    "GB": {
+      "type": "reference",
+      "name": "costa rica"
+    },
+    "FR": {
+      "type": "reference",
+      "name": "costa rica"
+    },
+    "SE": {
+      "type": "reference",
+      "name": "costa rica"
+    },
+    "AT": {
+      "type": "reference",
+      "name": "costa rica"
+    },
+    "AU": {
+      "type": "reference",
+      "name": "costa rica"
+    },
+    "IT": {
+      "type": "reference",
+      "name": "costa rica"
+    },
+    "TR": {
+      "type": "reference",
+      "name": "costa rica"
+    },
+    "ES": {
+      "type": "reference",
+      "name": "costa rica"
+    },
+    "NZ": {
+      "type": "reference",
+      "name": "costa rica"
+    }
+  },
+  "references": {
+    "famagousta": {
+      "type": "map",
+      "template": {
+        "type": "template",
+        "name": "privacy_policy_fama.html"
+      },
+      "title": {
+        "type": "text",
+        "value": {
+          "en": "PRIVACY POLICY",
+          "de": "DATENSCHUTZ-BESTIMMUNGEN",
+          "es": "POLÍTICA DE PRIVACIDAD",
+          "fi": "TIETOSUOJAKÄYTÄNTÖ",
+          "fr": "POLITIQUE DE CONFIDENTIALITÉ",
+          "it": "POLITICA SULLA RISERVATEZZA",
+          "no": "PERSONVERN",
+          "pl": "POLITYKA PRYWATNOŚCI",
+          "pt": "POLÍTICA DE PRIVACIDADE"
+        }
+      }
+    },
+    "costa rica": {
+      "type": "map",
+      "template": {
+        "type": "template",
+        "name": "priv_pol_costa_rica.html"
+      },
+      "title": {
+        "type": "text",
+        "value": {
+          "en": "PRIVACY POLICY",
+          "az": "MƏXFİLİK SİYASƏTİ",
+          "cz": "ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ",
+          "de": "DATENSCHUTZERKLÄRUNG",
+          "el": "ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ<br>",
+          "es": "POLÍTICA DE PRIVACIDAD",
+          "et": "PRIVAATSUSPOLIITIKA",
+          "fi": "TIETOSUOJAKÄYTÄNTÖ",
+          "fr": "POLITIQUE DE CONFIDENTIALITÉ",
+          "gr": "ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ<br>",
+          "hr": "POLITIKA PRIVATNOSTI",
+          "hu": "ADATVÉDELMI SZABÁLYZAT",
+          "it": "INFORMATIVA SULLA PRIVACY",
+          "no": "PERSONVERNERKLÆRING",
+          "pl": "POLITYKA PRYWATNOŚCI",
+          "pt": "POLÍTICA DE PRIVACIDADE",
+          "ru": "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ",
+          "sl": "POLITIKA ZASEBNOSTI",
+          "sq": "POLITIKA E PRIVATËSISË",
+          "sr": "POLITIKA PRIVATNOSTI",
+          "tr": "GİZLİLİK POLİTİKASI"
+        }
+      }
+    }
+  },
+  "type": "component"
+}

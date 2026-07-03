@@ -1,0 +1,381 @@
+{
+  "id" : "ep-ice-hockey",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Early Payout Ice Hockey",
+        "de" : "Vorzeitige Auszahlung Eishockey",
+        "fi" : "Varhainen Voitonmaksu",
+        "no" : "Tidlig Utbetaling Ishockey",
+        "pt" : "Pagamento Antecipado Hóquei no Gelo",
+        "es" : "Pago Anticipado Hockey Sobre Hielo",
+        "pl" : "Wczesna Wypłata Hokej",
+        "it" : "Pagamento Anticipato Hockey",
+        "fr" : "Paiement Anticipé Hockey",
+        "BR_pt" : "Pagamento Antecipado",
+        "tr" : "Buz Hokeyi Erken Ödeme",
+        "ru" : "Досрочная Выплата Хоккей",
+        "az" : "Buzüstü Xokkeydə Erkən Ödəniş",
+        "et" : "Jäähoki Varane Väljamakse",
+        "hu" : "Korai Kifizetés: Jégkorong",
+        "sr" : "Early Payout: Hokej na ledu",
+        "cs" : "Předčasná Výplata: Lední Hokej",
+        "el" : "Πρώιμη Πληρωμή Χόκει επί Πάγου",
+        "mk" : "Рана исплата за хокеј на мраз",
+        "al" : "PAGESË E PARAKOHSHME NË HOKEJ NË AKULL",
+        "ro" : "Plată Anticipată Hochei pe Gheață",
+        "sl" : "Predčasno izplačilo - hokej na ledu",
+        "hr" : "Prijevremena isplata - hokej na ledu",
+        "bg" : "Ранно изплащане на хокей на лед",
+        "BD_bn" : "আর্লি পেআউট আইস হকি"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Win your bet early if your team leads by 3 goals at any stage of the match!",
+        "de" : "Gewinnen Sie Ihre Wette vorzeitig, wenn Ihr Team zu irgendeinem Zeitpunkt des Spiels mit 3 Toren führt!",
+        "fi" : "Voita vetosi varhain, jos joukkueesi johtaa 3 maalilla missä tahansa ottelun vaiheessa!",
+        "no" : "Vinn innsatsen din tidlig hvis laget ditt leder med 3 mål på noe tidspunkt i kampen!",
+        "pt" : "Ganha a tua aposta antecipadamente se a tua equipa estiver a ganhar por 3 golos em qualquer momento do jogo!",
+        "es" : "¡Gana tu apuesta anticipadamente si tu equipo se adelanta por 3 goles en cualquier momento del partido!",
+        "pl" : "Wygraj wcześniej, jeśli Twoja drużyna prowadzi 3 golami na dowolnym etapie meczu!",
+        "it" : "Vinci in anticipo la tua scommessa se la tua squadra è in vantaggio di 3 gol in qualsiasi fase dell'incontro!",
+        "fr" : "Gagnez votre pari si votre équipe mène par 3 buts à n'importe quel moment du match !",
+        "BR_pt" : "Ganhe sua aposta antecipadamente se o seu time abrir vantagem de 3 gols em qualquer momento da partida!",
+        "tr" : "Takımın maçın herhangi bir anında 3 gol farkla öne geçerse bahsini erken kazan!",
+        "ru" : "Выиграйте свою ставку раньше, если ваша команда ведет с разницей в 3 гола на любом этапе матча!",
+        "az" : "Komandan oyunun istənilən anında 3 qol fərqi ilə önə keçərsə, mərci erkən qazan!",
+        "et" : "Võida panus varakult, kui tiim läheb mis tahes matšietapis 3 väravaga juhtima!",
+        "hu" : "Nyerj korán, ha a csapatod 3-gólos vezetést szerez a mérkőzés bármely pontján!",
+        "sr" : "Osvojite vašu opkladu, čim vaš tim povede sa 3 gola razlike (u bilo kojoj fazi meča)!",
+        "cs" : "Vyhrajte svou sázku předčasně, pokud váš tým vede o 3 góly v jakékoli fázi zápasu!",
+        "el" : "Αν η ομάδα σου προηγηθεί με 3 γκολ σε οποιοδήποτε σημείο του αγώνα, κέρδισες!",
+        "mk" : "Освој рано ако твојот тим води со 3 гола во кој било момент од натпреварот!",
+        "al" : "Fito bastin më herët nëse skuadra jote është në avantazh me 3 gola në çdo moment të ndeshjes!",
+        "ro" : "Câștigă pariul în avans dacă echipa ta conduce cu 3 goluri în orice stadiu al meciului!",
+        "sl" : "Stava se izplača predčasno, če tvoja ekipa vodi za 3 gole v katerem koli trenutku tekme!",
+        "hr" : "Zaokružite par ranije ako vaš tim vodi 3 gola razlike u bilo kojoj fazi utakmice!",
+        "bg" : "Спечелете залога си преждевременно, ако вашият отбор поведе с 3 гола във всеки един етап от мача!",
+        "BD_bn" : "আপনার দল ম্যাচের যেকোনো সময়ে 3 গোলের লিড নিলে আগেই আপনার বেট জিতে যাবে!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "ep-ice-hockey.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "sports"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./ep-ice-hockey.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Is your team 3 goals ahead? You automatically win regardless of the final score!",
+              "de" : "Hat Ihr Team 3 Tore Vorsprung? Egal wie das Spiel ausgeht, Sie haben schon gewonnen!",
+              "fi" : "Onko joukkueesi 3 maalia johdossa? Voitat automaattisesti lopullisesta pistetuloksesta riippumatta!",
+              "no" : "Leder laget ditt med tre mål? Du vinner automatisk uansett sluttresultat!",
+              "pt" : "A tua equipa está a ganhar por 3 golos?",
+              "es" : "¿Tu equipo va ganando por 3 goles?",
+              "pl" : "Czy Twoja drużyna prowadzi 3 bramkami? Wygrywasz automatycznie \u2014 niezależnie od końcowego wyniku!",
+              "it" : "La tua squadra è in vantaggio di 3 gol? Vinci automaticamente, indipendentemente dal punteggio finale!",
+              "fr" : "Votre équipe a 3 buts d'avance ? Vous gagnez automatiquement quel que soit le score final !",
+              "BR_pt" : "Seu time está vencendo por 3 gols? Você ganha automaticamente, independentemente do resultado final!",
+              "tr" : "Takımın 3 gol önde mi? Maçın final skoru ne olursa olsun otomatik olarak kazanırsın!",
+              "ru" : "Ваша команда ведет с разницей в 3 гола? Вы автоматически выигрываете, независимо от окончательного счета!",
+              "az" : "Komandan 3 qol öndədirmi? Yekun hesabdan asılı olmayaraq avtomatik olaraq qazanırsan!",
+              "et" : "Kas meeskond juhib kolme väravaga? Siis võidad automaatselt, hoolimata lõpuskoorist!",
+              "hu" : "A csapatod már 3 góllal vezet? A nyereményed automatikusan jóváíródik, a végeredménytől függetlenül!",
+              "sr" : "Da li vaš tim vodi sa 3 gola razlike? Automatski dobijate, bez obzira na konačan rezultat!",
+              "cs" : "Vede váš tým o 3 góly? Automaticky vyhráváte bez ohledu na konečný výsledek!",
+              "el" : "Η ομάδα σου προηγείται με 3 γκολ; Κερδίζεις ανεξάρτητα από το τελικό σκορ!",
+              "mk" : "Дали твојот тим води со 3 гола? Автоматски победуваш, без разлика на конечниот резултат!",
+              "al" : "A është skuadra jote 3 gola përpara? Ti fiton automatikisht, pavarësisht rezultatit përfundimtar!",
+              "ro" : "Echipa ta conduce cu 2 goluri? Câștigi automat indiferent de scorul final!",
+              "sl" : "Ali tvoja ekipa vodi za 3 gole? Stava se avtomatično izplača, ne glede na končni rezultat!",
+              "hr" : "Vodi li vaš tim 3 razlike? Par je automatski dobitni bez obzira na konačni rezultat!",
+              "bg" : "Вашият отбор води ли с 3 гола? Печелите автоматично, независимо от крайния резултат!",
+              "BD_bn" : "আপনার দল যদি 3 গোল এগিয়ে থাকে, তবে ম্যাচের চূড়ান্ত ফলাফল যাই হোক না কেন, আপনার বেট স্বয়ংক্রিয়ভাবে জয় হিসেবে গণনা হবে!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "How it works:",
+              "de" : "So funktioniert es:",
+              "fi" : "Toimi näin:",
+              "no" : "Hvordan det fungerer:",
+              "pt" : "Ganhas automaticamente, independentemente do resultado final!",
+              "es" : "¡Ganas automáticamente, sin importar el resultado final!",
+              "pl" : "Jak to działa?",
+              "it" : "Come funziona:",
+              "fr" : "Comment ça marche:",
+              "BR_pt" : "Como funciona:",
+              "tr" : "Nasıl çalışır:",
+              "ru" : "Как это работает:",
+              "az" : "Necə işləyir:",
+              "et" : "Kuidas see toimib:",
+              "hu" : "Hogyan működik:",
+              "sr" : "Kako funkcioniše:",
+              "cs" : "Jak to funguje:",
+              "el" : "Πώς λειτουργεί:",
+              "mk" : "Како функционира:",
+              "al" : "Si funksionon:",
+              "ro" : "Cum funcționează:",
+              "sl" : "Kako deluje:",
+              "hr" : "Kako to funkcionira:",
+              "bg" : "Как работи:",
+              "BD_bn" : "কিভাবে কাজ করেঃ"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Place a pre-match bet on the \"Winner(Including Overtime and penalties)  market for eligible competitions with the Early Payout indicator.",
+                  "de" : "Platzieren Sie eine Pre-Match-Wette auf den Markt \"Sieger\" (einschließlich Verlängerung und Elfmeterschießen) für teilnahmeberechtigte Wettbewerbe mit dem Indikator \"Vorzeitige Auszahlung\".",
+                  "fi" : "Aseta pre-match-veto lopullisen tuloksen \"Voittaja\" (mukaan lukien jatkoaika ja rangaistukset) -markkinaan kelvollisissa kilpailuissa, joissa on varhaisen voitonmaksun indikaattori.",
+                  "no" : "Plasser et spill før kampstart på markedet \"Vinner (inkludert ekstraomganger og straffesparkkonkurranse)\" for kvalifiserte konkurranser med indikatoren \"Tidlig utbetaling\".",
+                  "pt" : "Faz uma aposta pré-jogo no mercado Vencedor (Incluindo Prolongamento e Penáltis) em competições elegíveis com o indicador de Pagamento Antecipado.",
+                  "es" : "Realiza una apuesta pre-partido en el mercado Ganador (Incluye Prórroga y Penaltis) en competiciones elegibles con el indicador de Pago Anticipado.",
+                  "pl" : "Postaw zakład przedmeczowy na rynku \"Zwycięzca\" (w tym dogrywka i rzuty karne) w kwalifikujących się rozgrywkach oznaczonych symbolem Wczesna wypłata.",
+                  "it" : "Piazzare una scommessa pre-partita sul mercato \"Vincente (inclusi i tempi supplementari e i rigori) per le competizioni ammissibili con l'indicatore Early Payout.",
+                  "fr" : "Placez un pari d'avant-match sur le marché \"Vainqueur (y compris les prolongations et les pénalités) pour les compétitions éligibles avec l'indicateur de paiement anticipé.",
+                  "BR_pt" : "Faça uma aposta pré-jogo no mercado Vencedor (Incluindo Prorrogação e Pênaltis) em competições elegíveis com o indicador de Pagamento Antecipado.",
+                  "tr" : "Early Payout göstergesi bulunan uygun organizasyonlarda, \u201cKazanan (Uzatmalar ve penaltılar dahil)\u201d pazarında maç başlamadan önce bir bahis oyna.",
+                  "ru" : "Разместите предматчевую ставку на рынок \"Победитель\" для подходящих соревнований с индикатором \"Досрочная выплата\".",
+                  "az" : "Early Payout göstəricisi olan uyğun yarışlarda \u201cQalib\u201d (əlavə vaxtlar və penaltilər daxil olmaqla) bazarında oyun başlamazdan əvvəl mərc et.",
+                  "et" : "Tee matšieelne panus \"Winner\u201c ehk võitjaturul (sh üleajal ja penaltist) kvalifitseeruvatele võistlustele, millel on varase väljamakse tunnus.",
+                  "hu" : "Tegyél meg egy mérkőzés előtti fogadást a \"Győztes\" (hosszabbítást és büntetőket beleértve) piacon a promócióban résztvevő bajnokságok Korai Kifizetés szimbólummal ellátott mérkőzésein.",
+                  "sr" : "Postavite opkladu pre utakmice na tržište \u201ePobednik\u201c (uključujući produžetke i penale) za bilo koje takmičenje koje sadrži simbol Early Payout.",
+                  "cs" : "Uzavřete předzápasovou sázku na vítěze zápasu včetně prodloužení a penalt u vybraných soutěží označených indikátorem předčasné výplaty.",
+                  "el" : "Τοποθετείς ένα στοίχημα πριν τον αγώνα στην αγορά \"Νικητής\" (συμπεριλαμβανομένης της παράτασης και των πέναλτι) για επιλέξιμες διοργανώσεις με την ένδειξη \"Πρώιμη Πληρωμή\".",
+                  "mk" : "Поставете облог пред натпреварот на пазарот \u201cПобедник (вклучувајќи продолженија и пенали)\u201c за квалификувани натпреварувања со индикатор Рана исплата.",
+                  "al" : "Vendos një bast para fillimit të ndeshjes (pre-match) në tregun \u201cFituesi (përfshirë kohën shtesë dhe penalltitë)\u201d për kompeticionet e pranueshme që kanë indikatorin Early Payout.",
+                  "ro" : "1. Plasează un pariu pre-meci pe piața \u201eCâștigător\u201d (inclusiv Prelungiri și Penalty-uri) pe competițiile eligibile, cu indicatorul Plată anticipată.",
+                  "sl" : "Stavi pred tekmo na zmagovalca (vključno s podaljškom in enajstmetrovkami) pri upravičenih tekmah s simbolom predčasnega izplačila.",
+                  "hr" : "Uplatite okladu na pobjednika (uključujući produžetke i kaznene udarce) za natjecanja s oznakom prijevremene isplate.",
+                  "bg" : "Направете залог преди началото на мача на пазара \u201eпобедител (включително продължения и дузпи)\u201c за класиращи се състезания с индикатор за ранно изплащане.",
+                  "BD_bn" : "ম্যাচ শুরুর আগে \"উইনার (ওভারটাইম ও পেনাল্টি সহ)\" মার্কেটে আর্লি পেআউট ইন্ডিকেটরযুক্ত যোগ্য প্রতিযোগিতায় বেট দিন।"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "If your team leads by 3 goals at any stage, we will payout your bet early.",
+                  "de" : "Wenn Ihre Mannschaft zu irgendeinem Zeitpunkt mit 3 Toren führt, zahlen wir Ihre Wette vorzeitig aus.",
+                  "fi" : "Jos joukkueesi johtaa missä tahansa vaiheessa 3 maalilla, maksamme vetosi varhain.",
+                  "no" : "Hvis laget ditt leder med 3 mål på noe tidspunkt, vil innsatsen bli utbetalt tidlig",
+                  "pt" : "Se a tua equipa assumir uma vantagem de 3 golos em qualquer fase do jogo, a tua aposta será paga antecipadamente.",
+                  "es" : "Si tu equipo se adelanta por 3 goles en cualquier momento del partido, pagaremos tu apuesta de forma anticipada.",
+                  "pl" : "Postaw zakład przedmeczowy na rynku \"Zwycięzca\" (w tym dogrywka i rzuty karne) w kwalifikujących się rozgrywkach oznaczonych symbolem Wczesna Wypłata.",
+                  "it" : "Se la tua squadra è in vantaggio di 3 gol in qualsiasi fase, pagheremo la tua scommessa in anticipo.",
+                  "fr" : "Si votre équipe mène par 3 buts à n'importe quel moment, nous paierons votre pari plus tôt que prévu.",
+                  "BR_pt" : "Se o seu time abrir vantagem de 3 gols em qualquer momento da partida, pagaremos sua aposta antecipadamente.",
+                  "tr" : "Takımın maçın herhangi bir anında 3 gol farkla öne geçerse, bahsin erken ödenir.",
+                  "ru" : "Если ваша команда лидирует с перевесом в 3 гола на любом этапе, мы выплатим вашу ставку досрочно.",
+                  "az" : "Komandan oyunun istənilən anında 3 qol fərqi ilə önə keçərsə, mərcin erkən ödəniləcək.",
+                  "et" : "Kui su meeskond juhib üheski etapis 3 väravaga, maksame panuse varem välja.",
+                  "hu" : "Ha a csapatod bármikor 3-gólos előnyt szerez, korai kifizetéssel jutalmazunk.",
+                  "sr" : "Ako vaš tim u bilo kom trenutku vodi sa 3 gola razlike, mi ćemo vam opkladu isplatiti ranije.",
+                  "cs" : "Pokud váš tým v jakékoli fázi vede o 3 góly, vyplatíme vaši sázku předčasně.",
+                  "el" : "Εάν η ομάδα σου προηγείται με 3 γκολ σε οποιοδήποτε στάδιο, θα πληρώσουμε το στοίχημά σου νωρίτερα.",
+                  "mk" : "Ако вашиот тим води со 3 гола во кој било момент, ќе го исплатиме вашиот облог порано.",
+                  "al" : "Nëse skuadra jote kalon në avantazh me 3 gola në çdo moment të ndeshjes, ne do ta paguajmë bastin tënd më herët.",
+                  "ro" : "2. Dacă echipa ta conduce cu 3 goluri în orice stadiu, îți vom plăti pariul în avans.",
+                  "sl" : "Če tvoja ekipa v katerem koli trenutku vodi za 3 gole, bo stava izplačana predčasno.",
+                  "hr" : "Ako vaš tim u bilo kojoj fazi vodi s 3 gola razlike, par će automatski postati dobitni.",
+                  "bg" : "Ако вашият отбор поведе с 3 гола в който и да е етап от мача, ние ще изплатим залога Ви преждевременно.",
+                  "BD_bn" : "আপনার দল 3 গোল এগিয়ে গেলেই আপনার বেট আগাম জয় হিসেবে গণনা হবে।"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "BET NOW",
+              "de" : "JETZT WETTEN",
+              "fi" : "LYO VETOA NYT",
+              "no" : "SATS NÅ",
+              "pt" : "APOSTE AGORA",
+              "es" : "APUESTA AHORA",
+              "pl" : "POSTAW TERAZ",
+              "it" : "SCOMMETTI ORA",
+              "fr" : "PARIEZ MAINTENANT",
+              "BR_pt" : "APOSTE AGORA",
+              "tr" : "ŞİMDİ BAHİS YAP",
+              "ru" : "СТАВЬТЕ СЕЙЧАС",
+              "az" : "İNDİ MƏRC ET",
+              "et" : "PANUSTA KOHE",
+              "hu" : "FOGADJ",
+              "sr" : "NA KLAĐENJE!",
+              "cs" : "VSADIT",
+              "el" : "ΠΑΙΧΝΙΔΙ",
+              "mk" : "ОБЛОЖИ СЕ СЕГА",
+              "al" : "VENDOS BAST TANI",
+              "ro" : "PARIAZĂ ACUM",
+              "sl" : "STAVI ZDAJ",
+              "hr" : "KLADITE SE SADA",
+              "bg" : "ЗАЛОЖЕТЕ СЕГА",
+              "BD_bn" : "এখনই বাজি ধরুন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/sports"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    }
+  }
+}

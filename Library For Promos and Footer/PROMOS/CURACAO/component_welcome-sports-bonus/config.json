@@ -1,0 +1,486 @@
+{
+  "id" : "welcome-sports-bonus",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Welcome Sports Bonus",
+        "de" : "Sport-Willkommensbonus",
+        "fi" : "Tervetuliaisurheilubonus",
+        "no" : "Sport velkomstbonus",
+        "pt" : "Bônus esportivo de boas-vindas",
+        "CL_es" : "Bono deportivo de bienvenida",
+        "es" : "Bono deportivo de bienvenida",
+        "it" : "Bonus Sportivo di Benvenuto",
+        "fr" : "Bonus Sports de Bienvenue",
+        "pl" : "Powitalny bonus sportowy",
+        "BR_pt" : "Bônus esportivo de boas-vindas",
+        "ru" : "Приветственный бонус на спорт",
+        "az" : "Xoş Gəldin İdman Bonusu",
+        "hu" : "Sportfogadási üdvözlőbónusz",
+        "cs" : "Uvítací sportovní bonus",
+        "tr" : "Hoş Geldin Spor Bonusu",
+        "el" : "Welcome Sports Bonus",
+        "sr" : "Sportski Bonus Dobrodošlice",
+        "mk" : "Спортски бонус за добредојде",
+        "sq" : "Bonus Mirëseardhjeje për Sport",
+        "ro" : "Bonus de bun venit sport",
+        "sl" : "Športni bonus dobrodošlice",
+        "hr" : "Sportski bonus dobrodošlice",
+        "bg" : "Welcome Sports Bonus",
+        "BD_bn" : "স্বাগতম স্পোর্টস বোনাস"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Boost your bets with a ${percentage} up to ${amount} Bonus!",
+        "de" : "Der ${percentage} Bonus bis zu ${amount} ist der Power-Boost für Ihre Wetten!",
+        "fi" : "Tehosta vetojasi ${percentage} bonuksella, jopa ${amount}!",
+        "no" : "Øk innsatsen din med en ${percentage} opptil ${amount} Bonus!",
+        "pt" : "Aumente suas apostas com um bônus de ${percentage} até ${amount}!",
+        "CL_es" : "Potencia tus apuestas con un Bono del ${percentage} hasta ${amount}!",
+        "es" : "Aumenta tus apuestas con un Bono de ${percentage} de hasta ${amount}",
+        "it" : "Aumenta le tue scommesse con un ${percentage} fino a ${amount} Bonus!",
+        "fr" : "Boostez vos paris avec un Bonus de ${percentage} jusqu'à ${amount} Bonus !",
+        "pl" : "Zwiększ swoje zakłady dzięki ${percentage} aż do ${amount} Bonus!",
+        "BR_pt" : "Aumente suas apostas com um bônus de ${percentage} até ${amount}!",
+        "ru" : "Увеличьте свои ставки с бонусом ${percentage} до ${amount}!",
+        "az" : "Mərclərinizi ${amount}-a qədər ${percentage} Bonus ilə gücləndirin!",
+        "hu" : "Növeld tétjeid egy ${percentage}-os ${amount}-ig terjedő bónusszal!",
+        "cs" : "Vylepšete své sázky bonusem ${percentage} až do výše ${amount}!",
+        "tr" : "Bahislerinizi ${percentage} oranında ve ${amount} tutarına kadar Bonus ile güçlendirin!",
+        "el" : "Ενισχύεις τα στοιχήματά σου με ένα ${percentage} Welcome Bonus έως ${amount}!",
+        "sr" : "Povećajte svoje uloge bonusom od ${percentage} do ${amount}!",
+        "mk" : "Зголемете ги вашите облози со ${percentage} бонус до ${amount}!",
+        "sq" : "Rrit bastet tuaja me një Bonus ${percentage} deri në ${amount}!",
+        "ro" : "Crește-ți valoarea pariului cu un bonus de ${percentage} până la ${amount}",
+        "sl" : "Povečaj svoje stave z ${percentage} do ${amount} bonusom!",
+        "hr" : "Pojačajte svoje oklade uz bonus od ${percentage} do iznosa od ${amount}!",
+        "bg" : "Увеличете залозите си с ${percentage} до ${amount} Bonus!",
+        "BD_bn" : "${percentage} পর্যন্ত ${amount} বোনাস দিয়ে আপনার বাজি বাড়িয়ে নিন!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "welcome-sports-bonus.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "sports"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./welcome-sports-bonus.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "The welcome Sports Bonus ${percentage} up to ${amount} is available upon depositing ${min_deposit} or more.",
+              "de" : "Der Sport Willkommensbonus von ${percentage} bis zu ${amount} ist bei einer Einzahlung von mindestens ${min_deposit} erhältlich.",
+              "fi" : "Tervetuliaisurheilubonus ${percentage} jopa ${amount} on saatavilla tallettamalla vähintään ${min_deposit}.",
+              "no" : "Velkomst sportsbonusen på ${percentage} opptil ${amount} er tilgjengelig ved innskudd på ${min_deposit} eller mer.",
+              "pt" : "O Bônus esportivo de boas-vindas de ${percentage} até ${amount} está disponível mediante um depósito de ${min_deposit} ou mais.",
+              "CL_es" : "El Bono de Bienvenida de Apuestas Deportivas del ${percentage} hasta ${amount} está disponible al realizar un depósito de ${min_deposit} o más.",
+              "es" : "El Bono deportivo de bienvenida de ${percentage} hasta ${amount} está disponible al depositar ${min_deposit} o más.",
+              "it" : "Il Bonus Sportivo di Benvenuto di ${percentage} fino a ${amount} è disponibile al deposito di ${min_deposit} o più.",
+              "fr" : "Le Bonus Sports de bienvenue de ${percentage} jusqu`à ${amount} est disponible après avoir effectué un dépôt de ${min_deposit} ou plus.",
+              "pl" : "${percentage} Powitalny bonus sportowy do ${amount} jest dostępny po wpłaceniu depozytu w wysokości  ${min_deposit} lub więcej.",
+              "BR_pt" : "O Bônus esportivo de boas-vindas de ${percentage} até ${amount} está disponível mediante um depósito de ${min_deposit} ou mais.",
+              "ru" : "Приветственный спортивный бонус ${percentage} до ${amount} доступен при пополнении счета на сумму ${min_deposit} или более.",
+              "az" : "Xoş Gəldin İdman Bonusu ${percentage} ${amount}-a qədər, ${min_deposit} və ya daha çox depozit qoyulduqda əlçatandır.",
+              "hu" : "A ${percentage}-os ${amount}-ig terjedő Sportfogadási üdvözlőbónusz legalább ${min_deposit}-os befizetéssel szerezhető meg.",
+              "cs" : "Uvítací sportovní bonus ${percentage} až do ${amount} je k dispozici při vkladu ${min_deposit} nebo vyšším.",
+              "tr" : "Hoş Geldin Spor Bonusu ${percentage} oranında ve ${amount} tutarına kadar, ${min_deposit} veya daha fazla yatırım yapıldığında geçerlidir.",
+              "el" : "Το ${percentage} Welcome Sports Bonus έως ${amount} είναι διαθέσιμο με κατάθεση ${min_deposit} και άνω.",
+              "sr" : "Sportski bonus dobrodošlice od ${percentage} do ${amount} je dostupan uz depozit od ${min_deposit} ili više.",
+              "mk" : "Спортскиот бонус за добредојде од ${percentage} до ${amount} е достапен при депозит од ${min_deposit} или повеќе.",
+              "sq" : "Bonusi i Mirëseardhjes për Sport ${percentage} deri në ${amount} është i disponueshëm pas një depozite prej ${min_deposit} ose më shumë.",
+              "ro" : "Bonusul de bun venit pentru sport de ${percentage} până la ${amount} este disponibil la o depunere de ${min_deposit} sau mai mult.",
+              "sl" : "Športni bonus dobrodošlice ${percentage} do ${amount} je na voljo ob pologu ${min_deposit} ali več.",
+              "hr" : "Bonus dobrodošlice ${percentage} do iznosa od ${amount} dostupan je nakon uplate od ${min_deposit} ili više.",
+              "bg" : "\u201eWelcome Sports Bonus\u201c от ${percentage} до ${amount} е наличен при депозит от ${min_deposit} или повече.",
+              "BD_bn" : "${min_deposit} বা তার বেশি জমা দিন, আর পান ${percentage} পর্যন্ত ${amount} ওয়েলকাম স্পোর্টস বোনাস!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "How it works:",
+              "de" : "So funktioniert es:",
+              "fi" : "Toimi näin:",
+              "no" : "Slik fungerer det:",
+              "pt" : "Como funciona:",
+              "CL_es" : "Cómo funciona:",
+              "es" : "Cómo funciona:",
+              "it" : "Come funziona:",
+              "fr" : "Fonctionnement:",
+              "pl" : "Jak to działa:",
+              "BR_pt" : "Como funciona:",
+              "ru" : "Как это работает:",
+              "az" : "Necə işləyir:",
+              "hu" : "Hogyan működik:",
+              "cs" : "Jak to funguje:",
+              "tr" : "Nasıl çalışır:",
+              "el" : "Πώς λειτουργεί:",
+              "sr" : "Kako funkcioniše:",
+              "mk" : "Како функционира:",
+              "sq" : "Si funksionon:",
+              "ro" : "Cum funcționează:",
+              "sl" : "Kako deluje:",
+              "hr" : "Kako to funkcionira:",
+              "bg" : "Как работи:",
+              "BD_bn" : "কিভাবে কাজ করে:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Choose your preferred payment option",
+                  "de" : "Wählen Sie Ihre bevorzugte Zahlungsmethode",
+                  "fi" : "Valitse haluamasi maksutapa",
+                  "no" : "Velg din foretrukne betalingsmetode",
+                  "pt" : "Escolha sua opção de pagamento preferida",
+                  "CL_es" : "Elige tu método de pago preferido",
+                  "es" : "Elige tu opción de pago deseada",
+                  "it" : "Scegli la tua opzione preferita per il pagamento",
+                  "fr" : "Choisissez votre mode de paiement préféré",
+                  "pl" : "Wybierz swoją ulubioną metodę płatności",
+                  "BR_pt" : "Escolha sua opção de pagamento preferida",
+                  "ru" : "Выберите предпочтительный способ оплаты",
+                  "az" : "Üstünlük verdiyiniz ödəniş metodunu seçin",
+                  "hu" : "Válaszd ki a kívánt fizetési módot",
+                  "cs" : "Vyberte preferovanou platební metodu",
+                  "tr" : "Tercih ettiğiniz ödeme yöntemini seçin",
+                  "el" : "Διαλέγεις τον επιθυμητό τρόπο πληρωμής",
+                  "sr" : "Izaberite željenu opciju plaćanja",
+                  "mk" : "Изберете го вашиот претпочитан начин на плаќање",
+                  "sq" : "Zgjidhni metodën tuaj të preferuar të pagesës",
+                  "ro" : "Alege metoda de plată dorită",
+                  "sl" : "Izberi želen način plačila",
+                  "hr" : "Odaberite željenu opciju plaćanja",
+                  "bg" : "Изберете предпочитания от вас метод за плащане",
+                  "BD_bn" : "আপনার পছন্দের পেমেন্ট অপশন বেছে নিন"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Select this promotion from the drop-down list",
+                  "de" : "Wählen Sie diese Aktion aus der Auswahlliste",
+                  "fi" : "Valitse tämä kampanja pudotusvalikosta",
+                  "no" : "Velg denne kampanjen fra rullegardinlisten",
+                  "pt" : "Selecione esta promoção na lista suspensa",
+                  "CL_es" : "Selecciona esta promoción desde el menú desplegable",
+                  "es" : "Selecciona esta promoción de la lista desplegable",
+                  "it" : "Seleziona questa promozione dall`elenco a discesa",
+                  "fr" : "Sélectionnez cette promotion dans la liste",
+                  "pl" : "Wybierz tę promocję z rozwijanej listy",
+                  "BR_pt" : "Selecione esta promoção na lista suspensa",
+                  "ru" : "Выберите эту акцию из выпадающего списка",
+                  "az" : "Bu kampaniyanı açılan siyahıdan seçin",
+                  "hu" : "Válaszd ki ezt a promóciót a legördülő menüből",
+                  "cs" : "Zvolte tuto promo akci z rozbalovací nabídky",
+                  "tr" : "Açılır listeden bu promosyonu seçin",
+                  "el" : "Επιλέγεις αυτήν την προσφορά από την λίστα",
+                  "sr" : "Izaberite ovu promociju iz padajuće liste",
+                  "mk" : "Изберете ја промоцијава од паѓачката листа",
+                  "sq" : "Zgjidhni këtë promocion nga lista zbritëse (drop-down)",
+                  "ro" : "Selectează această promoție din listă",
+                  "sl" : "Izberi to promocijo s spustnega seznama.",
+                  "hr" : "Odaberite ovu promociju s padajućeg popisa",
+                  "bg" : "Изберете тази промоция от падащото меню.",
+                  "BD_bn" : "তালিকা থেকে আপনার প্রোমোশন বেছে নিন"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Deposit ${min_deposit} or more, and we`ll add your Bonus",
+                  "de" : "Zahlen Sie ${min_deposit} oder mehr ein, und wir fügen Ihren Bonus hinzu",
+                  "fi" : "Talleta vähintään ${min_deposit}, niin lisäämme bonuksen",
+                  "no" : "Sett inn ${min_deposit} eller mer, så legger vi til bonusen din",
+                  "pt" : "Deposite ${min_deposit} ou mais e adicionaremos seu bônus",
+                  "CL_es" : "Deposita ${min_deposit} o más y te acreditaremos tu Bono",
+                  "es" : "Deposita ${min_deposit} o más, y añadiremos tu Bono",
+                  "it" : "Deposita ${min_deposit} o più, e aggiungeremo il tuo Bonus",
+                  "fr" : "Déposez ${min_deposit} ou plus, et nous ajouterons votre Bonus.",
+                  "pl" : "Wpłać ${min_deposit} lub więcej, a bonus będzie Twój",
+                  "BR_pt" : "Deposite ${min_deposit} ou mais e adicionaremos seu bônus",
+                  "ru" : "Внесите депозит ${min_deposit} или больше, и мы начислим вам бонус",
+                  "az" : "${min_deposit} və ya daha çox depozit edin \u2013 bonus avtomatik hesabınıza əlavə olunacaq",
+                  "hu" : "Fizess be legalább ${min_deposit}-ot, és már tiéd is a bónusz",
+                  "cs" : "Vložte ${min_deposit} nebo více a my vám připíšeme bonus",
+                  "tr" : "${min_deposit} veya daha fazla yatırım yapın, bonusunuz hesabınıza eklensin",
+                  "el" : "Κάνεις κατάθεση ${min_deposit} και άνω και θα πιστώσουμε το μπόνους σου",
+                  "sr" : "Uplatite ${min_deposit} ili više, a mi ćemo dodati vaš bonus",
+                  "mk" : "Депонирајте ${min_deposit} или повеќе и ние ќе го додадеме вашиот бонус",
+                  "sq" : "Depozitoni ${min_deposit} ose më shumë dhe ne do t\u2019ju shtojmë Bonusin",
+                  "ro" : "Depune ${min_deposit} sau mai mult, și îți vom credita bonusul",
+                  "sl" : "Naloži ${min_deposit} ali več, mi pa bomo dodali tvoj bonus.",
+                  "hr" : "Uplatite ${min_deposit} ili više, a mi ćemo dodati vaš bonus",
+                  "bg" : "Депозирайте ${min_deposit} или повече и ние ще добавим вашия бонус",
+                  "BD_bn" : "${min_deposit} বা তার বেশি জমা দিন, আর আমরা আপনার বোনাস যোগ করব।"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "DEPOSIT NOW",
+              "de" : "JETZT EINZAHLEN",
+              "fi" : "TALLETA NYT",
+              "no" : "SETT INN NÅ",
+              "pt" : "DEPOSITE AGORA",
+              "es" : "DEPOSITAR AHORA",
+              "it" : "DEPOSITA ORA",
+              "fr" : "DÉPOSEZ MAINTENANT",
+              "pl" : "WPŁAĆ TERAZ",
+              "BR_pt" : "DEPOSITE AGORA",
+              "ru" : "ПОПОЛНИТЬ СЧЕТ СЕЙЧАС",
+              "az" : "İNDI DEPOZIT ET",
+              "hu" : "BEFIZETÉS MOST",
+              "cs" : "VLOŽIT",
+              "tr" : "ŞIMDI YATIRIM YAPIN",
+              "el" : "ΚΑΤΆΘΕΣΗ",
+              "sr" : "UPLATI SADA",
+              "mk" : "ДЕПОНИРАЈ СЕГА",
+              "sq" : "DEPOZITO TANI",
+              "ro" : "DEPUNE ACUM",
+              "sl" : "NALOŽI ZDAJ",
+              "hr" : "UPLATITE SADA",
+              "bg" : "ДЕПОЗИРАЙТЕ СЕГА",
+              "BD_bn" : "এখনই জমা দিন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount" : {
+        "EUR" : "\u20ac100",
+        "*" : "\u20ac100",
+        "USD" : "$100",
+        "NOK" : "kr1000",
+        "CAD" : "C$100",
+        "CLP" : "100,000CLP",
+        "PEN" : "S/400",
+        "BRL" : "R$600",
+        "AUD" : "Α$100",
+        "NZD" : "NZ$100",
+        "PLN" : "500zł",
+        "CHF" : "100CHF",
+        "ZAR" : "2000R",
+        "MXN" : "$2000",
+        "JPY" : "¥15000",
+        "GBP" : "£100",
+        "HUF" : "40000 Ft",
+        "ARS" : "200,000 ARS",
+        "INR" : "10000 INR",
+        "CZK" : "2500 Kč",
+        "AZN" : "\u20bc200",
+        "RUB" : "10000 RUB",
+        "KZT" : "70000 KZT",
+        "UZS" : "1,500,000 soʻm",
+        "RON" : "500 RON",
+        "ALL" : "10,000 ALL",
+        "MKD" : "5,000 MKD",
+        "RSD" : "10,000 RSD",
+        "TRY" : "5000 TL"
+      },
+      "min_deposit" : {
+        "EUR" : "\u20ac25",
+        "*" : "\u20ac25",
+        "USD" : "$25",
+        "NOK" : "kr250",
+        "CAD" : "C$25",
+        "CLP" : "20,000CLP",
+        "PEN" : "S/150",
+        "BRL" : "R$50",
+        "AUD" : "Α$25",
+        "NZD" : "NZ$25",
+        "PLN" : "100zł",
+        "CHF" : "25CHF",
+        "ZAR" : "250R",
+        "MXN" : "$150",
+        "JPY" : "¥3750",
+        "GBP" : "£25",
+        "HUF" : "8750 Ft",
+        "ARS" : "2500 ARS",
+        "INR" : "2500 INR",
+        "CZK" : "500 Kč",
+        "AZN" : "\u20bc25",
+        "RUB" : "1250 RUB",
+        "KZT" : "3750 KZT",
+        "UZS" : "250,000 soʻm",
+        "RON" : "100 RON",
+        "ALL" : "2,000 ALL",
+        "MKD" : "1,250 MKD",
+        "RSD" : "2,500 RSD",
+        "TRY" : "250 TL"
+      },
+      "percentage" : {
+        "*" : "100%",
+        "TR" : "%100"
+      },
+      "wagering_req" : {
+        "*" : "6x",
+        "TR" : "6x"
+      },
+      "min_odds" : {
+        "*" : "1.7",
+        "TR" : "1.7"
+      }
+    }
+  }
+}

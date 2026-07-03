@@ -1,0 +1,269 @@
+{
+  "id" : "welcome-casino-bonus-netherlands-stage-2",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "2nd Casino Deposit Bonus"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "${percentage} up to ${amount_1} to boost your play!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "welcome-casino-bonus-netherlands-stage-2.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "casino"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./welcome-casino-bonus-netherlands-stage-2.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Your Casino Bonus is now available!\nUnlock your Casino Deposit Bonus of ${percentage} up to ${amount_1} with your second deposit and take your play to the next level!\nIt`s super easy! Simply:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Choose your preferred payment option"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Select your offer from the drop-down list and deposit ${min_deposit} or more"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Enjoy your bonus"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "DEPOSIT NOW"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount_1" : {
+        "ALL" : "500,000 ALL",
+        "ARS" : "10,000,000 ARS",
+        "AUD" : "A$5000",
+        "AZN" : "\u20bc10000",
+        "BRL" : "R$30,000",
+        "CAD" : "C$5000",
+        "CHF" : "Fr5000",
+        "CLP" : "$5,000,000",
+        "CZK" : "Kč125000",
+        "EUR" : "\u20ac5000",
+        "GBP" : "£5000",
+        "HUF" : "2,000,000 Ft",
+        "INR" : "500,000 INR",
+        "JPY" : "¥750,000",
+        "KZT" : "3 500 000 KZT",
+        "MKD" : "250,000 MKD",
+        "MXN" : "$100000",
+        "NGN" : "\u20a610,000,000",
+        "NOK" : "kr50000",
+        "NZD" : "NZ$5000",
+        "PEN" : "S/.20000",
+        "PLN" : "25000zl",
+        "RON" : "25000 RON",
+        "RSD" : "500,000 RSD",
+        "RUB" : "500 000 RUB",
+        "TRY" : "250000 TL",
+        "USD" : "$5000",
+        "UZS" : "75,000,000 so'm",
+        "ZAR" : "R100000"
+      },
+      "min_deposit" : {
+        "ALL" : "1,600 ALL",
+        "ARS" : "2000 ARS",
+        "AUD" : "A$20",
+        "AZN" : "\u20bc20",
+        "BRL" : "R$40",
+        "CAD" : "C$20",
+        "CHF" : "Fr20",
+        "CLP" : "$16,000",
+        "CZK" : "Kč400",
+        "EUR" : "\u20ac20",
+        "GBP" : "£20",
+        "HUF" : "7000 Ft",
+        "INR" : "2000 INR",
+        "JPY" : "¥3000",
+        "KZT" : "3 000 KZT",
+        "MKD" : "1,000 MKD",
+        "MXN" : "$120",
+        "NGN" : "\u20a62,000",
+        "NOK" : "kr200",
+        "NZD" : "NZ$20",
+        "PEN" : "S/.20",
+        "PLN" : "80zl",
+        "RON" : "80 RON",
+        "RSD" : "2,000 RSD",
+        "RUB" : "1 000 RUB",
+        "TRY" : "200 TL",
+        "USD" : "$20",
+        "UZS" : "200,000 so'm",
+        "ZAR" : "R200"
+      },
+      "percentage" : {
+        "NL" : "100%"
+      },
+      "wagering_req" : {
+        "NL" : "x35"
+      }
+    }
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "id" : "live-casino-thursday",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "tr" : "Live Casino Perşembe",
+        "en" : "Live Casino Thursday",
+        "de" : "Live Casino Donnerstag",
+        "fi" : "Live-kasinotorstai",
+        "no" : "Live Casino torsdag",
+        "pt" : "Quinta-feira de Casino ao Vivo",
+        "BR_pt" : "Quinta-feira de Cassino ao Vivo",
+        "es" : "Jueves de Casino en Vivo",
+        "CL_es" : "Jueves de Casino en Vivo",
+        "fr" : "Live Casino le jeudi",
+        "it" : "Casinò dal vivo di giovedì",
+        "pl" : "Czwartek z Kasynem na żywo",
+        "azn" : "Canlı Kazino Cümə axşamı",
+        "ru" : "Live Casino в четверг",
+        "et" : "Live-kasiino neljapäev",
+        "hu" : "Élő Kaszinó csütörtök",
+        "cs" : "Čtvrteční Live Casino",
+        "sr" : "Četvrtak za Kazino uživo",
+        "el" : "Live Casino Πέμπτης",
+        "mk" : "Четврток за казино во живо",
+        "sq" : "Live Casino të Enjten",
+        "ro" : "Joia cazinoului live",
+        "sl" : "Live Kazino Četrtek",
+        "hr" : "Kasino uživo četvrtkom",
+        "bg" : "Казино на живо в четвъртък",
+        "BD_bn" : "লাইভ ক্যাসিনো বৃহস্পতিবার"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "tr" : "${percentage} Cashback daha fazla aksiyon için!",
+        "en" : "${percentage} Cashback to fuel more action!",
+        "de" : "${percentage} Cashback für noch mehr Action!",
+        "fi" : "${percentage} cashbak tehostamaan toimintaa!",
+        "no" : "${percentage} Cashback for å gi deg mer energi!",
+        "pt" : "${percentage} de Reembolso para aumentar a ação!",
+        "BR_pt" : "${percentage} de Reembolso para aumentar a diversão!",
+        "es" : "¡${percentage} de Reembolso para más acción!",
+        "CL_es" : "¡${percentage} de Reembolso para más acción!",
+        "fr" : "${percentage} de cashback pour encore plus d\u2019action !",
+        "it" : "${percentage} Cashback per alimentare più azione!",
+        "pl" : "${percentage} Cashback, by dodać jeszcze więcej emocji!",
+        "azn" : "${percentage} Keşbek daha çox həyəcan üçün!",
+        "ru" : "Кэшбэк ${percentage}, чтобы добавить ещё больше азарта!",
+        "et" : "${percentage} rahatagastust, et veel rajum oleks!",
+        "hu" : "${percentage}-os izgalomfokozó pénzvisszatérítés!",
+        "cs" : "${percentage} cashback pro ještě více akce!",
+        "sr" : "${percentage} Cashback: za još više akcije!",
+        "el" : "${percentage} Cashback για περισσότερη δράση!",
+        "mk" : "${percentage} Cashback за уште повеќе акција!",
+        "sq" : "${percentage} Cashback për më shumë aksion!",
+        "ro" : "${percentage} Cashback pentru a alimenta mai multă acțiune!",
+        "sl" : "${percentage} Cashback za še več zabave pri igri!",
+        "hr" : "${percentage} cashbacka za još više akcije!",
+        "bg" : "${percentage} Cashback, за да подсилите играта!",
+        "BD_bn" : "আরও বেশি কাজ করার জন্য  ${percentage} ক্যাশব্যাক!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "live-casino-thursday.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "casino"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./live-casino-thursday.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "tr" : "${percentage} Cashback ile, potansiyel kayıplarınızda ${amount} tutarına kadar geri ödeme alırsınız - Live Casino\u2019nun her anı saf heyecan!\nEndişe yok, sadece EĞLENCE! İşte böyle:",
+              "en" : "With ${percentage} Cashback up to ${amount} on your potential losses, every moment in Live Casino is pure excitement!\nNo worries, only FUN and here`s how:",
+              "de" : "Mit ${percentage} Cashback bis zu ${amount} auf Ihre potenziellen Verluste bietet Ihnen das Live Casino Spannung pur!\nKeine Sorgen, nur SPASS, und so geht`s:",
+              "fi" : "Saat ${percentage} cashbackin, jopa ${amount}, mahdollisista tappioistasi, joten jokainen hetki live-kasinolla on puhdasta jännitystä!\nEi huolia, pelkkää HAUSKANPITOA, ja näin se toimii:",
+              "no" : "Med ${percentage} cashback opptil ${amount} på dine potensielle tap, tilbyr Live Casino deg ren spenning!\nIngen bekymringer, bare MORO, og slik gjør du det:",
+              "pt" : "Com ${percentage} de Reembolso até ${amount} sobre as suas perdas potenciais, cada momento no Casino ao Vivo é pura emoção!\nSem preocupações, apenas DIVERSÃO, e veja como:",
+              "BR_pt" : "Com ${percentage} de Reembolso de até ${amount} sobre suas perdas potenciais, cada momento no Cassino ao Vivo é pura emoção!\nSem preocupações, apenas DIVERSÃO, e veja como:",
+              "es" : "Con ${percentage} de Reembolso hasta ${amount} sobre tus pérdidas potenciales, ¡cada momento en el Casino en Vivo es pura emoción!\nSin preocupaciones, solo DIVERSIÓN, y aquí te explicamos cómo:",
+              "CL_es" : "Con ${percentage} de Reembolso hasta ${amount} sobre tus pérdidas potenciales, ¡cada momento en el Casino en Vivo es pura emoción!\nSin estrés, solo DIVERSIÓN, y así funciona:",
+              "fr" : "Avec un cashback de ${percentage} pouvant atteindre ${amount} sur vos pertes potentielles, chaque instant passé au Live Casino est un pur moment de plaisir !\nPas de soucis, que du PLAISIR, et voici comment :",
+              "it" : "Con un rimborso del ${percentage} fino a ${amount} sulle tue potenziali perdite, ogni momento nel Casinò Live è pura emozione!\nNessuna preoccupazione, solo DIVERTIMENTO. Ecco come:",
+              "pl" : "Zgarnij ${percentage} Cashback aż do ${amount} od potencjalnych strat \u2013 każda chwila w Kasynie Na Żywo to czysta frajda!\nBez zmartwień \u2013 tylko ZABAWA! Oto jak:",
+              "azn" : "${percentage} Keşbek ilə, potensial itkilərinizdə ${amount}-dək geri dönüş əldə edirsiniz - Canlı Kazino-nun hər anı saf həyəcandır!\nNarahatlıq yoxdur, yalnız ƏYLƏNCƏ! Belə ki:",
+              "ru" : "С кэшбэком ${percentage} до ${amount} от ваших потенциальных потерь каждое мгновение в Live Casino \u2014 это чистый азарт!\nНикаких забот, только УДОВОЛЬСТВИЕ, и вот как это работает:",
+              "et" : "${percentage} rahatagatusega kuni ${amount} eest võimalikelt kaotustelt on iga hetk live-kasiinos puhas põnevus!\nEi häda, ainult LÕBU, ja selleks pead vaid:",
+              "hu" : "${percentage}-os ${amount}-ig terjedő Pénzvisszatérítés az esetleges veszteségeid után, amely tovább fokozza az Élő Kaszinó élményét!\nSemmi aggodalom, csak SZÓRAKOZÁS! Íme hogyan:",
+              "cs" : "S cashbackem ve výši ${percentage} až do ${amount} z vašich potenciálních ztrát je každý okamžik v Live Casino čistým vzrušením!\nŽádné starosti, jen ZÁBAVA, a tady je návod, jak na to:",
+              "sr" : "Uz Cashback od ${percent} do ${amount} na vaše potencijalne gubitke, svaki trenutak u Kazinu uživo je čisto uzbuđenje!\nBez nepotrebnog stresa, samo ZABAVA! Evo kako:",
+              "el" : "Με το ${percentage} Cashback έως ${amount} στις πιθανές απώλειές σας, κάθε στιγμή στο Live Casino είναι μοναδική!\nΧωρίς έγνοιες, μόνο ΔΙΑΣΚΕΔΑΣΗ! Απλώς:",
+              "mk" : "Со ${percentage} Cashback до ${amount} на вашите потенцијални загуби, секој момент во казино во живо е чиста возбуда!\nБез грижи, само ЗАБАВА, еве како:",
+              "sq" : "Me ${percentage} Cashback deri në ${amount} mbi humbjet e mundshme, çdo moment në Live Casino është eksitim i pastër!\nMos u shqetëso, vetëm ARGËTIM dhe ja si funksionon:",
+              "ro" : "Cu ${percentage} Cashback de până la ${amount} acordat pierderilor tale, fiecare moment în cazinoul live devine pur distractiv!\nFără griji, doar DISTRACȚIE, iată cum:",
+              "sl" : "Z ${percentage} vračilom denarja do ${amount} na morebitne izgube je vsak trenutek v Kazinu v živo prava adrenalinska zabava!\nBrez skrbi, samo ZABAVA! Poglejte kako:",
+              "hr" : "Uz ${percentage} cashbacka do ${amount} na moguće gubitke, svaka igra u kasinu uživo donosi vrhunsko uzbuđenje! Bez brige, samo zabava \u2013 evo kako:",
+              "bg" : "С ${percentage} Cashback до ${amount} върху Вашите потенциални загуби, всеки момент в казино на живо е чисто вълнение!\nБез притеснения, само ЗАБАВЛЕНИЕ, а ето и как:",
+              "BD_bn" : "আপনার সম্ভাব্য ক্ষতির উপর ${amount} পর্যন্ত ${percentage} ক্যাশব্যাক সহ, লাইভ ক্যাসিনোর প্রতিটি মুহূর্তই উত্তেজনায় ভরপুর!\nকোনো চিন্তা নেই, শুধু মজা, আর তা যেভাবে হবে:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "tr" : "Herhangi bir Live Casino oyununu oynayın",
+                  "en" : "Play any Live Casino Games",
+                  "de" : "Spielen Sie beliebige Live-Casino-Spiele",
+                  "fi" : "Pelaa mitä tahansa live-kasinopelejä",
+                  "no" : "Spill alle Live Casino-spill",
+                  "pt" : "Jogue qualquer jogo de Casino ao Vivo",
+                  "BR_pt" : "Jogue qualquer jogo de Cassino ao Vivo",
+                  "es" : "Juega cualquier juego del Casino en Vivo",
+                  "CL_es" : "Juega cualquier juego del Casino en Vivo",
+                  "fr" : "Jouez à tous les jeux de Live casino",
+                  "it" : "Gioca a qualsiasi gioco del casinò live",
+                  "pl" : "Graj w dowolne gry Kasyna Na Żywo",
+                  "azn" : "İstənilən Live Casino oyunlarını oynayın",
+                  "ru" : "Играйте в любые игры Live Casino",
+                  "et" : "Mängima ükskõik millist live-kasiino mängu",
+                  "hu" : "Játssz Élő kaszinójátékokkal",
+                  "cs" : "Hrajte jakékoli živé kasinové hry",
+                  "sr" : "Odigrajte bilo koju kazino igru uživo",
+                  "el" : "Παίζεις οποιοδήποτε παιχνίδι Live Casino",
+                  "mk" : "Играјте која било игра од казино во живо",
+                  "sq" : "Luaj çdo lojë Live Casino",
+                  "ro" : "Joacă orice joc din secțiunea cazino live",
+                  "sl" : "Igrajte katerokoli igro v Kazinu v živo",
+                  "hr" : "Igrajte bilo koje igre u Kasinu uživo",
+                  "bg" : "Играйте всякакви казино игри на живо",
+                  "BD_bn" : "যেকোনো লাইভ ক্যাসিনো গেম খেলুন"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "tr" : "Potansiyel kayıplarınızda ${amount} tutarına kadar ${percentage} Cashback kazanın",
+                  "en" : "Get ${percentage} Cashback up to ${amount} on potential losses",
+                  "de" : "Erhalten Sie ${percentage} Cashback bis zu ${amount} auf mögliche Verluste",
+                  "fi" : "Saat ${percentage} cashbackin, jopa ${amount}, mahdollisista tappioista",
+                  "no" : "Få ${percentage} cashback opptil ${amount} på potensielle tap",
+                  "pt" : "Receba ${percentage} de Reembolso até ${amount} sobre as suas perdas potenciais",
+                  "BR_pt" : "Receba ${percentage} de Reembolso de até ${amount} sobre suas perdas potenciais",
+                  "es" : "Obtén ${percentage} de Reembolso hasta ${amount} sobre tus pérdidas potenciales",
+                  "CL_es" : "Obtén ${percentage} de Reembolso hasta ${amount} sobre tus pérdidas potenciales",
+                  "fr" : "Obtenez un remboursement de ${percentage} jusqu`à ${amount} sur vos pertes potentielles",
+                  "it" : "Ottieni un rimborso del ${percentage} fino a ${amount} sulle potenziali perdite",
+                  "pl" : "Otrzymaj ${percentage} Cashback do ${amount} od potencjalnych strat",
+                  "azn" : "Potensial itkilərinizdə ${amount}-dək ${percentage} keşbek əldə edin",
+                  "ru" : "Получите ${percentage} кэшбэк до ${amount} на потенциальные убытки",
+                  "et" : "Saama ${percentage} rahatagastust kuni ${amount} võimalikelt kaotustelt",
+                  "hu" : "Szerezz ${percentage}-os Pénzvisszatérítést ${amount}-ig az esetleges veszteségeid után",
+                  "cs" : "Získejte ${percentage} cashback až do výše ${amount} z potenciálních ztrát",
+                  "sr" : "Ostvarite Cashback od ${percent} do ${amount} na potencijalne gubitke",
+                  "el" : "Κερδίζεις το ${percentage} Cashback έως ${amount} για πιθανές απώλειες",
+                  "mk" : "Добијте ${percentage} Cashback до ${amount} на потенцијални загуби",
+                  "sq" : "Merr ${percentage} Cashback deri në ${amount} mbi humbjet e mundshme",
+                  "ro" : "Obține ${percentage} cashback de până la ${amount} la pierderile tale",
+                  "sl" : "Pridobi ${percentage} vračila denarja do ${amount} na morebitne izgube",
+                  "hr" : "Dobijte ${percentage} cashbacka do ${amount} na moguće gubitke",
+                  "bg" : "Вземете ${percentage} Cashback до ${amount} върху потенциални загуби",
+                  "BD_bn" : "সম্ভাব্য লসের ওপর ${amount} পর্যন্ত ${percentage} ক্যাশব্যাক পান!"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "tr" : "ŞİMDİ OYNA",
+              "en" : "PLAY NOW",
+              "de" : "JETZT SPIELEN",
+              "fi" : "PELAA NYT",
+              "no" : "SPILL NÅ",
+              "pt" : "JOGAR AGORA",
+              "BR_pt" : "JOGAR AGORA",
+              "es" : "JUGAR AHORA",
+              "CL_es" : "JUGAR AHORA",
+              "fr" : "JOUEZ MAINTENANT",
+              "it" : "GIOCA ORA",
+              "pl" : "ZAGRAJ TERAZ",
+              "azn" : "İNDİ OYNA",
+              "ru" : "ИГРАТЪ СЕЙЧАС",
+              "et" : "MÄNGI KOHE",
+              "hu" : "JÁTSSZ MOST",
+              "cs" : "HRÁT",
+              "sr" : "IGRAJ SAD",
+              "el" : "ΠΑΙΧΝΙΔΙ",
+              "mk" : "ИГРАЈ СЕГА",
+              "sq" : "LUAJ TANI",
+              "ro" : "JOACĂ ACUM",
+              "sl" : "IGRAJ ZDAJ",
+              "hr" : "IGRAJ SADA",
+              "bg" : "ИГРАЙТЕ СЕГА",
+              "BD_bn" : "এখনই খেলুন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/casino/live"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount" : {
+        "EUR" : "\u20ac150",
+        "*" : "\u20ac150",
+        "USD" : "$150",
+        "CAD" : "C$150",
+        "AUD" : "A$150",
+        "BRL" : "R$300",
+        "NOK" : "kr1500",
+        "NZD" : "NZ$150",
+        "CLP" : "$120,000",
+        "MXN" : "$900",
+        "GBP" : "£150",
+        "PLN" : "600zł",
+        "PEN" : "S/.150",
+        "ZAR" : "R1500",
+        "CHF" : "Fr150",
+        "NGN" : "\u20a615,000",
+        "JPY" : "¥22500",
+        "AZN" : "\u20bc150",
+        "TRY" : "1500 TL",
+        "KZT" : "22 500 KZT",
+        "RUB" : "7 500 RUB",
+        "UZS" : "1,500,000 so'm",
+        "ARS" : "15000 ARS",
+        "INR" : "15000 INR",
+        "HUF" : "52500Ft",
+        "CZK" : "3000 Kč",
+        "RON" : "750 RON",
+        "ALL" : "15,000 ALL",
+        "MKD" : "7,500 MKD",
+        "RSD" : "15,000 RSD"
+      },
+      "min_award" : {
+        "EUR" : "\u20ac5",
+        "*" : "\u20ac5",
+        "USD" : "$5",
+        "CAD" : "C$5",
+        "AUD" : "A$5",
+        "BRL" : "R$10",
+        "NOK" : "kr50",
+        "NZD" : "NZ$5",
+        "CLP" : "$4,000",
+        "MXN" : "$30",
+        "GBP" : "£5",
+        "PLN" : "20zł",
+        "PEN" : "S/.5",
+        "ZAR" : "R50",
+        "CHF" : "Fr5",
+        "NGN" : "\u20a6500",
+        "JPY" : "¥750",
+        "AZN" : "\u20bc5",
+        "TRY" : "50 TL",
+        "KZT" : "750 KZT",
+        "RUB" : "250 RUB",
+        "UZS" : "50,000 so'm",
+        "ARS" : "500 ARS",
+        "INR" : "500 INR",
+        "HUF" : "1750Ft",
+        "CZK" : "100 Kč",
+        "RON" : "25 RON",
+        "ALL" : "500 ALL",
+        "MKD" : "250 MKD",
+        "RSD" : "500 RSD"
+      },
+      "min_bet" : {
+        "EUR" : "\u20ac0.50",
+        "*" : "\u20ac0.50",
+        "USD" : "$0.50",
+        "CAD" : "C$0.50",
+        "AUD" : "A$0.50",
+        "BRL" : "R$1",
+        "NOK" : "kr5",
+        "NZD" : "NZ$0.50",
+        "CLP" : "$250",
+        "MXN" : "$5",
+        "GBP" : "£0.50",
+        "PLN" : "2zł",
+        "PEN" : "S/.1",
+        "ZAR" : "R5",
+        "CHF" : "Fr0.50",
+        "NGN" : "\u20a650",
+        "JPY" : "¥80",
+        "AZN" : "\u20bc1",
+        "TRY" : "5 TL",
+        "KZT" : "50 KZT",
+        "RUB" : "50 RUB",
+        "UZS" : "5,000 so'm",
+        "ARS" : "50 ARS",
+        "INR" : "50 INR",
+        "HUF" : "175 Ft",
+        "CZK" : "10 Kč",
+        "RON" : "2 RON",
+        "ALL" : "40 ALL",
+        "MKD" : "25 MKD",
+        "RSD" : "50 RSD"
+      },
+      "max_bet" : {
+        "EUR" : "\u20ac5",
+        "*" : "\u20ac5",
+        "USD" : "$5",
+        "CAD" : "C$5",
+        "AUD" : "A$5",
+        "BRL" : "R$10",
+        "NOK" : "kr50",
+        "NZD" : "NZ$5",
+        "CLP" : "$2,500",
+        "MXN" : "$50",
+        "GBP" : "£5",
+        "PLN" : "20zł",
+        "PEN" : "S/.10",
+        "ZAR" : "R50",
+        "CHF" : "Fr5",
+        "NGN" : "\u20a6500",
+        "JPY" : "¥800",
+        "AZN" : "\u20bc10",
+        "TRY" : "50 TL",
+        "KZT" : "500 KZT",
+        "RUB" : "500 RUB",
+        "UZS" : "50,000 so'm",
+        "ARS" : "500 ARS",
+        "INR" : "500 INR",
+        "HUF" : "1750 Ft",
+        "CZK" : "100 Kč",
+        "RON" : "20 RON",
+        "ALL" : "400 ALL",
+        "MKD" : "250 MKD",
+        "RSD" : "500 RSD"
+      },
+      "percentage" : {
+        "*" : "25%",
+        "TR" : "% 25",
+        "BR" : "25%",
+        "AU" : "25%",
+        "NZ" : "25%"
+      },
+      "wagering_req" : {
+        "*" : "x1",
+        "TR" : "x1",
+        "BR" : "x1",
+        "AU" : "x1",
+        "NZ" : "x1"
+      },
+      "start_time" : {
+        "*" : "00.00",
+        "TR" : "00.00",
+        "BR" : "00.00",
+        "AU" : "00.00",
+        "NZ" : "00.00"
+      },
+      "end_time" : {
+        "*" : "23.59",
+        "TR" : "23.59",
+        "BR" : "23.59",
+        "AU" : "23.59",
+        "NZ" : "23.59"
+      },
+      "timezone" : {
+        "*" : "CET/CEST",
+        "TR" : "CET/CEST",
+        "BR" : "BRT",
+        "AU" : "AEST/AEDT",
+        "NZ" : "NZST/NZDT"
+      }
+    }
+  }
+}

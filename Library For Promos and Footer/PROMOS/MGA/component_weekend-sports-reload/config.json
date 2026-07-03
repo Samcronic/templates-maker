@@ -1,0 +1,448 @@
+{
+  "id" : "weekend-sports-reload",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Weekend Sports Reload Bonus",
+        "de" : "Wochenende Sport Reload Bonus",
+        "fi" : "Viikonlopun reload sport -bonus",
+        "no" : "Helgens sports reload bonus",
+        "pt" : "Bônus esportivo de recarga do fim de semana",
+        "es" : "Bono deportivo de recarga de fin de semana",
+        "it" : "Bonus di ricarica per gli sport del fine settimana",
+        "fr" : "Weekend Sports Bonus De Recharge",
+        "pl" : "Weekendowy Bonus sportowy Reload",
+        "BR_pt" : "Bônus esportivo de recarga do fim de semana",
+        "ru" : "Релоад-бонус на ставки в выходные",
+        "az" : "Həftə Sonu Təkrar İdman Bonusu",
+        "hu" : "Hétvégi sportfogadási újratöltési bónusz",
+        "cs" : "Víkendový sportovní reload bonus",
+        "el" : "Αθλητικό Reload Bonus του ΣΚ",
+        "sr" : "Vikend Sportski reload bonus",
+        "mk" : "Викенд спортски бонус за дополнување",
+        "ro" : "Bonus de reîncărcare de weekend la sport",
+        "sl" : "Vikend športni bonus za ponovno vplačilo",
+        "hr" : "Vikend sportski reload bonus",
+        "bg" : "Weekend Sports Reload Bonus",
+        "al" : "Bonus Reload Sportiv i Fundjavës",
+        "BD_bn" : "সপ্তাহান্তের স্পোর্টস রিলোড বোনাস"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "A ${percentage} up to ${amount} Reload Bonus!",
+        "de" : "${percentage} bis zu ${amount} Sport Reload Bonus!",
+        "fi" : "${percentage} jopa ${amount} urheilu-reload bonus!",
+        "no" : "${percentage} opptil ${amount} sport Bonus Påfyll !",
+        "pt" : "${percentage} até ${amount} bônus de Recarga esportiva!",
+        "es" : "${percentage} hasta ${amount} bono de Recarga deportiva!",
+        "it" : "${percentage} fino a ${amount} Bonus di ricarica Sport!",
+        "fr" : "${percentage} jusqu'à ${amount} Bonus de Recharge Sports!",
+        "pl" : "${percentage} do ${amount} bonus sportowy Reload!",
+        "BR_pt" : "${percentage} até ${amount} bônus de Recarga esportiva!",
+        "ru" : "${percentage} до ${amount} Релоад-бонус Спорт!",
+        "az" : "${percentage} qədər, ${amount} dollara qədər Yenidən yükləmə bonusu!",
+        "hu" : "${percentage} akár ${amount}-ig sportfogadási újratöltési bónusz!",
+        "cs" : "${percentage} až do ${amount} sportovní reload bonus!",
+        "el" : "Έξτρα δόση αδρεναλίνης με το ${percentage} έως και ${amount} Reload Bonus!",
+        "sr" : "${percentage} do ${amount} Reload bonus za pravu dozu adrenalina!",
+        "mk" : "${percentage} бонус за дополнување до ${amount} за адреналински удар!",
+        "ro" : "Reîncarcă distracția cu un bonus de ${percentage} până la ${amount} și simte adrenalina!",
+        "sl" : "${percentage} do največ ${amount} bonus za ponovno vplačilo - za pravo dozo adrenalina!",
+        "hr" : "${percentage} do ${amount} sportski reload bonus",
+        "bg" : "${percentage} до ${amount} Reload Bonus за истински адреналинов тласък!",
+        "al" : "Një ${percentage} deri në ${amount} Reload për një dozë adrenaline!",
+        "BD_bn" : "অ্যাড্রেনালিনের রোমাঞ্চের জন্য ${percentage} পর্যন্ত সর্বোচ্চ ${amount} রিলোড বোনাস!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "weekend-sports-reload.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "sports"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./weekend-sports-reload.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Feel the Sports Vibes every weekend with a ${percentage} Weekend Sports Reload Bonus up to ${amount}.\nThis bonus is available for one deposit during the Weekend upon depositing ${min_deposit} or more.",
+              "de" : "Spüren Sie jedes Wochenende die Sport Stimmung mit einem ${percentage} Wochenend Sport Reload Bonus bis zu ${amount}. Dieser Bonus ist für eine Einzahlung während des Wochenendes bei einer Einzahlung von ${min_deposit} oder mehr verfügbar.\nSo funktioniert es:",
+              "fi" : "Koe jännitystä urheilun parissa joka viikonloppu hankkimalla ${percentage} viikonlopun urheilu-reload jopa ${amount}. Tämä bonus on saatavilla yhden talletuksen yhteydessä viikonlopun aikana tallettamalla vähintään ${min_deposit}.\nToimi näin:",
+              "no" : "Føl Sports Vibes hver helg med en ${percentage} Helgesport Bonus Påfyll opptil ${amount}. Denne bonusen er tilgjengelig for ett innskudd i løpet av helgen ved innskudd på ${min_deposit} eller mer.\nHvordan det fungerer:",
+              "pt" : "Sinta as Vibrações Esportivas todos os fins de semana com um bônus de Recarga esportiva de fim de semana de ${percentage} até ${amount}. Este bônus está disponível para um depósito durante o fim de semana ao depositar ${min_deposit} ou mais.\nComo funciona:",
+              "es" : "Siente las vibraciones deportivas todos los fines de semana con un bono de Recarga deportiva de fin de semana de ${percentage} hasta ${amount}. Este bono está disponible para un depósito durante el fin de semana al depositar ${min_deposit} o más.\nCómo funciona:",
+              "it" : "Senti le vibrazioni dello sport ogni fine settimana con un ${percentage} Bonus di ricarica Weekend Sport fino a ${amount}. Questo bonus è disponibile per un deposito durante il fine settimana, a partire da un deposito di ${min_deposit}.\nCome funziona:",
+              "fr" : "Ressentez les vibrations du Sports chaque weekend avec une Recharge Sports du Weekend jusqu'à ${amount} Ce bonus est valable sur un dépot durant le Weekend en déposant ${min_deposit} ou plus.\nFonctionnement:",
+              "pl" : "Weekendowy bonus sportowy Reload jest ważny od piątku do niedzieli i można go odebrać po wpłaceniu ${min_deposit}.\nJak to działa:",
+              "BR_pt" : "Sinta as Vibrações Esportivas todos os fins de semana com um bônus de Recarga esportiva de fim de semana de ${percentage} até ${amount}. Este bônus está disponível para um depósito durante o fim de semana ao depositar ${min_deposit} ou mais.\nComo funciona:",
+              "ru" : "Почувствуйте спортивный драйв каждые выходные с ${percentage} Релоад-бонус в выходные дни до ${amount}.\nЭтот бонус доступен для одного депозита в течение выходных при пополнении счета на сумму ${min_deposit} или более.",
+              "az" : "${percentage} dəyərində ${amount} məbləğinə qədər Həftəsonu Təkrar İdman Bonusu ilə idman həyəcanını hiss et! Bu bonus yalnız Həftəsonu ərzində ${min_deposit} və ya daha çox məbləğdə edilmiş bir depozit üçün keçərlidir.\nNecə işləyir:",
+              "hu" : "Add át magad a sportfogadásnak minden hétvégén az ${percentage}-os ${amount}-ig terjedő Hétvégi sportfogadási újratöltési bónusszal.\nEz a bónusz minden hétvégén egy befizetésre elérhető, amelynek összege legalább ${min_deposit}.",
+              "cs" : "Zažijte sportovní atmosféru každý víkend s ${percentage} víkendovým bonusem za dobití až do výše ${amount}.\nTento bonus je k dispozici pro jeden vklad během víkendu při vkladu ${min_deposit} nebo více.",
+              "el" : "Νιώθεις την αγωνιστική ατμόσφαιρα κάθε Σαββατοκύριακο με ένα ${percentage} Sports Reload Bonus έως ${amount}.\nΑυτό το μπόνους είναι διαθέσιμο για μία κατάθεση κατά τη διάρκεια του Σαββατοκύριακου, με τουλάχιστον ${min_deposit}.",
+              "sr" : "Uživajte u sportskoj atmosferi svakog vikenda uz Sportski reload bonus od ${percentage} do iznosa od ${amount}.\nOvaj bonus je dostupan za jedan izvršeni depozit tokom vikenda pri uplati od najmanje ${min_deposit}",
+              "mk" : "Уживајте во спортската атмосфера секој викенд со ${percentage} викенд спортски бонус за дополнување до ${amount}. Овој бонус е достапен за еден депозит за време на викендот при уплата од ${min_deposit} или повеќе.\nКако функционира:",
+              "ro" : "Simte vibe-ul sporturilor preferate în fiecare weekend cu un bonus de reîncărcare de ${percentage} până la ${amount}. Acest bonus este disponibil pentru o singură depunere de weekend în valoare de ${min_deposit} sau mai mult.\nCum funcționează:",
+              "sl" : "Vsak vikend začuti športno vzdušje z ${percentage} vikend športnim bonusom za ponovno vplačilo do ${amount}.\nTa bonus je na voljo ob enem pologu med vikendom, če položiš ${min_deposit} ali več.",
+              "hr" : "Svakog vikenda osjetite sportsku atmosferu uz Vikend sportski reload bonus od ${percentage} do ${amount}.\nBonus je dostupan za jednu uplatu na račun tijekom vikenda nakon uplate od najmanje ${min_deposit}.",
+              "bg" : "Почувствайте спортната емоция всеки уикенд с ${percentage} \"Weekend Sports Reload Bonus\u201c до ${amount}.\nТози бонус е достъпен за един депозит по време на уикенда при депозиране на ${min_deposit} или повече.",
+              "al" : "Ndjeni emocionet e sportit çdo fundjavë me një ${percentage} Weekend Sports Reload Bonus deri në ${amount}.\nKy bonus është i disponueshëm për një depozitë gjatë fundjavës pas një depozite prej ${min_deposit} ose më shumë.",
+              "BD_bn" : "প্রতি সপ্তাহান্তে স্পোর্টসের রোমাঞ্চ উপভোগ করুন \u2014 ${percentage} উইকএন্ড স্পোর্টস রিলোড বোনাস, সর্বোচ্চ ${amount} পর্যন্ত।\nএই বোনাসটি সপ্তাহান্তে একবারের জমায় প্রযোজ্য, যেখানে ন্যূনতম ${min_deposit} বা তার বেশি জমা দিতে হবে।"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "How it works:",
+              "ru" : "Как это работает:",
+              "hu" : "Hogyan működik:",
+              "cs" : "Jak to funguje:",
+              "el" : "Πώς λειτουργεί:",
+              "sr" : "Kako funkcioniše:",
+              "sl" : "Kako deluje:",
+              "hr" : "Kako to funkcionira:",
+              "bg" : "Как работи:",
+              "al" : "Si funksionon",
+              "BD_bn" : "কীভাবে এটা কাজ করেঃ"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Choose your preferred payment option",
+                  "de" : "Wählen Sie Ihre bevorzugte Zahlungsmethode",
+                  "fi" : "Valitse haluamasi maksutapa",
+                  "no" : "Velg din foretrukne betalingsmetode",
+                  "pt" : "Escolha sua opção de pagamento preferida",
+                  "es" : "Elige tu opción de pago deseada",
+                  "it" : "Scegli la tua opzione preferita per il pagamento",
+                  "fr" : "Choisissez votre mode de paiement préféré",
+                  "pl" : "Wybierz swoją ulubioną metodę płatności",
+                  "BR_pt" : "Escolha sua opção de pagamento preferida",
+                  "ru" : "Выберите предпочтительный способ оплаты",
+                  "az" : "Üstünlük verdiyiniz ödəniş metodunu seçin",
+                  "hu" : "Válaszd ki a kívánt fizetési módot",
+                  "cs" : "Vyberte si preferovanou platební metodu",
+                  "el" : "Διαλέγεις τον επιθυμητό τρόπο πληρωμής",
+                  "sr" : "Izaberite željenu opciju plaćanja",
+                  "mk" : "Изберете го вашиот претпочитан начин на плаќање",
+                  "ro" : "Alege metoda de plată dorită",
+                  "sl" : "Izberi želen način plačila",
+                  "hr" : "Odaberite željeni način plaćanja",
+                  "bg" : "Изберете предпочитания от вас начин на плащане",
+                  "al" : "Zgjidhni metodën tuaj të preferuar të pagesës",
+                  "BD_bn" : "আপনার পছন্দের পেমেন্ট অপশন বেছে নিন"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Select this promotion from the drop-down list",
+                  "de" : "Wählen Sie diese Aktion aus der Auswahlliste",
+                  "fi" : "Valitse tämä kampanja pudotusvalikosta",
+                  "no" : "Velg denne kampanjen fra rullegardinlisten.",
+                  "pt" : "Selecione esta promoção na lista suspensa",
+                  "es" : "Selecciona esta promoción de la lista desplegable",
+                  "it" : "Seleziona questa promozione dall'elenco a discesa",
+                  "fr" : "Sélectionnez cette promotion dans la liste",
+                  "pl" : "Wybierz tę promocję z rozwijanej listy",
+                  "BR_pt" : "Selecione esta promoção na lista suspensa",
+                  "ru" : "Выберите эту акцию из выпадающего списка",
+                  "az" : "Bu kampaniyanı açılan siyahıdan seçin",
+                  "hu" : "Válaszd ki ezt a promóciót a legördülő menüből",
+                  "cs" : "Vyberte tuto akci z rozevíracího seznamu",
+                  "el" : "Επιλέγεις αυτήν την προσφορά από την λίστα",
+                  "sr" : "Izaberite ovu promociju iz padajuće liste",
+                  "mk" : "Изберете ја промоцијава од паѓачката листа",
+                  "ro" : "Selectează această promoție din listă",
+                  "sl" : "Izberi to promocijo s spustnega seznama.",
+                  "hr" : "Odaberite ovu promociju s padajućeg popisa",
+                  "bg" : "Изберете тази промоция от падащия списък",
+                  "al" : "Zgjidhni këtë promocion nga lista zbritëse (drop-down)",
+                  "BD_bn" : "ড্রপ-ডাউন তালিকা থেকে এই প্রোমোশনটি নির্বাচন করুন"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Deposit ${min_deposit} or more, and we`ll add your Bonus",
+                  "de" : "Zahlen Sie ${min_deposit} oder mehr ein, und wir fügen Ihren Bonus hinzu",
+                  "fi" : "Talleta vähintään ${min_deposit}, niin lisäämme bonuksen",
+                  "no" : "Sett inn ${min_deposit} eller mer, så legger vi til bonusen din",
+                  "pt" : "Deposite ${min_deposit} ou mais e adicionaremos seu bônus",
+                  "es" : "Deposita ${min_deposit} o más, y añadiremos tu Bono",
+                  "it" : "Deposita ${min_deposit} o più, e aggiungeremo il tuo Bonus",
+                  "fr" : "Déposez ${min_deposit} ou plus, et nous ajouterons votre Bonus.",
+                  "pl" : "Wpłać ${min_deposit} lub więcej, a bonus będzie Twój",
+                  "BR_pt" : "Deposite ${min_deposit} ou mais e adicionaremos seu bônus",
+                  "ru" : "Внесите депозит ${min_deposit} или больше, и мы начислим вам бонус",
+                  "az" : "${min_deposit} və ya daha çox depozit edin \u2013 bonus avtomatik hesabınıza əlavə olunacaq",
+                  "hu" : "Fizess be legalább ${min_deposit}-ot, és már tiéd is a bónusz",
+                  "cs" : "Vložte ${min_deposit} nebo více a my vám přidáme bonus.",
+                  "el" : "Κάνεις κατάθεση τουλάχιστον ${min_deposit} και θα προσθέσουμε το μπόνους σου",
+                  "sr" : "Uplatite ${min_deposit} ili više, a mi ćemo dodati vaš bonus",
+                  "mk" : "Уплатете ${min_deposit} или повеќе и ние ќе го додадеме вашиот бонус",
+                  "ro" : "Depune ${min_deposit} sau mai mult și îți vom credita bonusul",
+                  "sl" : "Naloži ${min_deposit} ali več, mi pa bomo dodali tvoj bonus.",
+                  "hr" : "Uplati minimalno ${min_deposit} i dodijelit ćemo ti bonus",
+                  "bg" : "Депозирайте ${min_deposit} или повече и ние ще добавим вашия бонус",
+                  "al" : "Depozitoni ${min_deposit} ose më shumë dhe ne do t\u2019ju shtojmë Bonusin",
+                  "BD_bn" : "ন্যূনতম ${min_deposit} বা তার বেশি জমা দিন, আর আমরা আপনার বোনাস যোগ করব"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Deposit Now",
+              "de" : "Jetzt einzahlen",
+              "fi" : "Talleta nyt",
+              "no" : "Sett inn nå",
+              "pt" : "Deposite agora",
+              "es" : "Depositar ahora",
+              "it" : "Deposito ora",
+              "fr" : "Déposez maintenant",
+              "pl" : "Wpłać teraz",
+              "BR_pt" : "Deposite agora",
+              "ru" : "Пополнить счет сейчас",
+              "az" : "İndi Depozit Et",
+              "hu" : "Befizetés most",
+              "cs" : "Vložit",
+              "el" : "Κατάθεση",
+              "sr" : "Uplati sada",
+              "mk" : "Уплати сега",
+              "ro" : "Depune Acum",
+              "sl" : "Naloži zdaj",
+              "hr" : "Uplatite sada",
+              "bg" : "Депозирайте сега",
+              "al" : "Depozito Tani",
+              "BD_bn" : "এখনই জমা দিন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount" : {
+        "EUR" : "\u20ac100",
+        "*" : "100",
+        "USD" : "$100",
+        "USD_EC" : "$100",
+        "NOK" : "kr1000",
+        "CAD" : "C$100",
+        "CLP" : "100,000CLP",
+        "PEN" : "S/400",
+        "BRL" : "R$500",
+        "AUD" : "Α$100",
+        "NZD" : "NZ$100",
+        "PLN" : "500zł",
+        "CHF" : "100CHF",
+        "ZAR" : "2000R",
+        "MXN" : "$2000",
+        "JPY" : "¥15000",
+        "GBP" : "£100",
+        "HUF" : "35000 Ft",
+        "ARS" : "10000 ARS",
+        "INR" : "10000 INR",
+        "CZK" : "2000 Kč",
+        "RON" : "500 RON",
+        "ALL" : "10,000 ALL",
+        "MKD" : "5,000 MKD",
+        "RSD" : "10,000 RSD"
+      },
+      "min_deposit" : {
+        "EUR" : "\u20ac25",
+        "*" : "25",
+        "USD" : "$25",
+        "USD_EC" : "$25",
+        "NOK" : "kr350",
+        "CAD" : "C$30",
+        "CLP" : "25,000CLP",
+        "PEN" : "S/120",
+        "BRL" : "R$20",
+        "AUD" : "Α$30",
+        "NZD" : "NZ$30",
+        "PLN" : "90zł",
+        "CHF" : "25CHF",
+        "ZAR" : "500R",
+        "MXN" : "$500",
+        "JPY" : "¥4000",
+        "GBP" : "£25",
+        "HUF" : "8750 Ft",
+        "ARS" : "2500 ARS",
+        "INR" : "2500 INR",
+        "CZK" : "500 Kč",
+        "RON" : "100 RON",
+        "ALL" : "2,000 ALL",
+        "MKD" : "1,250 MKD",
+        "RSD" : "2,500 RSD"
+      },
+      "wagering_req" : {
+        "*" : "6x"
+      },
+      "min_odds" : {
+        "*" : "1.7"
+      },
+      "percentage" : {
+        "*" : "50%"
+      }
+    }
+  }
+}

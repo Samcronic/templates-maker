@@ -1,0 +1,378 @@
+{
+  "id" : "weekend-sports-freebet",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "fi" : "100% viikonlopun ilmaisveto urheiluun",
+        "no" : "100% helgens gratisspill",
+        "pt" : "100% de Aposta Grátis Esportiva do Fim de Semana",
+        "BR_pt" : "100% de Aposta Grátis Esportiva de Fim de Semana",
+        "it" : "100% di Freebet nel fine settimana",
+        "CA_en" : "100% Weekend Sports Freebet",
+        "CA_fr" : "100% Weekend Freebet Sports",
+        "pl" : "100% Weekendowy bonus sportowy Freebet",
+        "de" : "100% Wochenend-Gratiswette",
+        "es" : "100% de Apuesta Gratis Deportiva del Fin de Semana",
+        "fr" : "100% Weekend Freebet Sports",
+        "en" : "100% Weekend Sports Freebet",
+        "CL_es" : "100% de Apuesta Gratis Deportiva de Fin de Semana",
+        "tr" : "Hafta Sonuna Özel %100 Spor Freebet!"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "fi" : "Hyppää viikonloppuun ${max_amount} ilmaisvedollamme!",
+        "no" : "Start helgen med vårt ${max_amount} gratisspill!",
+        "pt" : "Comece o fim de semana com a nossa aposta grátis de ${max_amount}!",
+        "BR_pt" : "Comece o fim de semana com nossa Aposta Grátis de ${max_amount}!",
+        "it" : "Rimbalza nel weekend con la nostra ${max_amount} Freebet!",
+        "CA_en" : "Bounce into the weekend with our ${max_amount} Freebet!",
+        "CA_fr" : "Prenez de l'élan pour le week-end avec notre Freebet de ${max_amount} !",
+        "pl" : "Wejdź w weekend z energią i zgarnij Freebet aż do ${max_amount}!",
+        "de" : "Starten Sie mit unserer ${max_amount} Gratiswette ins Wochenende!",
+        "es" : "¡Empieza el fin de semana con nuestra apuesta gratis de ${max_amount}!",
+        "fr" : "Prenez de l'élan pour le week-end avec notre Freebet de ${max_amount} !",
+        "en" : "Bounce into the weekend with our ${max_amount} Freebet!",
+        "CL_es" : "¡Empieza el finde con todo gracias a una Apuesta Gratis de hasta ${max_amount}!",
+        "tr" : "${amount} yatır, ${max_amount} Freebet\u2019i kap!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "weekend-sports-freebet.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "sports"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./weekend-sports-freebet.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "fi" : "Nauti täysillä, kun vastaamme talletukseesi jopa ${max_amount} ilmaisvedolla!",
+              "no" : "Gå for fullt, for vi matcher innskuddet ditt med et gratisspill på opptil ${max_amount}!",
+              "pt" : "Aposte tudo enquanto nós igualamos o seu depósito com uma aposta grátis de até ${max_amount}!",
+              "BR_pt" : "Aposte tudo enquanto igualamos seu depósito com uma Aposta Grátis de até ${max_amount}!",
+              "it" : "Fai il pieno di soldi, perché ti regaliamo una freebet fino a ${max_amount} sul tuo deposito.",
+              "CA_en" : "Go all in as we match your deposit with an up to ${max_amount} Freebet!",
+              "CA_fr" : "Faites le plein d'argent car nous égalons votre dépôt avec un Freebet allant jusqu'à ${max_amount} Freebet !",
+              "pl" : "Postaw wszystko \u2013 my dopasujemy Twoją wpłatę darmowym Freebetem aż do ${max_amount}!",
+              "de" : "Gehen Sie aufs Ganze, denn wir gleichen Ihre Einzahlung mit einer Gratiswette von bis zu ${max_amount} aus!",
+              "es" : "Ve todo al máximo mientras igualamos tu depósito con una apuesta gratis de hasta ${max_amount}!",
+              "fr" : "Faites le plein d'argent car nous égalons votre dépôt avec un Freebet allant jusqu'à ${max_amount} Freebet !",
+              "en" : "Go all in as we match your deposit with an up to ${max_amount} Freebet!",
+              "CL_es" : "Deposita y te igualamos con una Apuesta Gratis Deportiva de hasta ${max_amount}!",
+              "tr" : "Tümünü ortaya koy! Yatırımını biz, ${max_amount}\u2019a kadar Freebet ile eşleştiriyoruz!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "fi" : "Toimi näin:",
+              "no" : "Hvordan det fungerer:",
+              "pt" : "Como funciona:",
+              "BR_pt" : "Como funciona:",
+              "it" : "Come funziona:",
+              "CA_en" : "How it works:",
+              "CA_fr" : "Fonctionnement:",
+              "pl" : "Jak to działa:",
+              "de" : "So funktioniert es:",
+              "es" : "Como funciona:",
+              "fr" : "Fonctionnement:",
+              "en" : "How it works:",
+              "CL_es" : "¿Cómo funciona?",
+              "tr" : "Nasıl çalışıyor:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "fi" : "Valitse haluamasi maksutapa ja talleta vähintään ${amount}.",
+                  "no" : "Velg din foretrukne betalingsmetode, og sett inn minst ${amount}.",
+                  "pt" : "Escolha a sua opção de pagamento preferida e faça um depósito mínimo de ${amount}.",
+                  "BR_pt" : "Escolha sua opção de pagamento preferida e deposite o valor mínimo de ${amount}.",
+                  "it" : "Scegliere l'opzione di pagamento preferita e depositare un minimo di ${amount}.",
+                  "CA_en" : "Choose your preferred payment option, and deposit minimum ${amount}.",
+                  "CA_fr" : "Choisissez votre option de paiement préférée et déposez un montant minimum de ${amount}.",
+                  "pl" : "Wybierz preferowaną metodę płatności i wpłać minimum ${amount}.",
+                  "de" : "Wählen Sie Ihre bevorzugte Zahlungsmethode und zahlen Sie mindestens ${amount} ein.",
+                  "es" : "Elige tu opción de pago preferida y realiza un depósito mínimo de ${amount}.",
+                  "fr" : "Choisissez votre option de paiement préférée et déposez un montant minimum de ${amount}.",
+                  "en" : "Choose your preferred payment option, and deposit minimum ${amount}.",
+                  "CL_es" : "Elige tu medio de pago favorito y deposita mínimo ${amount}.",
+                  "tr" : "Tercih ettiğiniz ödeme yöntemini seçin ve minimum ${amount} yatırın."
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "fi" : "Aseta veto ja ota yhteys asiakastukeen.",
+                  "no" : "Plasser et spill, og kontakt deretter kundeservice.",
+                  "pt" : "Faça uma aposta e depois entre em contato com o Suporte ao Cliente.",
+                  "BR_pt" : "Faça uma aposta e entre em contato com o Suporte ao Cliente.",
+                  "it" : "Piazzare una scommessa e contattare l'Assistenza clienti.",
+                  "CA_en" : "Place a bet and then contact Customer Support.",
+                  "CA_fr" : "Placez un pari et contactez le service clientèle.",
+                  "pl" : "Postaw zakład, a następnie skontaktuj się z Obsługą Klienta.",
+                  "de" : "Platzieren Sie eine Wette und wenden Sie sich anschließend an den Kundensupport.",
+                  "es" : "Haz una apuesta y luego contacta con el Soporte al Cliente.",
+                  "fr" : "Placez un pari et contactez le service clientèle.",
+                  "en" : "Place a bet and then contact Customer Support.",
+                  "CL_es" : "Haz tu primera apuesta del fin de semana y contacta al equipo de Soporte.",
+                  "tr" : "Bir bahis yapın ve ardından Müşteri Hizmetleri ile iletişime geçin."
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "fi" : "Ensimmäiseen talletukseesi mainittuna ajanjaksona vastataan yhtä suurella ilmaisvedolla, enintään ${max_amount}",
+                  "no" : "Ditt første innskudd i kampanjeperioden vil bli matchet med et gratisspill på samme beløp, opptil ${max_amount}.",
+                  "pt" : "O seu primeiro depósito durante o período mencionado será igualado com uma aposta grátis até ${max_amount}.",
+                  "BR_pt" : "Seu primeiro depósito durante o período mencionado será igualado com uma aposta grátis de até ${max_amount}.",
+                  "it" : "Il tuo primo deposito durante il periodo indicato sarà abbinato a una scommessa gratuita di pari importo fino a ${max_amount}.",
+                  "CA_en" : "Your first deposit during the mentioned period will be matched with an equal free bet up to ${max_amount}",
+                  "CA_fr" : "Votre premier dépôt pendant la période mentionnée sera assorti d'un pari gratuit équivalent jusqu'à concurrence de ${max_amount}",
+                  "pl" : "Twoja pierwsza wpłata w podanym okresie zostanie dopasowana równowartościowym darmowym Freebetem aż do ${max_amount}.",
+                  "de" : "Ihre erste Einzahlung während des genannten Zeitraums wird mit einer Gratiswette in gleicher Höhe bis zu ${max_amount} ausgeglichen.",
+                  "es" : "Tu primer depósito durante el período mencionado será igualado con una apuesta gratis hasta",
+                  "fr" : "Votre premier dépôt pendant la période mentionnée sera assorti d'un pari gratuit équivalent jusqu'à concurrence de ${max_amount}",
+                  "en" : "Your first deposit during the mentioned period will be matched with an equal free bet up to ${max_amount}",
+                  "CL_es" : "Te igualamos tu depósito con una Apuesta Gratis Deportiva del mismo monto, hasta ${max_amount}.",
+                  "tr" : "Belirtilen dönem içinde yaptığınız ilk yatırım, ${max_amount}\u2019a kadar eşdeğer bir freebet ile eşleştirilecektir."
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "fi" : "Talleta nyt",
+              "no" : "Sett inn nå",
+              "pt" : "Deposite agora",
+              "BR_pt" : "Deposite agora",
+              "it" : "Deposita ora",
+              "CA_en" : "Deposit Now",
+              "CA_fr" : "Déposez maintenant",
+              "pl" : "Wpłać teraz",
+              "de" : "Jetzt einzahlen",
+              "es" : "depositar ahora",
+              "fr" : "Déposez maintenant",
+              "en" : "Deposit Now",
+              "CL_es" : "Deposita ahora",
+              "tr" : "Şimdi Yatır"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount" : {
+        "EUR" : "\u20ac25",
+        "*" : "\u20ac25",
+        "USD" : "$25",
+        "NOK" : "kr350",
+        "CAD" : "C$30",
+        "CLP" : "25,000CLP",
+        "PEN" : "S/120",
+        "BRL" : "R$20",
+        "AUD" : "Α$30",
+        "NZD" : "NZ$30",
+        "PLN" : "90zł",
+        "CHF" : "25CHF",
+        "ZAR" : "500R",
+        "MXN" : "$500",
+        "JPY" : "¥4000",
+        "GBP" : "£25",
+        "TRY" : "1200 TL"
+      },
+      "max_amount" : {
+        "EUR" : "\u20ac100",
+        "*" : "\u20ac100",
+        "USD" : "$100",
+        "NOK" : "kr1000",
+        "CAD" : "C$100",
+        "CLP" : "100,000CLP",
+        "PEN" : "S/500",
+        "BRL" : "R$100",
+        "AUD" : "Α$100",
+        "NZD" : "NZ$100",
+        "PLN" : "400zł",
+        "CHF" : "100CHF",
+        "ZAR" : "2000R",
+        "MXN" : "$2000",
+        "JPY" : "¥15000",
+        "GBP" : "£100",
+        "TRY" : "1200 TL"
+      },
+      "max_odds" : {
+        "BE" : "5.00",
+        "SE" : "5.00",
+        "NL" : "5.00",
+        "FI" : "5.00",
+        "NO" : "5.00",
+        "PT" : "5.00",
+        "IT" : "5.00",
+        "PL" : "5.00",
+        "DE" : "5.00",
+        "ES" : "5.00",
+        "FR" : "5.00",
+        "*" : "5.00",
+        "GB" : "45662"
+      }
+    }
+  }
+}

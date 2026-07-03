@@ -1,0 +1,281 @@
+{
+  "id" : "weekend-sports-reload-bonus-sweden",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Weekend Sports Reload Bonus"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "A ${percentage} up to ${amount} Reload for an adrenaline kick!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "weekend-sports-reload.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "sports"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./weekend-sports-reload-bonus-sweden.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Feel the Sports Vibes every weekend with a ${percentage} Weekend Sports Reload Bonus up to ${amount}.\nThis bonus is available for one deposit during the Weekend upon depositing ${min_deposit} or more."
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "How it works:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Choose your preferred payment option"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Select this promotion from the drop-down list"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Deposit ${min_deposit} or more, and we`ll add your Bonus"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Deposit Now"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount" : {
+        "*" : "\u20ac100",
+        "ALL" : "10,000 ALL",
+        "ARS" : "10000 ARS",
+        "AUD" : "Α$100",
+        "BRL" : "R$500",
+        "CAD" : "C$100",
+        "CHF" : "100CHF",
+        "CLP" : "100,000CLP",
+        "CZK" : "2000 Kč",
+        "EUR" : "\u20ac100",
+        "GBP" : "£100",
+        "HUF" : "35000 Ft",
+        "INR" : "10000 INR",
+        "JPY" : "¥15000",
+        "MKD" : "5,000 MKD",
+        "MXN" : "$2000",
+        "NOK" : "kr1000",
+        "NZD" : "NZ$100",
+        "PEN" : "S/400",
+        "PLN" : "500zł",
+        "RON" : "500 RON",
+        "RSD" : "10,000 RSD",
+        "USD" : "$100",
+        "ZAR" : "2000R"
+      },
+      "min_deposit" : {
+        "ALL_SE" : "1,600 ALL",
+        "ARS_SE" : "2500 ARS",
+        "AUD_SE" : "Α$30",
+        "BRL_SE" : "R$20",
+        "CAD_SE" : "C$30",
+        "CHF_SE" : "25CHF",
+        "CLP_SE" : "25,000CLP",
+        "CZK_SE" : "500 Kč",
+        "EUR_SE" : "\u20ac20",
+        "GBP_SE" : "£25",
+        "HUF_SE" : "8750 Ft",
+        "INR_SE" : "2500 INR",
+        "JPY_SE" : "¥4000",
+        "MKD_SE" : "1,000 MKD",
+        "MXN_SE" : "$500",
+        "NOK_SE" : "kr350",
+        "NZD_SE" : "NZ$30",
+        "PEN_SE" : "S/120",
+        "PLN_SE" : "90zł",
+        "RON_SE" : "80 RON",
+        "RSD_SE" : "2,000 RSD",
+        "USD_SE" : "$25",
+        "ZAR_SE" : "500R"
+      },
+      "wagering_req" : {
+        "*" : "5x"
+      },
+      "min_odds" : {
+        "*" : "1.5"
+      },
+      "percentage" : {
+        "*" : "50%"
+      }
+    }
+  }
+}

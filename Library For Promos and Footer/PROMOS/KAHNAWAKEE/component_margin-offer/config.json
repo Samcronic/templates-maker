@@ -1,0 +1,254 @@
+{
+  "id" : "margin-offer",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "0% Margin",
+        "de" : "0% Marge",
+        "fi" : "0%-marginaali",
+        "no" : "0% Margin",
+        "pt" : "0% de Margem",
+        "es" : "0% de Margen",
+        "it" : "0% Margine",
+        "fr" : "0% Marge",
+        "pl" : "0% Marży",
+        "ru" : "Маржа 0%",
+        "az" : "0% Marja",
+        "hu" : "0% margin",
+        "sr" : "0% marže",
+        "cs" : "0% marže",
+        "tr" : "%0 Marj",
+        "et" : "0% marginaal",
+        "el" : "0% Γκανιότα",
+        "mk" : "0 % маржа",
+        "al" : "0% Marzh",
+        "ro" : "0% marjă",
+        "sl" : "0% marža",
+        "hr" : "0 % marže",
+        "bg" : "0% марж",
+        "BD_bn" : "০% মার্জিন"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "The best odds every day",
+        "de" : "Täglich die besten Quoten",
+        "fi" : "Parhaat kertoimet joka päivä",
+        "no" : "De beste oddsene hver dag",
+        "pt" : "As melhores hipóteses todos os dias",
+        "es" : "Las mejores probabilidades cada día",
+        "it" : "Le migliori quote ogni giorno",
+        "fr" : "Les meilleures cotes chaque jour",
+        "pl" : "Najlepsze kursy codziennie",
+        "ru" : "Лучшие шансы каждый день",
+        "az" : "Hər gün ən yaxşı əmsallar!",
+        "hu" : "A legjobb szorzók minden nap",
+        "sr" : "Najbolje kvote svaki dan",
+        "cs" : "Nejlepší kurzy každý den",
+        "tr" : "Günün en iyi oranları",
+        "et" : "Parimad šansid iga päev",
+        "el" : "Κορυφαίες αποδόσεις κάθε μέρα",
+        "mk" : "Најдобрите коефициенти секој ден",
+        "al" : "Koeficientet më të mira çdo ditë",
+        "ro" : "Cele mai bune cote în fiecare zi",
+        "sl" : "Najboljše kvote vsak dan",
+        "hr" : "Najbolje kvote svaki dan",
+        "bg" : "Най-добрите коефициенти всеки ден",
+        "BD_bn" : "প্রতিদিন সেরা সম্ভাবনা"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "banner.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "text",
+          "value" : "sports"
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./margin-offer.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Experience the thrill of all the best matches, as we offer them with 0% margin!\nWith the best competitive odds and zero commission, it`s all about you and your bets!",
+              "de" : "Erleben Sie den Wahnsinn der besten Spiele, denn wir bieten sie mit 0% Marge an!\nMit den wettbewerbsfähigsten Quoten und null Gebühren geht es nur um Sie und Ihre Wetten!",
+              "fi" : "Koe kaikkien parhaiden otteluiden jännitys, sillä tarjoamme niihin 0%-marginaalin!\nParhailla kertoimilla ja nollakatteella kyseessä olet vain sinä ja vetosi!",
+              "no" : "Opplev spenningen med de beste kampene, vi tilbyr dem med 0% margin!\nMed de beste konkurransedyktige oddsene og null provisjon, handler det kun om deg og dine spill!",
+              "pt" : "Experimente a emoção de todos os melhores jogos, uma vez que os proporcionamos com 0% de margem!\nCom as mais competitivas probabilidades e zero comissões, tudo gira em torno de si e das suas apostas!",
+              "es" : "Vive la emoción de los mejores partidos, ya que te los ofrecemos con 0% de margen!\nCon las mejores cuotas competitivas y cero comisiones, ¡todo gira en torno a ti y a tus apuestas!",
+              "it" : "Vivi l`emozione di tutte le migliori partite, perché te le offriamo con un margine dello 0%!\nCon le migliori quote competitive e zero commissioni, tutto ruota intorno a voi e alle vostre scommesse!",
+              "fr" : "Vivez le suspense de tous les meilleurs matchs, car nous les offrons avec une marge de 0%!\nAvec les meilleures cotes compétitives et zéro commission, tout tourne autour de vous et de vos paris!",
+              "CA_en" : "Feel the Sports Vibes every weekend with a 50% Weekend Sports Reload Bonus up to C$100. This bonus is available for one deposit during the Weekend upon depositing C$10 or more.",
+              "CA_fr" : "Ressentez les vibrations du Sports chaque weekend avec une Recharge Sports du Weekend jusqu'à C$100. Ce bonus est valable sur un dépot durant le Weekend en déposant C$10 ou plus.",
+              "pl" : "Przeżyj emocje z najlepszymi meczami, które udostępniamy bez żadnej marży!\nKorzystaj z najlepszych kursów i zerowej prowizji - wszystko z myślą o Tobie i Twoich zakładach!",
+              "ru" : "Ощутите азарт лучших матчей \u2014 мы предлагаем их с маржой 0%! Конкурентные коэффициенты и нулевая комиссия -  всё зависит только от вас и ваших ставок!",
+              "az" : "0% Marja ilə Ən Yaxşı Matçların Həyəcanını Yaşayın! Ən rəqabətli əmsallar və 0% komissiya ilə bu yalnız sizin və mərcləriniz üçündür!",
+              "hu" : "Tapasztald meg a legjobb mérkőzések izgalmait, ugyanis mindegyikre 0%-os margint kínálunk!\nA legjobb szorzók és a jutalékmentes fogadások mellett minden csakis rajtad és a fogadásaidon áll!",
+              "sr" : "Doživite uzbuđenje svih vrhunskih mečeva, koje vam nudimo uz 0% marže!\nSa najkonkurentnijim kvotama i bez ikakve provizije, sve je usmereno na vas i vaše opklade!",
+              "cs" : "Zažijte napětí nejlepších zápasů s 0% marží! Díky férovým kurzům bez přirážky jde jen o vás a vaše sázky!",
+              "tr" : "Tüm en iyi maçların heyecanını yaşa - hepsi %0 marj ile!\nEn rekabetçi oranlar ve sıfır komisyonla, her şey sen ve bahislerin için!",
+              "et" : "Koge parimate matšide elevust, sest pakume neid 0% marginaaliga! Kasutades ära kõige konkurentsivõimelisemaid šansse ilma vahendustasuta, oleneb kõik Sinust ja Sinu panustest!",
+              "el" : "Ζεις την εμπειρία των καλυτέρων αγώνων, με 0% γκανιότα!\nΜε τις πιο ανταγωνιστικές αποδόσεις και μηδενική προμήθεια, το μόνο που μετράει είσαι εσύ και το παιχνίδι σου!",
+              "mk" : "Доживејте ја возбудата на најдобрите натпревари, бидејќи ги нудиме со 0 % маржа!\nСо најдобрите конкурентни коефициенти и нула провизија, сè е за вас и вашите облози!",
+              "al" : "Përjetoni emocionet e ndeshjeve më të mira, pasi ne i ofrojmë ato me 0% marzh!\nMe koeficientet më konkurruese dhe pa komision, gjithçka ka të bëjë me ju dhe bastet tuaja!",
+              "ro" : "Experimentează adrenalina celor mai bune meciuri, pentru că ți le oferim cu marjă 0%! Cu cele mai bune cote și zero comision, totul devine despre tine și despre pariurile tale!",
+              "sl" : "Doživite napetost vseh najboljših tekem z 0% maržo!\nZ najboljšimi konkurenčnimi kvotami in brez provizije je vse v vaših rokah in vaših stavah!",
+              "hr" : "Doživite uzbuđenje svih vrhunskih utakmica koje vam nudimo uz 0% marže!\nS najkonkurentnijim kvotama i bez provizije, sve je usmjereno na vas i vaše oklade!",
+              "bg" : "Изживейте тръпката от всички най-добри мачове, тъй като ги предлагаме с 0% марж!\nС най-добрите конкурентни коефициенти и нулева комисиона, всичко зависи от Вас и Вашите залози!",
+              "BD_bn" : "সেরা সব ম্যাচের রোমাঞ্চ উপভোগ করুন, কারণ আমরা সেগুলো দিচ্ছি ০% মার্জিনে! সেরা প্রতিযোগিতামূলক অডস এবং শূন্য কমিশনের সাথে, সবকিছুই আপনার এবং আপনার বাজিকে কেন্দ্র করে!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "BET NOW",
+              "de" : "JETZT WETTEN",
+              "fi" : "LYÖ VETOA NYT",
+              "no" : "SATS NÅ",
+              "pt" : "APOSTE AGORA",
+              "es" : "APUESTA AHORA",
+              "it" : "SCOMMETTI ORA",
+              "fr" : "MISER MAINTENANT",
+              "CA_en" : "Deposit Now",
+              "CA_fr" : "Déposez maintenant",
+              "pl" : "OBSTAW TERAZ",
+              "ru" : "СТАВЬ СЕЙЧАС",
+              "az" : "İNDİ MƏRC ET",
+              "hu" : "FOGADJ MOST",
+              "sr" : "NA KLAĐENJE!",
+              "cs" : "VSADIT",
+              "tr" : "ŞİMDİ BAHİS YAP",
+              "et" : "PANUSTA KOHE",
+              "el" : "ΠΑΙΧΝΙΔΙ",
+              "mk" : "ОБЛОЖИ СЕ СЕГА",
+              "al" : "VENDOS BAST TANI",
+              "ro" : "PARIAZĂ ACUM",
+              "sl" : "STAVI ZDAJ",
+              "hr" : "KLADITE SE SADA",
+              "bg" : "ЗАЛОЖЕТЕ СЕГА",
+              "BD_bn" : "এখনই বাজি ধরুন"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/sports"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    }
+  }
+}
