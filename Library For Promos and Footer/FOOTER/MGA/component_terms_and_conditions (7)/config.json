@@ -1,0 +1,31 @@
+{
+  "id" : "terms_and_conditions",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "MGA"
+    }
+  },
+  "references" : {
+    "MGA" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "terms_and_conditions.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "TERMS & CONDITIONS",
+          "de" : "GESCHÄFTSBEDINGUNGEN",
+          "fi" : "KÄYTTÖEHDOT",
+          "fr" : "TERMES ET CONDITIONS",
+          "no" : "BETINGELSER OG VILKÅR:",
+          "pt" : "TERMOS E CONDIÇÕES"
+        }
+      }
+    }
+  },
+  "type" : "component"
+}

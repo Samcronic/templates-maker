@@ -1,0 +1,31 @@
+{
+  "id" : "responsible_gaming",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "MGA"
+    }
+  },
+  "references" : {
+    "MGA" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "responsible_gaming.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "RESPONSIBLE GAMING",
+          "de" : "VERANTWORTUNGSBEWUSSTES SPIELEN",
+          "fi" : "VASTUULLINEN PELAAMINEN",
+          "fr" : "JEU RESPONSABLE",
+          "no" : "ANSVARLIG SPILLING",
+          "pt" : "JOGO RESPONSÁVEL"
+        }
+      }
+    }
+  },
+  "type" : "component"
+}

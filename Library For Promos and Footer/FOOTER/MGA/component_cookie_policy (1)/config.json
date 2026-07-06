@@ -1,0 +1,31 @@
+{
+  "id" : "cookie_policy",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "MGA"
+    }
+  },
+  "references" : {
+    "MGA" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "cookie_policy.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "COOKIE POLICY",
+          "de" : "COOKIE-RICHTLINIE",
+          "fi" : "EVÄSTEPOLITIIKKA",
+          "fr" : "POLITIQUE DE COOKIES",
+          "no" : "RETNINGSLINJER FOR INFORMASJONSKAPSLER",
+          "pt" : "POLÍTICA DE COOKIES"
+        }
+      }
+    }
+  },
+  "type" : "component"
+}

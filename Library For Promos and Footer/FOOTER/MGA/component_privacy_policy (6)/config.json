@@ -1,0 +1,31 @@
+{
+  "id" : "privacy_policy",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "MGA"
+    }
+  },
+  "references" : {
+    "MGA" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "privacy_policy.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "PRIVACY POLICY",
+          "de" : "DATENSCHUTZERKLÄRUNG",
+          "fi" : "TIETOSUOJAKÄYTÄNTÖ",
+          "fr" : "POLITIQUE DE CONFIDENTIALITÉ",
+          "no" : "PERSONVERNERKLÆRING",
+          "pt" : "POLÍTICA DE PRIVACIDADE"
+        }
+      }
+    }
+  },
+  "type" : "component"
+}

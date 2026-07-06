@@ -1,0 +1,365 @@
+{
+  "id" : "footer",
+  "type" : "component",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "MGA"
+    }
+  },
+  "references" : {
+    "MGA" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/bonus_terms_and_conditions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "General Bonus T&Cs",
+              "bg" : "Общи условия за бонусите",
+              "cs" : "Obecné podmínky bonusů",
+              "de" : "Allgemeine Bonus AGBs",
+              "el" : "Γενικοί όροι και προϋποθέσεις των Μπόνους",
+              "es" : "T&Cs de Bonos",
+              "fi" : "Yleiset bonusehdot",
+              "fr" : "CGU des bonus",
+              "hr" : "Uvjeti i odredbe za bonuse općenito",
+              "it" : "Bonus generale T&CS",
+              "mk" : "Општи услови за бонус",
+              "no" : "Generelle bonusvilkår",
+              "pt" : "Termos gerais de bônus",
+              "BR_pt" : "Termos gerais de bônus",
+              "ro" : "Termeni și Condiții Generale",
+              "ru" : "Общие условия предоставления бонусов",
+              "sl" : "Splošni pogoji bonusov",
+              "sq" : "Termat & Kushtet e Përgjithshme për Bonuset",
+              "sr" : "Uslovi i odredbe korišćenja bonusa",
+              "tr" : "Genel Bonus Şartları"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/about_us"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "About Us",
+              "de" : "Über uns",
+              "fi" : "Meistä",
+              "fr" : "À propos de nous",
+              "no" : "Om oss",
+              "pt" : "Sobre nós"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/terms_and_conditions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Terms & Conditions",
+              "de" : "Geschäftsbedingungen",
+              "fi" : "Käyttöehdot",
+              "fr" : "Conditions d'utilisation",
+              "no" : "Betingelser og vilkår",
+              "pt" : "Termos e Condições"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/privacy_policy"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Privacy Policy",
+              "de" : "Datenschutz",
+              "fi" : "Tietosuojakäytäntö",
+              "fr" : "Politique de confidentialité",
+              "no" : "Personvernerklæring",
+              "pt" : "Política de Privacidade"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/cookie_policy"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Cookie Policy",
+              "de" : "Cookie-Richtlinie",
+              "fi" : "Evästepolitiikka",
+              "no" : "Retningslinjer for informasjonskapsler",
+              "pt" : "Política de Cookies",
+              "fr" : "Politique de Cookies"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/faq"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "FAQ",
+              "de" : "FAQ",
+              "fi" : "FAQ",
+              "fr" : "FAQ",
+              "no" : "FAQ",
+              "pt" : "Perguntas frequentes"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/responsible_gaming"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Responsible Gaming",
+              "de" : "Verantwortungsvolles Spielen",
+              "fi" : "Vastuullinen pelaaminen",
+              "fr" : "Jeu responsable",
+              "no" : "Ansvarlig spill",
+              "pt" : "Jogo responsável"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/contact_us"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Contact Us",
+              "de" : "Kontaktieren Sie uns",
+              "fi" : "Ota meihin yhteyttä",
+              "fr" : "Nous contacter",
+              "no" : "Kontakt oss",
+              "pt" : "Contactar-nos"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/sport_betting_rules"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Sport Betting Rules",
+              "de" : "Sportwetten Regeln",
+              "fi" : "Vedonlyönnin säännöt",
+              "fr" : "Règles paris sportifs",
+              "no" : "Regler for sportsspill",
+              "pt" : "Regras de apostas esportivas"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/payments/deposit"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Payments & Withdrawals",
+              "de" : "Zahlungen und Auszahlungen",
+              "fi" : "Maksut ja kotiutukset",
+              "fr" : "Paiements & Retraits",
+              "no" : "Betalinger og Uttak",
+              "pt" : "Pagamentos e Retiradas"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/promotions/promotions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Promotions",
+              "de" : "Aktionen",
+              "fi" : "Kampanjat",
+              "fr" : "Promotions",
+              "no" : "Kampanjer",
+              "pt" : "Promoções"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "licence"
+          },
+          "jurisdiction" : {
+            "type" : "text",
+            "value" : "MALTA"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "https://authorisation.mga.org.mt/verification.aspx?lang=EN&company=29a14e66-9225-4e45-be8c-629814857c6c&details=1"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "https://gamblingtherapy.org"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "moody.svg"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "image"
+          },
+          "image" : {
+            "type" : "image",
+            "name" : "18.svg"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "https://gambleaware.org"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "gamble_aware.png"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "https://c24partners.com"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "c24_affiliates.svg"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Spinstag Casino is licensed through Malta Gaming Authority, under the licence No. MGA/B2C/233/2013 (02/07/2013) issued to L.C.S Limited, C-64070 registered at Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. spinstag.com is operated by L.C.S Limited, C-64070 registered at Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. Underage gambling is an offence. Gambling can be addictive, please play responsibly.",
+              "de" : "Spinstag Casino ist durch Maltas Gaming Authority lizenziert, unter der Lizenz Nr. MGA/B2C/233/2013 (02/07/2013) ausgestellt an L.C.S Limited, C-64070 registriert in Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. spinstag.com wird von L.C.S Limited, C-64070, registriert in der Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta, betrieben. Glücksspiel für Minderjährige ist eine Straftat. Glücksspiel kann süchtig machen, bitte spielen Sie verantwortungsvoll.",
+              "fi" : "Spinstag Casino on lisensoitu Malta Gaming Authorityn kautta lisenssillä nro MGA/B2C/233/2013 (02/07/2013), joka on myönnetty yhtiölle L.C.S Limited, C-64070, rekisteröity osoitteessa Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. spinstag.com-sivustoa ylläpitää L.C.S Limited, C-64070, joka on rekisteröity osoitteessa Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. Alaikäisten rahapelaaminen on rikos. Uhkapelit voivat aiheuttaa riippuvuutta, pelaa vastuullisesti.",
+              "no" : "Spinstag Casino er lisensiert gjennom Malta Gaming Authority, under lisens nr. MGA/B2C/233/2013 (02/07/2013) utstedt til L.C.S Limited, C-64070 registrert på Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. spinstag.com drives av L.C.S Limited, C-64070 registrert på Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. Mindreårige gambling er straffbart. Gambling kan være avhengighetsskapende, vennligst spill ansvarlig.",
+              "pt" : "O Spinstag Cassino é licenciado pela Malta Gaming Authority, sob a licença nº MGA/B2C/233/2013 (02/07/2013) emitida para a L.C.S Limited, C-64070 registrada na Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. spinstag.com é operado pela L.C.S Limited, C-64070 registrada na Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. O jogo de menores é uma ofensa. O jogo pode ser viciante, por favor, jogue com responsabilidade.",
+              "es" : "Spinstag Casino tiene licencia a través de Malta Gaming Authority, bajo la licencia No. MGA/B2C/233/2013 (02/07/2013) emitida a L.C.S Limited, C-64070 registrada en Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. spinstag.com es operado por L.C.S Limited, C-64070 registrada en Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. El juego de menores es un delito. Los juegos de azar pueden ser adictivos, juegue con responsabilidad.",
+              "it" : "Spinstag Casino è autorizzato da Malta Gaming Authority, ai sensi della licenza n. MGA/B2C/233/2013 (02/07/2013) rilasciato a L.C.S Limited, C-64070 registrato presso Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. spinstag.com è gestito da L.C.S Limited, C-64070 registrato presso Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. Il gioco d'azzardo minorenne è un'offesa. Il gioco d'azzardo può essere avvincente, per favore gioca in modo responsabile.",
+              "fr" : "Spinstag Casino est licensé par Malta Gaming Authority, sous la license N° MGA/B2C/233/2013 (02/07/2013) délivrée à L.C.S. Limited, C-64070 enregistré à Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. spinstag.com est géré par L.C.S. Limited, C-64070 enregistré à Office 3, Level 2, Sterling Building Enrico Mizzi Street, TA' XBIEX XBX 1453, Malta. Parier de l'argent en étant mineur est un délit. Le jeu peut se révéler addictif, veuillez jouer avec précaution."
+            }
+          }
+        }
+      ]
+    }
+  }
+}
