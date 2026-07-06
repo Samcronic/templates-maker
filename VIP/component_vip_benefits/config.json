@@ -1,0 +1,154 @@
+{
+  "id" : "vip_benefits",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "VIP Perks",
+        "de" : "VIP-Vorteile",
+        "fi" : "VIP-etuudet",
+        "no" : "VIP-fordele",
+        "pt" : "Benefícios VIP",
+        "es" : "Ventajas VIP",
+        "it" : "Vantaggi VIP",
+        "fr" : "Avantages VIP",
+        "pl" : "Przywileje VIP",
+        "hu" : "VIP Jellemzők",
+        "cz" : "VIP Výhody"
+      }
+    },
+    "cards" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "icon" : {
+            "type" : "image",
+            "name" : "withdrawals.svg"
+          },
+          "title" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Fast Withdrawals",
+              "de" : "Schnelle Auszahlungen",
+              "fi" : "Nopeat Nostot",
+              "no" : "Raskeita Nostoja",
+              "pt" : "Saques Rápidos",
+              "es" : "Retiros Rápidos",
+              "it" : "Prelievi Veloci",
+              "fr" : "Retraits Rapides",
+              "pl" : "Szybkie Wypłaty",
+              "hu" : "Gyors Kifizetések",
+              "cz" : "Rychlé Výběry"
+            }
+          },
+          "description" : {
+            "type" : "text",
+            "value" : {
+              "en" : "We will ensure that your withdrawals are processed quickly and we will be available to answer any queries you may have with no delay.",
+              "de" : "Wir sorgen dafür, dass Ihre Auszahlungen schnell bearbeitet werden, und stehen Ihnen für alle Anfragen unverzüglich zur Verfügung.",
+              "fi" : "Varmistamme, että kotiutuksesi sujuvat nopeasti, ja me olemme valmiina vastaamaan kysymyksiisi välittömästi.",
+              "no" : "Vi sørger for at uttakene dine behandles raskt, og vi er tilgjengelige for å svare på eventuelle spørsmål uten forsinkelser.",
+              "pt" : "Garantiremos que suas retiradas sejam processadas rapidamente e estaremos disponíveis para responder a quaisquer dúvidas que você possa ter sem demora.",
+              "es" : "Nos aseguraremos de que tus retiradas se procesen rápidamente y estaremos disponibles para responder a cualquier duda que puedas tener sin demora.",
+              "it" : "Ci assicureremo che i tuoi prelievi vengano elaborati rapidamente e saremo a disposizione per rispondere a qualsiasi domanda tu possa avere senza alcun ritardo.",
+              "fr" : "Nous veillerons à ce que vos retraits soient traités rapidement et nous nous tiendrons à votre disposition pour répondre à toutes vos questions dans les plus brefs délais.",
+              "az" : "Biz, məbləğlərin sürətlə çıxarılması üçün sorğularınızın sürətlə emal edilməsini təmin edəcəyik və suallarınızı gecikmədək cavablandırmaq üçün hər zaman yanınızda olacağıq.",
+              "ru" : "Мы обеспечим быструю обработку снятых вами средств и готовы ответить на любые ваши вопросы без промедления.",
+              "tr" : "Para çekme işlemlerinizin hızlı bir şekilde tamamlanmasını sağlayacak ve herhangi bir sorunuz olduğunda anında yanıt vermek için hazır bulunacağız.",
+              "pl" : "Zapewnimy, że Twoje wypłaty będą przetwarzane szybko, a my będziemy dostępni, aby odpowiedzieć na wszelkie pytania, które możesz mieć bez opóźnień.",
+              "hu" : "Biz biztosítjuk, hogy a kifizetéseid gyorsan feldolgozásra kerüljenek, és készen állunk arra, hogy minden kérdésedre azonnal válaszoljunk.",
+              "cz" : "Zajistíme, aby vaše výběry byly zpracovány rychle, a budeme k dispozici, abychom bez prodlení odpověděli na jakékoli dotazy, které můžete mít."
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "icon" : {
+            "type" : "image",
+            "name" : "manager.svg"
+          },
+          "title" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Dedicated VIP Account Manager",
+              "de" : "Engagierter VIP-Kundenbetreuer",
+              "fi" : "Oma VIP-asiakkuuspäällikkö",
+              "no" : "Dedikert VIP-kontoadministrator",
+              "pt" : "Gerente de Conta VIP Dedicado",
+              "es" : "Gerente de Cuenta VIP Dedicado",
+              "it" : "Account Manager VIP Dedicato",
+              "fr" : "Gestionnaire de Compte VIP Dédié",
+              "pl" : "Dedykowany Opiekun Konta VIP",
+              "hu" : "Dedikált VIP Fiókmenedzser",
+              "cz" : "Vyhrazený VIP Account Manager"
+            }
+          },
+          "description" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Your personal Account Manager is here to handle any issues you may have and improve your gaming experience.",
+              "de" : "Ihr persönlicher Kundenbetreuer kümmert sich um alle Probleme, die Sie haben, und verbessert Ihr Spielerlebnis.",
+              "fi" : "Henkilökohtainen asiakkuuspäällikkösi on valmiina auttamaan tarvittaessa ja parantamaan pelikokemustasi.",
+              "no" : "Din personlige kontoadministrator er her for å håndtere eventuelle problemer og forbedre spillopplevelsen din.",
+              "pt" : "Seu gerente de conta pessoal está aqui para lidar com quaisquer problemas que você possa ter e melhorar sua experiência de jogo.",
+              "es" : "Tu gestor de cuenta personal está aquí para resolver cualquier problema que puedas tener y mejorar tu experiencia de juego.",
+              "it" : "Il tuo Account Manager personale è qui per gestire qualsiasi problema e migliorare la tua esperienza di gioco.",
+              "fr" : "Votre gestionnaire de compte personnel est là pour traiter tous les problèmes que vous pourriez rencontrer et améliorer votre expérience de jeu.",
+              "az" : "Sizdə yarana biləcək hər hansı problemi həll etmək və oyun təcrübənizi yaxşılaşdırmaq üçün Şəxsi Hesab Meneceriniz hər zaman buradadır.",
+              "ru" : "Ваш персональный менеджер по работе с клиентами готов решать любые возникающие вопросы и улучшать ваш игровой опыт.",
+              "tr" : "Kişisel Hesap Yöneticiniz, karşılaşabileceğiniz her türlü sorunu çözmek ve oyun deneyiminizi geliştirmek için burada.",
+              "pl" : "Twój osobisty opiekun konta jest tutaj, aby rozwiązać wszelkie problemy, które możesz mieć i poprawić Twoje doświadczenie z grą.",
+              "hu" : "Személyes fiókmenedzserünk itt van, hogy kezelje az esetleges problémákat és javítsa a játékélményedet.",
+              "cz" : "Váš osobní správce účtu je zde, aby řešil jakékoli problémy, které můžete mít, a zlepšil váš herní zážitek."
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "icon" : {
+            "type" : "image",
+            "name" : "exclusive.svg"
+          },
+          "title" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Exclusive Offers",
+              "de" : "Exklusive Angebote",
+              "fi" : "Eksklusiiviset Tarjoukset",
+              "no" : "Eksklusive Tilbud",
+              "pt" : "Ofertas Exclusivas",
+              "es" : "Ofertas Exclusivas",
+              "it" : "Offerte Esclusive",
+              "fr" : "Offres Exclusives",
+              "pl" : "Ekskluzywne Oferty",
+              "hu" : "Exkluzív Ajánlatok",
+              "cz" : "Exkluzivní Nabídky"
+            }
+          },
+          "description" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Personalized promotions such as deposit bonuses with very low wagering requirements, cashback bonuses and other treats are waiting for you.",
+              "de" : "Auf Sie zugeschnittene Aktionen wie Einzahlungsboni mit sehr niedrigen Umsatzbedingungen, Cashback-Boni und andere Extras warten auf Sie.",
+              "fi" : "Henkilökohtaiset tarjoukset, kuten talletusbonukset erittäin alhaisilla panostusvaatimuksilla, cashback-bonukset ja muut palkinnot odottavat sinua.",
+              "no" : "Personlige kampanjer som innskuddsbonuser med svært lave omsetningskrav, cashback-bonuser og andre fordeler venter på deg.",
+              "pt" : "Promoções personalizadas, como bônus de depósito com requisitos de apostas muito baixos, bônus de reembolso e outros brindes estão à sua espera.",
+              "es" : "Te esperan promociones personalizadas como bonos de depósito con requisitos de apuesta muy bajos, bonos de reembolso y otros caprichos.",
+              "it" : "Promozioni personalizzate come bonus sul deposito con requisiti di scommessa molto bassi, bonus cashback e altri vantaggi ti aspettano.",
+              "fr" : "Des promotions personnalisées telles que des bonus de dépôt avec des exigences de mise très basses, des bonus cashback et d'autres gâteries vous attendent.",
+              "az" : "Çox aşağı mərc tələblərinə malik depozit bonusları, keşbek bonusları və digər xüsusi təkliflər sizi gözləyir.",
+              "ru" : "Вас ждут персональные акции, такие как бонусы на депозит с очень низкими требованиями к отыгрышу, кешбэк-бонусы и другие приятности.",
+              "tr" : "Çevrim şartları çok düşük olan yatırımlara özel bonuslar, cashback bonusları ve size özel diğer ayrıcalıklı promosyonlar sizi bekliyor.",
+              "pl" : "Czekają na Ciebie spersonalizowane promocje, takie jak bonusy depozytowe z bardzo niskimi wymaganiami obrotu, bonusy cashback i inne przysmaki.",
+              "hu" : "Személyre szabott promóciók, mint például a nagyon alacsony megforgatási követelményekkel rendelkező befizetési bónuszok, cashback bónuszok és egyéb finomságok várnak rád.",
+              "cz" : "Čekají na vás personalizované akce, jako jsou bonusy za vklad s velmi nízkými požadavky na sázení, cashback bonusy a další dobroty."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "type" : "component"
+}
