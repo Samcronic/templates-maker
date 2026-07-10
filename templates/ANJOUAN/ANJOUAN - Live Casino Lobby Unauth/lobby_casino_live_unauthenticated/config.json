@@ -1,0 +1,133 @@
+{
+  "id": "lobby_casino_live_unauthenticated",
+  "component": {
+    "type": "list",
+    "value": [
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "promotions"
+        },
+        "id": {
+          "type": "text",
+          "value": "casino-promotions"
+        },
+        "display": {
+          "type": "text",
+          "value": "carousel"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "navigation"
+        },
+        "id": {
+          "type": "text",
+          "value": "live_casino_navigation"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "platform_category": {
+          "type": "text",
+          "value": "live_casino"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "custom_category": {
+          "type": "text",
+          "value": "live-roulette"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "custom_category": {
+          "type": "text",
+          "value": "popular-games"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "winners"
+        },
+        "id": {
+          "type": "text",
+          "value": "winners"
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "shuffle"
+        }
+      }
+    ]
+  },
+  "type": "component"
+}

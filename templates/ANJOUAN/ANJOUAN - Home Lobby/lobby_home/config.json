@@ -1,0 +1,317 @@
+{
+  "id": "lobby_home",
+  "component": {
+    "type": "list",
+    "value": [
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "promotions"
+        },
+        "id": {
+          "type": "text",
+          "value": "promotions"
+        },
+        "display": {
+          "type": "text",
+          "value": "carousel"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "custom_category": {
+          "type": "text",
+          "value": "world-cup-specials"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "background": {
+          "type": "image",
+          "name": "world-cup-specials-BG-3.jpg"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "sports"
+        },
+        "widget": {
+          "type": "text",
+          "value": "top_events"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "custom_category": {
+          "type": "text",
+          "value": "trending-games"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "brand": {
+          "type": "text",
+          "value": "endorphina"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "background": {
+          "type": "image",
+          "name": "Endorphina.jpg"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "platform_category": {
+          "type": "text",
+          "value": "slot_games"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "custom_category": {
+          "type": "text",
+          "value": "top-games"
+        },
+        "display": {
+          "type": "text",
+          "value": "ordinal"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "custom_category": {
+          "type": "text",
+          "value": "new-games"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "custom_category": {
+          "type": "text",
+          "value": "vip-specials"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "winners"
+        },
+        "id": {
+          "type": "text",
+          "value": "winners"
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "promotions"
+        },
+        "id": {
+          "type": "text",
+          "value": "casino-promotions"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "custom_category": {
+          "type": "text",
+          "value": "bonus-buy"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "custom_category": {
+          "type": "text",
+          "value": "crash-games"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "games"
+        },
+        "platform_category": {
+          "type": "text",
+          "value": "live_casino"
+        },
+        "display": {
+          "type": "text",
+          "value": "row"
+        },
+        "layout": {
+          "type": "map",
+          "space": {
+            "type": "text",
+            "value": "md"
+          }
+        }
+      },
+      {
+        "type": "map",
+        "component": {
+          "type": "text",
+          "value": "shuffle"
+        }
+      }
+    ]
+  },
+  "type": "component"
+}
