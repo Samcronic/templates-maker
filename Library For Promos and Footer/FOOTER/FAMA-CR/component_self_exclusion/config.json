@@ -1,24 +1,24 @@
 {
-  "id": "self_exclusion",
-  "component": {
-    "type": "map",
-    "template": {
-      "type": "template",
-      "name": "self_exclusion.html"
+  "id" : "self_exclusion",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "self_exclusion.html"
     },
-    "title": {
-      "type": "text",
-      "value": {
-        "en": "SELF-EXCLUSION",
-        "de": "SELBSTAUSSCHLUSS",
-        "es": "AUTOEXCLUSIÓN",
-        "fi": "ITSESULKU",
-        "fr": "AUTO-EXCLUSION",
-        "it": "AUTOESCLUSIONE",
-        "no": "SELVEXKLUSJON",
-        "pt": "AUTO EXCLUSÃO"
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "SELF-EXCLUSION",
+        "de" : "SELBSTAUSSCHLUSS",
+        "es" : "AUTOEXCLUSIÓN",
+        "fi" : "ITSESULKU",
+        "fr" : "AUTO-EXCLUSION",
+        "it" : "AUTOESCLUSIONE",
+        "no" : "SELVEXKLUSJON",
+        "pt" : "AUTO EXCLUSÃO"
       }
     }
   },
-  "type": "component"
+  "type" : "component"
 }

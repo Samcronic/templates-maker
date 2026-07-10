@@ -1,0 +1,116 @@
+{
+  "id" : "privacy_policy",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "kahnawake"
+    },
+    "IT" : {
+      "type" : "reference",
+      "name" : "kahnawake-italy"
+    }
+  },
+  "references" : {
+    "kahnawake" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "privacy_policy_kahnawake.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "PRIVACY POLICY",
+          "az" : "MƏXFİLİK SİYASƏTİ",
+          "cs" : "ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ",
+          "de" : "DATENSCHUTZERKLÄRUNG",
+          "el" : "ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ<br>",
+          "es" : "POLÍTICA DE PRIVACIDAD",
+          "et" : "PRIVAATSUSPOLIITIKA",
+          "fi" : "TIETOSUOJAKÄYTÄNTÖ",
+          "fr" : "POLITIQUE DE CONFIDENTIALITÉ",
+          "gr" : "ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ<br>",
+          "hr" : "POLITIKA PRIVATNOSTI",
+          "hu" : "ADATVÉDELMI SZABÁLYZAT",
+          "it" : "INFORMATIVA SULLA PRIVACY",
+          "no" : "PERSONVERNERKLÆRING",
+          "pl" : "POLITYKA PRYWATNOŚCI",
+          "pt" : "POLÍTICA DE PRIVACIDADE",
+          "ru" : "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ",
+          "sl" : "POLITIKA ZASEBNOSTI",
+          "sq" : "POLITIKA E PRIVATËSISË",
+          "sr" : "POLITIKA PRIVATNOSTI",
+          "tr" : "GİZLİLİK POLİTİKASI"
+        }
+      }
+    },
+        "kahnawake-italy" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "privacy_policy_kahnawake_italy.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "PRIVACY POLICY",
+          "az" : "MƏXFİLİK SİYASƏTİ",
+          "cs" : "ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ",
+          "de" : "DATENSCHUTZERKLÄRUNG",
+          "el" : "ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ<br>",
+          "es" : "POLÍTICA DE PRIVACIDAD",
+          "et" : "PRIVAATSUSPOLIITIKA",
+          "fi" : "TIETOSUOJAKÄYTÄNTÖ",
+          "fr" : "POLITIQUE DE CONFIDENTIALITÉ",
+          "gr" : "ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ<br>",
+          "hr" : "POLITIKA PRIVATNOSTI",
+          "hu" : "ADATVÉDELMI SZABÁLYZAT",
+          "it" : "INFORMATIVA SULLA PRIVACY",
+          "no" : "PERSONVERNERKLÆRING",
+          "pl" : "POLITYKA PRYWATNOŚCI",
+          "pt" : "POLÍTICA DE PRIVACIDADE",
+          "ru" : "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ",
+          "sl" : "POLITIKA ZASEBNOSTI",
+          "sq" : "POLITIKA E PRIVATËSISË",
+          "sr" : "POLITIKA PRIVATNOSTI",
+          "tr" : "GİZLİLİK POLİTİKASI"
+        }
+      }
+    },
+    "costa_rica" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "priv_pol_costa_rica.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "PRIVACY POLICY",
+          "az" : "MƏXFİLİK SİYASƏTİ",
+          "cs" : "ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ",
+          "de" : "DATENSCHUTZERKLÄRUNG",
+          "el" : "ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ<br>",
+          "es" : "POLÍTICA DE PRIVACIDAD",
+          "et" : "PRIVAATSUSPOLIITIKA",
+          "fi" : "TIETOSUOJAKÄYTÄNTÖ",
+          "fr" : "POLITIQUE DE CONFIDENTIALITÉ",
+          "gr" : "ΠΟΛΙΤΙΚΗ ΠΡΟΣΤΑΣΙΑΣ ΠΡΟΣΩΠΙΚΩΝ ΔΕΔΟΜΕΝΩΝ<br>",
+          "hr" : "POLITIKA PRIVATNOSTI",
+          "hu" : "ADATVÉDELMI SZABÁLYZAT",
+          "it" : "INFORMATIVA SULLA PRIVACY",
+          "no" : "PERSONVERNERKLÆRING",
+          "pl" : "POLITYKA PRYWATNOŚCI",
+          "pt" : "POLÍTICA DE PRIVACIDADE",
+          "ru" : "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ",
+          "sl" : "POLITIKA ZASEBNOSTI",
+          "sq" : "POLITIKA E PRIVATËSISË",
+          "sr" : "POLITIKA PRIVATNOSTI",
+          "tr" : "GİZLİLİK POLİTİKASI"
+        }
+      }
+    }
+  },
+  "type" : "component"
+}

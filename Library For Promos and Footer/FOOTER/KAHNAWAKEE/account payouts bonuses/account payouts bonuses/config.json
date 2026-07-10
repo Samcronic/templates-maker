@@ -1,0 +1,37 @@
+{
+  "id" : "account_payouts_bonuses",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "account_payouts_bonuses.html"
+    },
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Account, Payouts, Bonuses",
+        "de" : "Konto, Auszahlungen, Boni",
+        "fi" : "Tili, maksut, bonukset",
+        "fr" : "Compte, paiements, bonus",
+        "it" : "Account, Pagamenti, Bonus",
+        "no" : "Konto, utbetalinger, bonuser",
+        "pt" : "Conta, Pagamentos, Bónus",
+        "ru" : "Аккаунт, выплаты, бонусы",
+        "es" : "Cuenta, pagos, bonificaciones",
+        "tr" : "Hesap, Ödemeler, Bonuslar",
+        "az" : "Hesab, Ödənişlər, Bonuslar",
+        "cs" : "Účet, výplaty, bonusy",
+        "el" : "Λογαριασμός, Πληρωμές, Μπόνους",
+        "hr" : "Račun, isplate, bonusi",
+        "hu" : "Fiók, kifizetések, bónuszok",
+        "pl" : "Konto, wypłaty, bonusy",
+        "sl" : "Račun, izplačila, bonusi",
+        "sq" : "Llogaria, Pagesat, Bonuset",
+        "sr" : "Nalog, isplate, bonusi",
+        "mk" : "Сметка, исплати, бонуси",
+        "bg" : "Акаунт, Плащания, Бонуси"
+      }
+    }
+  },
+  "type" : "component"
+}

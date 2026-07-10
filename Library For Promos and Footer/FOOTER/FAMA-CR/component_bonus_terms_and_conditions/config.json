@@ -1,40 +1,40 @@
 {
-  "id": "bonus_terms_and_conditions",
-  "title": "bonus_terms_and_conditions",
-  "component": {
-    "type": "map",
-    "template": {
-      "type": "template",
-      "name": "bonus_terms_and_conditions.html"
+  "id" : "bonus_terms_and_conditions",
+  "title" : "bonus_terms_and_conditions",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "bonus_terms_and_conditions.html"
     },
-    "title": {
-      "type": "text",
-      "value": {
-        "en": "General Promotions & Bonus Terms and Conditions",
-        "az": "Promosiyalar və Bonuslar üzrə Ümumi Şərtlər və Qaydalar",
-        "bg": "Общи условия за промоции и бонуси",
-        "cz": "Všeobecné podmínky akcí a bonusů",
-        "de": "Allgemeine Aktionen- und Bonusbedingungen",
-        "el": "Γενικοί Όροι και Προϋποθέσεις Προωθητικών Ενεργειών & Μπόνους",
-        "es": "Promociones Generales y Términos y Condiciones de Bonos",
-        "fi": "Yleiset kampanjat ja bonusehdot",
-        "fr": "Conditions générales des promotions et des bonus",
-        "gr": "Γενικοί Όροι και Προϋποθέσεις Προωθητικών Ενεργειών & Μπόνους",
-        "hr": "Opći uvjeti za promocije i bonuse",
-        "hu": "Általános promóciós és bónuszfeltételek",
-        "it": "Termini e condizioni generali delle promozioni e dei bonus",
-        "mk": "Општи услови за промоции и бонуси",
-        "no": "Generelle kampanje- og bonusvilkår",
-        "pl": "Ogólne warunki i zasady dotyczące promocji i bonusów",
-        "pt": "Termos e condições gerais de promoções e bônus",
-        "ro": "Termeni și condiții generale privind promoțiile și bonusurile",
-        "ru": "Общие условия проведения акций и предоставления бонусов",
-        "sl": "Splošni pogoji promocij in bonusov",
-        "sq": "Promovimet e Përgjithshme & Termat dhe Kushtet e Bonuseve",
-        "sr": "Opšti uslovi i odredbe promocija i bonusa",
-        "tr": "Genel Promosyonlar ve Bonus Hüküm ve Koşulları"
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "General Promotions & Bonus Terms and Conditions",
+        "az" : "Promosiyalar və Bonuslar üzrə Ümumi Şərtlər və Qaydalar",
+        "bg" : "Общи условия за промоции и бонуси",
+        "cz" : "Všeobecné podmínky akcí a bonusů",
+        "de" : "Allgemeine Aktionen- und Bonusbedingungen",
+        "el" : "Γενικοί Όροι και Προϋποθέσεις Προωθητικών Ενεργειών & Μπόνους",
+        "es" : "Promociones Generales y Términos y Condiciones de Bonos",
+        "fi" : "Yleiset kampanjat ja bonusehdot",
+        "fr" : "Conditions générales des promotions et des bonus",
+        "gr" : "Γενικοί Όροι και Προϋποθέσεις Προωθητικών Ενεργειών & Μπόνους",
+        "hr" : "Opći uvjeti za promocije i bonuse",
+        "hu" : "Általános promóciós és bónuszfeltételek",
+        "it" : "Termini e condizioni generali delle promozioni e dei bonus",
+        "mk" : "Општи услови за промоции и бонуси",
+        "no" : "Generelle kampanje- og bonusvilkår",
+        "pl" : "Ogólne warunki i zasady dotyczące promocji i bonusów",
+        "pt" : "Termos e condições gerais de promoções e bônus",
+        "ro" : "Termeni și condiții generale privind promoțiile și bonusurile",
+        "ru" : "Общие условия проведения акций и предоставления бонусов",
+        "sl" : "Splošni pogoji promocij in bonusov",
+        "sq" : "Promovimet e Përgjithshme & Termat dhe Kushtet e Bonuseve",
+        "sr" : "Opšti uslovi i odredbe promocija i bonusa",
+        "tr" : "Genel Promosyonlar ve Bonus Hüküm ve Koşulları"
       }
     }
   },
-  "type": "component"
+  "type" : "component"
 }

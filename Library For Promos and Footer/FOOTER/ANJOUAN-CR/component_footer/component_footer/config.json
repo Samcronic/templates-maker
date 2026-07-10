@@ -1,0 +1,1135 @@
+{
+  "id" : "footer",
+  "type" : "component",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "Anjouan"
+    },
+    "DE" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "GB" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "NL" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "FR" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "SE" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "AT" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "AU" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "IT" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "TR" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "ES" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "AZ" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "RU" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "UZ" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "KZ" : {
+      "type" : "reference",
+      "name" : "Generic"
+    },
+    "IN" : {
+      "type" : "reference",
+      "name" : "Generic"
+    }
+  },
+  "references" : {
+    "Anjouan" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/bonus_terms_and_conditions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "General Bonus T&Cs",
+              "bg" : "Общи условия за бонусите",
+              "cs" : "Obecné podmínky bonusů",
+              "de" : "Allgemeine Bonus AGBs",
+              "el" : "Γενικοί όροι και προϋποθέσεις των Μπόνους",
+              "es" : "T&Cs de Bonos",
+              "fi" : "Yleiset bonusehdot",
+              "fr" : "CGU des bonus",
+              "hr" : "Uvjeti i odredbe za bonuse općenito",
+              "it" : "Bonus generale T&CS",
+              "mk" : "Општи услови за бонус",
+              "no" : "Generelle bonusvilkår",
+              "pt" : "Termos gerais de bônus",
+              "BR_pt" : "Termos gerais de bônus",
+              "ro" : "Termeni și Condiții Generale",
+              "ru" : "Общие условия предоставления бонусов",
+              "sl" : "Splošni pogoji bonusov",
+              "sq" : "Termat & Kushtet e Përgjithshme për Bonuset",
+              "sr" : "Uslovi i odredbe korišćenja bonusa",
+              "tr" : "Genel Bonus Şartları"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/about_us"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "About Us",
+              "az" : "Haqqımızda",
+              "bg" : "За нас",
+              "BR_pt" : "Sobre nós",
+              "CL_es" : "Sobre Nosotros",
+              "cs" : "O nás",
+              "de" : "Über uns",
+              "el" : "Σχετικά με εμάς",
+              "es" : "Sobre Nosotros",
+              "fi" : "Meistä",
+              "fr" : "À propos de nous",
+              "hr" : "O nama",
+              "hu" : "Rólunk",
+              "it" : "Chi siamo",
+              "mk" : "За нас",
+              "no" : "Om oss",
+              "pl" : "O nas",
+              "pt" : "Sobre nós",
+              "ro" : "Despre Noi",
+              "ru" : "О нас",
+              "sl" : "O nas",
+              "sq" : "rreth nesh",
+              "sr" : "O nama",
+              "tr" : "Hakkımızda"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/terms_and_conditions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Terms & Conditions",
+              "az" : "Şərtlər və Qaydalar",
+              "bg" : "Общи условия",
+              "BR_pt" : "Termos e Condições",
+              "CL_es" : "Términos y Condiciones",
+              "cs" : "Podmínky",
+              "de" : "Geschäftsbedingungen",
+              "el" : "Όροι και Προϋποθέσεις",
+              "es" : "Términos y Condiciones",
+              "fi" : "Käyttöehdot",
+              "fr" : "Conditions d'utilisation",
+              "hr" : "Uvjeti i odredbe",
+              "hu" : "Általános Szerződési Feltételek",
+              "it" : "Termini & Condizioni",
+              "mk" : "Услови и правила",
+              "no" : "Betingelser og vilkår",
+              "pl" : "Regulamin",
+              "pt" : "Termos e Condições",
+              "ro" : "Termeni și Condiții",
+              "ru" : "Положения и условия",
+              "sl" : "Splošni pogoji",
+              "sq" : "Kushtet dhe Rregullat",
+              "sr" : "Uslovi i odredbe",
+              "tr" : "Şartlar ve Koşullar"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/privacy_policy"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Privacy Policy",
+              "az" : "Gizlilik Siyasəti",
+              "bg" : "Политика за поверителност",
+              "BR_pt" : "Política de Privacidade",
+              "CL_es" : "Política de Privacidad",
+              "cs" : "Zásady ochrany osobních údajů",
+              "de" : "Datenschutz",
+              "el" : "Πολιτική απορρήτου",
+              "es" : "Política de Privacidad",
+              "fi" : "Tietosuojakäytäntö",
+              "fr" : "Politique de confidentialité",
+              "hr" : "Pravila privatnosti",
+              "hu" : "Adatvédelmi irányelvek",
+              "it" : "Politica sulla riservatezza",
+              "mk" : "Политика за приватност",
+              "no" : "Personvernerklæring",
+              "pl" : "Polityka prywatności",
+              "pt" : "Política de Privacidade",
+              "ro" : "Politica de confidențialitate",
+              "ru" : "Политика конфиденциальности",
+              "sl" : "Politika zasebnosti",
+              "sq" : "Politika e privatësisë",
+              "sr" : "Politika privatnosti",
+              "tr" : "Gizlilik Politikası"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/faq"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "FAQ",
+              "az" : "Tez-tez verilən suallar",
+              "bg" : "Често задавани въпроси",
+              "BR_pt" : "Perguntas frequentes",
+              "CL_es" : "Preguntas frecuentes",
+              "cs" : "Často kladené otázky",
+              "de" : "FAQ",
+              "el" : "Συχνές ερωτήσεις",
+              "es" : "Preguntas frecuentes",
+              "fi" : "FAQ",
+              "fr" : "FAQ",
+              "hr" : "Često postavljana pitanja",
+              "hu" : "GYIK",
+              "it" : "FAQ",
+              "mk" : "ЧПП",
+              "no" : "FAQ",
+              "pl" : "FAQ",
+              "pt" : "Perguntas frequentes",
+              "ro" : "Întrebări frecvente",
+              "ru" : "Часто задаваемые вопросы",
+              "sl" : "Pogosta vprašanja",
+              "sq" : "Pyetje të shpeshta",
+              "sr" : "NP",
+              "tr" : "SSS"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/responsible_gaming"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Responsible Gaming & Self-Exclusion Policy",
+              "az" : "Məsuliyyətli Oyun və Özünü İstisna Etmə Siyasəti",
+              "bg" : "Политика за отговорно залагане и самоизключване",
+              "BR_pt" : "Jogo Responsável e Política de Autoexclusão",
+              "CL_es" : "Juego Responsable y Política de Autoexclusión",
+              "cs" : "Zodpovědné hraní a politika sebevyloučení",
+              "de" : "Verantwortungsbewusste Gaming- und Selbstausschließungspolitik",
+              "el" : "Πολιτική υπεύθυνου παιχνιδιού και αυτοαποκλεισμού",
+              "es" : "Juego Responsable y Política de Autoexclusión",
+              "fi" : "Vastuullinen pelaaminen ja itsestään poissulkemisen käytäntö",
+              "fr" : "Politique responsable des jeux et de l'auto-exclusion",
+              "hr" : "Pravila za odgovorno igranje i samoisključenje",
+              "hu" : "Felelősségteljes játék és Önkizárás szabályzat",
+              "it" : "Politica responsabile di gioco e autoesclusione",
+              "mk" : "Политика за одговорно коцкање и самоисклучување",
+              "no" : "Ansvarlig spill og selvutelukkelsespolicy",
+              "pl" : "Odpowiedzialna gra i polityka samowykluczenia",
+              "pt" : "Jogo Responsável e Política de Autoexclusão",
+              "ro" : "Joc responsabil & Politica de Auto-Excludere",
+              "ru" : "Ответственная игра и политика самоисключения",
+              "sl" : "Pravilnik o odgovornem igranju in samoizključitvi",
+              "sq" : "Politika e Lojës së Përgjegjshme & Vetëpërjashtimit",
+              "sr" : "Odgovorno igranje i pravila samoisključenja",
+              "tr" : "Sorumlu Oyun ve Kendini Eksplüzyon Politikası"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/contact_us"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Contact Us",
+              "az" : "Bizimlə əlaqə",
+              "bg" : "Свържете се с нас",
+              "BR_pt" : "Contactar-nos",
+              "CL_es" : "Contáctanos",
+              "cs" : "Kontaktujte nás.",
+              "de" : "Kontaktieren Sie uns",
+              "el" : "Επικοινωνήστε μαζί μας",
+              "es" : "Contáctanos",
+              "fi" : "Ota meihin yhteyttä",
+              "fr" : "Nous contacter",
+              "hr" : "Javite nam se",
+              "hu" : "Kapcsolat",
+              "it" : "Contattaci",
+              "mk" : "Контактирајте со нас",
+              "no" : "Kontakt oss",
+              "pl" : "Kontakt",
+              "pt" : "Contactar-nos",
+              "ro" : "Contactează-ne",
+              "ru" : "Свяжитесь с нами",
+              "sl" : "Kontaktirajte nas",
+              "sq" : "Na kontakto",
+              "sr" : "Kontakt",
+              "tr" : "Bize Ulaşın"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/kyc_aml_policies"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "AML and KYC Policy",
+              "az" : "KYC & AML siyasətləri",
+              "bg" : "Политика за KYC и AML",
+              "BR_pt" : "Políticas de KYC e AML",
+              "CL_es" : "Políticas de KYC y AML",
+              "cs" : "Zásady KYC a AML",
+              "de" : "KYC- und AML-Richtlinien",
+              "el" : "Πολιτικές KYC & AML",
+              "es" : "Políticas de KYC y AML",
+              "fi" : "KYC- ja AML-käytännöt",
+              "fr" : "Politiques KYC et LBC",
+              "hr" : "KYC i AML politike",
+              "hu" : "KYC & AML Szabályzatok",
+              "it" : "Politiche KYC e AML",
+              "mk" : "KYC и AML политики",
+              "no" : "KYC- og AML-retningslinjer",
+              "pl" : "Polityki KYC i AML",
+              "pt" : "Políticas de KYC e AML",
+              "ro" : "Politici KYC și AML",
+              "ru" : "Политики KYC и AML",
+              "sl" : "Politike KYC in AML",
+              "sq" : "Politikat KYC & AML",
+              "sr" : "KYC i AML politike",
+              "tr" : "KYC & AML Politikaları"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/underage_gaming_policy"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Underage Gaming Policy",
+              "az" : "Yetkinlik yaşına çatmayan oyun siyasəti",
+              "bg" : "Политика за игра на непълнолетни",
+              "BR_pt" : "Política de Jogo para Menores de Idade",
+              "CL_es" : "Política de Juego para Menores",
+              "cs" : "Zásady pro hraní nezletilých",
+              "de" : "Richtlinie zum Spielen Minderjähriger",
+              "el" : "Πολιτική παιχνιδιού ανηλίκων",
+              "es" : "Política de Juego para Menores",
+              "fi" : "Alaikäisten pelaamista koskeva käytäntö",
+              "fr" : "Politique de jeu des mineurs",
+              "hr" : "Politika igranja maloljetnika",
+              "hu" : "Kiskorú játék szabályzat",
+              "it" : "Normativa sul gioco dei minori",
+              "mk" : "Политика за игри за малолетници",
+              "no" : "Retningslinjer for mindreåriges spilling",
+              "pl" : "Polityka dotycząca gry nieletnich",
+              "pt" : "Política de Jogo para Menores",
+              "ro" : "Politica de joc pentru minori",
+              "ru" : "Политика игр для несовершеннолетних",
+              "sl" : "Politika igranja za mladoletnike",
+              "sq" : "Politika e lojërave për të mitur",
+              "sr" : "Politika igranja za maloletnike",
+              "tr" : "Reşit olmayan oyun politikası"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/sport_betting_rules"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Sport Betting Rules",
+              "az" : "İdman Mərc Qaydaları",
+              "bg" : "Правила за спортни залагания",
+              "BR_pt" : "Regras de apostas esportivas",
+              "CL_es" : "Reglas de apuestas deportivas",
+              "cs" : "Pravidla sportovních sázek",
+              "de" : "Sportwetten Regeln",
+              "el" : "Κανόνες αθλητικών στοιχημάτων",
+              "es" : "Reglas de apuestas deportivas",
+              "fi" : "Vedonlyönnin säännöt",
+              "fr" : "Règles paris sportifs",
+              "hr" : "Pravila sportskog klađenja",
+              "hu" : "Sportfogadási Szabályok",
+              "it" : "Regole delle scommesse sportive",
+              "mk" : "Правила за спортско обложување",
+              "no" : "Regler for sportsspill",
+              "pl" : "Zasady zakładów sportowych",
+              "pt" : "Regras de apostas esportivas",
+              "ro" : "Reguli pentru pariurile sportive",
+              "ru" : "Правила ставок на спорт",
+              "sl" : "Pravila športnih stav",
+              "sq" : "Rregullat e Betting-ut Sportiv",
+              "sr" : "Pravila sportskog klađenja",
+              "tr" : "Spor Bahis Kuralları"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/payments/deposit"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Payments & Withdrawals",
+              "az" : "Ödənişlər və Çıxarışlar",
+              "bg" : "Плащания и тегления",
+              "BR_pt" : "Pagamentos e Retiradas",
+              "CL_es" : "Pagos y Retiros",
+              "cs" : "Platby a výběry",
+              "de" : "Zahlungen und Auszahlungen",
+              "el" : "Πληρωμές & Αναλήψεις",
+              "es" : "Pagos y Retiros",
+              "fi" : "Maksut ja kotiutukset",
+              "fr" : "Paiements & Retraits",
+              "hr" : "Plaćanja i isplate",
+              "hu" : "Fizetések és Kifizetések",
+              "it" : "Pagamenti e Prelievi",
+              "mk" : "Плаќања и исплати",
+              "no" : "Betalinger og Uttak",
+              "pl" : "Płatności i wypłaty",
+              "pt" : "Pagamentos e Retiradas",
+              "ro" : "Plăți și Retrageri",
+              "ru" : "Платежи и снятие средств",
+              "sl" : "Plačila in dvigi",
+              "sq" : "Pagesat & Tërheqjet",
+              "sr" : "Plaćanja i isplate",
+              "tr" : "Ödemeler & Çekimler"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/promotions/promotions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Promotions",
+              "az" : "Promosyonlar",
+              "bg" : "Промоции",
+              "BR_pt" : "Promoções",
+              "CL_es" : "Promociones",
+              "cs" : "Propagační Akce",
+              "de" : "Aktionen",
+              "el" : "Προσφορές",
+              "es" : "Promociones",
+              "fi" : "Kampanjat",
+              "fr" : "Promotions",
+              "hr" : "Promocije",
+              "hu" : "Promóciók",
+              "it" : "Promozioni",
+              "mk" : "Промоции",
+              "no" : "Kampanjer",
+              "pl" : "Promocje",
+              "pt" : "Promoções",
+              "ro" : "Promoții",
+              "ru" : "Акции",
+              "sl" : "Promocije",
+              "sq" : "Promovime",
+              "sr" : "Promocije",
+              "tr" : "Promosyonlar"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "licence"
+          },
+          "jurisdiction" : {
+            "type" : "text",
+            "value" : "ANJOUAN"
+          },
+          "seal" : {
+            "type" : "text",
+            "value" : "BRAND_SEAL_ID"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "PARTNER_SITE_URL"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "PARTNER_LOGO"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "https://gamblingtherapy.org"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "moody.svg"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "image"
+          },
+          "image" : {
+            "type" : "image",
+            "name" : "18.svg"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "https://gambleaware.org"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "gamble_aware.png"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "BRAND_NAME is owned and operated by Green Champions Leader SRL, registration number: 3-102-917157, registered address: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Contact us [BRAND_SUPPORT_EMAIL]. BRAND_NAME is licensed and regulated by the Government of the Autonomous Island of Anjouan, Union of Comoros and operates under License ALSI-202502014-FI1. Payment processor is Widoma Trading Co. Limited (reg. nr. HE 468781), a company having its registered address at Lefkonos 22, 2nd floor, Strovolos 2064, Nicosia, Cyprus. BRAND_NAME has passed all regulatory compliance and is legally authorized to conduct gaming operations for any and all games of chance and wagering.",
+              "az" : "BRAND_NAME Green Champions Leader SRL tarafından sahiplenilmekte və idarə edilməkdədir, qeydiyyat nömrəsi: 3-102-917157, qeydiyyat ünvanı: Kosta-Rika, San-Xose, Montes de Oka, San-Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Mərkəz. Bizimlə əlaqə saxlayın: [BRAND_SUPPORT_EMAIL]. BRAND_NAME, Komor adaları İttifaqının muxtər adası Anjouan Hökuməti tərəfindən lisenziyalaşdırılmış və tənzimlənir, ALSI-202502014-FI1 lisenziyası əsasında fəaliyyət göstərir. Ödəniş prosessoru Widoma Trading Co. Limited-dir (qeyd. nö. HE 468781), qeydiyyat ünvanı: Lefkonos 22, 2-ci mərtəbə, Strovolos 2064, Nikosia, Kipr. BRAND_NAME bütün tənzimləyici tələblərə cavab verir və hər növ qumar və mərc əməliyyatlarını aparmaq üçün qanuni olaraq səlahiyyətlidir.",
+              "bg" : "BRAND_NAME е собственост и се управлява от Green Champions Leader SRL, регистрационен номер: 3-102-917157, регистриран адрес: Коста Рика, Сан Хосе, Монтес де Ока, Сан Педро, Лос Йосес, Авенидас Очо и Диес, Кале Трейнта и Нуеве, LY Центер. Свържете се с нас на [BRAND_SUPPORT_EMAIL]. BRAND_NAME е лицензиран и регулиран от правителството на Автономния остров Анжуан, Съюз на Коморите, и работи по лиценз ALSI-202502014-FI1. Платежният оператор е Widoma Trading Co. Limited (рег. №. HE 468781), дружество с регистриран адрес Lefkonos 22, 2-ри етаж, Строволос 2064, Никозия, Кипър. BRAND_NAME е преминал всички регулаторни изисквания и е законово упълномощен да извършва хазартна дейност за всички видове игри на шанс и залагания.",
+              "BR_pt" : "BRAND_NAME é de propriedade e operado pela Green Champions Leader SRL, número de registro: 3-102-917157, endereço registrado: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Entre em contato conosco em [BRAND_SUPPORT_EMAIL]. BRAND_NAME é licenciado e regulamentado pelo Governo da Ilha Autônoma de Anjouan, União das Comores, e opera sob a Licença ALSI-202502014-FI1. O processador de pagamentos é a Widoma Trading Co. Limited (nº de registro HE 468781), uma empresa com endereço registrado em Lefkonos 22, 2º andar, Strovolos 2064, Nicósia, Chipre. BRAND_NAME cumpriu todos os requisitos regulatórios e está legalmente autorizado a conduzir operações de jogos de azar e apostas.",
+              "CL_es" : "BRAND_NAME es propiedad y está operado por Green Champions Leader SRL, número de registro: 3-102-917157, dirección registrada: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Contáctenos en [BRAND_SUPPORT_EMAIL]. BRAND_NAME está autorizado y regulado por el Gobierno de la Isla Autónoma de Anjouan, Unión de Comoras, y opera bajo la Licencia ALSI-202502014-FI1. El procesador de pagos es Widoma Trading Co Limited (número de registro HE 468781), una empresa con dirección registrada en Lefkonos 22, 2º piso, Strovolos 2064, Nicosia, Chipre. BRAND_NAME ha cumplido con todos los requisitos regulatorios y está legalmente autorizado para llevar a cabo operaciones de juegos de azar y apuestas.",
+              "cs" : "BRAND_NAME je vlastněn a provozován společností Green Champions Leader SRL, registrační číslo: 3-102-917157, registrovaná adresa: Kostarika, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Kontaktujte nás na [BRAND_SUPPORT_EMAIL]. BRAND_NAME je licencován a regulován vládou autonomního ostrova Anjouan, Svaz Komor, a provozuje se na základě licence ALSI-202502014-FI1. Platebním procesorem je Widoma Trading Co. Limited (reg. č. HE 468781), společnost se sídlem na adrese Lefkonos 22, 2. patro, Strovolos 2064, Nikósie, Kypr. BRAND_NAME splnil veškeré regulační požadavky a je právně oprávněn provozovat herní operace pro všechny druhy hazardních her a sázení.",
+              "de" : "BRAND_NAME wird von Green Champions Leader SRL betrieben, Registrierungsnummer: 3-102-917157, eingetragene Adresse: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Kontaktieren Sie uns unter [BRAND_SUPPORT_EMAIL]. BRAND_NAME ist von der Regierung der Autonomen Insel Anjouan, Union der Komoren, lizenziert und reguliert und operiert unter der Lizenz ALSI-202502014-FI1. Der Zahlungsabwickler ist Widoma Trading Co. Limited (reg. nr. HE 468781), ein Unternehmen mit Sitz in Lefkonos 22, 2. Stock, Strovolos 2064, Nikosia, Zypern. BRAND_NAME hat alle regulatorischen Anforderungen erfüllt und ist rechtlich autorisiert, Glücksspieloperationen für alle Arten von Glücksspielen und Wetten durchzuführen.",
+              "el" : "BRAND_NAME ανήκει και λειτουργεί από την Green Champions Leader SRL, αριθμός εγγραφής: 3-102-917157, εγγεγραμμένη διεύθυνση: Κόστα Ρίκα, Σαν Χοσέ, Μόντες ντε Όκα, Σαν Πέδρο, Λος Γιόσες, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Επικοινωνήστε μαζί μας στο [BRAND_SUPPORT_EMAIL]. BRAND_NAME έχει αδειοδοτηθεί και ρυθμίζεται από την Κυβέρνηση του Αυτόνομου Νησιού Anjouan, Ένωση Κομόρων, και λειτουργεί βάσει της Άδειας ALSI-202502014-FI1. Ο επεξεργαστής πληρωμών είναι η Widoma Trading Co. Limited (αρ. εγγρ. HE 468781), εταιρεία με εγγεγραμμένη διεύθυνση στη Lefkonos 22, 2ος όροφος, Strovolos 2064, Λευκωσία, Κύπρος. BRAND_NAME έχει περάσει όλες τις κανονιστικές απαιτήσεις και είναι νόμιμα εξουσιοδοτημένο να διεξάγει δραστηριότητες τυχερών παιχνιδιών.",
+              "es" : "BRAND_NAME es propiedad y está operado por Green Champions Leader SRL, número de registro: 3-102-917157, dirección registrada: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Contáctenos en [BRAND_SUPPORT_EMAIL]. BRAND_NAME está autorizado y regulado por el Gobierno de la Isla Autónoma de Anjouan, Unión de Comoras, y opera bajo la Licencia ALSI-202502014-FI1. El procesador de pagos es Widoma Trading Co Limited (número de registro HE 468781), una empresa con dirección registrada en Lefkonos 22, 2º piso, Strovolos 2064, Nicosia, Chipre. BRAND_NAME ha cumplido con todos los requisitos regulatorios y está legalmente autorizado para llevar a cabo operaciones de juegos de azar y apuestas.",
+              "fi" : "BRAND_NAME on Green Champions Leader SRL:n omistama ja ylläpitämä, rekisterinumero: 3-102-917157, rekisteröity osoite: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Ota yhteyttä [BRAND_SUPPORT_EMAIL]. BRAND_NAME on saanut toimiluvan ja sitä säätelee Komorien liiton autonomisen Anjouanin saaren hallitus, ja se toimii luvan ALSI-202502014-FI1 alaisena. Maksunkäsittelijä on Widoma Trading Co. Limited (reg. nr. HE 468781), yritys, jonka rekisteröity osoite on Lefkonos 22, 2nd floor, Strovolos 2064, Nicosia, Cyprus. BRAND_NAME on läpäissyt kaikki sääntelyvaatimukset ja sillä on laillinen valtuutus tarjota uhkapelejä ja vedonlyöntiä.",
+              "fr" : "BRAND_NAME est détenu et exploité par Green Champions Leader SRL, numéro d'enregistrement : 3-102-917157, adresse enregistrée : Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Contactez-nous à [BRAND_SUPPORT_EMAIL]. BRAND_NAME est agréé et réglementé par le Gouvernement de l'Île Autonome d'Anjouan, Union des Comores, et opère sous la Licence ALSI-202502014-FI1. Le prestataire de services de paiement est Widoma Trading Co Limited (n° d'enregistrement HE 468781), une société dont le siège social est situé à Lefkonos 22, 2e étage, Strovolos 2064, Nicosie, Chypre. BRAND_NAME a satisfait à toutes les exigences réglementaires et est légalement autorisé à mener des opérations de jeux de hasard et de paris.",
+              "hr" : "BRAND_NAME je u vlasništvu i njime upravlja Green Champions Leader SRL, registracijski broj: 3-102-917157, registrirana adresa: Kostarika, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Kontaktirajte nas na [BRAND_SUPPORT_EMAIL]. BRAND_NAME je licenciran i reguliran od strane Vlade Autonomnog otoka Anjouan, Unija Komora, i posluje pod Licencom ALSI-202502014-FI1. Procesor plaćanja je Widoma Trading Co. Limited (reg. br. HE 468781), tvrtka sa sjedištem na adresi Lefkonos 22, 2. kat, Strovolos 2064, Nikozija, Cipar. BRAND_NAME je ispunio sve regulatorne zahtjeve i zakonski je ovlašten za obavljanje igara na sreću i klađenja.",
+              "hu" : "BRAND_NAME tulajdonosa és üzemeltetője a Green Champions Leader SRL, nyilvántartási szám: 3-102-917157, bejegyzett cím: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Lépjen kapcsolatba velünk: [BRAND_SUPPORT_EMAIL]. BRAND_NAME az Anjouani Autonóm Sziget Kormánya, Comore-szigetek Uniója által van engedélyezve és szabályozva, és az ALSI-202502014-FI1 licenc alatt működik. A fizetési feldolgozó a Widoma Trading Co. Limited (reg. sz. HE 468781), amelynek bejegyzett székhelye: Lefkonos 22, 2. emelet, Strovolos 2064, Nicosia, Ciprus. BRAND_NAME teljesített minden szabályozói megfelelési követelményt és jogszerűen jogosult szerencsejáték-tevékenység végzésére.",
+              "it" : "BRAND_NAME è di proprietà e gestito da Green Champions Leader SRL, numero di registrazione: 3-102-917157, indirizzo registrato: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Contattaci a [BRAND_SUPPORT_EMAIL]. BRAND_NAME è autorizzato e regolamentato dal Governo dell'Isola Autonoma di Anjouan, Unione delle Comore, e opera sotto la Licenza ALSI-202502014-FI1. Il gestore dei pagamenti è Widoma Trading Co Limited (numero di registrazione HE 468781), una società con sede legale in Lefkonos 22, 2° piano, Strovolos 2064, Nicosia, Cipro. BRAND_NAME ha superato tutti i requisiti normativi ed è legalmente autorizzato a svolgere operazioni di gioco d'azzardo e scommesse.",
+              "mk" : "BRAND_NAME е во сопственост и се управува од Green Champions Leader SRL, регистрациски број: 3-102-917157, регистрирана адреса: Костарика, Сан Хосе, Монтес де Ока, Сан Педро, Лос Јосес, Авенидас Очо и Диес, Кале Трента и Нуеве, LY Центар. Контактирајте не на [BRAND_SUPPORT_EMAIL]. BRAND_NAME е лиценциран и регулиран од Владата на Автономниот Остров Анжуан, Унија на Коморите, и работи под Лиценца ALSI-202502014-FI1. Платежниот процесор е Widoma Trading Co. Limited (рег. бр. HE 468781), компанија со регистрирана адреса на Lefkonos 22, 2-ри кат, Строволос 2064, Никозија, Кипар. BRAND_NAME ги исполнил сите регулаторни барања и е законски овластен да врши операции со игри на среќа и обложување.",
+              "no" : "BRAND_NAME eies og drives av Green Champions Leader SRL, registreringsnummer: 3-102-917157, registrert adresse: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Kontakt oss på [BRAND_SUPPORT_EMAIL]. BRAND_NAME er lisensiert og regulert av regjeringen på den autonome øya Anjouan, Komorene, og opererer under lisens ALSI-202502014-FI1. Betalingsbehandleren er Widoma Trading Co. Limited (reg. nr. HE 468781), et selskap med registrert adresse Lefkonos 22, 2. etasje, Strovolos 2064, Nicosia, Kypros. BRAND_NAME har bestått alle regulatoriske krav og er lovlig autorisert til å tilby spilltjenester for alle typer pengespill og veddemål.",
+              "pl" : "BRAND_NAME jest własnością i jest obsługiwany przez Green Champions Leader SRL, numer rejestracyjny: 3-102-917157, zarejestrowany adres: Kostaryka, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Skontaktuj się z nami pod adresem [BRAND_SUPPORT_EMAIL]. BRAND_NAME posiada licencję i jest regulowany przez Rząd Autonomicznej Wyspy Anjouan, Unia Komorów, i działa na podstawie Licencji ALSI-202502014-FI1. Procesorem płatności jest Widoma Trading Co Limited (nr rej. HE 468781), spółka z siedzibą przy Lefkonos 22, 2. piętro, Strovolos 2064, Nikozja, Cypr. BRAND_NAME spełnił wszystkie wymogi regulacyjne i jest prawnie upoważniony do prowadzenia działalności w zakresie gier losowych i zakładów.",
+              "pt" : "BRAND_NAME é propriedade e é operado pela Green Champions Leader SRL, número de registro: 3-102-917157, endereço registrado: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Contacte-nos em [BRAND_SUPPORT_EMAIL]. BRAND_NAME é licenciado e regulado pelo Governo da Ilha Autónoma de Anjouan, União das Comores, e opera sob a Licença ALSI-202502014-FI1. O processador de pagamentos é a Widoma Trading Co Limited (n.º de registro HE 468781), uma empresa com endereço registrado em Lefkonos 22, 2º andar, Strovolos 2064, Nicósia, Chipre. BRAND_NAME cumpriu todos os requisitos regulatórios e está legalmente autorizado a conduzir operações de jogos de azar e apostas.",
+              "ro" : "BRAND_NAME este deținut și operat de Green Champions Leader SRL, număr de înregistrare: 3-102-917157, adresă înregistrată: Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Contactați-ne la [BRAND_SUPPORT_EMAIL]. BRAND_NAME este licențiat și reglementat de Guvernul Insulei Autonome Anjouan, Uniunea Comore, și funcționează în baza Licenței ALSI-202502014-FI1. Procesatorul de plăți este Widoma Trading Co. Limited (nr. înreg. HE 468781), o companie cu adresa înregistrată la Lefkonos 22, etajul 2, Strovolos 2064, Nicosia, Cipru. BRAND_NAME a îndeplinit toate cerințele de conformitate regulatorie și este autorizat legal să desfășoare operațiuni de jocuri de noroc și pariuri.",
+              "ru" : "BRAND_NAME принадлежит и управляется компанией Green Champions Leader SRL, регистрационный номер: 3-102-917157, зарегистрированный адрес: Коста-Рика, Сан-Хосе, Монтес-де-Ока, Сан-Педро, Лос-Йосес, Авенидас Очо и Диес, Калье Трейнта-и-Нуэве, LY Center. Свяжитесь с нами: [BRAND_SUPPORT_EMAIL]. BRAND_NAME лицензирован и регулируется Правительством Автономного острова Анжуан, Союз Коморских Островов, и осуществляет деятельность на основании лицензии ALSI-202502014-FI1. Платёжным провайдером является Widoma Trading Co. Limited (рег. № HE 468781), компания, зарегистрированная по адресу: Lefkonos 22, 2-й этаж, Строволос 2064, Никосия, Кипр. BRAND_NAME прошёл все регуляторные проверки и имеет законное право осуществлять игорную деятельность, включая все виды азартных игр и ставок.",
+              "sl" : "BRAND_NAME je v lasti in ga upravlja Green Champions Leader SRL, registrska številka: 3-102-917157, registrirani naslov: Kostarika, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Stopite v stik z nami na [BRAND_SUPPORT_EMAIL]. BRAND_NAME je licenciran in reguliran s strani Vlade Avtonomnega otoka Anjouan, Zveza Komorov, in deluje pod licenco ALSI-202502014-FI1. Plačilni procesor je Widoma Trading Co. Limited (reg. št. HE 468781), podjetje z registriranim naslovom Lefkonos 22, 2. nadstropje, Strovolos 2064, Nikozija, Ciper. BRAND_NAME je izpolnil vse regulatorne zahteve in je zakonsko pooblaščen za izvajanje iger na srečo in stav.",
+              "sq" : "BRAND_NAME zotërohet dhe operohet nga Green Champions Leader SRL, numri i regjistrimit: 3-102-917157, adresa e regjistruar: Kosta Rika, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Na kontaktoni në [BRAND_SUPPORT_EMAIL]. BRAND_NAME është i licencuar dhe i rregulluar nga Qeveria e Ishullit Autonom të Anjouan, Bashkimi i Komoreve, dhe operon nën Licencën ALSI-202502014-FI1. Procesuesi i pagesave është Widoma Trading Co. Limited (nr. reg. HE 468781), një kompani me adresë të regjistruar në Lefkonos 22, kati 2-të, Strovolos 2064, Nikosia, Qipro. BRAND_NAME ka kaluar të gjitha kërkesat rregullatore dhe është i autorizuar ligjërisht të kryejë operacione lojërash fati dhe bastesh.",
+              "sr" : "BRAND_NAME je u vlasništvu i njime upravlja Green Champions Leader SRL, registracioni broj: 3-102-917157, registrovana adresa: Kostarika, San Hoze, Montes de Oka, San Pedro, Los Joses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Centar. Kontaktirajte nas na [BRAND_SUPPORT_EMAIL]. BRAND_NAME je licenciran i regulisan od strane Vlade Autonomnog ostrva Anjouan, Unija Komora, i posluje pod Licencom ALSI-202502014-FI1. Procesor plaćanja je Widoma Trading Co. Limited (reg. br. HE 468781), kompanija sa registrovanom adresom Lefkonos 22, 2. sprat, Strovolos 2064, Nikozija, Kipar. BRAND_NAME je ispunio sve regulatorne zahteve i zakonski je ovlašćen za obavljanje igara na sreću i klađenja.",
+              "tr" : "BRAND_NAME, Green Champions Leader SRL tarafından sahiplenilmekte ve işletilmektedir, kayıt numarası: 3-102-917157, kayıtlı adres: Kosta Rika, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center. Bizimle [BRAND_SUPPORT_EMAIL] üzerinden iletişime geçin. BRAND_NAME, Komorlar Birliği özerk adası Anjouan Hükümeti tarafından lisanslanmış ve düzenlenmiş olup ALSI-202502014-FI1 lisansı altında faaliyet göstermektedir. Ödeme işleyicisi, kayıtlı adresi Lefkonos 22, 2. kat, Strovolos 2064, Lefkoşa, Kıbrıs olan Widoma Trading Co. Limited (kayıt no. HE 468781) şirketidir. rcasino.com, tüm düzenleyici gereklilikleri karşılamış olup her türlü şans oyunu ve bahis operasyonunu yürütme konusunda yasal yetkiye sahiptir."
+            }
+          }
+        }
+      ]
+    },
+    "Generic" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/bonus_terms_and_conditions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "General Bonus T&Cs",
+              "bg" : "Общи условия за бонусите",
+              "cs" : "Obecné podmínky bonusů",
+              "de" : "Allgemeine Bonus AGBs",
+              "el" : "Γενικοί όροι και προϋποθέσεις των Μπόνους",
+              "es" : "T&Cs de Bonos",
+              "fi" : "Yleiset bonusehdot",
+              "fr" : "CGU des bonus",
+              "hr" : "Uvjeti i odredbe za bonuse općenito",
+              "it" : "Bonus generale T&CS",
+              "mk" : "Општи услови за бонус",
+              "no" : "Generelle bonusvilkår",
+              "pt" : "Termos gerais de bônus",
+              "BR_pt" : "Termos gerais de bônus",
+              "ro" : "Termeni și Condiții Generale",
+              "ru" : "Общие условия предоставления бонусов",
+              "sl" : "Splošni pogoji bonusov",
+              "sq" : "Termat & Kushtet e Përgjithshme për Bonuset",
+              "sr" : "Uslovi i odredbe korišćenja bonusa",
+              "tr" : "Genel Bonus Şartları"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/about_us"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "About Us",
+              "az" : "Haqqımızda",
+              "bg" : "За нас",
+              "BR_pt" : "Sobre nós",
+              "CL_es" : "Sobre Nosotros",
+              "cs" : "O nás",
+              "de" : "Über uns",
+              "el" : "Σχετικά με εμάς",
+              "es" : "Sobre Nosotros",
+              "fi" : "Meistä",
+              "fr" : "À propos de nous",
+              "hr" : "O nama",
+              "hu" : "Rólunk",
+              "it" : "Chi siamo",
+              "mk" : "За нас",
+              "no" : "Om oss",
+              "pl" : "O nas",
+              "pt" : "Sobre nós",
+              "ro" : "Despre Noi",
+              "ru" : "О нас",
+              "sl" : "O nas",
+              "sq" : "rreth nesh",
+              "sr" : "O nama",
+              "tr" : "Hakkımızda"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/terms_and_conditions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Terms & Conditions",
+              "az" : "Şərtlər və Qaydalar",
+              "bg" : "Общи условия",
+              "BR_pt" : "Termos e Condições",
+              "CL_es" : "Términos y Condiciones",
+              "cs" : "Podmínky",
+              "de" : "Geschäftsbedingungen",
+              "el" : "Όροι και Προϋποθέσεις",
+              "es" : "Términos y Condiciones",
+              "fi" : "Käyttöehdot",
+              "fr" : "Conditions d'utilisation",
+              "hr" : "Uvjeti i odredbe",
+              "hu" : "Általános Szerződési Feltételek",
+              "it" : "Termini & Condizioni",
+              "mk" : "Услови и правила",
+              "no" : "Betingelser og vilkår",
+              "pl" : "Regulamin",
+              "pt" : "Termos e Condições",
+              "ro" : "Termeni și Condiții",
+              "ru" : "Положения и условия",
+              "sl" : "Splošni pogoji",
+              "sq" : "Kushtet dhe Rregullat",
+              "sr" : "Uslovi i odredbe",
+              "tr" : "Şartlar ve Koşullar"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/privacy_policy"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Privacy Policy",
+              "az" : "Gizlilik Siyasəti",
+              "bg" : "Политика за поверителност",
+              "BR_pt" : "Política de Privacidade",
+              "CL_es" : "Política de Privacidad",
+              "cs" : "Zásady ochrany osobních údajů",
+              "de" : "Datenschutz",
+              "el" : "Πολιτική απορρήτου",
+              "es" : "Política de Privacidad",
+              "fi" : "Tietosuojakäytäntö",
+              "fr" : "Politique de confidentialité",
+              "hr" : "Pravila privatnosti",
+              "hu" : "Adatvédelmi irányelvek",
+              "it" : "Politica sulla riservatezza",
+              "mk" : "Политика за приватност",
+              "no" : "Personvernerklæring",
+              "pl" : "Polityka prywatności",
+              "pt" : "Política de Privacidade",
+              "ro" : "Politica de confidențialitate",
+              "ru" : "Политика конфиденциальности",
+              "sl" : "Politika zasebnosti",
+              "sq" : "Politika e privatësisë",
+              "sr" : "Politika privatnosti",
+              "tr" : "Gizlilik Politikası"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/faq"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "FAQ",
+              "az" : "Tez-tez verilən suallar",
+              "bg" : "Често задавани въпроси",
+              "BR_pt" : "Perguntas frequentes",
+              "CL_es" : "Preguntas frecuentes",
+              "cs" : "Často kladené otázky",
+              "de" : "FAQ",
+              "el" : "Συχνές ερωτήσεις",
+              "es" : "Preguntas frecuentes",
+              "fi" : "FAQ",
+              "fr" : "FAQ",
+              "hr" : "Često postavljana pitanja",
+              "hu" : "GYIK",
+              "it" : "FAQ",
+              "mk" : "ЧПП",
+              "no" : "FAQ",
+              "pl" : "FAQ",
+              "pt" : "Perguntas frequentes",
+              "ro" : "Întrebări frecvente",
+              "ru" : "Часто задаваемые вопросы",
+              "sl" : "Pogosta vprašanja",
+              "sq" : "Pyetje të shpeshta",
+              "sr" : "NP",
+              "tr" : "SSS"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/responsible_gaming"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Responsible Gaming",
+              "az" : "Məsuliyyətli Oyun",
+              "bg" : "Отговорно залагане",
+              "BR_pt" : "Jogo responsável",
+              "CL_es" : "Juego responsable",
+              "cs" : "Zodpovědné hraní",
+              "de" : "Verantwortungsvolles Spielen",
+              "el" : "Υπεύθυνο παιχνίδι",
+              "es" : "Juego responsable",
+              "fi" : "Vastuullinen pelaaminen",
+              "fr" : "Jeu responsable",
+              "hr" : "Odgovorno igranje",
+              "hu" : "Felelősségteljes játék",
+              "it" : "Gaming responsabile",
+              "mk" : "Одговорно коцкање",
+              "no" : "Ansvarlig spill",
+              "pl" : "Odpowiedzialna gra",
+              "pt" : "Jogo responsável",
+              "ro" : "Joc responsabil",
+              "ru" : "Ответственная игра",
+              "sl" : "Odgovorno igranje",
+              "sq" : "Lojë e përgjegjshme",
+              "sr" : "Odgovorno igranje",
+              "tr" : "Sorumlu Oyun"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/contact_us"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Contact Us",
+              "az" : "Bizimlə əlaqə",
+              "bg" : "Свържете се с нас",
+              "BR_pt" : "Contactar-nos",
+              "CL_es" : "Contáctanos",
+              "cs" : "Kontaktujte nás.",
+              "de" : "Kontaktieren Sie uns",
+              "el" : "Επικοινωνήστε μαζί μας",
+              "es" : "Contáctanos",
+              "fi" : "Ota meihin yhteyttä",
+              "fr" : "Nous contacter",
+              "hr" : "Javite nam se",
+              "hu" : "Kapcsolat",
+              "it" : "Contattaci",
+              "mk" : "Контактирајте со нас",
+              "no" : "Kontakt oss",
+              "pl" : "Kontakt",
+              "pt" : "Contactar-nos",
+              "ro" : "Contactează-ne",
+              "ru" : "Свяжитесь с нами",
+              "sl" : "Kontaktirajte nas",
+              "sq" : "Na kontakto",
+              "sr" : "Kontakt",
+              "tr" : "Bize Ulaşın"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/sport_betting_rules"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Sport Betting Rules",
+              "az" : "İdman Mərc Qaydaları",
+              "bg" : "Правила за спортни залагания",
+              "BR_pt" : "Regras de apostas esportivas",
+              "CL_es" : "Reglas de apuestas deportivas",
+              "cs" : "Pravidla sportovních sázek",
+              "de" : "Sportwetten Regeln",
+              "el" : "Κανόνες αθλητικών στοιχημάτων",
+              "es" : "Reglas de apuestas deportivas",
+              "fi" : "Vedonlyönnin säännöt",
+              "fr" : "Règles paris sportifs",
+              "hr" : "Pravila sportskog klađenja",
+              "hu" : "Sportfogadási Szabályok",
+              "it" : "Regole delle scommesse sportive",
+              "mk" : "Правила за спортско обложување",
+              "no" : "Regler for sportsspill",
+              "pl" : "Zasady zakładów sportowych",
+              "pt" : "Regras de apostas esportivas",
+              "ro" : "Reguli pentru pariurile sportive",
+              "ru" : "Правила ставок на спорт",
+              "sl" : "Pravila športnih stav",
+              "sq" : "Rregullat e Betting-ut Sportiv",
+              "sr" : "Pravila sportskog klađenja",
+              "tr" : "Spor Bahis Kuralları"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/payments/deposit"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Payments & Withdrawals",
+              "az" : "Ödənişlər və Çıxarışlar",
+              "bg" : "Плащания и тегления",
+              "BR_pt" : "Pagamentos e Retiradas",
+              "CL_es" : "Pagos y Retiros",
+              "cs" : "Platby a výběry",
+              "de" : "Zahlungen und Auszahlungen",
+              "el" : "Πληρωμές & Αναλήψεις",
+              "es" : "Pagos y Retiros",
+              "fi" : "Maksut ja kotiutukset",
+              "fr" : "Paiements & Retraits",
+              "hr" : "Plaćanja i isplate",
+              "hu" : "Fizetések és Kifizetések",
+              "it" : "Pagamenti e Prelievi",
+              "mk" : "Плаќања и исплати",
+              "no" : "Betalinger og Uttak",
+              "pl" : "Płatności i wypłaty",
+              "pt" : "Pagamentos e Retiradas",
+              "ro" : "Plăți și Retrageri",
+              "ru" : "Платежи и снятие средств",
+              "sl" : "Plačila in dvigi",
+              "sq" : "Pagesat & Tërheqjet",
+              "sr" : "Plaćanja i isplate",
+              "tr" : "Ödemeler & Çekimler"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/promotions/promotions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Promotions",
+              "az" : "Promosyonlar",
+              "bg" : "Промоции",
+              "BR_pt" : "Promoções",
+              "CL_es" : "Promociones",
+              "cs" : "Propagační Akce",
+              "de" : "Aktionen",
+              "el" : "Προσφορές",
+              "es" : "Promociones",
+              "fi" : "Kampanjat",
+              "fr" : "Promotions",
+              "hr" : "Promocije",
+              "hu" : "Promóciók",
+              "it" : "Promozioni",
+              "mk" : "Промоции",
+              "no" : "Kampanjer",
+              "pl" : "Promocje",
+              "pt" : "Promoções",
+              "ro" : "Promoții",
+              "ru" : "Акции",
+              "sl" : "Promocije",
+              "sq" : "Promovime",
+              "sr" : "Promocije",
+              "tr" : "Promosyonlar"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "image"
+          },
+          "image" : {
+            "type" : "image",
+            "name" : "generic.png"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "image"
+          },
+          "image" : {
+            "type" : "image",
+            "name" : "18.svg"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "PARTNER_SITE_URL"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "PARTNER_LOGO"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME and related rights belong to Green Champions Leader S.R.L., incorporated in Costa Rica, San josé, Montes de Oca, San Pedro, Los Yoses, Avenidasocho y diez, Calle treinta ynueve, Ly center, Costa Rica, by the reg. number 3-102-917157.",
+              "de" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME und die damit verbundenen Rechte gehören Green Champions Leader S.R.L., gegründet in Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, unter der Registernummer 3-102-917157.",
+              "fi" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME ja siihen liittyvät oikeudet kuuluvat Green Champions Leader S.R.L.:lle, joka on perustettu Costa Ricassa, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, rekisterinumerolla 3-102-917157.",
+              "no" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME og tilknyttede rettigheter tilhører Green Champions Leader S.R.L., registrert i Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, med registreringsnummer 3-102-917157.",
+              "pt" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME e os direitos relacionados pertencem à Green Champions Leader S.R.L., constituída na Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, sob o número de registo 3-102-917157.",
+              "es" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME y los derechos relacionados pertenecen a Green Champions Leader S.R.L., constituida en Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, bajo el número de registro 3-102-917157.",
+              "it" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME e i relativi diritti appartengono a Green Champions Leader S.R.L., costituita in Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, con numero di registrazione 3-102-917157.",
+              "fr" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME et les droits associés appartiennent à Green Champions Leader S.R.L., constituée au Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, sous le numéro d\u2019enregistrement 3-102-917157.",
+              "pl" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME oraz powiązane prawa należą do Green Champions Leader S.R.L., spółki zarejestrowanej w Kostaryce, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kostaryka, pod numerem rejestracyjnym 3-102-917157.",
+              "az" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME və əlaqəli hüquqlar Kosta-Rikada, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kosta-Rika ünvanında təsis edilmiş Green Champions Leader S.R.L.-ə məxsusdur, qeydiyyat nömrəsi 3-102-917157.",
+              "ru" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME и связанные с ним права принадлежат Green Champions Leader S.R.L., зарегистрированной в Коста-Рике, Сан-Хосе, Монтес-де-Ока, Сан-Педро, Лос-Йосес, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Коста-Рика, под регистрационным номером 3-102-917157.",
+              "tr" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME ve ilgili haklar, Kosta Rika, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kosta Rika adresinde kurulmuş olan Green Champions Leader S.R.L.\u2019ye aittir; kayıt numarası 3-102-917157.",
+              "et" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME ja sellega seotud õigused kuuluvad Green Champions Leader S.R.L.-ile, mis on asutatud Costa Ricas, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, registrinumbriga 3-102-917157.",
+              "hu" : "© Green Champions Leader S.R.L., 2024 Az BRAND_NAME és a kapcsolódó jogok a Green Champions Leader S.R.L.-t illetik, amelyet Costa Ricában, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica címen jegyeztek be, 3-102-917157 nyilvántartási számon.",
+              "cs" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME a související práva náleží společnosti Green Champions Leader S.R.L., založené v Kostarice, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kostarika, pod registračním číslem 3-102-917157.",
+              "sr" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME i povezana prava pripadaju kompaniji Green Champions Leader S.R.L., osnovanoj u Kostariki, San Hoze, Montes de Oka, San Pedro, Los Joses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kostarika, pod registracionim brojem 3-102-917157.",
+              "el" : "© Green Champions Leader S.R.L., 2024 Το BRAND_NAME και τα σχετικά δικαιώματα ανήκουν στην Green Champions Leader S.R.L., η οποία έχει συσταθεί στην Κόστα Ρίκα, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Κόστα Ρίκα, με αριθμό μητρώου 3-102-917157.",
+              "mk" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME и поврзаните права припаѓаат на Green Champions Leader S.R.L., основана во Костарика, Сан Хосе, Монтес де Ока, Сан Педро, Лос Јосес, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Костарика, под регистрациски број 3-102-917157.",
+              "sq" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME dhe të drejtat përkatëse i përkasin Green Champions Leader S.R.L., e themeluar në Kosta Rika, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kosta Rika, me numër regjistrimi 3-102-917157.",
+              "sl" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME in povezane pravice pripadajo družbi Green Champions Leader S.R.L., ustanovljeni v Kostariki, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kostarika, pod registrsko številko 3-102-917157.",
+              "hr" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME i povezana prava pripadaju društvu Green Champions Leader S.R.L., osnovanom u Kostariki, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kostarika, pod registracijskim brojem 3-102-917157.",
+              "bg" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME и свързаните права принадлежат на Green Champions Leader S.R.L., учредено в Коста Рика, Сан Хосе, Монтес де Ока, Сан Педро, Лос Йосес, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Коста Рика, под регистрационен номер 3-102-917157.",
+              "ro" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME și drepturile aferente aparțin Green Champions Leader S.R.L., înființată în Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, sub numărul de înregistrare 3-102-917157.",
+              "BD_bn" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME এবং সংশ্লিষ্ট অধিকারসমূহ Green Champions Leader S.R.L.-এর অন্তর্গত, যা কোস্টা রিকায়, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica ঠিকানায় নিবন্ধিত, নিবন্ধন নম্বর 3-102-917157।"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

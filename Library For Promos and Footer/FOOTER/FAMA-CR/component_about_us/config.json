@@ -1,0 +1,19 @@
+{
+  "id" : "about_us",
+  "title" : "about_us",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "template.html"
+    },
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "About BRAND_NAME",
+        "tr" : "BRAND_NAME Hakkında"
+      }
+    }
+  },
+  "type" : "component"
+}

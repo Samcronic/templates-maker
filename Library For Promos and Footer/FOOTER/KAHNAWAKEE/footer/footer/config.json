@@ -1,0 +1,1010 @@
+{
+  "id" : "footer",
+  "type" : "component",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "KAHNAWAKE"
+    }
+  },
+  "references" : {
+    "KAHNAWAKE" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/bonus_terms_and_conditions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "General Bonus T&Cs",
+              "bg" : "Общи условия за бонусите",
+              "cs" : "Obecné podmínky bonusů",
+              "de" : "Allgemeine Bonus AGBs",
+              "el" : "Γενικοί όροι και προϋποθέσεις των Μπόνους",
+              "es" : "T&Cs de Bonos",
+              "fi" : "Yleiset bonusehdot",
+              "fr" : "CGU des bonus",
+              "hr" : "Uvjeti i odredbe za bonuse općenito",
+              "it" : "Bonus generale T&CS",
+              "mk" : "Општи услови за бонус",
+              "no" : "Generelle bonusvilkår",
+              "pt" : "Termos gerais de bônus",
+              "BR_pt" : "Termos gerais de bônus",
+              "ro" : "Termeni și Condiții Generale",
+              "ru" : "Общие условия предоставления бонусов",
+              "sl" : "Splošni pogoji bonusov",
+              "sq" : "Termat & Kushtet e Përgjithshme për Bonuset",
+              "sr" : "Uslovi i odredbe korišćenja bonusa",
+              "tr" : "Genel Bonus Şartları"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/about_us"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "About Us",
+              "de" : "Über uns",
+              "fi" : "Meistä",
+              "fr" : "À propos de nous",
+              "no" : "Om oss",
+              "pt" : "Sobre nós",
+              "es" : "Sobre nosotros",
+              "it" : "Chi siamo",
+              "ro" : "Despre noi",
+              "ru" : "О нас",
+              "tr" : "Hakkımızda",
+              "sq" : "Rreth Nesh",
+              "sr" : "O nama",
+              "hr" : "O nama",
+              "el" : "Σχετικά με εμάς",
+              "cs" : "O nás",
+              "sl" : "O nas",
+              "mk" : "За нас",
+              "bg" : "За нас"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/terms_and_conditions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Terms & Conditions",
+              "de" : "Geschäftsbedingungen",
+              "fi" : "Käyttöehdot",
+              "fr" : "Conditions d'utilisation",
+              "no" : "Betingelser og vilkår",
+              "pt" : "Termos e Condições",
+              "es" : "Términos y condiciones",
+              "it" : "Termini e condizioni",
+              "ro" : "Termeni și Condiții",
+              "ru" : "Условия и положения",
+              "tr" : "Şartlar ve Koşullar",
+              "sq" : "Termat dhe Kushtet",
+              "sr" : "Uslovi i odredbe",
+              "hr" : "Uvjeti i odredbe",
+              "el" : "Όροι και Προϋποθέσεις",
+              "cs" : "Obchodní podmínky",
+              "sl" : "Pogoji poslovanja",
+              "mk" : "Услови и одредби",
+              "bg" : "Общи условия"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/privacy_policy"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Privacy Policy",
+              "de" : "Datenschutz",
+              "fi" : "Tietosuojakäytäntö",
+              "fr" : "Politique de confidentialité",
+              "no" : "Personvernerklæring",
+              "pt" : "Política de Privacidade",
+              "es" : "Política de privacidad",
+              "it" : "Informativa sulla privacy",
+              "ro" : "Politica de confidențialitate",
+              "ru" : "Политика конфиденциальности",
+              "tr" : "Gizlilik Politikası",
+              "sq" : "Politika e Privatësisë",
+              "sr" : "Politika privatnosti",
+              "hr" : "Politika privatnosti",
+              "el" : "Πολιτική Απορρήτου",
+              "cs" : "Zásady ochrany osobních údajů",
+              "sl" : "Pravilnik o zasebnosti",
+              "mk" : "Политика за приватност",
+              "bg" : "Политика за поверителност"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/kyc_aml_policies"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "AML and KYC Policy",
+              "az" : "KYC & AML siyasətləri",
+              "bg" : "Политика за KYC и AML",
+              "BR_pt" : "Políticas de KYC e AML",
+              "CL_es" : "Políticas de KYC y AML",
+              "cs" : "Zásady KYC a AML",
+              "de" : "KYC- und AML-Richtlinien",
+              "el" : "Πολιτικές KYC & AML",
+              "es" : "Políticas de KYC y AML",
+              "fi" : "KYC- ja AML-käytännöt",
+              "fr" : "Politiques KYC et LBC",
+              "hr" : "KYC i AML politike",
+              "hu" : "KYC & AML Szabályzatok",
+              "it" : "Politiche KYC e AML",
+              "mk" : "KYC и AML политики",
+              "no" : "KYC- og AML-retningslinjer",
+              "pl" : "Polityki KYC i AML",
+              "pt" : "Políticas de KYC e AML",
+              "ro" : "Politici KYC și AML",
+              "ru" : "Политики KYC и AML",
+              "sl" : "Politike KYC in AML",
+              "sq" : "Politikat KYC & AML",
+              "sr" : "KYC i AML politike",
+              "tr" : "KYC & AML Politikaları"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/faq"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "FAQ",
+              "de" : "FAQ",
+              "fi" : "FAQ",
+              "fr" : "FAQ",
+              "no" : "FAQ",
+              "pt" : "Perguntas frequentes",
+              "es" : "Preguntas frecuentes",
+              "it" : "Domande frequenti",
+              "ro" : "Întrebări frecvente",
+              "ru" : "Часто задаваемые вопросы",
+              "tr" : "SSS",
+              "sq" : "Pyetjet e bëra më shpesh",
+              "sr" : "Često postavljana pitanja",
+              "hr" : "Često postavljana pitanja",
+              "el" : "Συχνές Ερωτήσεις",
+              "cs" : "Často kladené otázky",
+              "sl" : "Pogosto zastavljena vprašanja",
+              "mk" : "Најчесто поставувани прашања",
+              "bg" : "Често задавани въпроси"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/responsible_gaming"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Responsible Gaming",
+              "de" : "Verantwortungsvolles Spielen",
+              "fi" : "Vastuullinen pelaaminen",
+              "fr" : "Jeu responsable",
+              "no" : "Ansvarlig spill",
+              "pt" : "Jogo responsável",
+              "es" : "Juego responsable",
+              "it" : "Gioco responsabile",
+              "ro" : "Joc responsabil",
+              "ru" : "Ответственная игра",
+              "tr" : "Sorumlu Oyun",
+              "sq" : "Lojë e përgjegjshme",
+              "sr" : "Odgovorno kockanje",
+              "hr" : "Odgovorno kockanje",
+              "el" : "Υπεύθυνο παιχνίδι",
+              "cs" : "Zodpovědné hraní",
+              "sl" : "Odgovorno igranje",
+              "mk" : "Одговорно играње",
+              "bg" : "Отговорна игра"
+            }
+          }
+        },
+                {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/account_payouts_bonuses"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Account, Payouts, Bonuses",
+              "de" : "Konto, Auszahlungen, Boni",
+              "es" : "Cuenta, Pagos, Bonos",
+              "fi" : "Tili, Maksut, Bonukset",
+              "fr" : "Compte, Paiements, Bonus",
+              "it" : "Account, Pagamenti, Bonus",
+              "no" : "Konto, Utbetalinger, Bonuser",
+              "pl" : "Konto, Wypłaty, Premie",
+              "pt" : "Conta, Pagamentos, Bônus",
+              "ro" : "Cont, Plăți, Bonusuri",
+              "ru" : "Аккаунт, Выплаты, Бонусы",
+              "tr" : "Hesap, Ödemeler, Bonuslar",
+              "sq" : "Llogaria, Pagesat, Bonuset",
+              "sr" : "Nalog, Isplate, Bonusi",
+              "hr" : "Račun, Isplate, Bonusi",
+              "el" : "Λογαριασμός, Πληρωμές, Μπόνους",
+              "cs" : "Účet, Výplaty, Bonusy",
+              "sl" : "Račun, Izplačila, Bonusi",
+              "mk" : "Сметка, Исплати, Бонуси",
+              "bg" : "Акаунт, Плащания, Бонуси"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/contact_us"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Contact Us",
+              "de" : "Kontaktieren Sie uns",
+              "fi" : "Ota meihin yhteyttä",
+              "fr" : "Nous contacter",
+              "no" : "Kontakt oss",
+              "pt" : "Contactar-nos",
+              "es" : "Contáctenos",
+              "it" : "Contattaci",
+              "ro" : "Contactați-ne",
+              "ru" : "Свяжитесь с нами",
+              "tr" : "Bize Ulaşın",
+              "sq" : "Na kontaktoni",
+              "sr" : "Kontaktirajte nas",
+              "hr" : "Kontaktirajte nas",
+              "el" : "Επικοινωνήστε μαζί μας",
+              "cs" : "Kontaktujte nás",
+              "sl" : "Kontaktirajte nas",
+              "mk" : "Контактирајте не",
+              "bg" : "Свържете се с нас"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/sport_betting_rules"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Sport Betting Rules",
+              "de" : "Sportwetten Regeln",
+              "fi" : "Vedonlyönnin säännöt",
+              "fr" : "Règles paris sportifs",
+              "no" : "Regler for sportsspill",
+              "pt" : "Regras de apostas esportivas",
+              "es" : "Reglas de apuestas deportivas",
+              "it" : "Regole delle scommesse sportive",
+              "ro" : "Reguli de pariere sportivă",
+              "ru" : "Правила спортивных ставок",
+              "tr" : "Spor Bahis Kuralları",
+              "sq" : "Rregullat e basteve sportive",
+              "sr" : "Pravila sportskog klađenja",
+              "hr" : "Pravila sportskog klađenja",
+              "el" : "Κανόνες στοιχημάτων αθλημάτων",
+              "cs" : "Pravidla sportovního sázení",
+              "sl" : "Pravila športnega stavljenja",
+              "mk" : "Правила за спортско обложување",
+              "bg" : "Правила за спортни залози"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/payments/deposit"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Payments & Withdrawals",
+              "de" : "Zahlungen und Auszahlungen",
+              "fi" : "Maksut ja kotiutukset",
+              "fr" : "Paiements & Retraits",
+              "no" : "Betalinger og Uttak",
+              "pt" : "Pagamentos e Retiradas",
+              "es" : "Pagos y Retiros",
+              "it" : "Pagamenti e prelievi",
+              "ro" : "Plăți și retrageri",
+              "ru" : "Платежи и вывод средств",
+              "tr" : "Ödemeler ve Para Çekme",
+              "sq" : "Pagesat dhe tërheqjet",
+              "sr" : "Uplate i isplate",
+              "hr" : "Uplate i isplate",
+              "el" : "Πληρωμές και Αναλήψεις",
+              "cs" : "Platby a výběry",
+              "sl" : "Plačila in dvigi",
+              "mk" : "Плаќања и повлекувања",
+              "bg" : "Плащания и тегления"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/promotions/promotions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Promotions",
+              "de" : "Aktionen",
+              "fi" : "Kampanjat",
+              "fr" : "Promotions",
+              "no" : "Kampanjer",
+              "pt" : "Promoções",
+              "es" : "Promociones",
+              "it" : "Promozioni",
+              "ro" : "Promoții",
+              "ru" : "Акции",
+              "tr" : "Promosyonlar",
+              "sq" : "Promocione",
+              "sr" : "Promocije",
+              "hr" : "Promocije",
+              "el" : "Προωθητικές ενέργειες",
+              "cs" : "Akce",
+              "sl" : "Promocije",
+              "mk" : "Промоции",
+              "bg" : "Промоции"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "licence"
+          },
+          "jurisdiction" : {
+            "type" : "text",
+            "value" : "KAHNAWAKE"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "KAHNAWAKE_BRAND_LICENCE_URL"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "PARTNER_SITE_URL"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "PARTNER_LOGO"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "https://gamblingtherapy.org"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "moody.svg"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "image"
+          },
+          "image" : {
+            "type" : "image",
+            "name" : "18.svg"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "https://gambleaware.org"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "gamble_aware.png"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "BRAND_NAME (hereinafter referred to as the 'Website') is held and operated by 3-102-941348 SRL, a company registered in Costa Rica with the Company Register of Costa Rica No. 4062001350004 and having its registered address at Province 01 San Jose, County 15 Montes De Oca, District One San Pedro, Los Yoses, Costa Rica (the 'Company'). Payment processor is Fodenmacko Trading Co Limited (reg. nr. HE309248) a company having its registered address at Lefkonos 22, 2nd floor, Strovolos 2064, Nicosia, Cyprus. The Company is licensed and regulated by Kahnawake Gaming Commission, License Number: 01035 (issued 10 December 2025.)",
+              "de" : "BRAND_NAME (im Folgenden „Website“) wird von der 3-102-941348 SRL gehalten und betrieben, einem in Costa Rica unter der Nummer 4062001350004 im Handelsregister von Costa Rica eingetragenen Unternehmen mit Sitz in Province 01 San Jose, County 15 Montes De Oca, District One San Pedro, Los Yoses, Costa Rica (das „Unternehmen“). Zahlungsabwickler ist Fodenmacko Trading Co Limited (reg. nr. HE309248), ein Unternehmen mit eingetragener Adresse in Lefkonos 22, 2nd floor, Strovolos 2064, Nicosia, Zypern. Das Unternehmen ist lizenziert und reguliert von der Kahnawake Gaming Commission, Lizenznummer: 01035 (ausgestellt am 10. Dezember 2025).",
+              "es" : "BRAND_NAME (en adelante, el “Sitio web”) es propiedad y es operado por 3-102-941348 SRL, una empresa registrada en Costa Rica en el Registro Comercial de Costa Rica bajo el número 4062001350004, con domicilio social en Province 01 San Jose, County 15 Montes De Oca, District One San Pedro, Los Yoses, Costa Rica (la “Compañía”). El procesador de pagos es Fodenmacko Trading Co Limited (reg. nr. HE309248), una empresa con domicilio social en Lefkonos 22, 2.º piso, Strovolos 2064, Nicosia, Chipre. La Compañía está autorizada y regulada por la Comisión de Juegos de Kahnawake, número de licencia: 01035 (emitida el 10 de diciembre de 2025).",
+              "fi" : "BRAND_NAME (jäljempänä ”verkkosivusto”) on 3-102-941348 SRL:n omistuksessa ja ylläpitämä. Yhtiö on rekisteröity Costa Ricaan Costa Rican kaupparekisteriin numerolla 4062001350004, ja sen rekisteröity osoite on Province 01 San Jose, County 15 Montes De Oca, District One San Pedro, Los Yoses, Costa Rica (”Yhtiö”). Maksujen käsittelijä on Fodenmacko Trading Co Limited (rekisterinumero HE309248) yritys, jonka toimipaikan rekisteröity osoite on Lefkonos 22, 2nd floor, Strovolos 2064, Nicosia, Kypros. Yritys on Kahnawake onnenpelilautakunnan (Kahnawake Gaming Commission) lisensoima ja sääntelemä, lisenssinumero: 01035 (myönnetty 10. joulukuu 2025).",
+              "fr" : "BRAND_NAME (ci-après dénommé le « Site web ») est détenu et exploité par 3-102-941348 SRL, une société enregistrée au Costa Rica auprès du registre du commerce du Costa Rica sous le numéro 4062001350004, et dont l’adresse enregistrée est Province 01 San Jose, County 15 Montes De Oca, District One San Pedro, Los Yoses, Costa Rica (la « Société »). Le processeur de paiement est Fodenmacko Trading Co Limited (n° HE309248), une société ayant pour adresse Lefkonos 22, 2nd floor, Strovolos 2064, Nicosia, Chypre. La Société est agréée et réglementée par la Kahnawake Gaming Commission, numéro de licence: 01035 (délivré le 10 décembre 2025).",
+              "it" : "BRAND_NAME (di seguito denominato il “Sito web”) è detenuto e gestito da 3-102-941348 SRL, una società registrata in Costa Rica presso il Registro commerciale della Costa Rica con il numero 4062001350004, con sede legale in Province 01 San Jose, County 15 Montes De Oca, District One San Pedro, Los Yoses, Costa Rica (la “Società”). Il processore di pagamento è Fodenmacko Trading Co Limited (Reg. Nr. HE309248) Una società con il suo indirizzo registrato a Lefkonos 22, 2 ° piano, Strovolos 2064, Nicosia, Cipro. La Società è autorizzata e regolata dalla Kahnawake Gaming Commission, numero di licenza: 01035 (emesso il 10 dicembre 2025).",
+              "no" : "BRAND_NAME (heretter referert til som «nettstedet») eies og drives av 3-102-941348 SRL, et selskap registrert i Costa Rica i Costa Rica Commercial Register under nummer 4062001350004, med registrert adresse i Province 01 San Jose, County 15 Montes De Oca, District One San Pedro, Los Yoses, Costa Rica («Selskapet»). Betalingsformidler er Fodenmacko Trading Co Limited (reg. nr. HE309248), et selskap som har sin registrerte adresse på Lefkonos 22, 2. etasje, Strovolos 2064, Nicosia, Kypros. Selskapet er lisensiert og regulert av Kahnawake Gaming Commission, lisensnummer: 01035 (utstedt 10. desember 2025).",
+              "pt" : "BRAND_NAME (doravante referido como o “Website”) é detido e operado pela 3-102-941348 SRL, uma empresa registada na Costa Rica junto do Registo Comercial da Costa Rica sob o número 4062001350004, com endereço registado em Province 01 San Jose, County 15 Montes De Oca, District One San Pedro, Los Yoses, Costa Rica (a “Empresa”). O processador de pagamentos é a Fodenmacko Trading Co Limited (reg. n.º HE309248), uma empresa com sede em Lefkonos 22, 2º andar, Strovolos 2064, Nicósia, Chipre. A empresa é licenciada e regulamentada pela Kahnawake Gaming Commission, número da licença: 01035 (emitida no 10 de dezembro de 2025)."
+            }
+          }
+        }
+      ]
+    },
+    "Generic" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/bonus_terms_and_conditions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "General Bonus T&Cs",
+              "bg" : "Общи условия за бонусите",
+              "cs" : "Obecné podmínky bonusů",
+              "de" : "Allgemeine Bonus AGBs",
+              "el" : "Γενικοί όροι και προϋποθέσεις των Μπόνους",
+              "es" : "T&Cs de Bonos",
+              "fi" : "Yleiset bonusehdot",
+              "fr" : "CGU des bonus",
+              "hr" : "Uvjeti i odredbe za bonuse općenito",
+              "it" : "Bonus generale T&CS",
+              "mk" : "Општи услови за бонус",
+              "no" : "Generelle bonusvilkår",
+              "pt" : "Termos gerais de bônus",
+              "BR_pt" : "Termos gerais de bônus",
+              "ro" : "Termeni și Condiții Generale",
+              "ru" : "Общие условия предоставления бонусов",
+              "sl" : "Splošni pogoji bonusov",
+              "sq" : "Termat & Kushtet e Përgjithshme për Bonuset",
+              "sr" : "Uslovi i odredbe korišćenja bonusa",
+              "tr" : "Genel Bonus Şartları"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/about_us"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "About Us",
+              "az" : "Haqqımızda",
+              "bg" : "За нас",
+              "BR_pt" : "Sobre nós",
+              "CL_es" : "Sobre Nosotros",
+              "cs" : "O nás",
+              "de" : "Über uns",
+              "el" : "Σχετικά με εμάς",
+              "es" : "Sobre Nosotros",
+              "fi" : "Meistä",
+              "fr" : "À propos de nous",
+              "hr" : "O nama",
+              "hu" : "Rólunk",
+              "it" : "Chi siamo",
+              "mk" : "За нас",
+              "no" : "Om oss",
+              "pl" : "O nas",
+              "pt" : "Sobre nós",
+              "ro" : "Despre Noi",
+              "ru" : "О нас",
+              "sl" : "O nas",
+              "sq" : "rreth nesh",
+              "sr" : "O nama",
+              "tr" : "Hakkımızda"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/terms_and_conditions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Terms & Conditions",
+              "az" : "Şərtlər və Qaydalar",
+              "bg" : "Общи условия",
+              "BR_pt" : "Termos e Condições",
+              "CL_es" : "Términos y Condiciones",
+              "cs" : "Podmínky",
+              "de" : "Geschäftsbedingungen",
+              "el" : "Όροι και Προϋποθέσεις",
+              "es" : "Términos y Condiciones",
+              "fi" : "Käyttöehdot",
+              "fr" : "Conditions d'utilisation",
+              "hr" : "Uvjeti i odredbe",
+              "hu" : "Általános Szerződési Feltételek",
+              "it" : "Termini & Condizioni",
+              "mk" : "Услови и правила",
+              "no" : "Betingelser og vilkår",
+              "pl" : "Regulamin",
+              "pt" : "Termos e Condições",
+              "ro" : "Termeni și Condiții",
+              "ru" : "Положения и условия",
+              "sl" : "Splošni pogoji",
+              "sq" : "Kushtet dhe Rregullat",
+              "sr" : "Uslovi i odredbe",
+              "tr" : "Şartlar ve Koşullar"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/privacy_policy"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Privacy Policy",
+              "az" : "Gizlilik Siyasəti",
+              "bg" : "Политика за поверителност",
+              "BR_pt" : "Política de Privacidade",
+              "CL_es" : "Política de Privacidad",
+              "cs" : "Zásady ochrany osobních údajů",
+              "de" : "Datenschutz",
+              "el" : "Πολιτική απορρήτου",
+              "es" : "Política de Privacidad",
+              "fi" : "Tietosuojakäytäntö",
+              "fr" : "Politique de confidentialité",
+              "hr" : "Pravila privatnosti",
+              "hu" : "Adatvédelmi irányelvek",
+              "it" : "Politica sulla riservatezza",
+              "mk" : "Политика за приватност",
+              "no" : "Personvernerklæring",
+              "pl" : "Polityka prywatności",
+              "pt" : "Política de Privacidade",
+              "ro" : "Politica de confidențialitate",
+              "ru" : "Политика конфиденциальности",
+              "sl" : "Politika zasebnosti",
+              "sq" : "Politika e privatësisë",
+              "sr" : "Politika privatnosti",
+              "tr" : "Gizlilik Politikası"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/faq"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "FAQ",
+              "az" : "Tez-tez verilən suallar",
+              "bg" : "Често задавани въпроси",
+              "BR_pt" : "Perguntas frequentes",
+              "CL_es" : "Preguntas frecuentes",
+              "cs" : "Často kladené otázky",
+              "de" : "FAQ",
+              "el" : "Συχνές ερωτήσεις",
+              "es" : "Preguntas frecuentes",
+              "fi" : "FAQ",
+              "fr" : "FAQ",
+              "hr" : "Često postavljana pitanja",
+              "hu" : "GYIK",
+              "it" : "FAQ",
+              "mk" : "ЧПП",
+              "no" : "FAQ",
+              "pl" : "FAQ",
+              "pt" : "Perguntas frequentes",
+              "ro" : "Întrebări frecvente",
+              "ru" : "Часто задаваемые вопросы",
+              "sl" : "Pogosta vprašanja",
+              "sq" : "Pyetje të shpeshta",
+              "sr" : "NP",
+              "tr" : "SSS"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/responsible_gaming"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Responsible Gaming",
+              "az" : "Məsuliyyətli Oyun",
+              "bg" : "Отговорно залагане",
+              "BR_pt" : "Jogo responsável",
+              "CL_es" : "Juego responsable",
+              "cs" : "Zodpovědné hraní",
+              "de" : "Verantwortungsvolles Spielen",
+              "el" : "Υπεύθυνο παιχνίδι",
+              "es" : "Juego responsable",
+              "fi" : "Vastuullinen pelaaminen",
+              "fr" : "Jeu responsable",
+              "hr" : "Odgovorno igranje",
+              "hu" : "Felelősségteljes játék",
+              "it" : "Gaming responsabile",
+              "mk" : "Одговорно коцкање",
+              "no" : "Ansvarlig spill",
+              "pl" : "Odpowiedzialna gra",
+              "pt" : "Jogo responsável",
+              "ro" : "Joc responsabil",
+              "ru" : "Ответственная игра",
+              "sl" : "Odgovorno igranje",
+              "sq" : "Lojë e përgjegjshme",
+              "sr" : "Odgovorno igranje",
+              "tr" : "Sorumlu Oyun"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/contact_us"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Contact Us",
+              "az" : "Bizimlə əlaqə",
+              "bg" : "Свържете се с нас",
+              "BR_pt" : "Contactar-nos",
+              "CL_es" : "Contáctanos",
+              "cs" : "Kontaktujte nás.",
+              "de" : "Kontaktieren Sie uns",
+              "el" : "Επικοινωνήστε μαζί μας",
+              "es" : "Contáctanos",
+              "fi" : "Ota meihin yhteyttä",
+              "fr" : "Nous contacter",
+              "hr" : "Javite nam se",
+              "hu" : "Kapcsolat",
+              "it" : "Contattaci",
+              "mk" : "Контактирајте со нас",
+              "no" : "Kontakt oss",
+              "pl" : "Kontakt",
+              "pt" : "Contactar-nos",
+              "ro" : "Contactează-ne",
+              "ru" : "Свяжитесь с нами",
+              "sl" : "Kontaktirajte nas",
+              "sq" : "Na kontakto",
+              "sr" : "Kontakt",
+              "tr" : "Bize Ulaşın"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/info/sport_betting_rules"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Sport Betting Rules",
+              "az" : "İdman Mərc Qaydaları",
+              "bg" : "Правила за спортни залагания",
+              "BR_pt" : "Regras de apostas esportivas",
+              "CL_es" : "Reglas de apuestas deportivas",
+              "cs" : "Pravidla sportovních sázek",
+              "de" : "Sportwetten Regeln",
+              "el" : "Κανόνες αθλητικών στοιχημάτων",
+              "es" : "Reglas de apuestas deportivas",
+              "fi" : "Vedonlyönnin säännöt",
+              "fr" : "Règles paris sportifs",
+              "hr" : "Pravila sportskog klađenja",
+              "hu" : "Sportfogadási Szabályok",
+              "it" : "Regole delle scommesse sportive",
+              "mk" : "Правила за спортско обложување",
+              "no" : "Regler for sportsspill",
+              "pl" : "Zasady zakładów sportowych",
+              "pt" : "Regras de apostas esportivas",
+              "ro" : "Reguli pentru pariurile sportive",
+              "ru" : "Правила ставок на спорт",
+              "sl" : "Pravila športnih stav",
+              "sq" : "Rregullat e Betting-ut Sportiv",
+              "sr" : "Pravila sportskog klađenja",
+              "tr" : "Spor Bahis Kuralları"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/payments/deposit"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Payments & Withdrawals",
+              "az" : "Ödənişlər və Çıxarışlar",
+              "bg" : "Плащания и тегления",
+              "BR_pt" : "Pagamentos e Retiradas",
+              "CL_es" : "Pagos y Retiros",
+              "cs" : "Platby a výběry",
+              "de" : "Zahlungen und Auszahlungen",
+              "el" : "Πληρωμές & Αναλήψεις",
+              "es" : "Pagos y Retiros",
+              "fi" : "Maksut ja kotiutukset",
+              "fr" : "Paiements & Retraits",
+              "hr" : "Plaćanja i isplate",
+              "hu" : "Fizetések és Kifizetések",
+              "it" : "Pagamenti e Prelievi",
+              "mk" : "Плаќања и исплати",
+              "no" : "Betalinger og Uttak",
+              "pl" : "Płatności i wypłaty",
+              "pt" : "Pagamentos e Retiradas",
+              "ro" : "Plăți și Retrageri",
+              "ru" : "Платежи и снятие средств",
+              "sl" : "Plačila in dvigi",
+              "sq" : "Pagesat & Tërheqjet",
+              "sr" : "Plaćanja i isplate",
+              "tr" : "Ödemeler & Çekimler"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "/promotions/promotions"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Promotions",
+              "az" : "Promosyonlar",
+              "bg" : "Промоции",
+              "BR_pt" : "Promoções",
+              "CL_es" : "Promociones",
+              "cs" : "Propagační Akce",
+              "de" : "Aktionen",
+              "el" : "Προσφορές",
+              "es" : "Promociones",
+              "fi" : "Kampanjat",
+              "fr" : "Promotions",
+              "hr" : "Promocije",
+              "hu" : "Promóciók",
+              "it" : "Promozioni",
+              "mk" : "Промоции",
+              "no" : "Kampanjer",
+              "pl" : "Promocje",
+              "pt" : "Promoções",
+              "ro" : "Promoții",
+              "ru" : "Акции",
+              "sl" : "Promocije",
+              "sq" : "Promovime",
+              "sr" : "Promocije",
+              "tr" : "Promosyonlar"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "image"
+          },
+          "image" : {
+            "type" : "image",
+            "name" : "generic.png"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "image"
+          },
+          "image" : {
+            "type" : "image",
+            "name" : "18.svg"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "href" : {
+            "type" : "link",
+            "to" : "PARTNER_SITE_URL"
+          },
+          "label" : {
+            "type" : "image",
+            "name" : "PARTNER_LOGO"
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME and related rights belong to Green Champions Leader S.R.L., incorporated in Costa Rica, San josé, Montes de Oca, San Pedro, Los Yoses, Avenidasocho y diez, Calle treinta ynueve, Ly center, Costa Rica, by the reg. number 3-102-917157.",
+              "de" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME und die damit verbundenen Rechte gehören Green Champions Leader S.R.L., gegründet in Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, unter der Registernummer 3-102-917157.",
+              "fi" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME ja siihen liittyvät oikeudet kuuluvat Green Champions Leader S.R.L.:lle, joka on perustettu Costa Ricassa, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, rekisterinumerolla 3-102-917157.",
+              "no" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME og tilknyttede rettigheter tilhører Green Champions Leader S.R.L., registrert i Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, med registreringsnummer 3-102-917157.",
+              "pt" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME e os direitos relacionados pertencem à Green Champions Leader S.R.L., constituída na Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, sob o número de registo 3-102-917157.",
+              "es" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME y los derechos relacionados pertenecen a Green Champions Leader S.R.L., constituida en Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, bajo el número de registro 3-102-917157.",
+              "it" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME e i relativi diritti appartengono a Green Champions Leader S.R.L., costituita in Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, con numero di registrazione 3-102-917157.",
+              "fr" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME et les droits associés appartiennent à Green Champions Leader S.R.L., constituée au Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, sous le numéro d\u2019enregistrement 3-102-917157.",
+              "pl" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME oraz powiązane prawa należą do Green Champions Leader S.R.L., spółki zarejestrowanej w Kostaryce, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kostaryka, pod numerem rejestracyjnym 3-102-917157.",
+              "az" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME və əlaqəli hüquqlar Kosta-Rikada, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kosta-Rika ünvanında təsis edilmiş Green Champions Leader S.R.L.-ə məxsusdur, qeydiyyat nömrəsi 3-102-917157.",
+              "ru" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME и связанные с ним права принадлежат Green Champions Leader S.R.L., зарегистрированной в Коста-Рике, Сан-Хосе, Монтес-де-Ока, Сан-Педро, Лос-Йосес, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Коста-Рика, под регистрационным номером 3-102-917157.",
+              "tr" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME ve ilgili haklar, Kosta Rika, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kosta Rika adresinde kurulmuş olan Green Champions Leader S.R.L.\u2019ye aittir; kayıt numarası 3-102-917157.",
+              "et" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME ja sellega seotud õigused kuuluvad Green Champions Leader S.R.L.-ile, mis on asutatud Costa Ricas, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, registrinumbriga 3-102-917157.",
+              "hu" : "© Green Champions Leader S.R.L., 2024 Az BRAND_NAME és a kapcsolódó jogok a Green Champions Leader S.R.L.-t illetik, amelyet Costa Ricában, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica címen jegyeztek be, 3-102-917157 nyilvántartási számon.",
+              "cs" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME a související práva náleží společnosti Green Champions Leader S.R.L., založené v Kostarice, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kostarika, pod registračním číslem 3-102-917157.",
+              "sr" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME i povezana prava pripadaju kompaniji Green Champions Leader S.R.L., osnovanoj u Kostariki, San Hoze, Montes de Oka, San Pedro, Los Joses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kostarika, pod registracionim brojem 3-102-917157.",
+              "el" : "© Green Champions Leader S.R.L., 2024 Το BRAND_NAME και τα σχετικά δικαιώματα ανήκουν στην Green Champions Leader S.R.L., η οποία έχει συσταθεί στην Κόστα Ρίκα, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Κόστα Ρίκα, με αριθμό μητρώου 3-102-917157.",
+              "mk" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME и поврзаните права припаѓаат на Green Champions Leader S.R.L., основана во Костарика, Сан Хосе, Монтес де Ока, Сан Педро, Лос Јосес, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Костарика, под регистрациски број 3-102-917157.",
+              "sq" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME dhe të drejtat përkatëse i përkasin Green Champions Leader S.R.L., e themeluar në Kosta Rika, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kosta Rika, me numër regjistrimi 3-102-917157.",
+              "sl" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME in povezane pravice pripadajo družbi Green Champions Leader S.R.L., ustanovljeni v Kostariki, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kostarika, pod registrsko številko 3-102-917157.",
+              "hr" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME i povezana prava pripadaju društvu Green Champions Leader S.R.L., osnovanom u Kostariki, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Kostarika, pod registracijskim brojem 3-102-917157.",
+              "bg" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME и свързаните права принадлежат на Green Champions Leader S.R.L., учредено в Коста Рика, Сан Хосе, Монтес де Ока, Сан Педро, Лос Йосес, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Коста Рика, под регистрационен номер 3-102-917157.",
+              "ro" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME și drepturile aferente aparțin Green Champions Leader S.R.L., înființată în Costa Rica, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica, sub numărul de înregistrare 3-102-917157.",
+              "BD_bn" : "© Green Champions Leader S.R.L., 2024 BRAND_NAME এবং সংশ্লিষ্ট অধিকারসমূহ Green Champions Leader S.R.L.-এর অন্তর্গত, যা কোস্টা রিকায়, San José, Montes de Oca, San Pedro, Los Yoses, Avenidas Ocho y Diez, Calle Treinta y Nueve, LY Center, Costa Rica ঠিকানায় নিবন্ধিত, নিবন্ধন নম্বর 3-102-917157।"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

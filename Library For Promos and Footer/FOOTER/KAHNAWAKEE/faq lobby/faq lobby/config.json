@@ -1,0 +1,38 @@
+{
+  "id" : "lobby_info_faq",
+  "component" : {
+    "type" : "list",
+    "value" : [
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "accordion"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "faq_accordion"
+        },
+        "layout" : {
+          "type" : "map",
+          "header" : {
+            "type" : "map",
+            "value" : {
+              "type" : "text",
+              "value" : "FAQ"
+            },
+            "align" : {
+              "type" : "text",
+              "value" : "left"
+            },
+            "size" : {
+              "type" : "text",
+              "value" : "2xl"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "type" : "component"
+}

@@ -1,0 +1,75 @@
+{
+  "id" : "terms_and_conditions",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "kahnawake"
+    }
+  },
+  "references" : {
+    "kahnawake" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "terms_and_conditions_kahnawake.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "Terms & Conditions",
+          "de" : "Allgemeine Geschäftsbedingungen",
+          "fi" : "Käyttöehdot",
+          "fr" : "Conditions générales",
+          "it" : "Termini e condizioni",
+          "no" : "Vilkår og betingelser",
+          "pt" : "Termos e Condições",
+          "ru" : "Правила и условия",
+          "es" : "Términos y condiciones",
+          "tr" : "Şartlar ve Koşullar",
+          "az" : "Şərtlər və Qaydalar",
+          "cs" : "Obchodní podmínky",
+          "el" : "Όροι και Προϋποθέσεις",
+          "gr" : "Όροι και Προϋποθέσεις",
+          "hr" : "Uvjeti i odredbe",
+          "hu" : "Általános Szerződési Feltételek",
+          "pl" : "Warunki i zasady",
+          "sl" : "Pogoji in določila",
+          "sq" : "Kushtet dhe rregullat",
+          "sr" : "Uslovi i odredbe",
+          "mk" : "Услови и одредби",
+          "bg" : "Условия и разпореди"
+        }
+      }
+    },
+    "costa_rica" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "terms_costa_rica.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "I. KEY DEFINITIONS AND WHAT MAKES UP THE TERMS & CONDITIONS",
+          "az" : "I. ƏSAS ANLAYIŞLAR VƏ ŞƏRTLƏR VƏ QAYDALARA DAXİL OLANLAR",
+          "cs" : "I. KLÍČOVÉ DEFINICE A CO TVOŘÍ PODMÍNKY",
+          "de" : "I. WICHTIGE DEFINITIONEN UND BESTANDTEILE DER ALLGEMEINEN GESCHÄFTSBEDINGUNGEN",
+          "el" : "I. ΒΑΣΙΚΟΙ ΟΡΙΣΜΟΙ ΚΑΙ ΤΙ ΑΠΟΤΕΛΕΙ ΤΟΥΣ ΟΡΟΥΣ ΚΑΙ ΠΡΟΫΠΟΘΕΣΕΙΣ",
+          "es" : "I. DEFINICIONES CLAVE E INTEGRACIÓN DE LOS TÉRMINOS Y CONDICIONES",
+          "fi" : "I. KESKEISET MÄÄRITELMÄT JA KÄYTTÖEHTOJEN MUODOSTUMINEN",
+          "fr" : "I. DÉFINITIONS CLÉS ET ÉLÉMENTS CONSTITUTIFS DES CONDITIONS GÉNÉRALES",
+          "gr" : "I. ΒΑΣΙΚΟΙ ΟΡΙΣΜΟΙ ΚΑΙ ΤΙ ΑΠΟΤΕΛΕΙ ΤΟΥΣ ΟΡΟΥΣ ΚΑΙ ΠΡΟΫΠΟΘΕΣΕΙΣ",
+          "it" : "I. DEFINIZIONI CHIAVE E COMPOSIZIONE DEI TERMINI E CONDIZIONI",
+          "mk" : "I. КЛУЧНИ ДЕФИНИЦИИ И ШТО ГИ СОЧИНУВА УСЛОВИТЕ И ОДРЕДБИТЕ",
+          "no" : "I. NØKKELDEFINISJONER OG HVA VILKÅRENE OG BETINGELSENE BESTÅR AV",
+          "pl" : "I. KLUCZOWE DEFINICJE I SKŁAD REGULAMINU",
+          "pt" : "I. DEFINIÇÕES PRINCIPAIS E O QUE COMPÕE OS TERMOS E CONDIÇÕES",
+          "ru" : "I. КЛЮЧЕВЫЕ ОПРЕДЕЛЕНИЯ И ЧТО СОСТАВЛЯЕТ ПРАВИЛА И УСЛОВИЯ",
+          "sr" : "I. KLJUČNE DEFINICIJE I ŠTA ČINI OPŠTE USLOVE I ODREDBE"
+        }
+      }
+    }
+  },
+  "type" : "component"
+}

@@ -1,25 +1,25 @@
 {
-  "id": "fairness_rng_testing_methods",
-  "component": {
-    "type": "map",
-    "template": {
-      "type": "template",
-      "name": "fairness_rng_testing_methods.html"
+  "id" : "fairness_rng_testing_methods",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "fairness_rng_testing_methods.html"
     },
-    "title": {
-      "type": "text",
-      "value": {
-        "en": "FAIRNESS & RNG TESTING METHODS",
-        "de": "FAIRNESS- UND RNG-TESTMETHODEN",
-        "es": "MÉTODOS DE PRUEBA DE JUSTICIA Y RNG",
-        "fi": "REISUUS- JA RNG-TESTAUSMENETELMÄT",
-        "fr": "MÉTHODES DE TEST D'ÉQUITÉ ET RNG",
-        "it": "METODI DI PROVA DI FAIRNESS E RNG",
-        "no": "RETTFERDIGHET OG RNG-TESTMETODER",
-        "pl": "UCZCIWOŚĆ I METODY TESTOWANIA RNG",
-        "pt": "MÉTODOS DE TESTE DE JUSTIÇA E RNG"
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "FAIRNESS & RNG TESTING METHODS",
+        "de" : "FAIRNESS- UND RNG-TESTMETHODEN",
+        "es" : "MÉTODOS DE PRUEBA DE JUSTICIA Y RNG",
+        "fi" : "REISUUS- JA RNG-TESTAUSMENETELMÄT",
+        "fr" : "MÉTHODES DE TEST D'ÉQUITÉ ET RNG",
+        "it" : "METODI DI PROVA DI FAIRNESS E RNG",
+        "no" : "RETTFERDIGHET OG RNG-TESTMETODER",
+        "pl" : "UCZCIWOŚĆ I METODY TESTOWANIA RNG",
+        "pt" : "MÉTODOS DE TESTE DE JUSTIÇA E RNG"
       }
     }
   },
-  "type": "component"
+  "type" : "component"
 }

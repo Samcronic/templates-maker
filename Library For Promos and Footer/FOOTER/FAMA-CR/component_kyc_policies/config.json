@@ -1,25 +1,25 @@
 {
-  "id": "kyc_policies",
-  "component": {
-    "type": "map",
-    "template": {
-      "type": "template",
-      "name": "kyc_policies.html"
+  "id" : "kyc_policies",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "kyc_policies.html"
     },
-    "title": {
-      "type": "text",
-      "value": {
-        "en": "KYC POLICIES",
-        "de": "KYC-RICHTLINIEN",
-        "es": "POLÍTICAS DE KYC",
-        "fi": "KYC-KÄYTÄNNÖT",
-        "fr": "POLITIQUE KYC",
-        "it": "POLITICHE KYC",
-        "no": "KYC-RETLER",
-        "pl": "KYC POLICIES",
-        "pt": "POLÍTICAS KYC"
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "KYC POLICIES",
+        "de" : "KYC-RICHTLINIEN",
+        "es" : "POLÍTICAS DE KYC",
+        "fi" : "KYC-KÄYTÄNNÖT",
+        "fr" : "POLITIQUE KYC",
+        "it" : "POLITICHE KYC",
+        "no" : "KYC-RETLER",
+        "pl" : "KYC POLICIES",
+        "pt" : "POLÍTICAS KYC"
       }
     }
   },
-  "type": "component"
+  "type" : "component"
 }

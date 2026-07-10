@@ -1,25 +1,25 @@
 {
-  "id": "aml_policies",
-  "component": {
-    "type": "map",
-    "template": {
-      "type": "template",
-      "name": "aml_policies.html"
+  "id" : "aml_policies",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "aml_policies.html"
     },
-    "title": {
-      "type": "text",
-      "value": {
-        "en": "AML POLICIES",
-        "de": "AML-RICHTLINIEN",
-        "es": "POLÍTICAS ALD",
-        "fi": "AML-KÄYTÄNNÖT",
-        "fr": "POLITIQUE AML",
-        "it": "POLITICHE AML",
-        "no": "AML-RETNINGSLINJER",
-        "pl": "ZASADY PRZECIWDZIAŁANIA PRANIU PIENIĘDZY",
-        "pt": "POLÍTICAS AML"
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "AML POLICIES",
+        "de" : "AML-RICHTLINIEN",
+        "es" : "POLÍTICAS ALD",
+        "fi" : "AML-KÄYTÄNNÖT",
+        "fr" : "POLITIQUE AML",
+        "it" : "POLITICHE AML",
+        "no" : "AML-RETNINGSLINJER",
+        "pl" : "ZASADY PRZECIWDZIAŁANIA PRANIU PIENIĘDZY",
+        "pt" : "POLÍTICAS AML"
       }
     }
   },
-  "type": "component"
+  "type" : "component"
 }

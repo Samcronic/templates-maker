@@ -1,112 +1,112 @@
 {
-  "id": "responsible_gaming",
-  "component": {
-    "type": "selector",
-    "*": {
-      "type": "reference",
-      "name": "famagousta"
+  "id" : "responsible_gaming",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "famagousta"
     },
-    "DE": {
-      "type": "reference",
-      "name": "costa rica"
+    "DE" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "NL": {
-      "type": "reference",
-      "name": "costa rica"
+    "NL" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "GB": {
-      "type": "reference",
-      "name": "costa rica"
+    "GB" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "FR": {
-      "type": "reference",
-      "name": "costa rica"
+    "FR" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "SE": {
-      "type": "reference",
-      "name": "costa rica"
+    "SE" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "AT": {
-      "type": "reference",
-      "name": "costa rica"
+    "AT" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "AU": {
-      "type": "reference",
-      "name": "costa rica"
+    "AU" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "IT": {
-      "type": "reference",
-      "name": "costa rica"
+    "IT" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "TR": {
-      "type": "reference",
-      "name": "costa rica"
+    "TR" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "ES": {
-      "type": "reference",
-      "name": "costa rica"
+    "ES" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "NZ": {
-      "type": "reference",
-      "name": "costa rica"
+    "NZ" : {
+      "type" : "reference",
+      "name" : "costa rica"
     }
   },
-  "references": {
-    "famagousta": {
-      "type": "map",
-      "template": {
-        "type": "template",
-        "name": "responsible_gaming_fama.html"
+  "references" : {
+    "famagousta" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "responsible_gaming_fama.html"
       },
-      "title": {
-        "type": "text",
-        "value": {
-          "en": "RESPONSIBLE GAMING",
-          "de": "VERANTWORTLICHES SPIELEN",
-          "es": "JUEGO RESPONSABLE",
-          "fi": "VASTUULLINEN PELAAMINEN",
-          "fr": "JEU RESPONSABLE",
-          "it": "GIOCO RESPONSABILE",
-          "no": "ANSVARLIG SPILL",
-          "pl": "ODPOWIEDZIALNA GRA",
-          "pt": "JOGO RESPONSÁVEL"
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "RESPONSIBLE GAMING",
+          "de" : "VERANTWORTLICHES SPIELEN",
+          "es" : "JUEGO RESPONSABLE",
+          "fi" : "VASTUULLINEN PELAAMINEN",
+          "fr" : "JEU RESPONSABLE",
+          "it" : "GIOCO RESPONSABILE",
+          "no" : "ANSVARLIG SPILL",
+          "pl" : "ODPOWIEDZIALNA GRA",
+          "pt" : "JOGO RESPONSÁVEL"
         }
       }
     },
-    "costa rica": {
-      "type": "map",
-      "template": {
-        "type": "template",
-        "name": "responsible_gaming_costa_rica.html"
+    "costa rica" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "responsible_gaming_costa_rica.html"
       },
-      "title": {
-        "type": "text",
-        "value": {
-          "en": "RESPONSIBLE GAMING",
-          "al": "LOJË E PËRGJEGJSHME",
-          "az": "MƏSULİYYƏTLİ OYUN",
-          "cz": "ZODPOVĚDNÉ HRANÍ",
-          "de": "VERANTWORTUNGSBEWUSSTES SPIELEN",
-          "el": "ΥΠΕΎΘΥΝΑ ΤΥΧΕΡΆ ΠΑΙΧΝΊΔΙΑ<br>",
-          "es": "JUEGO RESPONSABLE",
-          "et": "VASTUTUSTUNDLIK MÄNGIMINE",
-          "fi": "VASTUULLINEN PELAAMINEN",
-          "fr": "JEU RESPONSABLE",
-          "gr": "ΥΠΕΎΘΥΝΑ ΤΥΧΕΡΆ ΠΑΙΧΝΊΔΙΑ<br>",
-          "hr": "ODGOVORNO IGRANJE",
-          "hu": "FELELŐS JÁTÉK",
-          "it": "GIOCO RESPONSABILE",
-          "no": "ANSVARLIG SPILLING",
-          "pl": "ODPOWIEDZIALNA GRA",
-          "pt": "JOGO RESPONSÁVEL",
-          "ru": "ОТВЕТСТВЕННЫЕ ИГРЫ",
-          "sl": "ODGOVORNO IGRANJE",
-          "sq": "LOJË E PËRGJEGJSHME",
-          "sr": "ODGOVORNO IGRANjE",
-          "tr": "SORUMLU OYUN"
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "RESPONSIBLE GAMING",
+          "al" : "LOJË E PËRGJEGJSHME",
+          "az" : "MƏSULİYYƏTLİ OYUN",
+          "cz" : "ZODPOVĚDNÉ HRANÍ",
+          "de" : "VERANTWORTUNGSBEWUSSTES SPIELEN",
+          "el" : "ΥΠΕΎΘΥΝΑ ΤΥΧΕΡΆ ΠΑΙΧΝΊΔΙΑ<br>",
+          "es" : "JUEGO RESPONSABLE",
+          "et" : "VASTUTUSTUNDLIK MÄNGIMINE",
+          "fi" : "VASTUULLINEN PELAAMINEN",
+          "fr" : "JEU RESPONSABLE",
+          "gr" : "ΥΠΕΎΘΥΝΑ ΤΥΧΕΡΆ ΠΑΙΧΝΊΔΙΑ<br>",
+          "hr" : "ODGOVORNO IGRANJE",
+          "hu" : "FELELŐS JÁTÉK",
+          "it" : "GIOCO RESPONSABILE",
+          "no" : "ANSVARLIG SPILLING",
+          "pl" : "ODPOWIEDZIALNA GRA",
+          "pt" : "JOGO RESPONSÁVEL",
+          "ru" : "ОТВЕТСТВЕННЫЕ ИГРЫ",
+          "sl" : "ODGOVORNO IGRANJE",
+          "sq" : "LOJË E PËRGJEGJSHME",
+          "sr" : "ODGOVORNO IGRANjE",
+          "tr" : "SORUMLU OYUN"
         }
       }
     }
   },
-  "type": "component"
+  "type" : "component"
 }

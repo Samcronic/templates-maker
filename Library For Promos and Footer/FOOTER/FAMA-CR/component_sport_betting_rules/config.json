@@ -1,0 +1,25 @@
+{
+  "id" : "sport_betting_rules",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "altenar"
+    },
+    "GB" : {
+      "type" : "reference",
+      "name" : "betby"
+    }
+  },
+  "references" : {
+    "altenar" : {
+      "type" : "template",
+      "name" : "altenar_sport_betting_rules.html"
+    },
+    "betby" : {
+      "type" : "template",
+      "name" : "betby_sport_betting_rules.html"
+    }
+  },
+  "type" : "component"
+}

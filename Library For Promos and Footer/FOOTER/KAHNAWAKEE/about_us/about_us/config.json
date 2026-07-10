@@ -1,0 +1,34 @@
+{
+  "id" : "about_us",
+  "component" : {
+    "type" : "map",
+    "template" : {
+      "type" : "template",
+      "name" : "about_us.html"
+    },
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "About BRAND_NAME",
+        "cs" : "O BRAND_NAME",
+        "de" : "Über BRAND_NAME",
+        "el" : "Σχετικά με την BRAND_NAME",
+        "es" : "Acerca de BRAND_NAME",
+        "fi" : "Tietoja BRAND_NAME",
+        "fr" : "À propos de BRAND_NAME",
+        "gr" : "Σχετικά με την BRAND_NAME",
+        "hr" : "O BRAND_NAME",
+        "it" : "Circa BRAND_NAME",
+        "ja" : "BRAND_NAMEについて",
+        "mk" : "O BRAND_NAME",
+        "no" : "Om 21Bet",
+        "pt" : "Sobre BRAND_NAME",
+        "ro" : "Despre BRAND_NAME",
+        "ru" : "О BRAND_NAME",
+        "sl" : "O BRAND_NAME",
+        "sr" : "O BRAND_NAME-u"
+      }
+    }
+  },
+  "type" : "component"
+}

@@ -1,0 +1,113 @@
+{
+  "id" : "responsible_gaming",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "kahnawake"
+    },
+    "IT" : {
+      "type" : "reference",
+      "name" : "kahnawake-italy"
+    }
+  },
+  "references" : {
+    "kahnawake" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "responsible_gaming_kahnawake.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "RESPONSIBLE GAMING & SELF-EXCLUSION POLICY",
+          "de" : "VERANTWORTUNGSVOLLES SPIELEN & SELBSTAUSSCHLUSS-RICHTLINIE",
+          "fi" : "VASTUULLINEN PELAAMINEN JA ITSEPOISSULKEMINEN",
+          "fr" : "POLITIQUE DE JEU RESPONSABLE ET D'AUTO-EXCLUSION",
+          "no" : "RETNINGSLINJER FOR ANSVARLIG SPILL OG SELVEKSKLUDERING",
+          "pt" : "POLÍTICA DE JOGO RESPONSÁVEL E DE AUTO-EXCLUSÃO",
+          "ru" : "ПОЛИТИКА ОТВЕТСТВЕННОЙ ИГРЫ И САМООТКЛЮЧЕНИЯ",
+          "es" : "POLÍTICA DE JUEGO RESPONSABLE Y AUTOEXCLUSIÓN",
+          "it" : "POLITICA DI GIOCO RESPONSABILE E AUTOESCLUSIONE",
+          "tr" : "SORUMLU OYUN VE KENDİNDEN DIŞLAMA POLİTİKASI",
+          "az" : "MƏSULİYYƏTLİ OYUN VƏ ÖZÜNDƏN İSTİSNA POLİTİKASI",
+          "sl" : "POLITIKA ODGOVORNOG IGRANJA I SAMOISKLJUČENJA",
+          "hr" : "POLITIKA ODGOVORNOG IGRANJA I SAMOISKLJUČENJA",
+          "hu" : "FELELŐS JÁTÉK ÉS ÖNKIZÁRÁS POLITIKÁJA",
+          "cs" : "ZODPOVĚDNÉ HRANÍ A POLITIKA SAMOVYLOUČENÍ",
+          "el" : "ΠΟΛΙΤΙΚΗ ΥΠΕΥΘΥΝΟΥ ΠΑΙΧΝΙΔΙΟΥ ΚΑΙ ΑΥΤΟ-ΑΠΟΚΛΕΙΣΜΟΥ",
+          "gr" : "ΠΟΛΙΤΙΚΗ ΥΠΕΥΘΥΝΟΥ ΠΑΙΧΝΙΔΙΟΥ ΚΑΙ ΑΥΤΟ-ΑΠΟΚΛΕΙΣΜΟΥ",
+          "sq" : "LOJË E PËRGJEGJSHME DHE POLITIKA E AUTO-EKSKLUDIMIT",
+          "sr" : "POLITIKA ODGOVORNOG IGRANjA I SAMOISKLJUČENJA"
+        }
+      }
+    },
+        "kahnawake-italy" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "responsible_gaming_kahnawake_italy.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "RESPONSIBLE GAMING & SELF-EXCLUSION POLICY",
+          "de" : "VERANTWORTUNGSVOLLES SPIELEN & SELBSTAUSSCHLUSS-RICHTLINIE",
+          "fi" : "VASTUULLINEN PELAAMINEN JA ITSEPOISSULKEMINEN",
+          "fr" : "POLITIQUE DE JEU RESPONSABLE ET D'AUTO-EXCLUSION",
+          "no" : "RETNINGSLINJER FOR ANSVARLIG SPILL OG SELVEKSKLUDERING",
+          "pt" : "POLÍTICA DE JOGO RESPONSÁVEL E DE AUTO-EXCLUSÃO",
+          "ru" : "ПОЛИТИКА ОТВЕТСТВЕННОЙ ИГРЫ И САМООТКЛЮЧЕНИЯ",
+          "es" : "POLÍTICA DE JUEGO RESPONSABLE Y AUTOEXCLUSIÓN",
+          "it" : "POLITICA DI GIOCO RESPONSABILE E AUTOESCLUSIONE",
+          "tr" : "SORUMLU OYUN VE KENDİNDEN DIŞLAMA POLİTİKASI",
+          "az" : "MƏSULİYYƏTLİ OYUN VƏ ÖZÜNDƏN İSTİSNA POLİTİKASI",
+          "sl" : "POLITIKA ODGOVORNOG IGRANJA I SAMOISKLJUČENJA",
+          "hr" : "POLITIKA ODGOVORNOG IGRANJA I SAMOISKLJUČENJA",
+          "hu" : "FELELŐS JÁTÉK ÉS ÖNKIZÁRÁS POLITIKÁJA",
+          "cs" : "ZODPOVĚDNÉ HRANÍ A POLITIKA SAMOVYLOUČENÍ",
+          "el" : "ΠΟΛΙΤΙΚΗ ΥΠΕΥΘΥΝΟΥ ΠΑΙΧΝΙΔΙΟΥ ΚΑΙ ΑΥΤΟ-ΑΠΟΚΛΕΙΣΜΟΥ",
+          "gr" : "ΠΟΛΙΤΙΚΗ ΥΠΕΥΘΥΝΟΥ ΠΑΙΧΝΙΔΙΟΥ ΚΑΙ ΑΥΤΟ-ΑΠΟΚΛΕΙΣΜΟΥ",
+          "sq" : "LOJË E PËRGJEGJSHME DHE POLITIKA E AUTO-EKSKLUDIMIT",
+          "sr" : "POLITIKA ODGOVORNOG IGRANjA I SAMOISKLJUČENJA"
+        }
+      }
+    },
+    "costa_rica" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "responsible_gaming_costa_rica.html"
+      },
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "RESPONSIBLE GAMING",
+          "al" : "LOJË E PËRGJEGJSHME",
+          "az" : "MƏSULİYYƏTLİ OYUN",
+          "cs" : "ZODPOVĚDNÉ HRANÍ",
+          "de" : "VERANTWORTUNGSBEWUSSTES SPIELEN",
+          "el" : "ΥΠΕΥΘΥΝΟ ΠΑΙΧΝΙΔΙ",
+          "es" : "JUEGO RESPONSABLE",
+          "et" : "VASTUTUSTUNDLIK MÄNGIMINE",
+          "fi" : "VASTUULLINEN PELAAMINEN",
+          "fr" : "JEU RESPONSABLE",
+          "gr" : "ΥΠΕΎΘΥΝΑ ΤΥΧΕΡΆ ΠΑΙΧΝΊΔΙΑ<br>",
+          "hr" : "ODGOVORNO IGRANJE",
+          "hu" : "FELELŐS JÁTÉK",
+          "it" : "GIOCO RESPONSABILE",
+          "no" : "ANSVARLIG SPILLING",
+          "pl" : "ODPOWIEDZIALNA GRA",
+          "pt" : "JOGO RESPONSÁVEL",
+          "ru" : "ОТВЕТСТВЕННЫЕ ИГРЫ",
+          "sl" : "ODGOVORNO IGRANJE",
+          "sq" : "LOJË E PËRGJEGJSHME",
+          "sr" : "ODGOVORNO IGRANjE",
+          "tr" : "SORUMLU OYUN"
+        }
+      }
+    }
+  },
+  "type" : "component"
+}

@@ -1,86 +1,86 @@
 {
-  "id": "terms_and_conditions",
-  "component": {
-    "type": "selector",
-    "*": {
-      "type": "reference",
-      "name": "famagousta"
+  "id" : "terms_and_conditions",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "famagousta"
     },
-    "DE": {
-      "type": "reference",
-      "name": "costa rica"
+    "DE" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "NL": {
-      "type": "reference",
-      "name": "costa rica"
+    "NL" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "GB": {
-      "type": "reference",
-      "name": "costa rica"
+    "GB" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "FR": {
-      "type": "reference",
-      "name": "costa rica"
+    "FR" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "SE": {
-      "type": "reference",
-      "name": "costa rica"
+    "SE" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "AT": {
-      "type": "reference",
-      "name": "costa rica"
+    "AT" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "AU": {
-      "type": "reference",
-      "name": "costa rica"
+    "AU" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "IT": {
-      "type": "reference",
-      "name": "costa rica"
+    "IT" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "TR": {
-      "type": "reference",
-      "name": "costa rica"
+    "TR" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "ES": {
-      "type": "reference",
-      "name": "costa rica"
+    "ES" : {
+      "type" : "reference",
+      "name" : "costa rica"
     },
-    "NZ": {
-      "type": "reference",
-      "name": "costa rica"
+    "NZ" : {
+      "type" : "reference",
+      "name" : "costa rica"
     }
   },
-  "references": {
-    "famagousta": {
-      "type": "map",
-      "template": {
-        "type": "template",
-        "name": "terms_and_conditions_fama.html"
+  "references" : {
+    "famagousta" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "terms_and_conditions_fama.html"
       },
-      "title": {
-        "type": "text",
-        "value": {
-          "en": "TERMS & CONDITIONS",
-          "de": "GESCHÄFTSBEDINGUNGEN",
-          "es": "TÉRMINOS Y CONDICIONES",
-          "fi": "KÄYTTÖEHDOT",
-          "fr": "TERMES ET CONDITIONS",
-          "it": "TERMINI & CONDIZIONI",
-          "no": "BETINGELSER OG VILKÅR",
-          "pt": "TERMOS E CONDIÇÕES"
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "TERMS & CONDITIONS",
+          "de" : "GESCHÄFTSBEDINGUNGEN",
+          "es" : "TÉRMINOS Y CONDICIONES",
+          "fi" : "KÄYTTÖEHDOT",
+          "fr" : "TERMES ET CONDITIONS",
+          "it" : "TERMINI & CONDIZIONI",
+          "no" : "BETINGELSER OG VILKÅR",
+          "pt" : "TERMOS E CONDIÇÕES"
         }
       }
     },
-    "costa rica": {
-      "type": "map",
-      "template": {
-        "type": "template",
-        "name": "terms_costa_rica.html"
+    "costa rica" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "terms_costa_rica.html"
       },
-      "title": {
-        "type": "text",
-        "value": {
+      "title" : {
+        "type" : "text",
+        "value" : {
           "en" : "I. KEY DEFINITIONS AND WHAT MAKES UP THE TERMS & CONDITIONS",
           "az" : "I. ƏSAS ANLAYIŞLAR VƏ ŞƏRTLƏR VƏ QAYDALARA DAXİL OLANLAR",
           "cs" : "I. KLÍČOVÉ DEFINICE A CO TVOŘÍ PODMÍNKY",
@@ -101,5 +101,5 @@
       }
     }
   },
-  "type": "component"
+  "type" : "component"
 }
