@@ -1,0 +1,83 @@
+{
+  "id" : "vip_heroBanner_top_unauthenticated",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Play with VIP Club privileges",
+        "de" : "Spielen Sie mit den Vorteilen des VIP-Clubs",
+        "fi" : "Pelaa VIP-klubin eduilla",
+        "no" : "Spill med VIP Klubb privilegier",
+        "pt" : "Joga com privilégios do VIP Club",
+        "BR_pt" : "Jogue com privilégios do VIP Club",
+        "es" : "Juega con privilegios del VIP Club",
+        "CL_es" : "Juega con privilegios del VIP Club",
+        "it" : "Gioca con i vantaggi del VIP Club",
+        "fr" : "Profitez des avantages du Club VIP",
+        "ru" : "Играйте с привилегиями VIP-клуба",
+        "az" : "VIP Klub imtiyazları ilə oyna",
+        "tr" : "VIP Kulüp ayrıcalıklarıyla oyna",
+        "hu" : "Játssz a VIP Klub előnyeivel",
+        "cz" : "Hrajte s výhodami VIP klubu"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Premium experience, designed for you!",
+        "de" : "Premium-Erlebnis, ganz auf Sie zugeschnitten!",
+        "fi" : "Juuri sinulle suunniteltu premium-kokemus!",
+        "no" : "Premiumopplevelse, designet for deg!",
+        "pt" : "Experiência premium, pensada para ti!",
+        "BR_pt" : "Experiência premium, feita para você!",
+        "es" : "Experiencia premium, diseñada para ti!",
+        "CL_es" : "Experiencia premium, pensada para ti!",
+        "it" : "Un'esperienza esclusiva, pensata apposta per te!",
+        "fr" : "Une expérience haut de gamme, conçue spécialement pour vous !",
+        "ru" : "Премиум-услуги, созданные специально для вас!",
+        "az" : "Sənin üçün hazırlanmış premium təcrübə!",
+        "tr" : "Senin için tasarlanmış premium deneyim!",
+        "hu" : "Prémium élmény, az igényeidre tervezve!",
+        "cz" : "Prémiový zážitek přímo pro vás!"
+      }
+    },
+    "cta" : {
+      "type" : "map",
+      "label" : {
+        "type" : "text",
+        "value" : {
+          "en" : "CREATE AN ACCOUNT",
+          "de" : "ERSTELLEN SIE EIN KONTO",
+          "fi" : "LUO TILI",
+          "no" : "OPPRETT EN KONTO",
+          "pt" : "CRIAR UMA CONTA",
+          "es" : "CREAR UNA CUENTA",
+          "it" : "CREA UN ACCOUNT",
+          "fr" : "CRÉER UN COMPTE",
+          "pl" : "UTWÓRZ KONTO",
+          "hu" : "HOZZ LÉTRE EGY FIÓKOT",
+          "cs" : "VYTVOŘIT ÚČET",
+          "sr" : "KREIRAJ NALOG",
+          "el" : "ΔΗΜΙΟΥΡΓΊΑ ΛΟΓΑΡΙΑΣΜΟΎ",
+          "gr" : "ΔΗΜΙΟΥΡΓΊΑ ΛΟΓΑΡΙΑΣΜΟΎ",
+          "mk" : "НАПРАВЕТЕ СМЕТКА",
+          "ro" : "CREEAZĂ UN CONT",
+          "sl" : "USTVARI RAČUN",
+          "hr" : "KREIRAJ RAČUN",
+          "sq" : "KRIJO NJË LLOGARI",
+          "bg" : "СЪЗДАЙТЕ АКАУНТ"
+        }
+      },
+      "link" : {
+        "type" : "link",
+        "to" : "/vip?modal=register"
+      }
+    },
+    "image" : {
+      "type" : "image",
+      "name" : "vip_top.jpg"
+    }
+  },
+  "type" : "component"
+}

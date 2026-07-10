@@ -20,7 +20,7 @@
             "ru" : "Как стать VIP-участником?",
             "et" : "Kuidas saada VIP-liikmeks?",
             "hu" : "Hogyan válhatok VIP-taggá?",
-            "cz" : "Jak se stát VIP členem?",
+            "cs" : "Jak se stát VIP členem?",
             "sr" : "Kako da postanem VIP član?",
             "el" : "Πώς μπορώ να γίνω μέλος VIP;",
             "gr" : "Πώς μπορώ να γίνω μέλος VIP;",
@@ -50,7 +50,7 @@
             "et" : "Meie VIP-ide meeskond hindab teie mängusagedust ja hindab, kas te vastate VIP-klubi liikmestaatuse tingimustele. Kui osutute valituks, abistab teid edaspidi igal sammul personaalne VIP-konto haldur. Tema ülesanne on tagada, et naudiksite imelisi mänguelamusi, mis on kohandatud vastavalt teie vajadustele. Ärge unustage täpsustada eelistatud suhtlusviisi, et saaksime teile parimal moel toeks olla!",
             "hu" : "A VIP csapatunk felméri mennyire vagy aktív játékos, és meghatározza, hogy jogosult vagy-e csatlakozni a VIP Klubhoz. Ha meghívásban részesülsz, akkor a személyes VIP Fiókmenedzsered minden lépésben rendelkezésedre áll. A Fiókmenedzsered gondoskodik róla, hogy a lehető legjobb játékélményben részesülj, amely kifejezetten a személyes igényeidhez van igazítva. Ne felejtsd el meghatározni a használni kívánt kapcsolattartási módot, ami lehetővé teszi számunkra, hogy a lehető legjobb módon tudjunk segítséget nyújtani.",
             "sr" : "Naš VIP tim procenjuje učestalost vaše aktivnosti kao igrača kako bi utvrdio da li ispunjavate uslove za pridruživanje našem VIP klubu. Ako budete izabrani, vaš lični menadžer VIP naloga će biti uz vas na svakom koraku. Biće prisutan kako bi vam osigurao najneverovatnije iskustvo igranja, prilagođeno vašim potrebama. Ne zaboravite da navedete željeni način komunikacije kako bismo vam pružili najbolju moguću podršku!",
-            "cz" : "Náš VIP tým pravidelně vyhodnocuje herní aktivitu hráčů, aby určil, kdo splňuje podmínky pro VIP členství. Pokud budete vybráni, bude vám přidělen osobní VIP account manažer, který se postará o individuální přístup a co nejlepší herní zážitek přizpůsobený vašim potřebám. Nezapomeňte uvést preferovaný způsob komunikace, abychom vám mohli poskytovat podporu co nejefektivněji.",
+            "cs" : "Náš VIP tým pravidelně vyhodnocuje herní aktivitu hráčů, aby určil, kdo splňuje podmínky pro VIP členství. Pokud budete vybráni, bude vám přidělen osobní VIP account manažer, který se postará o individuální přístup a co nejlepší herní zážitek přizpůsobený vašim potřebám. Nezapomeňte uvést preferovaný způsob komunikace, abychom vám mohli poskytovat podporu co nejefektivněji.",
             "el" : "Η VIP ομάδα μας αξιολογεί τη συχνότητα της δραστηριότητάς σου ως παίκτης, προκειμένου να καθορίσει αν μπορείς να γίνεις μέλος του VIP Club μας. Αν επιλεγείς, ο προσωπικός σου VIP account manager θα σε συνοδεύει σε κάθε σου βήμα. Θα είναι πάντα δίπλα σου για να διασφαλίσει ότι απολαμβάνεις την εμπειρία του παιχνιδιού, προσαρμοσμένη ειδικά στις ανάγκες σου. Μην ξεχάσεις να δηλώσεις τον τρόπο επικοινωνίας που προτιμάς, ώστε να σε εξυπηρετήσουμε με τον καλύτερο δυνατό τρόπο!",
             "gr" : "Η VIP ομάδα μας αξιολογεί τη συχνότητα της δραστηριότητάς σου ως παίκτης, προκειμένου να καθορίσει αν μπορείς να γίνεις μέλος του VIP Club μας. Αν επιλεγείς, ο προσωπικός σου VIP account manager θα σε συνοδεύει σε κάθε σου βήμα. Θα είναι πάντα δίπλα σου για να διασφαλίσει ότι απολαμβάνεις την εμπειρία του παιχνιδιού, προσαρμοσμένη ειδικά στις ανάγκες σου. Μην ξεχάσεις να δηλώσεις τον τρόπο επικοινωνίας που προτιμάς, ώστε να σε εξυπηρετήσουμε με τον καλύτερο δυνατό τρόπο!",
             "mk" : "Нашиот VIP-тим ја оценува зачестеноста на твојата активност како играч за да утврди дали ги исполнуваш условите за приклучување кон нашиот VIP-клуб. Ако бидеш избран/а, твојот личен управник со VIP-сметкас ќе te придружува во секој чекор. Ќе биде тука за да се погрижи да уживаш во најневеројатното доживување со играње, прилагодено специјално на твоите потреби. Не заборавај да го наведеш претпочитаниот начин на комуникација, за да можеме да ти обезбедиме најдобра можна поддршка!",
@@ -77,7 +77,7 @@
             "fr" : "Qu'est-ce que le CLUB VIP ?",
             "pl" : "Co to jest KLUB VIP?",
             "hu" : "Mi az a VIP KLUB?",
-            "cz" : "Co je VIP klub?"
+            "cs" : "Co je VIP klub?"
           }
         },
         "description" : {
@@ -93,7 +93,7 @@
             "fr" : "Le CLUB VIP est offert aux joueurs les plus précieux. Les joueurs qui font partie du CLUB VIP reçoivent des avantages exclusifs qui ne sont pas disponibles pour les joueurs réguliers.",
             "pl" : "KLUB VIP jest oferowany najbardziej wartościowym graczom. Gracze należący do VIP CLUB otrzymują ekskluzywne korzyści i profity, które nie są dostępne dla zwykłych graczy.",
             "hu" : "A VIP KLUB-ba a legaktívabb játékosok kapnak meghívást. Azok a játékosok, akik a VIP KLUB tagjai, exkluzív előnyökben és ajánlatokban részesülnek, amelyek nem elérhetők más játékosoknak.",
-            "cz" : "VIP klub je určen pro nejcennější hráče. Hráči, kteří jsou členy VIP klubu, získávají exkluzivní výhody a bonusy, které nejsou dostupné běžným hráčům."
+            "cs" : "VIP klub je určen pro nejcennější hráče. Hráči, kteří jsou členy VIP klubu, získávají exkluzivní výhody a bonusy, které nejsou dostupné běžným hráčům."
           }
         },
         "open" : {
@@ -116,7 +116,7 @@
             "fr" : "Comment saurai-je que je fais partie du Club VIP ?",
             "pl" : "Skąd będę wiedzieć, że należę do klubu VIP?",
             "hu" : "Honnan fogom tudni, hogy VIP Klub tag lettem?",
-            "cz" : "Jak poznám, že jsem členem VIP klubu?"
+            "cs" : "Jak poznám, že jsem členem VIP klubu?"
           }
         },
         "description" : {
@@ -132,7 +132,7 @@
             "fr" : "Une fois que vous serez devenu un membre VIP, vous recevrez une invitation de notre département VIP avec toutes les informations nécessaires.",
             "pl" : "Gdy zostaniesz członkiem VIP, otrzymasz zaproszenie od naszego działu VIP ze wszystkimi istotnymi informacjami.",
             "hu" : "Ha kielégíted a VIP tagság feltételeit, kapni fogsz egy meghívást a VIP Osztályunktól az összes szükséges információval.",
-            "cz" : "Jakmile se stanete VIP členem, obdržíte pozvánku od našeho VIP oddělení se všemi důležitými informacemi."
+            "cs" : "Jakmile se stanete VIP členem, obdržíte pozvánku od našeho VIP oddělení se všemi důležitými informacemi."
           }
         },
         "open" : {
@@ -155,7 +155,7 @@
             "fr" : "L'adhésion au Club VIP est-elle permanente ?",
             "pl" : "Czy członkostwo w Klubie VIP jest stałe?",
             "hu" : "A VIP Klub tagság örökös?",
-            "cz" : "Je členství ve VIP klubu trvalé?"
+            "cs" : "Je členství ve VIP klubu trvalé?"
           }
         },
         "description" : {
@@ -171,7 +171,7 @@
             "fr" : "L'adhésion au Club VIP n'est pas permanente bien qu'elle soit déterminée par votre activité, plus vous jouez avec nous, plus votre adhésion sera prolongée.",
             "pl" : "Członkostwo w Klubie VIP nie jest stałe, choć zależy od aktywności gracza. Im więcej grasz z nami, tym bardziej przedłużasz swoje członkostwo.",
             "hu" : "A VIP Klub tagság nem örökös, hiszen az aktivitásod alapján van meghatározva. Minél többet játszol az oldalunkon, annál hosszabb ideig fog tartani a tagságod.",
-            "cz" : "Členství ve VIP klubu není trvalé a odvíjí se od vaší aktivity. Čím aktivněji u nás hrajete, tím déle si VIP status udržíte."
+            "cs" : "Členství ve VIP klubu není trvalé a odvíjí se od vaší aktivity. Čím aktivněji u nás hrajete, tím déle si VIP status udržíte."
           }
         },
         "open" : {

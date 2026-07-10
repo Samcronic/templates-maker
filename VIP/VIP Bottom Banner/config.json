@@ -1,0 +1,102 @@
+{
+  "id" : "vip_heroBanner_bottom",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Become an instant VIP",
+        "de" : "Werden Sie ein Sofort-VIP",
+        "fi" : "Pääset välittömästi VIP-jäseneksi",
+        "no" : "Bli en umiddelbar VIP",
+        "pt" : "Torna-te um VIP instantâneo",
+        "BR_pt" : "Torne-se um VIP instantâneo",
+        "it" : "Diventa subito un VIP",
+        "fr" : "Devenez VIP en un clin d'œil",
+        "pl" : "Zostań VIP-em od razu",
+        "ru" : "Станьте VIP-игроком мгновенно",
+        "az" : "Dərhal VIP ol",
+        "tr" : "Anında VIP ol",
+        "hu" : "Légy azonnal VIP",
+        "sr" : "Postani odmah VIP",
+        "cs" : "VIP status na dosah",
+        "el" : "Γίνε VIP άμεσα",
+        "mk" : "Стани VIP веднаш",
+        "sq" : "Bëhu menjëherë VIP",
+        "ro" : "Devino VIP instant",
+        "sl" : "Takoj postani VIP",
+        "hr" : "Odmah postanite VIP",
+        "bg" : "Станете VIP играч моментално",
+        "es" : "Conviértete en un VIP instantáneo"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Make a single deposit of \u20ac1,000 or more",
+        "de" : "Tätigen Sie eine Einzahlung von mindestens 1.000\u20ac",
+        "fi" : "Tee yksi vähintään \u20ac1000 talletus",
+        "no" : "Gjør et enkelt innskudd på \u20ac1,000 eller mer",
+        "pt" : "Faz um único depósito de \u20ac1.000 ou mais",
+        "BR_pt" : "Faça um único depósito de \u20ac1.000 ou mais",
+        "it" : "Effettua un singolo deposito di almeno \u20ac1.000",
+        "fr" : "Effectuez un dépôt unique d'au moins 1 000 \u20ac",
+        "pl" : "Wpłać jednorazowy depozyt w wysokości 1 000 \u20ac lub więcej",
+        "ru" : "Внесите единовременный депозит на сумму от 1 000",
+        "az" : "\u20ac1,000 və ya daha çox məbləğdə tək depozit et",
+        "tr" : "\u20ac1.000 veya daha fazla tek seferlik yatırım yap",
+        "hu" : "Végezz el egy legalább 1.000 \u20ac-s befizetést",
+        "sr" : "Izvrši jednu uplatu od 1.000 \u20ac ili više",
+        "cs" : "Stačí jeden vklad od \u20ac1 000",
+        "el" : "Με μία κατάθεση ύψους \u20ac1.000 ή περισσότερο",
+        "mk" : "Направи една уплата од \u20ac1.000 или повеќе",
+        "sq" : "Bëj një depozitë të vetme prej \u20ac1,000 ose më shumë",
+        "ro" : "Realizează o depunere unică de \u20ac1,000 sau mai mult",
+        "sl" : "Opravi enkraten polog v višini 1.000 \u20ac ali več",
+        "hr" : "Izvršite jednu uplatu na račun od 1000 \u20ac ili više",
+        "bg" : "Направете единичен депозит от \u20ac1000 или повече.",
+        "es" : "Realiza un depósito único de \u20ac1,000 o más"
+      }
+    },
+    "cta" : {
+      "type" : "map",
+      "label" : {
+        "type" : "text",
+        "value" : {
+          "en" : "DEPOSIT NOW",
+          "de" : "JETZT EINZAHLEN",
+          "fi" : "TEE TALLETUS NYT",
+          "no" : "SETT INN NÅ",
+          "pt" : "DEPOSITAR AGORA",
+          "BR_pt" : "DEPOSITAR AGORA",
+          "it" : "DEPOSITA ORA",
+          "fr" : "DÉPOSER MAINTENANT",
+          "pl" : "WPŁAĆ TERAZ",
+          "ru" : "СДЕЛАТЬ ДЕПОЗИТ",
+          "az" : "İNDİ DEPOZİT ET",
+          "tr" : "ŞİMDİ YATIR",
+          "hu" : "FIZESS MOST",
+          "sr" : "UPLATI ODMAH",
+          "cs" : "VLOŽIT NYNÍ",
+          "el" : "ΚΑΤΑΘΕΣΗ",
+          "mk" : "ИЗВРШИ ДЕПОЗИТ ВЕДНАШ",
+          "sq" : "DEPOZITO TANI",
+          "ro" : "DEPUNE ACUM",
+          "sl" : "POLOŽI ZDAJ",
+          "hr" : "UPLATI ODMAH",
+          "bg" : "НАПРАВЕТЕ ДЕПОЗИТ СЕГА",
+          "es" : "DEPOSITA AHORA"
+        }
+      },
+      "link" : {
+        "type" : "link",
+        "to" : "/account/financials/deposit"
+      }
+    },
+    "image" : {
+      "type" : "image",
+      "name" : "vip_bottom.jpg"
+    }
+  },
+  "type" : "component"
+}

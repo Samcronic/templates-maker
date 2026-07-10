@@ -7,40 +7,6 @@
         "type" : "map",
         "component" : {
           "type" : "text",
-          "value" : "meta"
-        },
-        "name" : {
-          "type" : "text",
-          "value" : "title"
-        },
-        "value" : {
-          "type" : "text",
-          "value" : {
-            "en" : "VIP Program - Cashback & Perks - SpinStag"
-          }
-        }
-      },
-      {
-        "type" : "map",
-        "component" : {
-          "type" : "text",
-          "value" : "meta"
-        },
-        "name" : {
-          "type" : "text",
-          "value" : "description"
-        },
-        "value" : {
-          "type" : "text",
-          "value" : {
-            "en" : "Join SpinStag VIP for low-wagering bonuses, personal cashback, faster withdrawals and exclusive perks."
-          }
-        }
-      },
-      {
-        "type" : "map",
-        "component" : {
-          "type" : "text",
           "value" : "banner"
         },
         "id" : {
@@ -71,21 +37,6 @@
         "type" : "map",
         "component" : {
           "type" : "text",
-          "value" : "banner"
-        },
-        "id" : {
-          "type" : "text",
-          "value" : "vip_heroBanner_bottom"
-        },
-        "align" : {
-          "type" : "text",
-          "value" : "left"
-        }
-      },
-      {
-        "type" : "map",
-        "component" : {
-          "type" : "text",
           "value" : "games"
         },
         "custom_category" : {
@@ -101,11 +52,41 @@
         "type" : "map",
         "component" : {
           "type" : "text",
+          "value" : "banner"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "vip_heroBanner_bottom"
+        },
+        "align" : {
+          "type" : "text",
+          "value" : "left"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
           "value" : "accordion"
         },
         "id" : {
           "type" : "text",
           "value" : "vip_faq"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "games"
+        },
+        "custom_category" : {
+          "type" : "text",
+          "value" : "vip-specials"
+        },
+        "display" : {
+          "type" : "text",
+          "value" : "row"
         }
       }
     ]
