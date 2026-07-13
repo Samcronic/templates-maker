@@ -1,0 +1,294 @@
+{
+  "id": "welcome-sports-freebet-nl-se-de-be-at",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "de": "Willkommens Sport Gratiswette",
+        "en": "Welcome Sports Freebet"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "de": "Auf geht's mit einer ${amount} Gratiswette!",
+        "en": "Kick off with a ${amount} Freebet!"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "welcome-sports-freebet.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "sports"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Sports",
+              "de": "Sport",
+              "fi": "Urheilu",
+              "no": "Sport",
+              "pt": "Esportes",
+              "es": "Deportes",
+              "it": "Sport",
+              "fr": "Sports",
+              "pl": "Sport",
+              "az": "İdman",
+              "ru": "Спорт",
+              "tr": "Spor",
+              "et": "Sport",
+              "hu": "Sport",
+              "cs": "Sport",
+              "sr": "Sportovi",
+              "el": "Στοίχημα",
+              "mk": "Спорт",
+              "sq": "Sporte",
+              "sl": "Športi",
+              "hr": "Sport",
+              "bg": "Спорт",
+              "ro": "Sporturi",
+              "bn": "স্পোর্টস"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./welcome-sports-freebet-nl-se-de-be-at.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "de": "Tauchen Sie tief in die Sport-Action ein mit unserer ${amount} Willkommens-Sport-Gratiswette bei Ihrer ersten Einzahlung/bei einer Einzahlung von ${amount}",
+              "en": "Take a deep dive into Sports action with our ${amount} Welcome Sports Freebet upon your first deposit/ when depositing ${amount}"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "de": "So funktioniert es:",
+              "en": "How it works:"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "de": "Wählen Sie Ihre bevorzugte Zahlungsmethode",
+                  "en": "Choose your preferred payment option"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "de": "Wählen Sie diese Aktion aus der Auswahlliste",
+                  "en": "Select this promotion from the drop-down list"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "de": "Eine Einzahlung vornehmen. Ihren Bonus erhalten und Ihre Wetten platzieren",
+                  "en": "Make a deposit. Get your Bonus and place your bets"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "de": "Jetzt einzahlen",
+              "en": "Deposit Now"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/account/financials/deposit"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    },
+    "variables": {
+      "amount": {
+        "EUR": "€20",
+        "USD": "$20",
+        "NOK": "kr200",
+        "CAD": "C$20",
+        "CLP": "16,000CLP",
+        "PEN": "S/20",
+        "BRL": "R$40",
+        "AUD": "Α$40",
+        "NZD": "NZ$40",
+        "PLN": "80zł",
+        "CHF": "20CHF",
+        "ZAR": "200R",
+        "MXN": "$120",
+        "JPY": "¥3000",
+        "GBP": "£20",
+        "HUF": "7000 Ft",
+        "ARS": "2000 ARS",
+        "INR": "2000 INR",
+        "CZK": "400 Kč",
+        "AZN": "₼20",
+        "RUB": "1000 RUB",
+        "KZT": "3000 KZT",
+        "TRY": "200 TL",
+        "UZS": "200,000 soʻm",
+        "RON": "80 RON",
+        "ALL": "1,600 ALL",
+        "MKD": "1,000 MKD",
+        "RSD": "2,000 RSD"
+      },
+      "max_odds": {
+        "*": "5.00"
+      }
+    }
+  }
+}

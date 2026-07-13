@@ -1,0 +1,487 @@
+{
+  "id": "midweek-3-1",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "fi": "3+1 joka neljäs veto on ilmainen",
+        "no": "3+1: Hvert fjerde spill er gratis",
+        "pt": "3+1 Toda 4ª aposta é grátis",
+        "it": "3+1 Ogni 4 puntate è gratuita",
+        "pl": "3+1 Odbierz darmowy zakład co 4. obstawienie!",
+        "de": "3+1 Jede 4. Wette ist gratis",
+        "es": "3+1 Cada 4º apuesta es gratis",
+        "fr": "3+1 Chaque 4ème pari est gratuit",
+        "ru": "3+1 Каждая 4-я ставка бесплатна",
+        "az": "3+1 Hər 4-cü mərc pulsuzdur",
+        "cs": "3+1 Každá čtvrtá sázka zdarma",
+        "hu": "3+1, minden 4. fogadás ingyenes",
+        "en": "3+1 Every 4th bet is free",
+        "el": "3+1 Δωρεάν το κάθε 4ο στοίχημα",
+        "sr": "3+1 svaka 4. opklada je besplatna",
+        "mk": "3+1 секој 4. облог е бесплатен",
+        "ro": "3+1 Fiecare al 4-lea pariu e gratis",
+        "sl": "3+1 - Vsaka 4. stava je brezplačna",
+        "hr": "3+1 Svaka 4. oklada je besplatna",
+        "bg": "3+1 Всеки четвърти залог е безплатен",
+        "sq": "3+1 – Çdo bast i katërt është falas",
+        "bn": "3+1 প্রতি 4র্থ বাজি ফ্রি"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "fi": "Urheiluvedonlyönti on jännittävämpää, jos tartut mahtavaan \"3+1\" -tarjoukseemme!",
+        "no": "Sportsspill blir enda mer spennende med vårt uslåelige '3+1'-tilbud!",
+        "pt": "Apostar em esportes é mais emocionante com a nossa incomparável oferta '3+1'!",
+        "it": "Scommettere sullo sport è più eccitante con la nostra impareggiabile offerta \"3+1\"!",
+        "pl": "Zwiększ emocje obstawiania dzięki ofercie \"3+1\"!",
+        "de": "Sportwetten werden mit unserem unschlagbaren '3+1'-Angebot noch spannender!",
+        "es": "¡Apostar en deportes es más emocionante con nuestra inigualable oferta \"3+1\"!",
+        "fr": "Les paris sportifs sont plus intéressants grâce à notre offre inégalée \"3+1\" !",
+        "ru": "Ставки на спорт становятся еще интереснее с нашим непревзойденным предложением '3+1'!",
+        "az": "İdman mərcləri bizim misilsiz “3+1” təklifimizlə daha həyəcanlıdır!",
+        "cs": "Sportovní sázení je ještě zábavnější s naší jedinečnou nabídkou \"3+1\"!",
+        "hu": "A sportfogadás sokkal izgalmasabb a páratlan \"3+1-es\" ajánlatunkkal!",
+        "en": "Betting on sports is more exciting with our unmatched '3+1' offer!",
+        "el": "Τα αθλητικά στοιχήματα γίνονται πιο συναρπαστικά με την άπαιχτη προσφορά \"3+1\"!",
+        "sr": "Sportsko klađenje je još uzbudljivije uz našu neprevaziđenu \"3+1\" ponudu!",
+        "mk": "Спортското обложување е повозбудливо со нашата неодолива понуда “3+1“!",
+        "ro": "Pariatul pe sporturi este și mai incitant cu oferta noastră imbatabilă '3+1' gratis",
+        "sl": "Stave na športne dogodke so še bolj razburljive z našo neprekosljivo ponudbo \"3+1\"!",
+        "hr": "Sportsko klađenje je uzbudljivije uz našu nenadmašnu ponudu \"3+1\"!",
+        "bg": "Залагането на спорт е още по-вълнуващо с нашето несравнимо предложение \"3+1\"!",
+        "sq": "Bastet sportive bëhen më emocionuese me ofertën tonë të pakrahasueshme “3+1”!",
+        "bn": "স্পোর্টস বেটিং হবে দ্বিগুণ মজা, কারণ আছে আমাদের অতুলনীয় ‘3+1’ অফার!"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "midweek-3-1.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "sports"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Sports",
+              "de": "Sport",
+              "fi": "Urheilu",
+              "no": "Sport",
+              "pt": "Esportes",
+              "es": "Deportes",
+              "it": "Sport",
+              "fr": "Sports",
+              "pl": "Sport",
+              "az": "İdman",
+              "ru": "Спорт",
+              "tr": "Spor",
+              "et": "Sport",
+              "hu": "Sport",
+              "cs": "Sport",
+              "sr": "Sportovi",
+              "el": "Στοίχημα",
+              "mk": "Спорт",
+              "sq": "Sporte",
+              "sl": "Športi",
+              "hr": "Sport",
+              "bg": "Спорт",
+              "ro": "Sporturi",
+              "bn": "স্পোর্টস"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./midweek-3-1.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "fi": "Aseta tiistaista torstaihin 3 vetoa arvoltaan vähintään ${minbet}, ja palkitsemme sinut neljännellä ilmaisvedon muodossa.",
+              "no": "Fra tirsdag til torsdag plasserer du 3 spill på minst ${minbet}, og vi belønner deg med et fjerde i form av et gratisspill.",
+              "pt": "De terça a quinta-feira, faça 3 apostas de pelo menos ${minbet} e nós lhe daremos um quarto prêmio na forma de uma Aposta Grátis.",
+              "it": "Da martedì a giovedì, piazzate 3 scommesse di almeno ${minbet} e noi ve ne assegneremo una quarta sotto forma di Freebet.",
+              "pl": "Od wtorku do czwartku postaw 3 zakłady o minimalnej stawce ${minbet}, a nagrodzimy Cię czwartym zakładem w formie darmowego zakładu (Freebet).",
+              "de": "Von Dienstag bis Donnerstag platzieren Sie 3 Wetten von mindestens ${minbet} und wir belohnen Sie mit einer vierten in Form einer Gratiswette.",
+              "es": "De martes a jueves realiza 3 apuestas de al menos ${minbet} y te premiaremos con una cuarta en forma de Apuesta Gratis.",
+              "fr": "Du mardi au jeudi, placez 3 paris d'au moins ${minbet} et nous vous en attribuerons un quatrième sous la forme d'un Freebet.",
+              "ru": "Со вторника по четверг сделайте 3 ставки на сумму не менее ${minbet}, и мы наградим вас четвертой в виде фрибета.",
+              "az": "Hər həftə Çərşənbə axşamından Cümə axşamına qədər ${minbet} və ya daha yüksək məbləğdə 3 mərc et və 4-cü mərci Pulsuz Mərc şəklində hədiyyə al.",
+              "cs": "Od úterý do čtvrtka podejte 3 sázky v minimální výši ${minbet} a my vám odměníme čtvrtou sázkou zdarma.",
+              "hu": "Tegyél meg kedd és csütörtök között legalább három ${minbet} értékű fogadást, és egy negyedikkel jutalmazunk Ingyen Fogadás formájában.",
+              "en": "From Tuesday to Thursday place 3 bets of at least ${minbet} and we will award you with a fourth in the form of a Freebet.",
+              "el": "Από την Τρίτη έως την Πέμπτη, τοποθέτησε 3 στοιχήματα τουλάχιστον ${minbet} και θα σε ανταμείψουμε με ένα τέταρτο στοίχημα σε μορφή Freebet.",
+              "sr": "Od utorka do četvrtka odigrajte 3 opklade od najmanje ${minbet} i mi ćemo vam dodeliti četvrtu u vidu besplatne opklade.",
+              "mk": "Од вторник до четврток поставете 3 облози од најмалку ${minbet} и ќе ве наградиме со четврти во форма на бесплатен облог.",
+              "ro": "De Marți până Joi, plasează cel puțin 3 pariuri în valoare de ${minbet} și ți-l vom oferi pe al 4-lea sub formă de pariu gratis.",
+              "sl": "Od torka do četrtka oddaj 3 stave v višini vsaj ${minbet} in podarili ti bomo četrto v obliki brezplačne stave.",
+              "hr": "Od utorka do četvrtka postavite 3 oklade od najmanje ${minbet}, a mi ćemo vam dodijeliti četvrtu u obliku Freebet bonusa.",
+              "bg": "От вторник до четвъртък направете 3 залога на стойност поне ${minbet} и ние ще ви наградим с четвърти под формата на безплатен залог.",
+              "sq": "Nga e Marta deri të Enjten, vendosni 3 baste me vlerë minimale ${minbet} secili dhe ne do t’ju shpërblejmë me një bast të katërt në formën e një Freebet.",
+              "bn": "মঙ্গলবার থেকে বৃহস্পতিবার পর্যন্ত ন্যূনতম ${minbet} এর 3টি বাজি রাখুন, আর 4th বাজি ফ্রি বেট পাবেন।"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "fi": "Toimi näin:",
+              "no": "Hvordan det fungerer:",
+              "pt": "Como funciona:",
+              "it": "Come funziona:",
+              "pl": "Jak skorzystać z promocji:",
+              "de": "So funktioniert es:",
+              "es": "Cómo funciona:",
+              "fr": "Fonctionnement:",
+              "ru": "Как это работает:",
+              "az": "Necə işləyir:",
+              "cs": "Jak to funguje:",
+              "hu": "Hogyan működik:",
+              "en": "How it works:",
+              "el": "Πώς λειτουργεί:",
+              "sr": "Kako funkcioniše:",
+              "mk": "Како функционира:",
+              "ro": "Cum funcționează:",
+              "sl": "Kako deluje:",
+              "hr": "Kako to funkcionira:",
+              "bg": "Как работи:",
+              "sq": "Si funksionon",
+              "bn": "কীভাবে কাজ করেঃ"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "fi": "Aseta 3 vetoa kukin vähimmäispanoksella ${minbet}",
+                  "no": "Plasser 3 spill med en minimumsinnsats på ${minbet} hver.",
+                  "pt": "Faça 3 apostas com uma aposta mínima de ${minbet} cada",
+                  "it": "Piazza 3 scommesse con puntata minima ${minbet} ciascuna",
+                  "pl": "Obstaw 3 zakłady z minimalną stawką ${minbet} każdy",
+                  "de": "Platzieren Sie 3 Wetten mit einem Mindesteinsatz von je ${minbet}",
+                  "es": "Realiza 3 apuestas con una cuota mínima de ${minbet} cada una",
+                  "fr": "Placer 3 paris avec une mise minimale de ${minbet} chacun",
+                  "ru": "Сделайте 3 ставки с минимальной ставкой ${minbet} каждая",
+                  "az": "3 ədəd ${minbet} və ya daha çox dəyərində mərc yerləşdir",
+                  "cs": "Podejte 3 sázky, každou v minimální výši ${minbet}",
+                  "hu": "Tegyél meg legalább három ${minbet}-os fogadást",
+                  "en": "Place 3 bets with minimum stake ${minbet} each",
+                  "el": "Τοποθετείς 3 στοιχήματα με ελάχιστο ποντάρισμα ${minbet} το καθένα",
+                  "sr": "Odigrajte 3 opklade sa minimalnim ulogom od ${minbet} pojedinačno",
+                  "mk": "Поставете 3 облози со минимален влог од ${minbet}",
+                  "ro": "Plasează 3 pariuri cu miza minimă de ${minbet} fiecare",
+                  "sl": "Stavi 3-krat, vsaka stava vsaj ${minbet}",
+                  "hr": "Postavite 3 oklade s minimalnim ulogom ${minbet} za svaku",
+                  "bg": "Направете 3 залога с минимален залог ${minbet} всеки",
+                  "sq": "Vendosni 3 baste me shumë minimale ${minbet} secili",
+                  "bn": "প্রতি বাজি ন্যূনতম ${minbet} রেখে 3টি বাজি দিন।"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "fi": "Voitat ${minbet} ilmaisvedon",
+                  "no": "Vinn et gratisspill på ${minbet}",
+                  "pt": "Ganhe uma aposta grátis de ${minbet}",
+                  "it": "Vinci una Free Bet da ${minbet}",
+                  "pl": "Otrzymaj darmowy zakład o wartości ${minbet}",
+                  "de": "Gewinnen Sie eine ${minbet} Gratiswette",
+                  "es": "Gana una Apuesta Gratis de ${minbet}",
+                  "fr": "Gagnez un Free Bet de ${minbet}",
+                  "ru": "Выиграйте ${minbet}. Бесплатная ставка",
+                  "az": "${minbet} dəyərində Pulsuz Mərc qazan",
+                  "cs": "Získejte sázku zdarma v hodnotě ${minbet}",
+                  "hu": "Nyerj ${minbet}-os Ingyen Fogadást",
+                  "en": "Win a ${minbet} Free Bet",
+                  "el": "Κερδίζεις ένα ${minbet} Freebet",
+                  "sr": "Dobijate besplatnu opkladu od ${minbet}",
+                  "mk": "Освојте бесплатен облог од ${minbet}",
+                  "ro": "Câștigă un freebet de ${minbet}",
+                  "sl": "Osvoji brezplačno stavo v vrednosti ${minbet}",
+                  "hr": "Osvojite Freebet bonus od ${minbet}",
+                  "bg": "Спечелете безплатен залог на стойност ${minbet}",
+                  "sq": "Fitoni një Freebet prej ${minbet}",
+                  "bn": "${minbet} ফ্রি বেট জিতুন"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "fi": "Ilmaisvetosi hyvitetään seuraavana perjantaina.",
+                  "no": "Ditt gratisspill krediteres påfølgende fredag.",
+                  "pt": "Sua aposta grátis será creditada na sexta-feira seguinte.",
+                  "it": "La tua Free Bet sarà accreditata il venerdì successivo.",
+                  "pl": "Darmowy zakład zostanie dodany do Twojego konta w najbliższy piątek",
+                  "de": "Ihre Gratiswette wird am nächsten Freitag gutgeschrieben.",
+                  "es": "Tu Apuesta Gratis se abonará el viernes siguiente.",
+                  "fr": "Votre Free Bet sera crédité le vendredi suivant.",
+                  "ru": "Ваша бесплатная ставка будет зачислена в следующую пятницу.",
+                  "az": "Pulsuz Mərc növbəti Cümə günü hesabınıza əlavə ediləcək",
+                  "cs": "Sázka zdarma vám bude připsána následující pátek",
+                  "hu": "Az Ingyen Fogadásod a következő pénteken lesz jóváírva.",
+                  "en": "Your Free Bet will be credited the next Friday.",
+                  "el": "Το Freebet σου θα πιστωθεί την αμέσως επόμενη Παρασκευή.",
+                  "sr": "Vaša besplatna opklada će biti dodeljena sledećeg petka.",
+                  "mk": "Вашиот бесплатен облог ќе ви биде доделен следниот петок.",
+                  "ro": "Pariul tău gratis va fi creditat în următoarea zi de Vineri",
+                  "sl": "Brezplačna stava ti bo pripisana prihodnji petek.",
+                  "hr": "Vaša besplatna oklada bit će dodijeljena sljedećeg petka",
+                  "bg": "Вашият безплатен залог ще бъде кредитиран следващия петък.",
+                  "sq": "Freebet juaj do të kreditohet të Premten e ardhshme",
+                  "bn": "আপনার ফ্রি বেট পরবর্তী শুক্রবার ক্রেডিট হবে।"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "fi": "LYÖ VETOA NYT",
+              "no": "SPILL NÅ",
+              "pt": "APOSTE AGORA",
+              "it": "SCOMMETTI ORA",
+              "pl": "OBSTAW TERAZ",
+              "de": "JETZT WETTEN",
+              "es": "APUESTA AHORA",
+              "fr": "PARIEZ MAINTENANT",
+              "ru": "СДЕЛАТЬ СТАВКУ СЕЙЧАС",
+              "az": "İNDİ MƏRC ET",
+              "cs": "SÁZET",
+              "hu": "FOGADJ",
+              "en": "BET NOW",
+              "el": "ΠΑΙΧΝΙΔΙ",
+              "sr": "UPLATA",
+              "mk": "УПЛАТА",
+              "ro": "PARIAZĂ ACUM",
+              "sl": "STAVI ZDAJ",
+              "hr": "KLADITE SE SADA",
+              "bg": "ЗАЛОЖЕТЕ СЕГА",
+              "sq": "BASTO TANI",
+              "bn": "এখনই বাজি ধরুন"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/sports"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    },
+    "variables": {
+      "minbet": {
+        "EUR": "€10",
+        "*": "10",
+        "USD": "$10",
+        "NOK": "100NOK",
+        "CAD": "C$10",
+        "CLP": "10,000CLP",
+        "PEN": "S/40",
+        "BRL": "R$50",
+        "NZD": "NZ$10",
+        "AUD": "A$10",
+        "MXN": "$200",
+        "GBP": "£10",
+        "JPY": "¥1500",
+        "CHF": "10CHF",
+        "ZAR": "200R",
+        "PLN": "40zł",
+        "HUF": "3500 Ft",
+        "ARS": "1000 ARS",
+        "INR": "1000 INR",
+        "CZK": "200 Kč",
+        "RON": "40 RON",
+        "ALL": "800 ALL",
+        "MKD": "500 MKD",
+        "RSD": "1,000 RSD"
+      },
+      "min_odds": {
+        "BE": "1.5",
+        "SE": "1.5",
+        "NL": "1.5",
+        "FI": "2",
+        "NO": "2",
+        "PT": "2",
+        "BR": "2",
+        "IT": "2",
+        "CA": "2",
+        "PL": "2",
+        "DE": "1.5",
+        "ES": "1.5",
+        "FR": "1.5",
+        "*": "1.5",
+        "RU": "1.5",
+        "AZ": "1.5",
+        "cs": "1.5",
+        "HU": "1.5"
+      },
+      "max_odds": {
+        "BE": "11.00",
+        "SE": "11.00",
+        "NL": "11.00",
+        "FI": "11.00",
+        "NO": "11.00",
+        "PT": "11.00",
+        "BR": "11.00",
+        "IT": "11.00",
+        "CA": "11.00",
+        "PL": "11.00",
+        "DE": "11.00",
+        "ES": "11.00",
+        "FR": "11.00",
+        "*": "11.00",
+        "RU": "11.00",
+        "AZ": "11.00",
+        "cs": "11.00",
+        "HU": "11.00"
+      }
+    }
+  }
+}

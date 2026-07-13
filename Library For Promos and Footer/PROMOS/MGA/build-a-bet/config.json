@@ -1,0 +1,440 @@
+{
+  "id": "build-a-bet",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "az": "Mərc Qurucusu",
+        "bg": "Bet Builder",
+        "cs": "Bet Builder",
+        "de": "Bet Builder",
+        "el": "Bet Builder",
+        "en": "Bet Builder",
+        "es": "Creador De Apuesta",
+        "fi": "Bet Builder",
+        "fr": "Créateur De Pari",
+        "hr": "Bet Builder",
+        "hu": "Fogadásépítő",
+        "it": "Bet Builder",
+        "mk": "Бет Билдер",
+        "no": "Oddsbygger",
+        "pl": "Twój Zakład, Twoje Zasady",
+        "pt": "Construtor De Apostas",
+        "ro": "Bet Builder",
+        "ru": "Конструктор Ставок",
+        "sl": "Sestavi Stavo",
+        "sr": "Bet Builder",
+        "tr": "Bahis Oluşturucu",
+        "BR_pt": "Construtor De Apostas",
+        "bn": "বেট বিল্ডার",
+        "sq": "Krijues Bastesh"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "az": "Öz mərc kombinasiyanızı qurun!",
+        "bg": "Създайте своя собствена комбинация от залози!",
+        "cs": "Sázejte na více možností v jednom zápase.",
+        "de": "Erstellen Sie Ihre eigene Wettkombination!",
+        "el": "Φτιάχνεις τον δικό σου συνδυασμό!",
+        "en": "Create your own bet combination!",
+        "es": "¡ Crea tu propia combinación de apuestas !",
+        "fi": "Luo oma vetoyhdistelmäsi!",
+        "fr": "Créez votre propre combinaison de paris !",
+        "hr": "Napravi svoju idealnu kombinaciju!",
+        "hu": "Állítsd össze saját tippkombinációd!",
+        "it": "Crea la tua combinazione di scommesse!",
+        "mk": "Креирај ја својата комбинација за облог!",
+        "no": "Lag din egen spillkombinasjon!",
+        "pl": "Łącz różne opcje i stwórz idealny zakład w jednym kuponie!",
+        "pt": "Crie sua própria combinação de apostas!",
+        "ro": "Creează-ți propria combinație de pariuri!",
+        "ru": "Создайте комбинацию ставок!",
+        "sl": "Ustvari svojo stavno kombinacijo!",
+        "sr": "Napravite svoju idealnu kombinaciju!",
+        "tr": "Kendi bahis kombinasyonunu oluştur!",
+        "BR_pt": "Crie sua própria combinação de apostas!",
+        "bn": "নিজের বেট কম্বিনেশন তৈরি করুন!",
+        "sq": "Krijo kombinimin tënd të bastit!"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "build-a-bet.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "sports"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Sports",
+              "de": "Sport",
+              "fi": "Urheilu",
+              "no": "Sport",
+              "pt": "Esportes",
+              "es": "Deportes",
+              "it": "Sport",
+              "fr": "Sports",
+              "pl": "Sport",
+              "az": "İdman",
+              "ru": "Спорт",
+              "tr": "Spor",
+              "et": "Sport",
+              "hu": "Sport",
+              "cs": "Sport",
+              "sr": "Sportovi",
+              "el": "Στοίχημα",
+              "mk": "Спорт",
+              "sq": "Sporte",
+              "sl": "Športi",
+              "hr": "Sport",
+              "bg": "Спорт",
+              "ro": "Sporturi",
+              "bn": "স্পোর্টস"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./build-a-bet.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "sq": "Merrni gjithçka nën kontroll me veçorinë tonë \"Krijues Bastesh\" duke personalizuar bastin tuaj saktësisht ashtu si dëshironi!",
+              "az": "Mərcinizi tam nəzarətə alın! \"Mərc Qurucusu \" funksiyası ilə mərclərinizi tam istədiyiniz şəkildə fərdiləşdirin.",
+              "bg": "Поемете пълен контрол с нашата функция „Bet Builder“, като персонализирате залога си точно така, както желаете!",
+              "cs": "Mějte celý zápas pod kontrolou díky naší funkci \"Bet Builder\" a přizpůsobte si sázku přesně podle svých představ.",
+              "de": "Mit unserer \"Bet Builder\"-Funktion haben Sie alles im Griff und können Ihre Wette genau nach Ihren Wünschen gestalten!",
+              "el": "Παίρνεις τον απόλυτο έλεγχο με τη λειτουργία \"Bet Builder\", προσαρμόζοντας το στοίχημά σου ακριβώς όπως το θέλεις!",
+              "en": "Get everything under your control with our \"Bet Builder\" feature by customizing your bet exactly how you want it to be!",
+              "es": "Tenlo todo bajo control con nuestra función \"Creador De Apuesta\", ¡personaliza tu apuesta exactamente como quieras!",
+              "fi": "Peli on hallinnassasi, sillä \"Bet Builder\" -ominaisuuden avulla voit räätälöidä vetosi kuten haluat!",
+              "fr": "Tout est sous votre contrôle grâce à notre fonction \"Bet Builder\" qui vous permet de personnaliser votre pari exactement comme vous le souhaitez!",
+              "hr": "Imajte sve u svojoj kontroli uz našu značajku \"Bet Builder\" koja vam pomaže prilagoditi vaš ulog točno onako kako želite!",
+              "hu": "Állítsd össze saját rendszered a \"Fogadásépítő\" funkcióval, amellyel teljesen személyre szabhatod a szelvényed!",
+              "it": "Prendi tutto sotto controllo con la nostra funzione \"Bet Builder\" personalizzando la tua scommessa esattamente come vuoi tu!",
+              "mk": "Имај сè под контрола со нашата функција “Bet Builder“ така што ќе го прилагодиш облогот точно како што сакаш!",
+              "no": "Få full kontroll med vår oddsbygger-funksjon ved å tilpasse spillet ditt akkurat slik du ønsker det!",
+              "pl": "Twórz zakłady na własnych zasadach z funkcją „Bet Builder”!",
+              "pt": "Tenha tudo sob seu controle com nosso recurso \"Construtor de apostas\", personalizando sua aposta exatamente como deseja!",
+              "ro": "Preia controlul complet cu funcția noastră „Bet Builder”, personalizând pariul exact așa cum îți dorești!",
+              "ru": "С нашей функцией \"Конструктор ставок\"  вы берёте всё под контроль, настроив свою ставку именно так, как хотите!",
+              "sl": "Z našo funkcijo \"Sestavi stavo\" imaš vse pod nadzorom, saj lahko svojo stavo prilagodiš natanko tako, kot želiš!",
+              "sr": "Preuzmite kontrolu pomoću naše „Bet builder“ funkcije, i uredite svoju opkladu po svojoj meri!",
+              "tr": "\"Bahis Oluşturucu\" özelliğimizle bahsinizi tam istediğiniz şekilde özelleştirerek kontrolü elinize alın!",
+              "BR_pt": "Tenha tudo sob seu controle com nosso recurso \"Construtor de apostas\", personalizando sua aposta exatamente como deseja!",
+              "CA_fr": "Tout est sous votre contrôle grâce à notre fonction \"Bet Builder\" qui vous permet de personnaliser votre pari exactement comme vous le souhaitez!",
+              "bn": "আমাদের \"বেট বিল্ডার\" ফিচারের মাধ্যমে আপনার বাজিটি ঠিক যেভাবে চান সেভাবে সাজিয়ে সবকিছু নিজের নিয়ন্ত্রণে আনুন!"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "sq": "Si funksionon:",
+              "az": "Necə işləyir:",
+              "bg": "Как работи:",
+              "cs": "Jak to funguje:",
+              "de": "So funktioniert es:",
+              "el": "Πώς λειτουργεί:",
+              "en": "How it works:",
+              "es": "Cómo funciona:",
+              "fi": "Toimi näin:",
+              "fr": "Comment ça marche:",
+              "hr": "Kako to funkcionira:",
+              "hu": "Hogyan működik:",
+              "it": "Come funziona:",
+              "mk": "Како функционира:",
+              "no": "Hvordan det fungerer:",
+              "pl": "Dostosuj swój kupon tak, jak chcesz i obstawiaj po swojemu!",
+              "pt": "Como funciona:",
+              "ro": "Cum funcționeză:",
+              "ru": "Как это работает:",
+              "sr": "Kako funkcioniše:",
+              "tr": "Nasıl çalışır:",
+              "BR_pt": "Como funciona:",
+              "CA_fr": "Comment ça marche:",
+              "bn": "যেভাবে কাজ করেঃ"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "sq": "Klikoni mbi ndeshjen e futbollit që dëshironi.",
+                  "az": "Seçdiyiniz futbol matçına klikləyin",
+                  "bg": "Кликнете върху избрания от Вас мач.",
+                  "cs": "Klikněte na fotbalový zápas podle svého výběru",
+                  "de": "Klicken Sie auf das Fußballspiel Ihrer Wahl",
+                  "el": "Επιλέγεις τον ποδοσφαιρικό αγώνα της επιλογής σου",
+                  "en": "Click on the football match of your choice",
+                  "es": "Haga clic en el partido de fútbol de su elección",
+                  "fi": "likkaa valitsemasi jalkapallo-ottelu",
+                  "fr": "Cliquez sur le match de football de votre choix",
+                  "hr": "Kliknite na utakmicu po vašem izboru",
+                  "hu": "Válaszd ki a focimeccset, amelyre fogadni szeretnél",
+                  "it": "Clicca sulla partita di calcio di tua scelta",
+                  "mk": "Кликни на фудбалскиот натпревар по твој избор",
+                  "no": "Klikk på fotballkampen du ønsker",
+                  "pl": "Wybierz mecz piłkarski",
+                  "pt": "Clique no jogo de futebol da sua escolha",
+                  "ro": "Alege-ți meciul de fotbal preferat",
+                  "ru": "Нажмите на футбольный матч по вашему выбору",
+                  "sl": "Klikni na nogometno tekmo po svoji izbiri",
+                  "sr": "Izaberite željenu fudbalsku utakmicu",
+                  "tr": "Seçtiğiniz futbol maçına tıklayın",
+                  "BR_pt": "Clique no jogo de futebol da sua escolha",
+                  "CA_fr": "Cliquez sur le match de football de votre choix",
+                  "bn": "আপনার পছন্দের ফুটবল ম্যাচটিতে ক্লিক করুন"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "sq": "Nga shiriti i sipërm brenda ndeshjes, klikoni në skedën \"Krijues Bastesh\".",
+                  "az": "Matçın yuxarısında yerləşən “Bet Builder” bölməsinə daxil olun",
+                  "bg": "От горната лента в рамките на мача кликнете върху раздела „Bet Builder“.",
+                  "cs": "V horní liště zápasu otevřete záložku \"Bet Builder“",
+                  "de": "Klicken Sie in der oberen Menüzeile des Spiels auf die Option \"Bet Builder\"",
+                  "el": "Από την επάνω γραμμή του αγώνα, διαλέγεις την καρτέλα \"Bet Builder\"",
+                  "en": "From the top bar within the match, click on the \"Bet Builder\" tab",
+                  "es": "Desde la barra superior dentro del partido, haga clic en la pestaña \"Creador De Apuesta\"",
+                  "fi": "Klikkaa ottelun yläpalkissa \"Bet Builder\" -välilehteä",
+                  "fr": "Depuis la barre du haut dans le match, cliquez sur l`onglet \"Créateur de Pari\"",
+                  "hr": "Na gornjoj traci u utakmici kliknite na karticu \"Bet Builder\"",
+                  "hu": "A felső sávban kattints a \"Fogadásépítő\" fülre",
+                  "it": "Dalla barra in alto all`interno dell`incontro, cliccare sulla scheda \"Bet Builder\" (Creatore di scommesse)",
+                  "mk": "Од горната лента во рамки на натпреварот, кликни на табот “Bet Builder“",
+                  "no": "Fra den øverste linjen i kampen klikker du på \"Oddsbygger\"-fanen",
+                  "pl": "Kliknij zakładkę „Bet Builder” w górnym menu meczu",
+                  "pt": "Na barra superior dentro da partida, clique na guia \"Construtor De Apostas\"",
+                  "ro": "Din bara de sus a evenimentului, apasă pe butonul \"Bet Builder\"",
+                  "ru": "В верхней панели внутри матча нажмите на вкладку \"Конструктор ставок\"",
+                  "sl": "V zgornji vrstici tekme klikni na zavihek \"Sestavi stavo\"",
+                  "sr": "Kliknite na „Bet builder“ opciju u gornjem uglu",
+                  "tr": "Maç içindeki üst menüden \"Bet Builder\" sekmesine tıklayın",
+                  "BR_pt": "Na barra superior dentro da partida, clique na guia \"Construtor De Apostas\"",
+                  "CA_fr": "Depuis la barre du haut dans le match, cliquez sur l`onglet \"Créateur de Pari\"",
+                  "bn": "ম্যাচের উপরের বার থেকে, \"বেট বিল্ডার\" ট্যাবে ক্লিক করুন"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "sq": "Krijoni bastin tuaj dhe plotësoni shumën e dëshiruar.",
+                  "az": "Mərcinizi yaradın və istədiyiniz məbləği daxil edin",
+                  "bg": "Създайте своя залог и въведете предпочитаната сума.",
+                  "cs": "Sestavte si sázku a zadejte požadovanou částku",
+                  "de": "Erstellen Sie Ihre Wette und geben Sie den gewünschten Einsatz ein",
+                  "el": "Δημιουργείς το στοίχημά σου και συμπληρώνεις το επιθυμητό ποντάρισμα",
+                  "en": "Create your bet and fill in the preferred stake",
+                  "es": "Cree su apuesta y completa tu apuesta preferida",
+                  "fi": "Luo vetosi ja täytä haluamasi panos",
+                  "fr": "Créez votre pari et renseignez l`enjeu désiré",
+                  "hr": "Ispunite okladu i postavite željeni ulog",
+                  "hu": "Állítsd össze a tipped és határozd meg a kívánt tétet",
+                  "it": "Creare la scommessa e inserire la quota preferita",
+                  "mk": "Креирај го облогот и внеси го посакуваниот влог",
+                  "no": "Lag din innsats og fyll inn ønsket innsats",
+                  "pl": "Stwórz własny zakład i określ stawkę",
+                  "pt": "Crie sua aposta e preencha a sua aposta preferida",
+                  "ro": "Creează-ți pariul și specifică miza dorită",
+                  "ru": "Создайте свою ставку и заполните желаемый размер ставки",
+                  "sl": "Sestavi stavo in določi znesek, ki ga želiš staviti",
+                  "sr": "Kreirajte svoju opkladu i unesite određeni ulog",
+                  "tr": "Bahsinizi oluşturun ve tercih ettiğiniz bahis tutarını girin",
+                  "BR_pt": "Crie sua aposta e preencha a sua aposta preferida",
+                  "CA_fr": "Créez votre pari et renseignez l`enjeu désiré",
+                  "bn": "আপনার বাজি তৈরি করুন এবং পছন্দের বাজির পরিমাণ পূরণ করুন"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "sq": "Provo Krijuesin e Basteve Tani",
+              "az": "\"Bet Builder\"i elə indi sınayın",
+              "bg": "Изпробвайте Bet Builder сега",
+              "cs": "Vyzkoušejte Bet Builder hned teď",
+              "de": "BET BUILDER AUSPROBIEREN",
+              "el": "ΠΑΙΧΝΙΔΙ",
+              "en": "Try Bet Builder Now",
+              "es": "Prueba el Creador De Apuesta Ahora",
+              "fi": "Kokeile Bet Builder-ominaisuutta Nyt",
+              "fr": "ESSAYEZ LE MAINTENANT",
+              "hr": "Isprobajte Bet Builder",
+              "hu": "Próbáld ki a Fogadásépítőt még ma",
+              "it": "PROVA SUBITO IL BET BUILDER",
+              "mk": "Пробај Бет билдер сега",
+              "no": "Prøv Oddsbygger Nå",
+              "pl": "Wypróbuj teraz",
+              "pt": "Experimente Agora",
+              "ro": "Încearcă Bet Builder Acum",
+              "ru": "Попробуйте Конструктор ставок сейчас",
+              "sl": "Preizkusi funkcijo \"Sestavi stavo\" zdaj",
+              "sr": "Isprobajte Bet Builder",
+              "tr": "Şimdi Bahis Oluşturucuyu Deneyin",
+              "BR_pt": "Experimente o Construtor De Apostas agora",
+              "CA_fr": "ESSAYEZ LE MAINTENANT",
+              "bn": "এখনই বেট বিল্ডার ব্যবহার করে দেখুন"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/sports"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    }
+  }
+}

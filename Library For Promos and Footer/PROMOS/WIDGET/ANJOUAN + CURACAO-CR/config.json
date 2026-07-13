@@ -1,0 +1,1461 @@
+{
+  "id" : "promotions",
+  "type" : "component",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "ROW"
+    },
+    "country=FI" : {
+      "type" : "reference",
+      "name" : "Finland"
+    },
+    "country=NL" : {
+      "type" : "reference",
+      "name" : "Netherlands"
+    },
+    "country=SE" : {
+      "type" : "reference",
+      "name" : "Sweden"
+    },
+    "country=GB" : {
+      "type" : "reference",
+      "name" : "United-Kingdom"
+    },
+    "country=DE" : {
+      "type" : "reference",
+      "name" : "Germany"
+    },
+    "country=AT" : {
+      "type" : "reference",
+      "name" : "Austria"
+    },
+    "country=BE" : {
+      "type" : "reference",
+      "name" : "Belgium"
+    }
+  },
+  "references" : {
+    "ROW" : {
+      "type" : "map",
+      "title" : {
+        "type" : "text",
+        "value" : "Promotions"
+      },
+      "promotions" : {
+        "type" : "list",
+        "value" : [
+          {
+            "type" : "text",
+            "value" : "world-cup-knockout-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-quarter-final-spain-belgium-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-france-morocco-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-argentina-vs-egypt"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-slot-bonus-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-action-goes-along-with-multi-bets"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-paraguay-vs-france"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-mexico-vs-england"
+          },
+          {
+            "type" : "text",
+            "value" : "brazil-vs-norway-knockout-showdown"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-portugal-vs-spain"
+          },
+          {
+            "type" : "text",
+            "value" : "argentina-vs-cape-verde-is-on"
+          },
+          {
+            "type" : "text",
+            "value" : "england-vs-dr-congo-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "two-knockout-battles-two-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "total-amount-freebet-wimbledon-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-crypto-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "monday-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "tuesday-on-the-reels"
+          },
+          {
+            "type" : "text",
+            "value" : "wednesday-double-fun"
+          },
+          {
+            "type" : "text",
+            "value" : "live-casino-thursday"
+          },
+          {
+            "type" : "text",
+            "value" : "friday-free-spins"
+          },
+          {
+            "type" : "text",
+            "value" : "saturday-action-live"
+          },
+          {
+            "type" : "text",
+            "value" : "sunday-spinning-treat"
+          },
+          {
+            "type" : "text",
+            "value" : "crypto-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "weekend-sports-reload"
+          },
+          {
+            "type" : "text",
+            "value" : "midweek-reload-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "accumulator-boost"
+          },
+          {
+            "type" : "text",
+            "value" : "margin-offer"
+          },
+          {
+            "type" : "text",
+            "value" : "pick-your-winner"
+          },
+          {
+            "type" : "text",
+            "value" : "golden-boot"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-basketball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-tennis"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-ice-hockey"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-volleyball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-american-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-rugby"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-baseball"
+          },
+          {
+            "type" : "text",
+            "value" : "bore-draw-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "build-a-bet"
+          }
+        ]
+      }
+    },
+    "Germany" : {
+      "type" : "map",
+      "title" : {
+        "type" : "text",
+        "value" : "Promotions"
+      },
+      "promotions" : {
+        "type" : "list",
+        "value" : [
+          {
+            "type" : "text",
+            "value" : "world-cup-knockout-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-quarter-final-spain-belgium-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-france-morocco-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-argentina-vs-egypt"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-slot-bonus-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-action-goes-along-with-multi-bets"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-paraguay-vs-france"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-mexico-vs-england"
+          },
+          {
+            "type" : "text",
+            "value" : "brazil-vs-norway-knockout-showdown"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-portugal-vs-spain"
+          },
+          {
+            "type" : "text",
+            "value" : "argentina-vs-cape-verde-is-on"
+          },
+          {
+            "type" : "text",
+            "value" : "england-vs-dr-congo-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "two-knockout-battles-two-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "total-amount-freebet-wimbledon-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-bonus-germany"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-score-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-bonus-germany-austria"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-freebet-nl-se-de-be-at"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-crypto-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "monday-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "tuesday-on-the-reels"
+          },
+          {
+            "type" : "text",
+            "value" : "wednesday-double-fun"
+          },
+          {
+            "type" : "text",
+            "value" : "live-casino-thursday"
+          },
+          {
+            "type" : "text",
+            "value" : "friday-free-spins"
+          },
+          {
+            "type" : "text",
+            "value" : "saturday-action-live"
+          },
+          {
+            "type" : "text",
+            "value" : "sunday-spinning-treat"
+          },
+          {
+            "type" : "text",
+            "value" : "crypto-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "weekend-sports-reload-bonus-germany-austria"
+          },
+          {
+            "type" : "text",
+            "value" : "midweek-reload-sports-bonus-germany-austria"
+          },
+          {
+            "type" : "text",
+            "value" : "accumulator-boost"
+          },
+          {
+            "type" : "text",
+            "value" : "margin-offer"
+          },
+          {
+            "type" : "text",
+            "value" : "pick-your-winner"
+          },
+          {
+            "type" : "text",
+            "value" : "golden-boot"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-basketball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-tennis"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-ice-hockey"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-volleyball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-american-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-rugby"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-baseball"
+          },
+          {
+            "type" : "text",
+            "value" : "bore-draw-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "build-a-bet"
+          }
+        ]
+      }
+    },
+    "Austria" : {
+      "type" : "map",
+      "title" : {
+        "type" : "text",
+        "value" : "Promotions"
+      },
+      "promotions" : {
+        "type" : "list",
+        "value" : [
+          {
+            "type" : "text",
+            "value" : "world-cup-knockout-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-quarter-final-spain-belgium-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-france-morocco-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-argentina-vs-egypt"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-slot-bonus-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-action-goes-along-with-multi-bets"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-paraguay-vs-france"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-mexico-vs-england"
+          },
+          {
+            "type" : "text",
+            "value" : "brazil-vs-norway-knockout-showdown"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-portugal-vs-spain"
+          },
+          {
+            "type" : "text",
+            "value" : "argentina-vs-cape-verde-is-on"
+          },
+          {
+            "type" : "text",
+            "value" : "england-vs-dr-congo-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "two-knockout-battles-two-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "total-amount-freebet-wimbledon-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-bonus-austria"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-score-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-bonus-germany-austria"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-freebet-nl-se-de-be-at"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-crypto-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "monday-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "tuesday-on-the-reels"
+          },
+          {
+            "type" : "text",
+            "value" : "wednesday-double-fun"
+          },
+          {
+            "type" : "text",
+            "value" : "live-casino-thursday"
+          },
+          {
+            "type" : "text",
+            "value" : "friday-free-spins"
+          },
+          {
+            "type" : "text",
+            "value" : "saturday-action-live"
+          },
+          {
+            "type" : "text",
+            "value" : "sunday-spinning-treat"
+          },
+          {
+            "type" : "text",
+            "value" : "crypto-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "weekend-sports-reload-bonus-germany-austria"
+          },
+          {
+            "type" : "text",
+            "value" : "midweek-reload-sports-bonus-germany-austria"
+          },
+          {
+            "type" : "text",
+            "value" : "accumulator-boost"
+          },
+          {
+            "type" : "text",
+            "value" : "margin-offer"
+          },
+          {
+            "type" : "text",
+            "value" : "pick-your-winner"
+          },
+          {
+            "type" : "text",
+            "value" : "golden-boot"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-basketball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-tennis"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-ice-hockey"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-volleyball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-american-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-rugby"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-baseball"
+          },
+          {
+            "type" : "text",
+            "value" : "bore-draw-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "build-a-bet"
+          }
+        ]
+      }
+    },
+    "Finland" : {
+      "type" : "map",
+      "title" : {
+        "type" : "text",
+        "value" : "Promotions"
+      },
+      "promotions" : {
+        "type" : "list",
+        "value" : [
+          {
+            "type" : "text",
+            "value" : "world-cup-knockout-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-quarter-final-spain-belgium-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-france-morocco-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-argentina-vs-egypt"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-slot-bonus-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-action-goes-along-with-multi-bets"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-paraguay-vs-france"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-mexico-vs-england"
+          },
+          {
+            "type" : "text",
+            "value" : "brazil-vs-norway-knockout-showdown"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-portugal-vs-spain"
+          },
+          {
+            "type" : "text",
+            "value" : "argentina-vs-cape-verde-is-on"
+          },
+          {
+            "type" : "text",
+            "value" : "england-vs-dr-congo-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "two-knockout-battles-two-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "total-amount-freebet-wimbledon-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-bonus-finland"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "monday-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "tuesday-on-the-reels"
+          },
+          {
+            "type" : "text",
+            "value" : "wednesday-double-fun"
+          },
+          {
+            "type" : "text",
+            "value" : "live-casino-thursday"
+          },
+          {
+            "type" : "text",
+            "value" : "friday-free-spins"
+          },
+          {
+            "type" : "text",
+            "value" : "saturday-action-live"
+          },
+          {
+            "type" : "text",
+            "value" : "sunday-spinning-treat"
+          },
+          {
+            "type" : "text",
+            "value" : "weekly-cashback-fi-nl-se"
+          },
+          {
+            "type" : "text",
+            "value" : "weekend-sports-reload-bonus-finland"
+          },
+          {
+            "type" : "text",
+            "value" : "midweek-reload-sports-bonus-finland"
+          },
+          {
+            "type" : "text",
+            "value" : "accumulator-boost"
+          },
+          {
+            "type" : "text",
+            "value" : "margin-offer"
+          },
+          {
+            "type" : "text",
+            "value" : "pick-your-winner"
+          },
+          {
+            "type" : "text",
+            "value" : "golden-boot"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-basketball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-tennis"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-ice-hockey"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-volleyball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-american-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-rugby"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-baseball"
+          },
+          {
+            "type" : "text",
+            "value" : "bore-draw-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "build-a-bet"
+          }
+        ]
+      }
+    },
+    "Netherlands" : {
+      "type" : "map",
+      "title" : {
+        "type" : "text",
+        "value" : "Promotions"
+      },
+      "promotions" : {
+        "type" : "list",
+        "value" : [
+          {
+            "type" : "text",
+            "value" : "tunisia-vs-netherlands-for-round-3"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-knockout-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-quarter-final-spain-belgium-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-france-morocco-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-argentina-vs-egypt"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-slot-bonus-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-action-goes-along-with-multi-bets"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-paraguay-vs-france"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-mexico-vs-england"
+          },
+          {
+            "type" : "text",
+            "value" : "brazil-vs-norway-knockout-showdown"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-portugal-vs-spain"
+          },
+          {
+            "type" : "text",
+            "value" : "argentina-vs-cape-verde-is-on"
+          },
+          {
+            "type" : "text",
+            "value" : "england-vs-dr-congo-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "two-knockout-battles-two-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "total-amount-freebet-wimbledon-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-bonus-netherlands-stage-1"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-score-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-bonus-netherlands-sweden-belgium"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-freebet-nl-se-de-be-at"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-bonus-netherlands-stage-2"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-bonus-netherlands-stage-3"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-crypto-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "monday-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "tuesday-on-the-reels"
+          },
+          {
+            "type" : "text",
+            "value" : "wednesday-double-fun"
+          },
+          {
+            "type" : "text",
+            "value" : "live-casino-thursday"
+          },
+          {
+            "type" : "text",
+            "value" : "friday-free-spins"
+          },
+          {
+            "type" : "text",
+            "value" : "saturday-action-live"
+          },
+          {
+            "type" : "text",
+            "value" : "sunday-spinning-treat"
+          },
+          {
+            "type" : "text",
+            "value" : "weekly-cashback-fi-nl-se"
+          },
+          {
+            "type" : "text",
+            "value" : "crypto-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "weekend-sports-reload-bonus-netherlands"
+          },
+          {
+            "type" : "text",
+            "value" : "midweek-reload-sports-bonus-netherlands"
+          },
+          {
+            "type" : "text",
+            "value" : "accumulator-boost"
+          },
+          {
+            "type" : "text",
+            "value" : "margin-offer"
+          },
+          {
+            "type" : "text",
+            "value" : "pick-your-winner"
+          },
+          {
+            "type" : "text",
+            "value" : "golden-boot"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-basketball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-tennis"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-ice-hockey"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-volleyball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-american-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-rugby"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-baseball"
+          },
+          {
+            "type" : "text",
+            "value" : "bore-draw-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "build-a-bet"
+          }
+        ]
+      }
+    },
+    "United-Kingdom" : {
+      "type" : "map",
+      "title" : {
+        "type" : "text",
+        "value" : "Promotions"
+      },
+      "promotions" : {
+        "type" : "list",
+        "value" : [
+          {
+            "type" : "text",
+            "value" : "world-cup-knockout-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-quarter-final-spain-belgium-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-france-morocco-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-argentina-vs-egypt"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-slot-bonus-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-action-goes-along-with-multi-bets"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-paraguay-vs-france"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-mexico-vs-england"
+          },
+          {
+            "type" : "text",
+            "value" : "brazil-vs-norway-knockout-showdown"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-portugal-vs-spain"
+          },
+          {
+            "type" : "text",
+            "value" : "argentina-vs-cape-verde-is-on"
+          },
+          {
+            "type" : "text",
+            "value" : "england-vs-dr-congo-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "two-knockout-battles-two-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "total-amount-freebet-wimbledon-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-bonus-uk"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-score-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-freebet-uk"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-crypto-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "monday-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "tuesday-on-the-reels"
+          },
+          {
+            "type" : "text",
+            "value" : "wednesday-double-fun"
+          },
+          {
+            "type" : "text",
+            "value" : "live-casino-thursday"
+          },
+          {
+            "type" : "text",
+            "value" : "friday-free-spins"
+          },
+          {
+            "type" : "text",
+            "value" : "saturday-action-live"
+          },
+          {
+            "type" : "text",
+            "value" : "sunday-spinning-treat"
+          },
+          {
+            "type" : "text",
+            "value" : "crypto-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "daily-cashback-gb"
+          },
+          {
+            "type" : "text",
+            "value" : "build-a-bet"
+          }
+        ]
+      }
+    },
+    "Sweden" : {
+      "type" : "map",
+      "title" : {
+        "type" : "text",
+        "value" : "Promotions"
+      },
+      "promotions" : {
+        "type" : "list",
+        "value" : [
+          {
+            "type" : "text",
+            "value" : "it-s-japan-vs-sweden"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-knockout-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-quarter-final-spain-belgium-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-france-morocco-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-argentina-vs-egypt"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-slot-bonus-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-action-goes-along-with-multi-bets"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-paraguay-vs-france"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-mexico-vs-england"
+          },
+          {
+            "type" : "text",
+            "value" : "brazil-vs-norway-knockout-showdown"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-portugal-vs-spain"
+          },
+          {
+            "type" : "text",
+            "value" : "argentina-vs-cape-verde-is-on"
+          },
+          {
+            "type" : "text",
+            "value" : "england-vs-dr-congo-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "two-knockout-battles-two-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "total-amount-freebet-wimbledon-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-bonus-sweden"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-score-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-bonus-netherlands-sweden-belgium"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-freebet-nl-se-de-be-at"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-crypto-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "monday-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "tuesday-on-the-reels"
+          },
+          {
+            "type" : "text",
+            "value" : "wednesday-double-fun"
+          },
+          {
+            "type" : "text",
+            "value" : "live-casino-thursday"
+          },
+          {
+            "type" : "text",
+            "value" : "friday-free-spins"
+          },
+          {
+            "type" : "text",
+            "value" : "saturday-action-live"
+          },
+          {
+            "type" : "text",
+            "value" : "sunday-spinning-treat"
+          },
+          {
+            "type" : "text",
+            "value" : "weekly-cashback-fi-nl-se"
+          },
+          {
+            "type" : "text",
+            "value" : "crypto-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "weekend-sports-reload-bonus-sweden"
+          },
+          {
+            "type" : "text",
+            "value" : "midweek-reload-sports-bonus-sweden"
+          },
+          {
+            "type" : "text",
+            "value" : "accumulator-boost"
+          },
+          {
+            "type" : "text",
+            "value" : "margin-offer"
+          },
+          {
+            "type" : "text",
+            "value" : "pick-your-winner"
+          },
+          {
+            "type" : "text",
+            "value" : "golden-boot"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-basketball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-tennis"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-ice-hockey"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-volleyball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-american-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-rugby"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-baseball"
+          },
+          {
+            "type" : "text",
+            "value" : "bore-draw-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "build-a-bet"
+          }
+        ]
+      }
+    },
+    "Belgium" : {
+      "type" : "map",
+      "title" : {
+        "type" : "text",
+        "value" : "Promotions"
+      },
+      "promotions" : {
+        "type" : "list",
+        "value" : [
+          {
+            "type" : "text",
+            "value" : "world-cup-knockout-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-quarter-final-spain-belgium-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-france-morocco-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-argentina-vs-egypt"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-2026-slot-bonus-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-action-goes-along-with-multi-bets"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-paraguay-vs-france"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-mexico-vs-england"
+          },
+          {
+            "type" : "text",
+            "value" : "brazil-vs-norway-knockout-showdown"
+          },
+          {
+            "type" : "text",
+            "value" : "world-cup-round-of-16-portugal-vs-spain"
+          },
+          {
+            "type" : "text",
+            "value" : "argentina-vs-cape-verde-is-on"
+          },
+          {
+            "type" : "text",
+            "value" : "england-vs-dr-congo-freebet"
+          },
+          {
+            "type" : "text",
+            "value" : "two-knockout-battles-two-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "total-amount-freebet-wimbledon-freebets"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-bonus-netherlands-sweden-belgium"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-freebet-nl-se-de-be-at"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-crypto-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "monday-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "tuesday-on-the-reels"
+          },
+          {
+            "type" : "text",
+            "value" : "wednesday-double-fun"
+          },
+          {
+            "type" : "text",
+            "value" : "live-casino-thursday"
+          },
+          {
+            "type" : "text",
+            "value" : "friday-free-spins"
+          },
+          {
+            "type" : "text",
+            "value" : "saturday-action-live"
+          },
+          {
+            "type" : "text",
+            "value" : "sunday-spinning-treat"
+          },
+          {
+            "type" : "text",
+            "value" : "crypto-reload-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "weekend-sports-reload"
+          },
+          {
+            "type" : "text",
+            "value" : "midweek-reload-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "accumulator-boost"
+          },
+          {
+            "type" : "text",
+            "value" : "margin-offer"
+          },
+          {
+            "type" : "text",
+            "value" : "pick-your-winner"
+          },
+          {
+            "type" : "text",
+            "value" : "golden-boot"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-basketball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-tennis"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-ice-hockey"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-volleyball"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-american-football"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-rugby"
+          },
+          {
+            "type" : "text",
+            "value" : "ep-baseball"
+          },
+          {
+            "type" : "text",
+            "value" : "bore-draw-sports-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "build-a-bet"
+          }
+        ]
+      }
+    }
+  }
+}

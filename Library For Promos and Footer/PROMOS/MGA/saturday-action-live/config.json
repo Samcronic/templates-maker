@@ -1,0 +1,571 @@
+{
+  "id": "saturday-action-live",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "tr": "Cumartesi aksiyonu CANLI",
+        "en": "Saturday's action is LIVE",
+        "de": "Die Spannung am Samstag ist LIVE",
+        "fi": "Lauantain toiminta on KÄYNNISSÄ",
+        "no": "Lørdagens spenning er LIVE",
+        "pt": "Ação de Sábado está AO VIVO",
+        "BR_pt": "Ação de Sábado está AO VIVO",
+        "es": "Acción del Sábado en Vivo",
+        "CL_es": "Acción del Sábado en Vivo",
+        "fr": "L'action de samedi est LIVE",
+        "it": "L'azione di sabato è IN DIRETTA",
+        "pl": "Sobota NA ŻYWO pełna akcji",
+        "az": "Şənbə aksiyası CANLI!",
+        "ru": "Субботняя игра проходит LIVE",
+        "et": "Laupäevane lõbu on LAIVIS",
+        "hu": "Szombati ÉLŐ szórakozás",
+        "cs": "Sobotní jízda v Live Casinu",
+        "sr": "Subotom je akcija UŽIVO",
+        "el": "Το Σάββατο το ζούμε LIVE",
+        "mk": "Саботната акција ЗАПОЧНА",
+        "sq": "Veprimet e së Shtunës janë LIVE",
+        "ro": "Acțiunea de sâmbătă este LIVE",
+        "sl": "Sobotna akcija V ŽIVO",
+        "hr": "Subotom je akcija UŽIVO",
+        "bg": "Съботният екшън ЗАПОЧНА",
+        "bn": "শনিবারের অ্যাকশন এখন লাইভ"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "tr": "${percentage} Live Casino Reload Bonusu - ${amount} tutarına kadar",
+        "en": "${percentage} Live Casino Reload Bonus up to ${amount}",
+        "de": "${percentage} Live-Casino-Reload-Bonus bis zu ${amount}",
+        "fi": "${percentage} live-kasinon reload-bonus, jopa ${amount}",
+        "no": "${percentage} Live Casino Reload Bonus opptil ${amount}",
+        "pt": "${percentage} de Bônus de Recarga do Casino ao Vivo até ${amount}",
+        "BR_pt": "${percentage} de Bônus de Recarga do Cassino ao Vivo até ${amount}",
+        "es": "${percentage} de Bono de Recarga del Casino en Vivo hasta ${amount}",
+        "CL_es": "${percentage} de Bono de Recarga del Casino en Vivo hasta ${amount}",
+        "fr": "Bonus de recharge de Live casino de ${percentage} jusqu'à ${amount}",
+        "it": "Bonus ricarica casinò live del ${percentage} fino a ${amount}",
+        "pl": "${percentage} Bonus Reload do Kasyna na żywo aż do ${amount}!",
+        "az": "${percentage} Canlı Kazino Reload Bonusu - ${amount}-dək",
+        "ru": "${percentage} Бонус релоад в Live Casino до ${amount}",
+        "et": "${percentage} live-kasiino täiendava sissemakse boonust kuni ${amount}",
+        "hu": "${percentage}-os Élő visszatérítési kaszinóbónusz ${amount}-ig",
+        "cs": "${percentage} live casino reload bonus až do ${amount}.",
+        "sr": "${percentage} Reload Bonusa za Kazino uživo do ${amount}",
+        "el": "${percentage} Live Casino Reload Bonus έως ${amount}",
+        "mk": "${percentage} бонус за дополнување за казино во живо до ${amount}",
+        "sq": "${percentage} Bonus Ri-ngarkimi Live Casino deri në ${amount}",
+        "ro": "${percentage} Bonus de Reîncărcare în Cazinoul Live de până la ${amount}",
+        "sl": "${percentage} bonus za ponovni polog v Kazinu v živo do ${amount}",
+        "hr": "Reload bonus od ${percentage} za Kasino uživo do ${amount}",
+        "bg": "Бонус за презареждане в казино на живо на ${percentage} до ${amount}",
+        "bn": "লাইভ ক্যাসিনো রিলোড বোনাস: ${percentage} (সর্বোচ্চ ${amount} পর্যন্ত)"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "saturday-action-live.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "casino"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Casino",
+              "de": "Casino",
+              "fi": "Kasino",
+              "no": "Kasino",
+              "pt": "Casino",
+              "es": "Casino",
+              "it": "Casinò",
+              "fr": "Casino",
+              "pl": "Kasyno",
+              "az": "Kazino",
+              "ru": "Казино",
+              "tr": "Casino",
+              "et": "Kasiino",
+              "hu": "Kaszinó",
+              "cs": "Kasino",
+              "sr": "Kazino",
+              "el": "Καζίνο",
+              "mk": "Казино",
+              "sq": "Kazino",
+              "sl": "Kazino",
+              "hr": "Kasino",
+              "bg": "Казино",
+              "ro": "Cazino",
+              "bn": "ক্যাসিনো"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./saturday-action-live.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "tr": "Hafta sonuna giriş yapmanın en iyi yolu...\n${amount} tutarına kadar ${percentage} Live Casino Reload Bonusu senin için hazır!\nSadece:",
+              "en": "This is the best way to roll into the weekend...\nΑ ${percentage} Live Casino Reload Bonus up to ${amount} is ready for you!\nYou simply have to:",
+              "de": "So geht das Wochenende richtig gut los...\nEin ${percentage} Live-Casino-Reload-Bonus von bis zu ${amount} wartet auf Sie!\nSie müssen lediglich:",
+              "fi": "Tämä on paras tapa hypätä viikonloppuun...\n${percentage} live-kasinon reload-bonus, jopa ${amount}, odottaa sinua!\nSen lunastaminen on näin helppoa:",
+              "no": "Dette er den perfekte starten på helgen…\nFå en Live Casino Reload Bonus på ${percentage} opptil ${amount}!\nSå enkelt er det:",
+              "pt": "Esta é a melhor forma de começar o fim de semana...\nUm ${percentage} de Bônus de Recarga do Casino ao Vivo até ${amount} está pronto para si!\nBasta:",
+              "BR_pt": "Esta é a melhor forma de entrar no fim de semana...\nUm ${percentage} de Bônus de Recarga do Cassino ao Vivo de até ${amount} está pronto para você!\nVocê só precisa:",
+              "es": "Esta es la mejor manera de empezar el fin de semana...\n¡Un ${percentage} de Bono de Recarga del Casino en Vivo hasta ${amount} está listo para ti!\nSolo tienes que:",
+              "CL_es": "Esta es la mejor forma de arrancar el fin de semana...\n¡Un ${percentage} de Bono de Recarga del Casino en Vivo hasta ${amount} está listo para ti!\nSolo tienes que:",
+              "fr": "C`est la meilleure façon d`aborder le week-end...\nUn bonus de recharge de Live casino de ${percentage} jusqu`à ${amount} vous attend !\nIl vous suffit de :",
+              "it": "Questo è il modo migliore per iniziare il weekend...\nUn bonus ricarica casinò live del ${percentage} fino a ${amount} ti aspetta!\nDevi semplicemente:",
+              "pl": "To najlepszy sposób, by wejść w weekend z przytupem...\nCzeka na Ciebie ${percentage} Bonus Reload do Kasyna za żywo aż do ${amount}!\nWystarczy, że:",
+              "az": "Həftə sonuna daxil olmağın ən yaxşı yolu...\n${amount}-dək ${percentage} Canlı Kazino Reload Bonusu sizin üçün hazırdır!\nSadəcə:",
+              "ru": "Это лучший способ начать выходные...\nΑ ${percentage} Бонус релоад в Live Casino до ${amount} уже ждет вас!\nВам нужно просто:",
+              "et": "See on parim viis, kuidas nädalavahetust alustada...\n${percentage} live-kasiino täiendava sissemakse boonust kuni ${amount} on sinu jaoks valmis!\nSelleks toimi nii:",
+              "hu": "A legjobb módja a hétvége indításának...\nA ${percentage}-os ${amount}-ig terjedő visszatérítési élő kaszinóbónusz csak rád vár!\nÍme hogyan kaparintsd meg:",
+              "cs": "Ideální způsob, jak odstartovat víkend.\n${percentage} live casino reload bonus až do ${amount} je připraven právě pro vás.\nStačí jen:",
+              "sr": "Ovo je najbolji način da započnete vikend...\nČeka vas (${percentage}) Reload Bonusa za Kazino uživo do ${amount}!\nJednostavno:",
+              "el": "Αυτή είναι η καλύτερη αρχή για το Σαββατοκύριακο...\nΤο ${percentage} Live Casino Reload Bonus έως ${amount} σε περιμένει!\nΑπλά πρέπει να:",
+              "mk": "Ова е најдобриот начин да го започнете викендот...\n${percentage} бонус за дополнување за казино во живо до ${amount} е подготвен за вас!\nЕдноставно треба да:",
+              "sq": "Kjo është mënyra më e mirë për të hyrë në fundjavë…\nNjë ${percentage} Bonus Ri-ngarkimi Live Casino deri në ${amount} është gati për ty!\nThjesht duhet të:",
+              "ro": "Acesta este cel mai bun mod de a-ți începe weekendul...\nUn ${percentage} bonus de reîncărcare în cazinoul live de până la ${amount} te așteaptă!\nTrebuie doar să:",
+              "sl": "To je najboljši način, da zakorakaš v vikend…\nČaka te ${percentage} bonus na ponovno vplačilo v Kazino v živo do ${amount}!\nVse, kar moraš storiti, je:",
+              "hr": "Ovo je najbolji način za započeti vikend... Reload bonus od ${percentage} za Kasino uživo do ${amount} čeka na vas! Jednostavno učinite sljedeće:",
+              "bg": "Това е най-добрият начин да се насладите на уикенда...\nБонус за презареждане в казино на живо на стойност ${percentage} е готов за вас!\nПросто трябва да:",
+              "bn": "সপ্তাহান্তে শুরু করার এটাই সেরা উপায়... আপনার জন্য প্রস্তুত রয়েছে ${percentage} লাইভ ক্যাসিনো রিলোড বোনাস, সর্বোচ্চ ${amount} পর্যন্ত! আপনাকে যা করতে হবেঃ"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "tr": "Tercih ettiğin ödeme yöntemini seç",
+                  "en": "Choose your preferred payment option",
+                  "de": "Wählen Sie Ihre bevorzugte Zahlungsoption",
+                  "fi": "Valitse haluamasi maksutapa",
+                  "no": "Velg din foretrukne betalingsmåte",
+                  "pt": "Escolha teu método de pagamento preferido",
+                  "BR_pt": "Escolha seu método de pagamento preferido",
+                  "es": "Elige tu método de pago preferido",
+                  "CL_es": "Elige tu método de pago preferido",
+                  "fr": "Choisissez votre mode de paiement préféré",
+                  "it": "Scegli l`opzione di pagamento che preferisci",
+                  "pl": "Wybierzesz preferowaną metodę płatności",
+                  "az": "Xoşuna gələn ödəniş üsulunu seç",
+                  "ru": "Выберите предпочтительный способ оплаты",
+                  "et": "Vali eelistatud makseviis",
+                  "hu": "Válaszd ki a kívánt fizetési módot",
+                  "cs": "Vyberte si preferovaný způsob platby",
+                  "sr": "Izaberite svoju omiljenu opciju plaćanja",
+                  "el": "Επιλέγεις τον επιθυμητό τρόπο πληρωμής",
+                  "mk": "Изберете го вашиот претпочитан начин на плаќање",
+                  "sq": "Zgjidhësh metodën e preferuar të pagesës",
+                  "ro": "Alegi metoda de plată dorită",
+                  "sl": "Izberi svojo želeno plačilno metodo",
+                  "hr": "Odaberite željenu opciju plaćanja",
+                  "bg": "Изберете предпочитания от вас начин на плащане",
+                  "bn": "আপনার পছন্দের পেমেন্ট অপশন বেছে নিন"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "tr": "Açılır listeden bu promosyonu seç",
+                  "en": "Select this promotion from the drop-down list",
+                  "de": "Wählen Sie diese Aktion aus der Auswahlliste",
+                  "fi": "Valitse tämä kampanja pudotusvalikosta",
+                  "no": "Velg denne kampanjen fra rullegardinlisten",
+                  "pt": "Selecione esta promoção na lista suspensa",
+                  "BR_pt": "Selecione esta promoção na lista suspensa",
+                  "es": "Selecciona esta promoción del menú desplegable",
+                  "CL_es": "Selecciona esta promoción del menú desplegable",
+                  "fr": "Sélectionnez cette promotion dans la liste",
+                  "it": "Seleziona questa promozione dall`elenco a discesa",
+                  "pl": "Z listy rozwijanej wybierzesz tę promocję",
+                  "az": "Açılan siyahıdan bu kampaniyanı seç",
+                  "ru": "Выберите эту акцию из раскрывающегося списка",
+                  "et": "Vali ripploendist see soodustus",
+                  "hu": "Válaszd ki ezt a promóciót a legördülő menüből",
+                  "cs": "Zvolte tuto akci z nabídky bonusů",
+                  "sr": "Odaberite ovu promociju iz padajuće liste",
+                  "el": "Επιλέγεις αυτή την προσφορά από τη λίστα",
+                  "mk": "Изберете ја оваа промоција од паѓачката листа",
+                  "sq": "Përzgjidhësh këtë promocion nga lista rënëse",
+                  "ro": "Să selectezi promoția din listă",
+                  "sl": "Izberi to promocijo iz spustnega seznama",
+                  "hr": "Odaberite ovu promociju s padajućeg popisa",
+                  "bg": "Изберете тази промоция от падащото меню",
+                  "bn": "ড্রপ-ডাউন তালিকা থেকে এই প্রোমোশনটি নির্বাচন করুন"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "tr": "En az ${min_deposit} yatır ve bonusunu hesabına ekleyelim",
+                  "en": "Deposit at least ${min_deposit} and we'll add your Bonus",
+                  "de": "Zahlen Sie mindestens ${min_deposit} ein und wir schreiben Ihnen Ihren Bonus gut",
+                  "fi": "Talleta vähintään ${min_deposit}, niin lisäämme bonuksen",
+                  "no": "Sett inn minst ${min_deposit}, så legger vi til bonusen din",
+                  "pt": "Deposite pelo menos ${min_deposit} e adicionaremos teu Bônus",
+                  "BR_pt": "Deposite pelo menos ${min_deposit} e adicionaremos seu Bônus",
+                  "es": "Deposita al menos ${min_deposit} y añadiremos tu Bono",
+                  "CL_es": "Deposita al menos ${min_deposit} y añadiremos tu Bono",
+                  "fr": "Déposez au moins ${min_deposit} et nous ajouterons votre bonus",
+                  "it": "Deposita almeno ${min_deposit} e ti aggiungeremo il tuo bonus",
+                  "pl": "Wpłacisz minimum ${min_deposit}, a my dodamy Twój Bonus",
+                  "az": "Minimum ${min_deposit} depozit et və bonusunu hesabına əlavə edək",
+                  "ru": "Внесите депозит не менее ${min_deposit}, и мы добавим ваш бонус",
+                  "et": "Maksa sisse vähemalt ${min_deposit} ja meie lisame boonuse",
+                  "hu": "Fizess be legalább ${min_deposit}-ot, és jóváírjuk a bónuszod",
+                  "cs": "Vložte alespoň ${min_deposit} a bonus vám automaticky připíšeme",
+                  "sr": "Uplatite najmanje ${min_deposit}, a mi ćemo vam dodati bonus",
+                  "el": "Καταθέτεις ${min_deposit}+ και πιστώνουμε το Μπόνους σου",
+                  "mk": "Уплатете најмалку ${min_deposit} и ние ќе го додадеме вашиот бонус",
+                  "sq": "Depozito të paktën ${min_deposit} dhe ne do të shtojmë Bonusin tënd.",
+                  "ro": "Să depui ${min_deposit} și îți vom adăuga bonusul",
+                  "sl": "Vplačaj najmanj ${min_deposit} in dodali bomo tvoj bonus",
+                  "hr": "Uplatite najmanje ${min_deposit} i dodijelit ćemo vam bonus",
+                  "bg": "Депозирайте поне ${min_deposit} и ние ще добавим Вашите безплатни завъртания",
+                  "bn": "কমপক্ষে ${min_deposit} জমা করুন এবং আমরা আপনার বোনাস যোগ করে দেব"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "tr": "YATIRIM YAP",
+              "en": "DEPOSIT",
+              "de": "EINZAHLEN",
+              "fi": "TEE TALLETUS",
+              "no": "SETT INN",
+              "pt": "DEPOSITAR",
+              "BR_pt": "DEPOSITAR",
+              "es": "DEPOSITAR",
+              "CL_es": "DEPOSITAR",
+              "fr": "DÉPOSEZ",
+              "it": "DEPOSITA",
+              "pl": "WPŁAĆ",
+              "az": "DEPOZİT ET",
+              "ru": "ДЕПОЗИТ",
+              "et": "TEE SISSEMAKSE",
+              "hu": "BEFIZETÉS",
+              "cs": "VLOŽIT",
+              "sr": "UPLATA",
+              "el": "ΚΑΤΑΘΕΣΗ",
+              "mk": "УПЛАТИ",
+              "sq": "DEPOZITO",
+              "ro": "DEPUNE",
+              "sl": "POLOG",
+              "hr": "UPLATI",
+              "bg": "ДЕПОЗИТ",
+              "bn": "এখনই ডিপোজিট করুন"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/account/financials/deposit"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    },
+    "variables": {
+      "amount": {
+        "EUR": "€150",
+        "*": "€150",
+        "USD": "$150",
+        "CAD": "C$150",
+        "AUD": "A$150",
+        "BRL": "R$300",
+        "NOK": "kr1500",
+        "NZD": "NZ$150",
+        "CLP": "$120,000",
+        "MXN": "$900",
+        "GBP": "£150",
+        "PLN": "600zł",
+        "PEN": "S/.150",
+        "ZAR": "R1500",
+        "CHF": "Fr150",
+        "NGN": "₦15,000",
+        "JPY": "¥22500",
+        "AZN": "₼150",
+        "TRY": "1500 TL",
+        "UZS": "1,500,000 so'm",
+        "ARS": "15000 ARS",
+        "INR": "15000 INR",
+        "HUF": "52500Ft",
+        "CZK": "3000 Kč",
+        "RON": "750 RON",
+        "ALL": "15,000 ALL",
+        "MKD": "7,500 MKD",
+        "RSD": "15,000 RSD",
+        "RUB": "7 500 RUB",
+        "KZT": "22 500 KZT"
+      },
+      "min_deposit": {
+        "EUR": "€25",
+        "*": "€25",
+        "USD": "$25",
+        "CAD": "C$25",
+        "AUD": "A$25",
+        "BRL": "R$50",
+        "NOK": "kr250",
+        "NZD": "NZ$25",
+        "CLP": "$20,000",
+        "MXN": "$150",
+        "GBP": "£25",
+        "PLN": "100zł",
+        "PEN": "S/.25",
+        "ZAR": "R250",
+        "CHF": "Fr25",
+        "NGN": "₦2,500",
+        "JPY": "¥3750",
+        "AZN": "₼25",
+        "TRY": "250 TL",
+        "UZS": "250,000 so'm",
+        "ARS": "2500 ARS",
+        "INR": "2500 INR",
+        "HUF": "8750Ft",
+        "CZK": "500 Kč",
+        "RON": "100 RON",
+        "ALL": "2,000 ALL",
+        "MKD": "1,250 MKD",
+        "RSD": "2,500 RSD",
+        "RUB": "1 250 RUB",
+        "KZT": "3 750 KZT"
+      },
+      "min_bet": {
+        "EUR": "€0.50",
+        "*": "€0.50",
+        "USD": "$0.50",
+        "CAD": "C$0.50",
+        "AUD": "A$0.50",
+        "BRL": "R$1",
+        "NOK": "kr5",
+        "NZD": "NZ$0.50",
+        "CLP": "$250",
+        "MXN": "$5",
+        "GBP": "£0.50",
+        "PLN": "2zł",
+        "PEN": "S/.1",
+        "ZAR": "R5",
+        "CHF": "Fr0.50",
+        "NGN": "₦50",
+        "JPY": "¥80",
+        "AZN": "₼1",
+        "TRY": "5 TL",
+        "UZS": "5,000 so'm",
+        "ARS": "50 ARS",
+        "INR": "50 INR",
+        "HUF": "175 Ft",
+        "CZK": "10 Kč",
+        "RON": "2 RON",
+        "ALL": "40 ALL",
+        "MKD": "25 MKD",
+        "RSD": "50 RSD",
+        "RUB": "50 RUB",
+        "KZT": "50 KZT"
+      },
+      "max_bet": {
+        "EUR": "€5",
+        "*": "€5",
+        "USD": "$5",
+        "CAD": "C$5",
+        "AUD": "A$5",
+        "BRL": "R$10",
+        "NOK": "kr50",
+        "NZD": "NZ$5",
+        "CLP": "$2,500",
+        "MXN": "$50",
+        "GBP": "£5",
+        "PLN": "20zł",
+        "PEN": "S/.10",
+        "ZAR": "R50",
+        "CHF": "Fr5",
+        "NGN": "₦500",
+        "JPY": "¥800",
+        "AZN": "₼10",
+        "TRY": "50 TL",
+        "UZS": "50,000 so'm",
+        "ARS": "500 ARS",
+        "INR": "500 INR",
+        "HUF": "1750 Ft",
+        "CZK": "100 Kč",
+        "RON": "20 RON",
+        "ALL": "400 ALL",
+        "MKD": "250 MKD",
+        "RSD": "500 RSD",
+        "RUB": "500 RUB",
+        "KZT": "500 KZT"
+      },
+      "percentage": {
+        "*": "100%",
+        "TR": "% 100",
+        "BR": "100%",
+        "AU": "100%",
+        "NZ": "100%"
+      },
+      "wagering_req": {
+        "*": "x35",
+        "TR": "x35",
+        "BR": "x35",
+        "AU": "x35",
+        "NZ": "x35"
+      },
+      "start_time": {
+        "*": "00.00",
+        "TR": "00.00",
+        "BR": "00.00",
+        "AU": "00.00",
+        "NZ": "00.00"
+      },
+      "end_time": {
+        "*": "23.59",
+        "TR": "23.59",
+        "BR": "23.59",
+        "AU": "23.59",
+        "NZ": "23.59"
+      },
+      "timezone": {
+        "*": "CET/CEST",
+        "TR": "CET/CEST",
+        "BR": "BRT",
+        "AU": "AEST/AEDT",
+        "NZ": "NZST/NZDT"
+      }
+    }
+  }
+}

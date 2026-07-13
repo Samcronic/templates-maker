@@ -1,0 +1,622 @@
+{
+  "id": "welcome-crypto-bonus",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "en": "Welcome Crypto COMBO",
+        "de": "Willkommens-Krypto-COMBO",
+        "fi": "Tervetuliaiskryptokombo",
+        "no": "Velkomst kryptokombo",
+        "pt": "Combo Cripto de Boas-vindas",
+        "es": "COMBO Cripto de Bienvenida",
+        "CL_es": "COMBO de Bienvenida Cripto",
+        "it": "Benvenuto Crypto COMBO",
+        "fr": "Bienvenue Crypto COMBO",
+        "pl": "Witaj w Crypto COMBO",
+        "az": "Xoş Gəldin Kripto COMBO",
+        "ru": "Приветственный крипто-комбо",
+        "tr": "Hoş Geldin Kripto COMBO",
+        "et": "Krüpto tervitus-KOMBO",
+        "hu": "Kripto üdvözlő kombó",
+        "cs": "Uvítací Crypto COMBO",
+        "sr": "Kripto KOMBO dobrodošlice",
+        "el": "CRYPTO COMBO ΚΑΛΩΣΟΡΙΣΜΑΤΟΣ",
+        "mk": "Крипто КОМБО за добредојде",
+        "ro": "Bonus crypto combo de bun venit",
+        "sl": "Pozdravni kripto KOMBO",
+        "hr": "Kripto KOMBO dobrodošlice",
+        "bg": "Добре дошли в \"Crypto COMBO\"",
+        "bn": "ওয়েলকাম ক্রিপ্টো কম্বো",
+        "sq": "Bonus mirëseardhjeje Crypto COMBO"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "en": "${percentage} Crypto Bonus up to 1 BTC & ${fs_amount} FS!",
+        "de": "${percentage} Krypto-Bonus bis zu 1 BTC & ${fs_amount} GS!",
+        "fi": "${percentage} kryptobonus, jopa 1 BTC, ja ${fs_amount} IK!",
+        "no": "${percentage} kryptobonus opptil 1 BTC og ${fs_amount} GS!",
+        "pt": "Bônus Cripto de ${percentage} até 1 BTC e ${fs_amount} RG!",
+        "es": "${percentage} Bono Cripto hasta 1 BTC & ${fs_amount} ¡GG!",
+        "CL_es": "${percentage} Bono Cripto hasta 1 BTC & ${fs_amount} ¡GG!",
+        "it": "${percentage} Bonus Crypto fino a 1 BTC e ${fs_amount} GG!",
+        "fr": "${percentage} Crypto Bonus jusqu'à 1 BTC & ${fs_amount} TG!",
+        "pl": "${percentage} premii w krypto do 1 BTC oraz ${fs_amount} darmowych spinów!",
+        "az": "${percentage} Kripto Bonusu 1 BTC-yə qədər və ${fs_amount} FS!",
+        "ru": "${percentage} Крипто-бонус до 1 BTC & ${fs_amount} ФС!",
+        "tr": "${percentage} Kripto Bonusu – 1 BTC’ye kadar ve ${fs_amount} Free Spin!",
+        "et": "${percentage} krüptoboonus kuni 1 BTC & ${fs_amount} tasuta keerutus!",
+        "hu": "${percentage}-os kripto bónusz akár 1 BTC-ig és ${fs_amount} IP!",
+        "cs": "${percentage} Crypto bonus až do 1 BTC + ${fs_amount} free spinů!",
+        "sr": "Kripto bonus od ${percentage} do 1 BTC i ${fs_amount} BS!",
+        "el": "${percentage} Μπόνους Crypto έως 1 BTC & ${fs_amount} FS!",
+        "mk": "${percentage} крипто бонус до 1 BTC и ${fs_amount} бесплатни вртења!",
+        "ro": "${percentage} Bonus crypto până la 1 BTC și ${fs_amount} Rotiri Gratuite!",
+        "sl": "${percentage} kripto bonus do 1 BTC & ${fs_amount} brezplačnih vrtljajev!",
+        "hr": "Kripto bonus od ${percentage} do 1 BTC i ${fs_amount} FS!",
+        "bg": "${percentage} Крипто бонус до 1 BTC и ${fs_amount} без депозит!",
+        "bn": "${percentage} ক্রিপ্টো বোনাস সর্বোচ্চ 1 BTC পর্যন্ত এবং ${fs_amount} ফ্রি স্পিন!",
+        "sq": "Bonus Crypto ${percentage} deri në 1 BTC & ${fs_amount} Rrotullime Falas!"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "welcome-crypto-bonus.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "casino"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Casino",
+              "de": "Casino",
+              "fi": "Kasino",
+              "no": "Kasino",
+              "pt": "Casino",
+              "es": "Casino",
+              "it": "Casinò",
+              "fr": "Casino",
+              "pl": "Kasyno",
+              "az": "Kazino",
+              "ru": "Казино",
+              "tr": "Casino",
+              "et": "Kasiino",
+              "hu": "Kaszinó",
+              "cs": "Kasino",
+              "sr": "Kazino",
+              "el": "Καζίνο",
+              "mk": "Казино",
+              "sq": "Kazino",
+              "sl": "Kazino",
+              "hr": "Kasino",
+              "bg": "Казино",
+              "ro": "Cazino",
+              "bn": "ক্যাসিনো"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./welcome-crypto-bonus.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "Your Crypto Welcome starts HERE!\nGet a ${percentage} up to 1 BTC Bonus PLUS ${fs_amount} FS on \"${slot_game_1}\" when you make your first deposit using Crypto.",
+              "de": "Willkommen in der Welt der Kryptowährungen!\nErhalten Sie einen Bonus von ${percentage} bis zu 1 BTC UND ${fs_amount} GS auf \"${slot_game_1}\", wenn Sie Ihre erste Einzahlung mit Kryptowährung tätigen.",
+              "fi": "Tervetuloa kryptomaailmaan!\nSaat ${percentage} bonuksen, jopa 1 BTC, PLUS ${fs_amount} IK peliin \"${slot_game_1}\", kun teet ensimmäisen talletuksesi kryptovaluutalla.",
+              "no": "Din velkomst til krypto starter HER!\nFå en bonus på ${percentage} opptil 1 BTC PLUSS ${fs_amount} FS på \"${slot_game_1}\" når du gjør ditt første innskudd med kryptovaluta.",
+              "pt": "Suas boas-vindas às criptomoedas começam AQUI!\nGanhe um bônus de ${percentage} até 1 BTC MAIS ${fs_amount} RG em \"${slot_game_1}\" quando você fizer seu primeiro depósito usando criptomoedas.",
+              "es": "¡Tu Cripto Bienvenida empieza AQUÍ!\nConsigue un Bono de ${percentage} hasta 1 BTC MÁS ${fs_amount} GG en \"${slot_game_1}\" cuando hagas tu primer depósito usando criptomonedas",
+              "CL_es": "Tu Bienvenida Crypto parte AQUÍ!\nConsigue un ${percentage} hasta 1 BTC de Bono + ${fs_amount} Giros Gratis en \"${slot_game_1}\" al hacer tu primer depósito con Crypto.",
+              "it": "Il tuo Crypto Welcome inizia QUI!\nOttieni un bonus di ${percentage} fino a 1 BTC PIÙ ${fs_amount} GG su \"${slot_game_1}\" quando effettui il tuo primo deposito utilizzando Crypto.",
+              "fr": "Votre Crypto Bienvenue commence ICI!\nObtenez un ${percentage} jusqu'à 1 BTC Bonus PLUS ${fs_amount} TG sur \"${slot_game_1}\" lorsque vous effectuez votre premier dépôt en utilisant Crypto.",
+              "pl": "Rozpocznij swoją przygodę z Crypto już TERAZ!\nSkorzystaj z ${percentage} bonusu do 1 BTC oraz odbierz ${fs_amount} darmowych spinów w \"${slot_game_1}\", dokonując pierwszej wpłaty w kryptowalucie.",
+              "az": "Kripto Xoş Gəldin Bonusunuz BURADA başlayır!\nİlk depozitinizi Kripto ilə etdikdə ${percentage} ilə 1 BTC-yə qədər Bonus və \"${slot_game_1}\" oyununda ${fs_amount} Pulsuz Fırlatma əldə edin.",
+              "ru": "Ваше крипто-приветствие начинается ЗДЕСЬ!\nПолучите ${percentage} до 1 BTC Бонус ПЛЮС ${fs_amount} FS на \"${slot_game_1}\", когда вы сделаете свой первый депозит с помощью криптовалюты.",
+              "tr": "Kripto Hoş Geldin Yolculuğun BURADA başlıyor!\nİlk kripto para yatırmanda, ${percentage} oranında 1 BTC’ye kadar Bonus ve \"${slot_game_1}\" oyununda ${fs_amount} Free Spin seni bekliyor!",
+              "et": "Sinu krüptotervitus algab SIIT!\nSaa ${percentage} kuni 1 BTC boonus PLUSS ${fs_amount} tasuta keerutus mängus \"${slot_game_1}“, kui teed oma esimese sissemakse krüptovaluutaga.",
+              "hu": "ITT kezdődik a kripto üdvözlőcsomagod!\nSzerezz egy ${percentage}-os 1 BTC-ig terjedő bónuszt ÉS ${fs_amount} IP-t a \"${slot_game_1}\" nyerőgépen, amikor elvégzed az első kripto befizetésed.",
+              "cs": "Vaše crypto uvítací nabídka JE TADY!\nPři prvním vkladu v kryptoměně získáte ${percentage} bonus až do 1 BTC A NAVÍC ${fs_amount} free spinů na automat \"${slot_game_1}\".",
+              "sr": "Vaš kripto KOMBO dobrodošlice vas očekuje OVDE!\nIzvršite svoj prvi depozit u kriptovaluti, i osvojite bonus od ${percentage} do 1 BTC PLUS ${fs_amount} FS na slotu „${slot_game_1}“.",
+              "el": "Η Προσφορά Καλωσορίσματος Crypto ξεκινά ΕΔΩ!\nΛαμβάνεις ${percentage} έως 1 BTC Μπόνους ΚΑΙ ${fs_amount} FS στο \"${slot_game_1}\" με την πρώτη σου κατάθεση μέσω Crypto.",
+              "mk": "Вашето добредојде со крипто започнува ТУКА!\nДобијте ${percentage} бонус до 1 BTC ПЛУС ${fs_amount} бесплатни вртења на “${slot_game_1}“ кога ќе го направите вашиот прв депозит со крипто.",
+              "ro": "Dăm startul ofertei tale crypto de bun venit!\nPrimește ${percentage} până la 1 BTC Bonus PLUS ${fs_amount} Rotiri Gratuite la \"${slot_game_1}\" atunci când faci prima depunere în criptomonede.",
+              "sl": "Vaša kripto dobrodošlica se začne TUKAJ!\nPrejmite bonus v višini ${percentage} do 1 BTC PLUS ${fs_amount} brezplačnih vrtljajev na \"${slot_game_1}\", ob prvem vplačilu z uporabo kriptovalut.",
+              "hr": "Vaš Kripto KOMBO dobrodošlice počinje ovdje!\nDobijte bonus od ${percentage} do 1 BTC PLUS ${fs_amount} FS na igri \"${slot_game_1}\" nakon vaše prve uplate kriptovalutama.",
+              "bg": "Вашият крипто бонус започва ТУК!\nВземете ${percentage} бонус до 1 BTC ПЛЮС ${fs_amount} безплатни завъртания на \"${slot_game_1}\", когато направите първия си депозит с криптовалута.",
+              "bn": "আপনার ক্রিপ্টো স্বাগতম শুরু হোক এখানে!\nআপনার প্রথম ক্রিপ্টো ডিপোজিট করার মাধ্যমে 1 BTC পর্যন্ত ${percentage} বোনাস এবং সাথে \"${slot_game_1}\"-এ ${fs_amount} ফ্রি স্পিন পান।",
+              "sq": "Mirëseardhja jote Crypto fillon KËTU!\nMerr një Bonus Crypto ${percentage} deri në 1 BTC PLUS ${fs_amount} Rrotullime Falas në lojën “${slot_game_1}” kur bën depozitën tënde të parë duke përdorur Crypto."
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "This is how it works:",
+              "de": "So funktioniert es:",
+              "fi": "Toimi näin:",
+              "no": "Slik fungerer det:",
+              "pt": "É assim que funciona:",
+              "es": "Así es como funciona:",
+              "CL_es": "Así funciona:",
+              "it": "Ecco come funziona:",
+              "fr": "Voici comment cela fonctionne :",
+              "pl": "Jak to działa?",
+              "az": "Bu necə işləyir:",
+              "ru": "Вот как это работает:",
+              "tr": "Nasıl mı çalışıyor?",
+              "et": "Kuidas see toimib:",
+              "hu": "Íme hogyan működik:",
+              "cs": "Jak to funguje:",
+              "sr": "Kako funkcioniše:",
+              "el": "Πώς λειτουργεί:",
+              "mk": "Еве како функционира:",
+              "ro": "Iată cum funcționează:",
+              "sl": "Kako deluje:",
+              "hr": "Evo kako to funkcionira:",
+              "bg": "Ето как работи:",
+              "bn": "এটি যেভাবে কাজ করেঃ"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "en": "Choose Crypto as your payment method",
+                  "de": "Wählen Sie \"Kryptowährung\" als Zahlungsmethode",
+                  "fi": "Valitse maksutavaksi Krypto",
+                  "no": "Velg \"Kryptovaluta\" som betalingsmetode",
+                  "pt": "Escolha Criptografia como seu método de pagamento",
+                  "es": "Elige Cripto como método de pago",
+                  "CL_es": "Elige Crypto como método de pago",
+                  "it": "Scegli Crypto come metodo di pagamento",
+                  "fr": "Choisissez Crypto comme mode de paiement",
+                  "pl": "Wybierz Crypto jako metodę płatności",
+                  "az": "Ödəniş üsulu olaraq Kripto seçin",
+                  "ru": "Выберите криптовалюту в качестве способа оплаты",
+                  "tr": "Ödeme yöntemi olarak Kripto’yu seç",
+                  "et": "Vali makseviisiks krüptovaluuta",
+                  "hu": "Válaszd ki a kriptót, mint fizetési módot",
+                  "cs": "Zvolte kryptoměnu jako platební metodu",
+                  "sr": "Izaberite kriptovalutu kao metod plaćanja",
+                  "el": "Επιλέγεις το Crypto ως μέθοδο πληρωμής",
+                  "mk": "Изберете крипто како начин на плаќање",
+                  "ro": "Alege crypto ca metodă de plată dorită",
+                  "sl": "Izberite kriptovaluto kot način plačila",
+                  "hr": "Odaberite kriptovalutu kao način plaćanja",
+                  "bg": "Изберете криптовалута като метод на плащане",
+                  "bn": "পেমেন্ট পদ্ধতি হিসেবে ক্রিপ্টো নির্বাচন করুন।",
+                  "sq": "Kështu funksionon:"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "en": "Deposit ${min_deposit} or more in cryptocurrency and we'll add your Combo",
+                  "de": "Zahlen Sie ${min_deposit} oder mehr in Kryptowährung ein und wir schreiben Ihnen Ihren Combo gut",
+                  "fi": "Talleta vähintään ${min_deposit} kryptovaluutassa, niin lisäämme kombosi",
+                  "no": "Sett inn ${min_deposit} eller mer med kryptovaluta, så krediterer vi din Combo",
+                  "pt": "Deposite ${min_deposit} ou mais em criptomoeda e adicionaremos seu Combo",
+                  "es": "Deposita ${min_deposit} o más en criptomoneda y añadiremos tu Combo",
+                  "CL_es": "Deposita desde ${min_deposit} en criptomoneda y te sumamos tu Combo",
+                  "it": "Deposita ${min_deposit} o più in criptovaluta e aggiungeremo la tua Combo",
+                  "fr": "Déposez ${min_deposit} ou plus en crypto-monnaie et nous ajouterons votre Combo",
+                  "pl": "Wpłać co najmniej ${min_deposit} w kryptowalucie – a my dodamy Twój Combo!",
+                  "az": "${min_deposit} və ya daha çox məbləğdə kriptovalyuta ilə depozit edin və Kombo bonusunuzu əlavə edək",
+                  "ru": "Внесите ${min_deposit} или больше в криптовалюте, и мы добавим ваш Combo",
+                  "tr": "${min_deposit} veya daha fazla tutarda kripto para yatır. Biz de Combo Bonus’unu hesabına ekleyelim!",
+                  "et": "Maksa krüptovaluutaga sisse ${min_deposit} või rohkem ja meie lisame kombo",
+                  "hu": "Fizess be legalább ${min_deposit}-ot kriptovalutában és jóvá is írjuk a Kombód",
+                  "cs": "Vložte alespoň ${min_deposit} v kryptoměně a my vám připíšeme Crypto COMBO bonus",
+                  "sr": "Uplatite najmanje ${min_deposit} u kriptovaluti, a mi ćemo vam dodati Kombo promociju",
+                  "el": "Καταθέτεις ${min_deposit} ή περισσότερα σε κρυπτονόμισμα και το Combo θα προστεθεί αυτόματα στον λογαριασμό σου",
+                  "mk": "Уплатете депозит од ${min_deposit} или повеќе во криптовалута и ние ќе ви го додадеме вашиот комбо",
+                  "ro": "Depune ${min_deposit} sau mai mult în criptomonede și îți vom adăuga bonusul combo.",
+                  "sl": "Vplačajte ${min_deposit} ali več v kriptovaluti in dodali vam bomo Kombo.",
+                  "hr": "Uplatite ${min_deposit} ili više u kriptovaluti i dodijelit ćemo vam Kombo bonus",
+                  "bg": "Депозирайте ${min_deposit} или повече в криптовалута и ние ще добавим вашия Combo бонус",
+                  "bn": "${min_deposit} বা তার বেশি ক্রিপ্টোকারেন্সি ডিপোজিট করুন এবং আমরা আপনার কম্বো যোগ করে দেব।",
+                  "sq": "Depozito ${min_deposit} ose më shumë në kriptomonedhë dhe ne do të shtojmë Kombon tënde"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "en": "DEPOSIT NOW",
+              "de": "JETZT EINZAHLEN",
+              "fi": "TALLETA NYT",
+              "no": "SETT INN NÅ",
+              "pt": "DEPOSITAR AGORA",
+              "es": "DEPOSITAR AHORA",
+              "CL_es": "DEPÓSITA AHORA",
+              "it": "DEPOSITARE ORA",
+              "fr": "DÉPOSER MAINTENANT",
+              "pl": "WPŁAĆ TERAZ",
+              "az": "İNDİ DEPOZİT ET",
+              "ru": "ДЕПОЗИТ СЕЙЧАС",
+              "tr": "ŞİMDİ YATIRIM YAP",
+              "et": "TEE SISSEMAKSE KOHE",
+              "hu": "FIZESS BE MOST",
+              "cs": "PROVÉST VKLAD",
+              "sr": "UPLATI SAD",
+              "el": "ΚΑΤΑΘΕΣΗ",
+              "mk": "УПЛАТИ СЕГА",
+              "ro": "DEPUNE ACUM",
+              "sl": "VPLAČAJ ZDAJ",
+              "hr": "UPLATITE SADA",
+              "bg": "ДЕПОЗИРАЙТЕ СЕГА",
+              "bn": "এখনই ডিপোজিট করুন",
+              "sq": "DEPOZITO TANI"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/account/financials/deposit"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    },
+    "variables": {
+      "amount": {
+        "EUR": "€100.000",
+        "*": "€100.000",
+        "USD": "$100.000",
+        "CAD": "C$150.000",
+        "AUD": "A$150.000",
+        "BRL": "R$650.000",
+        "NOK": "kr1.000.000",
+        "NZD": "NZ$150.000",
+        "CLP": "$100.000.000",
+        "MXN": "$2.250.000",
+        "GBP": "£100.000",
+        "PLN": "425.000zł",
+        "PEN": "S/.100000",
+        "ZAR": "R1000000",
+        "CHF": "Fr100000",
+        "NGN": "₦10000000",
+        "JPY": "¥15000000",
+        "AZN": "₼200.300",
+        "TRY": "5,000,000 TL",
+        "KZT": "60,000,000 KZT",
+        "RUB": "10,000,000 RUB",
+        "UZS": "2,000,000,000 so'm",
+        "ARS": "10000000 ARS",
+        "INR": "10000000 INR",
+        "HUF": "35000000 Ft",
+        "CZK": "Kč2000000",
+        "RON": "400,000 RON",
+        "ALL": "ALL 9598000.00",
+        "MKD": "5,000,000 MKD",
+        "RSD": "10,000,000 RSD"
+      },
+      "min_deposit": {
+        "EUR": "€30",
+        "*": "€30",
+        "USD": "$30",
+        "CAD": "C$50",
+        "AUD": "A$50",
+        "BRL": "R$200",
+        "NOK": "kr350",
+        "NZD": "NZ$50",
+        "CLP": "$30.000",
+        "MXN": "$700",
+        "GBP": "£30",
+        "PLN": "130zł",
+        "PEN": "S/.30",
+        "ZAR": "R300",
+        "CHF": "Fr30",
+        "NGN": "₦3000",
+        "JPY": "¥4500",
+        "AZN": "₼60",
+        "TRY": "1400 TL",
+        "KZT": "9000 KZT",
+        "RUB": "1500 RUB",
+        "UZS": "600,000 so'm",
+        "ARS": "3000 ARS",
+        "INR": "3000 INR",
+        "HUF": "10 500 Ft",
+        "CZK": "Kč600",
+        "RON": "120 RON",
+        "ALL": "ALL 2879.40",
+        "MKD": "1,500 MKD",
+        "RSD": "3,000 RSD"
+      },
+      "fs_winnings": {
+        "EUR": "€0.10",
+        "*": "€0.10",
+        "USD": "$0.10",
+        "CAD": "C$0.10",
+        "AUD": "A$0.10",
+        "BRL": "R$0.10",
+        "NOK": "kr0.10",
+        "NZD": "NZ$0.10",
+        "CLP": "$0.10",
+        "MXN": "$0.10",
+        "GBP": "£0.10",
+        "PLN": "0.40zł",
+        "PEN": "S/.0.1",
+        "ZAR": "R1.50",
+        "CHF": "Fr0.10",
+        "NGN": "₦40",
+        "JPY": "¥20",
+        "AZN": "₼0.20",
+        "TRY": "0.10 TL",
+        "KZT": "6,5 KZT",
+        "RUB": "1 RUB",
+        "UZS": "150 so'm",
+        "ARS": "20 ARS",
+        "INR": "7 INR",
+        "HUF": "30 Ft",
+        "CZK": "Kč2.5",
+        "RON": "0.5 RON",
+        "ALL": "ALL 9,60",
+        "MKD": "5 MKD",
+        "RSD": "10 RSD"
+      },
+      "min_spin_value": {
+        "EUR": "€0.10",
+        "*": "€0.10",
+        "USD": "$0.10",
+        "CAD": "C$0.10",
+        "AUD": "A$0.10",
+        "BRL": "R$0.10",
+        "NOK": "kr0.10",
+        "NZD": "NZ$0.10",
+        "CLP": "$0.10",
+        "MXN": "$0.10",
+        "GBP": "£0.10",
+        "PLN": "0.40zł",
+        "PEN": "S/.0.1",
+        "ZAR": "R1.50",
+        "CHF": "Fr0.10",
+        "NGN": "₦40",
+        "JPY": "¥20",
+        "AZN": "₼0.24",
+        "TRY": "0.10 TL",
+        "KZT": "6,5 KZT",
+        "RUB": "1 RUB",
+        "UZS": "150 so'm",
+        "ARS": "20 ARS",
+        "INR": "7 INR",
+        "HUF": "30 Ft",
+        "CZK": "Kč2.5",
+        "RON": "0.5 RON",
+        "ALL": "ALL 9,60",
+        "MKD": "5 MKD",
+        "RSD": "10 RSD"
+      },
+      "max_bet": {
+        "EUR": "€5",
+        "*": "€5",
+        "USD": "$5",
+        "CAD": "C$5",
+        "AUD": "A$10",
+        "BRL": "R$30",
+        "NOK": "kr50",
+        "NZD": "NZ$10",
+        "CLP": "$5.000",
+        "MXN": "$100",
+        "GBP": "£5",
+        "PLN": "20zł",
+        "PEN": "S/.10",
+        "ZAR": "R50",
+        "CHF": "Fr5",
+        "NGN": "₦500",
+        "JPY": "¥800",
+        "AZN": "₼10",
+        "TRY": "250 TL",
+        "KZT": "3000 KZT",
+        "RUB": "500 RUB",
+        "UZS": "100,000 so'm",
+        "ARS": "500 ARS",
+        "INR": "500 INR",
+        "HUF": "1750 Ft",
+        "CZK": "Kč100",
+        "RON": "20 RON",
+        "ALL": "ALL 480",
+        "MKD": "250 MKD",
+        "RSD": "500 RSD"
+      },
+      "min_bet": {
+        "EUR": "€0.50",
+        "*": "€0.50",
+        "USD": "$0.50",
+        "CAD": "C$0.50",
+        "AUD": "A$1",
+        "BRL": "R$3",
+        "NOK": "kr5",
+        "NZD": "NZ$1",
+        "CLP": "$500",
+        "MXN": "$10",
+        "GBP": "£0.50",
+        "PLN": "2zł",
+        "PEN": "S/.1",
+        "ZAR": "R5",
+        "CHF": "Fr0.5",
+        "NGN": "₦50",
+        "JPY": "¥80",
+        "AZN": "₼1",
+        "TRY": "25 TL",
+        "KZT": "300 KZT",
+        "RUB": "50 RUB",
+        "UZS": "10,000 so'm",
+        "ARS": "50 ARS",
+        "INR": "50 INR",
+        "HUF": "175 Ft",
+        "CZK": "Kč10",
+        "RON": "2 RON",
+        "ALL": "ALL 48",
+        "MKD": "25 MKD",
+        "RSD": "50 RSD"
+      },
+      "percentage": {
+        "*": "150 %",
+        "TR": "% 150"
+      },
+      "slot_game_1": {
+        "*": "Reels of Wealth",
+        "TR": "Reels of Wealth"
+      },
+      "wagering_req": {
+        "*": "X40",
+        "TR": "x40"
+      },
+      "fs_amount": {
+        "*": "150",
+        "TR": "150"
+      }
+    }
+  }
+}

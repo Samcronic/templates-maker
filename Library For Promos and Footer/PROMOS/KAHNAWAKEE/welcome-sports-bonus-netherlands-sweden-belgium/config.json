@@ -1,0 +1,324 @@
+{
+  "id": "welcome-sports-bonus-netherlands-sweden-belgium",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "en": "Welcome Sports Bonus"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "en": "Boost your bets with a ${percentage} up to ${amount} Bonus!"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "welcome-sports-bonus.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "sports"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Sports",
+              "de": "Sport",
+              "fi": "Urheilu",
+              "no": "Sport",
+              "pt": "Esportes",
+              "es": "Deportes",
+              "it": "Sport",
+              "fr": "Sports",
+              "pl": "Sport",
+              "az": "İdman",
+              "ru": "Спорт",
+              "tr": "Spor",
+              "et": "Sport",
+              "hu": "Sport",
+              "cs": "Sport",
+              "sr": "Sportovi",
+              "el": "Στοίχημα",
+              "mk": "Спорт",
+              "sq": "Sporte",
+              "sl": "Športi",
+              "hr": "Sport",
+              "bg": "Спорт",
+              "ro": "Sporturi",
+              "bn": "স্পোর্টস"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./welcome-sports-bonus-netherlands-sweden-belgium.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "The welcome Sports Bonus ${percentage} up to ${amount} is available upon depositing ${min_deposit} or more."
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "How it works:"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "en": "Choose your preferred payment option"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "en": "Select this promotion from the drop-down list"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "en": "Deposit ${min_deposit} or more, and we`ll add your Bonus"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "en": "DEPOSIT NOW"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/account/financials/deposit"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    },
+    "variables": {
+      "amount": {
+        "*": "€150",
+        "ALL": "15,000 ALL",
+        "ARS": "300,000 ARS",
+        "AUD": "Α$150",
+        "AZN": "₼300",
+        "BRL": "R$900",
+        "CAD": "C$150",
+        "CHF": "150CHF",
+        "CLP": "150,000CLP",
+        "CZK": "3750 Kč",
+        "EUR": "€150",
+        "GBP": "£150",
+        "HUF": "60000 Ft",
+        "INR": "15000 INR",
+        "JPY": "¥22500",
+        "KZT": "105000 KZT",
+        "MKD": "7,500 MKD",
+        "MXN": "$3000",
+        "NOK": "kr1500",
+        "NZD": "NZ$150",
+        "PEN": "S/600",
+        "PLN": "750zł",
+        "RON": "750 RON",
+        "RSD": "15,000 RSD",
+        "RUB": "10000 RUB",
+        "TRY": "7500 TL",
+        "USD": "$150",
+        "UZS": "2,250,000 soʻm",
+        "ZAR": "3000R"
+      },
+      "min_deposit": {
+        "*": "€20",
+        "ALL": "1,600 ALL",
+        "ARS": "2000 ARS",
+        "AUD": "Α$40",
+        "AZN": "₼20",
+        "BRL": "R$40",
+        "CAD": "C$20",
+        "CHF": "20CHF",
+        "CLP": "16,000CLP",
+        "CZK": "400 Kč",
+        "EUR": "€20",
+        "GBP": "£20",
+        "HUF": "7000 Ft",
+        "INR": "2000 INR",
+        "JPY": "¥3000",
+        "KZT": "3000 KZT",
+        "MKD": "1,000 MKD",
+        "MXN": "$120",
+        "NOK": "kr200",
+        "NZD": "NZ$40",
+        "PEN": "S/20",
+        "PLN": "80zł",
+        "RON": "80 RON",
+        "RSD": "2,000 RSD",
+        "RUB": "1000 RUB",
+        "TRY": "200 TL",
+        "USD": "$20",
+        "UZS": "200,000 soʻm",
+        "ZAR": "200R"
+      },
+      "percentage": {
+        "*": "100%"
+      },
+      "wagering_req": {
+        "*": "5x"
+      },
+      "min_odds": {
+        "*": "1.5"
+      }
+    }
+  }
+}

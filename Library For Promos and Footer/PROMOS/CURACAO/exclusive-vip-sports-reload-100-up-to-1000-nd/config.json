@@ -1,0 +1,279 @@
+{
+  "id": "exclusive-vip-sports-reload-100-up-to-1000-nd",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "en": "${percentage} VIP Sports Reload Bonus with x5 wagering",
+        "de": "${percentage} VIP-Sport-Reload-Bonus mit x5-Umsatz",
+        "fi": "${percentage} VIP-urheilu-reload-bonus x5 kierrätysvaatimuksella"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "en": "All yours up to 3 times!",
+        "de": "Bis zu 3 Mal nur für Sie!",
+        "fi": "Lunasta se jopa 3 kertaa!"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "banner.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "text",
+          "value": "sports"
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./exclusive-vip-sports-reload-100-up-to-1000-nd.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "This deal brings the VIP sports atmosphere right to you!\nClaim a ${percentage} Sports VIP Reload Bonus up to ${amount} with just x5 wagering 3 TIMES and elevate your play!\nHow it works:",
+              "de": "Dieses Angebot bringt die VIP-Sport-Atmosphäre direkt zu Ihnen!\nNutzen Sie den ${percentage} VIP-Sport-Reload-Bonus von bis zu ${amount} mit nur x5-Umsatz, 3 MAL, für noch mehr Spielspaß!\nSo geht's:",
+              "fi": "Tämä tarjous tuo VIP-urheilutunnelman suoraan luoksesi!\nLunasta ${percentage} VIP-urheilu-reload-bonus, jopa ${amount}, vain x5 kierrätysvaatimuksella 3 KERTAA ja tehosta peliäsi!\nToimi näin:"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "en": "Choose your preferred payment option",
+                  "de": "Wählen Sie Ihre bevorzugte Zahlungsmethode",
+                  "fi": "Valitse haluamasi maksutapa"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "en": "Select this promotion from the drop-down list",
+                  "de": "Wählen Sie Ihren Bonus aus der Auswahlliste",
+                  "fi": "Valitse tämä kampanja pudotusvalikosta"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "en": "Deposit ${min_deposit} or more and we`ll add your bonus",
+                  "de": "Zahlen Sie ${min_deposit} oder mehr ein, und wir fügen Ihren Bonus hinzu",
+                  "fi": "Talleta vähintään ${min_deposit}, niin lisäämme bonuksesi"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "en": "*Offer valid for 7 days",
+                  "de": "*Angebot gültig für 7 Tage",
+                  "fi": "*Tarjous on voimassa 7 päivän ajan"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "unordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "en": "DEPOSIT NOW",
+              "de": "JETZT EINZAHLEN",
+              "fi": "TALLETA NYT"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/account/financials/deposit"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    },
+    "variables": {
+      "amount": {
+        "EUR": "€1000",
+        "*": "€1000",
+        "USD": "$1000",
+        "CAD": "C$1000",
+        "AUD": "A$1000",
+        "BRL": "R$6000",
+        "NOK": "kr 10000",
+        "NZD": "NZ$ 1000",
+        "GBP": "£1000"
+      },
+      "percentage": {
+        "EUR": "100%",
+        "*": "100%",
+        "USD": "100%",
+        "CAD": "100%",
+        "AUD": "100%",
+        "BRL": "100%",
+        "NOK": "100%",
+        "NZD": "100%",
+        "GBP": "100%"
+      },
+      "min_deposit": {
+        "EUR": "€100",
+        "*": "€100",
+        "USD": "$100",
+        "CAD": "C$100",
+        "AUD": "A$100",
+        "BRL": "R$600",
+        "NOK": "kr 1000",
+        "NZD": "NZ$ 100",
+        "GBP": "£100"
+      }
+    }
+  }
+}

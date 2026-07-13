@@ -1,0 +1,413 @@
+{
+  "id": "ep-basketball",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "sq": "Pagesë E Parakohshme Në Basketboll",
+        "az": "Basketbolda Erkən Ödəniş",
+        "bg": "Ранно изплащане баскетбол",
+        "cs": "Předčasná Výplata: Basketbal",
+        "de": "Vorzeitige Auszahlung Basketball",
+        "el": "Πρώιμη Πληρωμή Μπάσκετ",
+        "en": "Early Payout Basketball",
+        "es": "Pago Anticipado Baloncesto",
+        "et": "Korvpalli Varane Väljamakse",
+        "fi": "Varhainen Voitonmaksu",
+        "fr": "Paiement Anticipé Basketball",
+        "hr": "Prijevremena Isplata – Košarka",
+        "hu": "Korai Kifizetés: Kosárlabda",
+        "it": "Pagamento Anticipato Pallacanestro",
+        "mk": "Рана исплата за кошарка",
+        "no": "Tidlig Utbetaling Basketball",
+        "pl": "Wczesna Wypłata Koszykówka",
+        "pt": "Pagamento Antecipado Basquete",
+        "ro": "Plată anticipată baschet",
+        "ru": "Досрочная Выплата Баскетбол",
+        "sl": "Predčasno izplačilo - košarka",
+        "sr": "Early Payout: Košarka",
+        "tr": "Basketbol Erken Ödeme",
+        "BR_pt": "Pagamento Antecipado",
+        "bn": "আর্লি পেআউট বাস্কেটবল"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "sq": "Fito bastin tënd më herët nëse ekipi yt udhëheq me 20 pikë në çdo moment të ndeshjes!",
+        "az": "Komandan oyunun istənilən anında 20 xal fərqi ilə önə keçərsə, mərci erkən qazan!",
+        "bg": "Спечелете залога си преждевременно, ако Вашият отбор поведе с 20 точки на който и да е етап от мача!",
+        "cs": "Vyhrajte svou sázku předčasně, pokud váš tým vede v jakékoli fázi zápasu o 20 bodů!",
+        "de": "Gewinnen Sie Ihre Wette vorzeitig, wenn Ihr Team zu irgendeinem Zeitpunkt des Spiels mit 20 Punkten führt!",
+        "el": "Αν η ομάδα σου προηγηθεί με 12 πόντους σε οποιοδήποτε σημείο του αγώνα, κέρδισες!",
+        "en": "Win your bet early if your team leads by 20 points at any stage of the match!",
+        "es": "¡Gana tu apuesta anticipadamente si tu equipo se adelanta por 20 puntos en cualquier momento del partido!",
+        "et": "Võida panus varakult, kui tiim läheb mis tahes matšietapis 20 punktiga juhtima!",
+        "fi": "Voita vetosi varhain, jos joukkueesi johtaa 20 pisteellä missä tahansa ottelun vaiheessa!",
+        "fr": "Gagnez votre pari si votre équipe mène de 20 points à n'importe quel moment du match !",
+        "hr": "Isplatite dobitak ranije ako vaš tim vodi 20 poena razlike u bilo kojoj fazi utakmice!",
+        "hu": "Nyerj korán, ha a csapatod 20-pontos vezetést szerez a mérkőzés bármely pontján!",
+        "it": "Vinci in anticipo la tua scommessa se la tua squadra è in vantaggio di 20 punti in qualsiasi fase dell'incontro!",
+        "mk": "Освој рано ако твојот тим води со 20 поени во кој било момент од натпреварот!",
+        "no": "Vinn innsatsen din tidlig hvis laget ditt leder med 20 poeng på noe tidspunkt i kampen!",
+        "pl": "Wygraj wcześniej, jeśli Twoja drużyna prowadzi 20 punktami na dowolnym etapie meczu!",
+        "pt": "Ganha a tua aposta antecipadamente se a tua equipa estiver a vencer por 20 pontos em qualquer momento do jogo!",
+        "ro": "Câștigă pariul în avans dacă echipa ta conduce cu 20 de puncte în orice stadiu al meciului!",
+        "ru": "Выиграйте свою ставку раньше срока, если ваша команда ведет с разницей в 20 очков на любом этапе матча!",
+        "sl": "Stava se izplača predčasno, če tvoja ekipa v katerem koli trenutku tekme vodi z 20 točkami!",
+        "sr": "Isplata dobitka čim vaš tim vodi sa 20 poena razlike!",
+        "tr": "Takımın maçın herhangi bir anında 20 puan farkla öne geçerse bahsini erken kazan!",
+        "BR_pt": "Ganhe sua aposta antecipadamente se o seu time abrir vantagem de 20 pontos em qualquer momento da partida!",
+        "bn": "ম্যাচের যেকোনো পর্যায়ে আপনার দল 20 পয়েন্টে এগিয়ে থাকলে, আপনার বাজিটি আগেই জিতে নিন!"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "ep-basketball.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "sports"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Sports",
+              "de": "Sport",
+              "fi": "Urheilu",
+              "no": "Sport",
+              "pt": "Esportes",
+              "es": "Deportes",
+              "it": "Sport",
+              "fr": "Sports",
+              "pl": "Sport",
+              "az": "İdman",
+              "ru": "Спорт",
+              "tr": "Spor",
+              "et": "Sport",
+              "hu": "Sport",
+              "cs": "Sport",
+              "sr": "Sportovi",
+              "el": "Στοίχημα",
+              "mk": "Спорт",
+              "sq": "Sporte",
+              "sl": "Športi",
+              "hr": "Sport",
+              "bg": "Спорт",
+              "ro": "Sporturi",
+              "bn": "স্পোর্টস"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./ep-basketball.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "sq": "Nëse skuadra juaj është 20 pikë përpara, ju fitoni automatikisht, pavarësisht rezultatit përfundimtar!",
+              "az": "Komandan 20 xal öndədirmi? Yekun hesabdan asılı olmayaraq avtomatik olaraq qazanırsan!",
+              "bg": "Вашият отбор води ли с 20 точки? Печелите автоматично, независимо от крайния резултат!",
+              "cs": "Má váš tým náskok 20 bodů? Automaticky vyhráváte bez ohledu na konečné skóre!",
+              "de": "Hat Ihr Team 20 Punkte Vorsprung? Egal wie das Spiel ausgeht, Sie haben schon gewonnen!",
+              "el": "Η ομάδα σου προηγείται με 20 πόντους; Κερδίζεις ανεξάρτητα από το τελικό σκορ!",
+              "en": "Is your team 20 points ahead? You automatically win regardless of the final score!",
+              "es": "¿Tu equipo va ganando por 20 puntos?",
+              "et": "Kas meeskond juhib 20 punktiga? Siis võidad automaatselt, hoolimata lõpuskoorist!",
+              "fi": "Onko joukkueesi 20 pistettä johdossa? Voitat automaattisesti lopullisesta pistetuloksesta riippumatta!",
+              "fr": "Votre équipe a 20 points d'avance ? Vous gagnez automatiquement quel que soit le score final !",
+              "hr": "Vodi li vaš tim 20 razlike? Par je automatski dobitni bez obzira na konačni rezultat!",
+              "hu": "A csapatod már 20 ponttal vezet? A nyereményed automatikusan jóváíródik, a végeredménytől függetlenül!",
+              "it": "Sei in vantaggio di 20 punti? Hai praticamente vinto, indipendentemente dal punteggio finale!",
+              "mk": "Дали твојот тим води со 20 поени? Автоматски победуваш, без разлика на конечниот резултат!",
+              "no": "Ligger laget ditt 20 poeng foran? Da vinner du automatisk uansett sluttresultat!",
+              "pl": "Czy Twoja drużyna prowadzi 20 punktami? Wygrywasz automatycznie — bez względu na końcowy wynik!",
+              "pt": "A tua equipa está a vencer por 20 pontos? Ganhas automaticamente, independentemente do resultado final!",
+              "ro": "Echipa ta conduce cu 20 de puncte? Câștigi automat indiferent de rezultatul final!",
+              "ru": "Ваша команда ведет с разницей в 20 очков? Вы автоматически выигрываете, независимо от окончательного счета!",
+              "sl": "Ali tvoja ekipa vodi za 20 točk? Ne glede na končni izid si avtomatično zmagovalec!",
+              "sr": "Da li vaš tim vodi sa 20 poena razlike? Automatski dobijate, bez obzira na konačan rezultat!",
+              "tr": "Takımın 20 puan önde mi? Maçın final skoru ne olursa olsun otomatik olarak kazanırsın!",
+              "BR_pt": "Seu time está vencendo por 20 pontos? Você ganha automaticamente, independentemente do resultado final!",
+              "bn": "আপনার দল কি 20 পয়েন্টে এগিয়ে আছে? চূড়ান্ত স্কোর যাই হোক না কেন, আপনি স্বয়ংক্রিয়ভাবে জিতে যাবেন!"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "sq": "Si funksionon:",
+              "az": "Necə işləyir:",
+              "bg": "Как работи:",
+              "cs": "Jak to funguje:",
+              "de": "So funktioniert es:",
+              "el": "Πώς λειτουργεί:",
+              "en": "How it works:",
+              "es": "¡Ganas automáticamente, sin importar el resultado final!",
+              "et": "Kuidas see toimib:",
+              "fi": "Toimi näin:",
+              "fr": "Comment ça marche:",
+              "hr": "Kako to funkcionira:",
+              "hu": "Hogyan működik:",
+              "it": "Come funziona:",
+              "mk": "Како функционира:",
+              "no": "Slik fungerer det:",
+              "pl": "Jak to działa?",
+              "pt": "Como funciona:",
+              "ro": "Cum funcționează:",
+              "ru": "Как это работает:",
+              "sl": "Kako deluje:",
+              "sr": "Kako funkcioniše:",
+              "tr": "Nasıl çalışır:",
+              "BR_pt": "Como funciona:",
+              "bn": "যেভাবে কাজ করেঃ"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "sq": "Vendosni një bast para fillimit të ndeshjes (pre-match) në tregun “Fituesi” (përfshirë kohën shtesë) për kompeticionet e pranueshme që kanë indikatorin Early Payout.",
+                  "az": "Early Payout göstəricisi olan uyğun yarışlarda “Qalib” (əlavə vaxtlar daxil olmaqla) bazarında oyun başlamazdan əvvəl mərc et.",
+                  "bg": "Направете залог преди мача на пазара „Победител“ (включително продължения) за отговарящи на условията състезания с индикатор за ранно изплащане.",
+                  "cs": "Uzavřete předzápasovou sázku na vítěze zápasu včetně prodloužení u vybraných soutěží označených indikátorem předčasné výplaty.",
+                  "de": "Platzieren Sie eine Pre-Match-Wette auf den Markt \"Gewinner\" (einschließlich Verlängerung) für berechtigte Wettbewerbe mit dem Indikator \"Vorzeitige Auszahlung\".",
+                  "el": "Τοποθετείς ένα στοίχημα πριν τον αγώνα στην αγορά \"Νικητής\" (συμπεριλαμβανομένης της παράτασης) για επιλέξιμες διοργανώσεις με ένδειξη Πρώιμης Πληρωμής.",
+                  "en": "Place a pre-match bet on the \"Winner\"(Including Overtime) market for eligible competitions with the Early Payout indicator.",
+                  "es": "Realiza una apuesta pre-partido en el mercado Ganador (Incluye Prórroga) en competiciones elegibles con el indicador de Pago Anticipado.",
+                  "et": "Tee matšieelne panus \"Winner“ ehk võitjaturul (sh üleajal) kvalifitseeruvatele võistlustele, millel on varase väljamakse tunnus.",
+                  "fi": "Aseta pre-match-veto \"Voittaja\" (jatkoaika mukaan lukien) -markkinaan kelvollisissa kilpailuissa, joissa on varhaisen maksun indikaattori.",
+                  "fr": "Placez un pari d'avant-match sur le marché \"Vainqueur\" (y compris les prolongations) pour les compétitions éligibles avec l'indicateur de paiement anticipé.",
+                  "hr": "Prije početka utakmice odigrajte okladu na pobjednika (uključujući produžetke) u natjecanjima s oznakom prijevremene isplate.",
+                  "hu": "Tegyél meg egy mérkőzés előtti fogadást a \"Győztes\" (hosszabbítást beleértve) piacon a promócióban résztvevő bajnokságok Korai Kifizetés szimbólummal ellátott mérkőzésein.",
+                  "it": "Piazzare una scommessa pre-partita sul mercato \"Vincente\" (inclusi i tempi supplementari) per le competizioni ammissibili con l'indicatore di pagamento anticipato.",
+                  "mk": "Поставете облог пред натпреварот на пазарот “Победник“ (вклучувајќи продолженија) за квалификувани натпревари со индикатор Рана исплата.",
+                  "no": "Plasser et forhåndsspill på markedet \"Vinner (inkludert overtid)\" for kvalifiserte konkurranser med \"Early Payout\"‑indikator.",
+                  "pl": "Postaw zakład przedmeczowy na rynku \"Zwycięzca\" (w tym dogrywka) w kwalifikujących się rozgrywkach oznaczonych symbolem Wczesna Wypłata.",
+                  "pt": "Faz uma aposta pré-jogo no mercado Vencedor (incluindo Prolongamento) em competições elegíveis com o indicador Pagamento Antecipado.",
+                  "ro": "1. Plasează un pariu pre-meci pe piața \"Câștigător\" (Inclusiv Prelungiri) pe competițiile eligibile cu indicatorul Plată Anticipată.",
+                  "ru": "Разместите предматчевую ставку на рынке \"Победитель\" (включая овертайм) для подходящих соревнований с индикатором досрочных выплат.",
+                  "sl": "Stavi pred tekmo na zmagovalca, vključno s podaljškom, pri upravičenih tekmah s simbolom predčasnega izplačila.",
+                  "sr": "Postavite opkladu pre utakmice na tržište „Pobednik“ (uključujući produžetke) za bilo koje takmičenje koje sadrži simbol Early Payout.",
+                  "tr": "Early Payout göstergesi bulunan uygun organizasyonlarda, “Kazanan” (Uzatmalar dahil) pazarında maç başlamadan önce bir bahis oyna.",
+                  "BR_pt": "Faça uma aposta pré-jogo no mercado Vencedor (Incluindo Prorrogação) em competições elegíveis com o indicador de Pagamento Antecipado.",
+                  "bn": "আর্লি পেআউট' ইন্ডিকেটরযুক্ত যোগ্য প্রতিযোগিতাগুলোর জন্য ম্যাচের আগে 'উইনার' (ওভারটাইম সহ) মার্কেটে একটি বাজি ধরুন।"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "sq": "Nëse skuadra jote kalon në avantazh me 2 gola në çdo moment të ndeshjes, ne do ta paguajmë bastin tënd menjëherë.",
+                  "az": "Komandan oyunun istənilən anında 20 xal fərqi ilə önə keçərsə, mərcin erkən ödəniləcək.",
+                  "bg": "Ако Вашият отбор поведе с 20 точки на който и да е етап от срещата, ние ще изплатим залога Ви преждевременно.",
+                  "cs": "Pokud váš tým kdykoliv během zápasu povede o 20 bodů, sázku vám vyplatíme předčasně.",
+                  "de": "Wenn Ihr Team zu irgendeinem Zeitpunkt mit 20 Punkten führt, zahlen wir Ihre Wette vorzeitig aus.",
+                  "el": "Εάν η ομάδα σου προηγείται με 20 πόντους σε οποιοδήποτε σημείο, θα πληρώσουμε το στοίχημά σου νωρίτερα.",
+                  "en": "If your team leads by 20 points at any stage, we will payout your bet early.",
+                  "es": "Si tu equipo se adelanta por 20 puntos en cualquier momento del partido, pagaremos tu apuesta de forma anticipada.",
+                  "et": "Kui su meeskond juhib üheski etapis 20 punktiga, maksame panuse varem välja.",
+                  "fi": "Jos joukkueesi johtaa missä tahansa vaiheessa 20 pisteellä, maksamme vetosi varhain.",
+                  "fr": "Si votre équipe mène de 20 points à n'importe quel moment, nous paierons votre pari de manière anticipée.",
+                  "hr": "Ako vaš tim u bilo kojoj fazi vodi 20 razlike, par je dobitni.",
+                  "hu": "Ha a csapatod bármikor 20-pontos előnyt szerez, korai kifizetéssel jutalmazunk.",
+                  "it": "Se la tua squadra è in vantaggio di 20 punti in qualsiasi momento, pagheremo la tua scommessa in anticipo.",
+                  "mk": "Ако вашиот тим води со 20 поени во кој било момент, ќе го исплатиме вашиот облог порано.",
+                  "no": "Hvis laget ditt leder med 20 poeng på et hvilket som helst tidspunkt, vil vi utbetale innsatsen din tidlig.",
+                  "pl": "Jeśli Twoja drużyna obejmie prowadzenie 20 punktami w trakcie meczu — zakład zostanie wypłacony natychmiast, niezależnie od końcowego wyniku!",
+                  "pt": "Se a tua equipa estiver a vencer por 20 pontos em qualquer momento do jogo, a tua aposta será paga antecipadamente.",
+                  "ro": "2. Dacă echipa ta conduce cu 20 de puncte în orice stadiu, îți vom plăti pariul în avans.",
+                  "ru": "Если ваша команда на любом этапе ведет с перевесом в 20 очков, мы досрочно выплатим вашу ставку.",
+                  "sl": "Če tvoja ekipa vodi za 20 točk v katerem koli trenutku, bomo tvojo stavo izplačali predčasno.",
+                  "sr": "Ako vaš tim u bilo kom trenutku vodi sa 20 poena razlike, mi ćemo vam opkladu isplatiti ranije.",
+                  "tr": "Takımın maçın herhangi bir anında 20 puan farkla öne geçerse, bahsin erken ödenir.",
+                  "BR_pt": "Se o seu time abrir vantagem de 20 pontos em qualquer momento da partida, pagaremos sua aposta antecipadamente.",
+                  "bn": "যদি আপনার দল যেকোনো পর্যায়ে 20 পয়েন্টে এগিয়ে থাকে, আমরা আপনার বাজির টাকা আগেভাগেই পরিশোধ করে দেব।"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "sq": "VENDOS BAST TANI",
+              "az": "İNDİ MƏRC ET",
+              "bg": "ЗАЛОЖЕТЕ СЕГА",
+              "cs": "VSADIT",
+              "de": "JETZT WETTEN",
+              "el": "ΠΑΙΧΝΙΔΙ",
+              "en": "BET NOW",
+              "es": "APUESTA AHORA",
+              "et": "PANUSTA KOHE",
+              "fi": "LYÖ VETOA NYT",
+              "fr": "PARIEZ MAINTENANT",
+              "hr": "KLADITE SE SADA",
+              "hu": "FOGADJ",
+              "it": "SCOMMETTI ORA",
+              "mk": "ОБЛОЖИ СЕ СЕГА",
+              "no": "SATS NÅ",
+              "pl": "POSTAW TERAZ",
+              "pt": "APOSTE AGORA",
+              "ro": "PARIAZĂ ACUM",
+              "ru": "СТАВЬТЕ СЕЙЧАС",
+              "sl": "STAVI ZDAJ",
+              "sr": "NA KLAĐENJE!",
+              "tr": "ŞİMDİ BAHİS YAP",
+              "BR_pt": "APOSTE AGORA",
+              "bn": "এখনই বাজি ধরুন"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/sports"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    }
+  }
+}

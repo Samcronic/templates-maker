@@ -1,0 +1,413 @@
+{
+  "id": "ep-baseball",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "sq": "Pagesë E Parakohshme Në Baseball",
+        "az": "Beysbolda Erkən Ödəniş",
+        "bg": "Ранно изплащане за бейзбол",
+        "cs": "Předčasná Výplata: Baseball",
+        "de": "Vorzeitige Auszahlung Baseball",
+        "el": "Πρώιμη Πληρωμή Μπέιζμπολ",
+        "en": "Early Payout Baseball",
+        "es": "Pago Anticipado Béisbol",
+        "et": "Pesapalli Varane Väljamakse",
+        "fi": "Varhainen Voitonmaksu",
+        "fr": "Paiement Anticipé Baseball",
+        "hr": "Prijevremena isplata – bejzbol",
+        "hu": "Korai Kifizetés: Baseball",
+        "it": "Pagamento Anticipato Baseball",
+        "mk": "Рана исплата за бејзбол",
+        "no": "Tidlig Utbetaling Baseball",
+        "pl": "Wczesna Wypłata Baseball",
+        "pt": "Pagamento Antecipado Beisebol",
+        "ro": "Plată Anticipată Baseball",
+        "ru": "Досрочная Выплата Бейсбол",
+        "sl": "Predčasno izplačilo - bejzbol",
+        "sr": "Early Payout: Bejzbol",
+        "tr": "Beyzbol Erken Ödeme",
+        "BR_pt": "Pagamento Antecipado",
+        "bn": "আর্লি পেআউট বেসবল"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "sq": "Fito bastin më herët nëse skuadra jote merr avantazh me 5 runs në çdo moment të ndeshjes!",
+        "az": "Komandan oyunun istənilən anında 5 run fərqi ilə önə keçərsə, mərci erkən qazan!",
+        "bg": "Спечелете залога си преждевременно, ако вашият отбор поведе с 5 ръна във всеки един момент от мача!",
+        "cs": "Vyhrajte sázku předčasně, pokud váš tým kdykoliv během zápasu získá náskok 5 doběhů!",
+        "de": "Gewinnen Sie Ihre Wette vorzeitig, wenn Ihre Mannschaft zu irgendeinem Zeitpunkt im Spiel einen Vorsprung von 5 Punkten erzielt!",
+        "el": "Αν η ομάδα σου προηγηθεί με 5 Runs σε οποιοδήποτε σημείο του αγώνα, κέρδισες!",
+        "en": "Win your bet early if your team takes a 5-run lead at any point in the match!",
+        "es": "¡Gana tu apuesta anticipadamente si tu equipo se adelanta por 5 carreras en cualquier momento del partido!",
+        "et": "Võida panus varakult, kui tiim läheb mis tahes matšietapis 5 vooruga juhtima!",
+        "fi": "Voita vetosi varhain, jos joukkueesi johtaa 5 juoksulla missä tahansa ottelun vaiheessa!",
+        "fr": "Remportez votre pari si votre équipe prend une avance de 5 runs à n'importe quel moment du match !",
+        "hr": "Zaokružite par ranije ako vaša momčad povede 5 razlike u bilo kojoj fazi utakmice!",
+        "hu": "Nyerj korán, ha a csapatod 5 befutásos vezetést szerez a mérkőzés bármely pontján!",
+        "it": "Vinci la tua scommessa se la tua squadra è in vantaggio di 5 punti in qualsiasi momento della partita!",
+        "mk": "Освој рано ако твојот тим води со 5 поени во кој било момент од натпреварот!",
+        "no": "Vinn innsatsen din tidlig hvis laget ditt går fem runs foran på noe tidspunkt i kampen!",
+        "pl": "Wygraj wcześniej, jeśli Twoja drużyna obejmie prowadzenie 5 runami w dowolnym momencie meczu!",
+        "pt": "Ganha a tua aposta antecipadamente se a tua equipa estiver a vencer por 5 corridas em qualquer momento do jogo!",
+        "ro": "Câștigă pariul mai devreme dacă echipa ta are un avantaj de 5 puncte în orice moment al meciului!",
+        "ru": "Выиграйте свою ставку раньше срока, если ваша команда в любой момент матча выйдет вперед с преимуществом в 5 очков!",
+        "sl": "Stava se izplača predčasno, če tvoja ekipa v katerem koli trenutku tekme vodi za 5 točk!",
+        "sr": "Osvojite vašu opkladu čim vaš tim povede sa 5 run-ova u bilo kom trenutku meča!",
+        "tr": "Takımın 5 sayı farkla önde mi? Maçın final skoru ne olursa olsun otomatik olarak kazanırsın!",
+        "BR_pt": "Ganhe sua aposta antecipadamente se o seu time abrir vantagem de 5 corridas em qualquer momento da partida!",
+        "bn": "আপনার দল ম্যাচে যেকোনো সময় 5 রান এগিয়ে গেলে — আপনার বেট আগেই জিতে যাবে!"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "ep-baseball.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "sports"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Sports",
+              "de": "Sport",
+              "fi": "Urheilu",
+              "no": "Sport",
+              "pt": "Esportes",
+              "es": "Deportes",
+              "it": "Sport",
+              "fr": "Sports",
+              "pl": "Sport",
+              "az": "İdman",
+              "ru": "Спорт",
+              "tr": "Spor",
+              "et": "Sport",
+              "hu": "Sport",
+              "cs": "Sport",
+              "sr": "Sportovi",
+              "el": "Στοίχημα",
+              "mk": "Спорт",
+              "sq": "Sporte",
+              "sl": "Športi",
+              "hr": "Sport",
+              "bg": "Спорт",
+              "ro": "Sporturi",
+              "bn": "স্পোর্টস"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./ep-baseball.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "sq": "A është skuadra jote 5 runs përpara? Ti fiton automatikisht, pavarësisht rezultatit përfundimtar!",
+              "az": "Komandan 5 run öndədirmi? Yekun hesabdan asılı olmayaraq avtomatik olaraq qazanırsan!",
+              "bg": "Вашият отбор води ли с 5 ръна? Печелите автоматично, независимо от крайния резултат!",
+              "cs": "Má váš tým náskok 5 doběhů? Sázka je automaticky výherní, ať už zápas dopadne jakkoliv.",
+              "de": "Hat Ihr Team 5 Runs Vorsprung? Egal wie das Spiel ausgeht, haben Sie schon gewonnen!",
+              "el": "Η ομάδα σου προηγείται με 5 πόντους; Κερδίζεις ανεξάρτητα από το τελικό σκορ!",
+              "en": "Is your team 5 runs ahead? You automatically win regardless of the final score!",
+              "es": "¿Tu equipo va ganando por 5 carreras?",
+              "et": "Kas meeskond juhib 5 vooruga? Siis võidad automaatselt, hoolimata lõpuskoorist!",
+              "fi": "Onko joukkueesi 5 juoksua johdossa? Voitat automaattisesti lopullisesta pistetuloksesta riippumatta!",
+              "fr": "Votre équipe a 5 points d'avance ? Vous gagnez automatiquement quel que soit le score final !",
+              "hr": "Vodi li vaš tim 5 razlike? Par je automatski dobitni bez obzira na konačni rezultat!",
+              "hu": "A csapatod már 5 befutással vezet? A nyereményed automatikusan jóváíródik, a végeredménytől függetlenül!",
+              "it": "La tua squadra è in vantaggio di 5 punti? Vinci automaticamente, indipendentemente dal punteggio finale!",
+              "mk": "Дали твојот тим води со 5 поени? Автоматски победуваш, без разлика на конечниот резултат!",
+              "no": "Er laget ditt 5 runs foran? Du vinner automatisk, uansett hva sluttresultatet blir!",
+              "pl": "Czy Twoja drużyna prowadzi 5 runami? Wygrywasz automatycznie — niezależnie od końcowego wyniku!",
+              "pt": "A tua equipa está a ganhar por 5 corridas?",
+              "ro": "Echipa ta conduce cu 5 puncte? Câștigi automat, indiferent de scorul final!",
+              "ru": "Ваша команда ведет с разницей в 5 очков? Вы автоматически выигрываете, независимо от окончательного счета!",
+              "sl": "Ali tvoja ekipa vodi za 5 točk? Stava se avtomatično izplača, ne glede na končni rezultat!",
+              "sr": "Vaš tim vodi sa 5 run-ova? Automatski dobijate, bez obzira na konačan rezultat!",
+              "tr": "Takımın 5 sayı farkla önde mi? Maçın final skoru ne olursa olsun otomatik olarak kazanırsın!",
+              "BR_pt": "Seu time está vencendo por 5 corridas? Você ganha automaticamente, independentemente do resultado final!",
+              "bn": "আপনার দল 5 রান এগিয়ে আছে? ফাইনাল স্কোর যাই হোক না কেন — আপনি স্বয়ংক্রিয়ভাবে জিতবেন!"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "sq": "Si funksionon:",
+              "az": "Necə işləyir:",
+              "bg": "Как работи:",
+              "cs": "Jak to funguje:",
+              "de": "So funktioniert es:",
+              "el": "Πώς λειτουργεί:",
+              "en": "How it works:",
+              "es": "¡Ganas automáticamente, sin importar el resultado final!",
+              "et": "Kuidas see toimib:",
+              "fi": "Toimi näin:",
+              "fr": "Comment ça marche:",
+              "hr": "Kako to funkcionira:",
+              "hu": "Hogyan működik:",
+              "it": "Come funziona:",
+              "mk": "Како функционира:",
+              "no": "Hvordan det fungerer:",
+              "pl": "Jak to działa?",
+              "pt": "Ganhas automaticamente, independentemente do resultado final!",
+              "ro": "Cum funcționează:",
+              "ru": "Как это работает:",
+              "sl": "Kako deluje:",
+              "sr": "Kako funkcioniše:",
+              "tr": "Nasıl çalışır:",
+              "BR_pt": "Como funciona:",
+              "bn": "কিভাবে কাজ করেঃ"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "sq": "Vendos një bast para fillimit të ndeshjes (pre-match) në tregun “Fituesi (përfshirë ekstra innings)” për kompeticionet e pranueshme që kanë indikatorin Early Payout.",
+                  "az": "Early Payout göstəricisi olan uyğun yarışlarda “Qalib” (əlavə inninqlər daxil olmaqla) bazarında oyun başlamazdan əvvəl mərc et.",
+                  "bg": "Направете предварителен залог на пазара „победител (вкл. допълнителни ининги)“ за класиращи се състезания с индикатор за ранно изплащане.",
+                  "cs": "Uzavřete předzápasovou sázku na vítěze zápasu včetně prodloužení u vybraných soutěží označených indikátorem předčasné výplaty.",
+                  "de": "Platzieren Sie vor dem Spiel eine Siegwette (Money Line) für teilnahmeberechtigte Wettbewerbe mit dem Indikator \"Vorzeitige Auszahlung\".",
+                  "el": "Τοποθετείς ένα στοίχημα πριν τον αγώνα στην αγορά \"Νικητής\" (συμπεριλαμβανομένων των επιπλέον innings) για τις επιλέξιμες διοργανώσεις με την ένδειξη \"Πρώιμη πληρωμή\".",
+                  "en": "Place a pre-match bet on the \"Winner (include extra innings) market for eligible competitions with the Early Payout indicator.",
+                  "es": "Realiza una apuesta pre-partido en el mercado Ganador (Incluye Entradas Extras) en competiciones elegibles con el indicador de Pago Anticipado.",
+                  "et": "Tee matšieelne panus \"Winner“ ehk võitjaturul (sh lisainningud) kvalifitseeruvatele võistlustele, millel on varase väljamakse tunnus.",
+                  "fi": "Aseta pre-match-veto Voittaja-markkinaan (sisällyttäen lisävuoroparit) kelvollisiin otteluihin, joissa on varhaisen maksun indikaattori.",
+                  "fr": "Placez un pari d'avant-match sur le marché \"To win\" (Money line) pour les compétitions éligibles avec l'indicateur Early Payout.",
+                  "hr": "Prije početka susreta odigrajte okladu na pobjednika (uključujući produžetke) za natjecanja s oznakom prijevremene isplate.",
+                  "hu": "Tegyél meg egy mérkőzés előtti fogadást a \"Győztes\" (beleértve a kiegészítő játékrészeket) piacon a promócióban résztvevő bajnokságok Korai Kifizetés szimbólummal ellátott mérkőzésein.",
+                  "it": "Piazzare una scommessa pre-partita sul mercato  \"To win\" (Money line) per le competizioni idonee con l'indicatore Early Payout.",
+                  "mk": "Поставете облог пред натпреварот на пазарот “Победник (вклучувајќи дополнителни ининзи)“ за квалификувани натпреварувања со индикатор Рана исплата.",
+                  "no": "Plasser et pre-match spill på \"Vinner (inkluderer ekstraomganger)-markedet\" for kvalifiserte konkurranser som er merket med \"Tidlig utbetaling\".",
+                  "pl": "Postaw zakład przedmeczowy na rynku \"Zwycięzca\" (w tym dogrywki) w kwalifikujących się rozgrywkach oznaczonych symbolem Wczesna Wypłata.",
+                  "pt": "Faz uma aposta pré-jogo no mercado Vencedor (incluindo entradas extra) em competições elegíveis com o indicador de Pagamento Antecipado.",
+                  "ro": "1. Plasează un pariu pre-meci pe piața „Câștigător” (inclusiv reprize suplimentare) pe competițiile eligibile, cu indicatorul Plată anticipată.",
+                  "ru": "Сделайте ставку до начала матча на рынке «Победитель (включая дополнительные иннинги)» для соответствующих соревнований с индикатором «Ранний выплата».",
+                  "sl": "Stavi pred tekmo na zmagovalca (vključno z dodatnimi igrami) pri upravičenih tekmah s simbolom predčasnega izplačila.",
+                  "sr": "Postavite opkladu pre utakmice na tržište „Pobednik“ (uključujući dodatne ininge) za bilo koje takmičenje koje sadrži simbol Early Payout.",
+                  "tr": "Early Payout göstergesi bulunan uygun organizasyonlarda, “Kazanan (ekstra inningler dahil)” pazarında maç başlamadan önce bir bahis oyna.",
+                  "BR_pt": "Faça uma aposta pré-jogo no mercado Vencedor (Incluindo Entradas Extras) em competições elegíveis com o indicador de Pagamento Antecipado.",
+                  "bn": "যোগ্য প্রতিযোগিতার জন্য “উইনার (এক্সট্রা ইনিংসসহ)” মার্কেটে ম্যাচ শুরুর আগে আর্লি পেআউট সূচকযুক্ত প্রি‑ম্যাচ বেট প্লেস করুন।"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "sq": "Nëse skuadra jote kalon në avantazh me 5 runs në çdo moment të ndeshjes, ne do ta paguajmë bastin tënd më herët.",
+                  "az": "Komandan oyunun istənilən anında 5 run fərqi ilə önə keçərsə, mərcin erkən ödəniləcək.",
+                  "bg": "Ако вашият отбор поведе с 5 ръна на който и да е етап, ние ще изплатим залога Ви преждевременно.",
+                  "cs": "Pokud váš tým kdykoliv během zápasu povede o 5 bodů, sázku vám vyplatíme předčasně.",
+                  "de": "Wenn Ihre Mannschaft zu irgendeinem Zeitpunkt mit 5 Runs in Führung liegt, zahlen wir Ihre Wette vorzeitig aus.",
+                  "el": "Εάν η ομάδα σου προηγείται με 5 πόντους σε οποιοδήποτε σημείο του αγώνα, θα πληρώσουμε το στοίχημά σου νωρίτερα.",
+                  "en": "If your team leads by 5 runs at any stage, we will payout your bet early.",
+                  "es": "Si tu equipo se adelanta por 5 carreras en cualquier momento del partido, pagaremos tu apuesta de forma anticipada.",
+                  "et": "Kui su meeskond juhib üheski etapis 5 vooruga, maksame panuse varem välja.",
+                  "fi": "Jos joukkueesi johtaa missä tahansa vaiheessa 5 juoksulla, maksamme vetosi varhain.",
+                  "fr": "Si votre équipe mène de 5 runs à n'importe quel moment, nous paierons votre pari plus tôt que prévu.",
+                  "hr": "Ako vaš tim u bilo kojoj fazi povede 5 razlike, par je dobitni.",
+                  "hu": "Ha a csapatod bármikor 5 befutásos előnyt szerez, korai kifizetéssel jutalmazunk.",
+                  "it": "Se la tua squadra è in vantaggio di 5 punti in qualsiasi momento, pagheremo la tua scommessa in anticipo.",
+                  "mk": "Ако вашиот тим води со 5 поени во кој било момент, ќе го исплатиме вашиот облог порано.",
+                  "no": "Hvis laget ditt på noe tidspunkt er 5 runs foran, betaler vi ut innsatsen din tidlig.",
+                  "pl": "Jeśli Twoja drużyna osiągnie przewagę 5 runów w dowolnym momencie meczu, zakład zostanie wypłacony natychmiast!",
+                  "pt": "Se a tua equipa assumir uma vantagem de 5 corridas a qualquer momento do jogo, a tua aposta será paga antecipadamente.",
+                  "ro": "2. Dacă echipa ta conduce cu 5 puncte în orice stadiu, îți vom plăti pariul în avans.",
+                  "ru": "Если ваша команда лидирует с разницей в 5 очков на любом этапе, мы выплатим вашу ставку досрочно.",
+                  "sl": "Če tvoja ekipa v katerem koli trenutku tekme vodi za 5 točk, bo stava izplačana predčasno.",
+                  "sr": "Ako vaš tim povede sa 5 run-ova razlike u bilo kojoj fazi, isplatićemo vašu opkladu ranije.",
+                  "tr": "Takımın maçın herhangi bir anında 5 sayı farkla öne geçerse, bahsin erken ödenir.",
+                  "BR_pt": "Se o seu time abrir vantagem de 5 corridas em qualquer momento da partida, pagaremos sua aposta antecipadamente.",
+                  "bn": "আপনার দল ম্যাচে যেকোনো পর্যায়ে 5 রান এগিয়ে গেলে, আমরা আপনার বেট আগেই পেআউট করব।"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "sq": "VENDOS BAST TANI",
+              "az": "İNDİ MƏRC ET",
+              "bg": "ЗАЛОЖЕТЕ СЕГА",
+              "cs": "VSADIT",
+              "de": "JETZT WETTEN",
+              "el": "ΠΟΝΤΑΡΕ",
+              "en": "BET NOW",
+              "es": "APUESTA AHORA",
+              "et": "PANUSTA KOHE",
+              "fi": "LYO VETOA NYT",
+              "fr": "PARIEZ MAINTENANT",
+              "hr": "KLADITE SE SADA",
+              "hu": "FOGADJ",
+              "it": "SCOMMETTI ORA",
+              "mk": "ОБЛОЖИ СЕ СЕГА",
+              "no": "SATS NÅ",
+              "pl": "POSTAW TERAZ",
+              "pt": "APOSTE AGORA",
+              "ro": "PARIAZĂ ACUM",
+              "ru": "СТАВЬТЕ СЕЙЧАС",
+              "sl": "STAVI ZDAJ",
+              "sr": "NA KLAĐENJE!",
+              "tr": "ŞİMDİ BAHİS YAP",
+              "BR_pt": "APOSTE AGORA",
+              "bn": "এখনই বাজি দরুন"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/sports"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    }
+  }
+}
