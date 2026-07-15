@@ -1,0 +1,5 @@
+{
+  "id" : "reset_password_instructions",
+  "template" : "template.html",
+  "type" : "notification_template"
+}

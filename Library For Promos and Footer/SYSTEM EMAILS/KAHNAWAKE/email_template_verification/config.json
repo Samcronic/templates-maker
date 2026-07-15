@@ -1,0 +1,21 @@
+{
+  "id" : "verification",
+  "template" : "verification_email.html",
+  "subject" : {
+    "en" : "Welcome to RCasino!",
+    "de" : "Willkommen bei RCasino!",
+    "fi" : "Tervetuloa RCasino!",
+    "no" : "Velkommen til RCasino!",
+    "pt" : "Bem-vindo ao RCasino!",
+    "es" : "¡Bienvenido a RCasino!",
+    "it" : "Benvenuto su RCasino!",
+    "fr" : "Bienvenue sur RCasino!",
+    "pl" : "Witamy w RCasino!",
+    "cz" : "Vítejte v RCasino!",
+    "hu" : "Üdvözöljük a RCasino-nél!",
+    "az" : "RCasino-ə xoş gəlmisiniz!",
+    "ru" : "Добро пожаловать в RCasino!",
+    "tr" : "RCasino'e hoş geldiniz!"
+  },
+  "type" : "email_template"
+}

@@ -1,0 +1,5 @@
+{
+  "id" : "email_otp",
+  "template" : "template.html",
+  "type" : "notification_template"
+}

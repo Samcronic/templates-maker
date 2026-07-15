@@ -1,0 +1,5 @@
+{
+  "id" : "verification",
+  "template" : "template.html",
+  "type" : "notification_template"
+}

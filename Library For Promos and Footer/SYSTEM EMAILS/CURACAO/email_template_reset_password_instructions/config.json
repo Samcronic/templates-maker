@@ -1,0 +1,21 @@
+{
+  "id" : "reset_password_instructions",
+  "template" : "reset_password_instructions.html",
+  "subject" : {
+    "en" : "Password reset",
+    "de" : "Passwort zurücksetzen",
+    "fi" : "Salasanan nollaus",
+    "no" : "Tilbakestill passord",
+    "pt" : "Redefinição de senha",
+    "es" : "Restablecimiento de contraseña",
+    "it" : "Reimpostazione della password",
+    "fr" : "Réinitialisation du mot de passe",
+    "pl" : "Reset hasła",
+    "cz" : "Obnovení hesla",
+    "hu" : "Jelszó visszaállítása",
+    "az" : "Parolu sıfırlama",
+    "ru" : "Сбросьте пароль",
+    "tr" : "Şifrenizi sıfırlayın"
+  },
+  "type" : "email_template"
+}
