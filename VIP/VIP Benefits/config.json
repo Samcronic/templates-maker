@@ -25,7 +25,7 @@
           "type" : "map",
           "icon" : {
             "type" : "image",
-            "name" : "withdrawals.svg"
+            "name" : "withdrawals.webp"
           },
           "title" : {
             "type" : "text",
@@ -67,7 +67,7 @@
           "type" : "map",
           "icon" : {
             "type" : "image",
-            "name" : "manager.svg"
+            "name" : "manager.webp"
           },
           "title" : {
             "type" : "text",
@@ -109,7 +109,7 @@
           "type" : "map",
           "icon" : {
             "type" : "image",
-            "name" : "exclusive.svg"
+            "name" : "exclusive.webp"
           },
           "title" : {
             "type" : "text",
