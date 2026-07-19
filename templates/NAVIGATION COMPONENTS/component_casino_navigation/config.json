@@ -1,0 +1,141 @@
+{
+  "id" : "casino_navigation",
+  "component" : {
+    "type" : "list",
+    "value" : [
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "brand"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "endorphina"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "platform_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "slot_games"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "top-games"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "new-games"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "vip-specials"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "bonus-buy"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "crash-games"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "jackpot-games"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "drops-and-wins"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "books-games"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "platform_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "lucky_games"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "platform_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "virtual_games"
+        }
+      }
+    ]
+  },
+  "type" : "component"
+}

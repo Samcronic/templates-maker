@@ -1,0 +1,75 @@
+{
+  "id" : "live_casino_navigation",
+  "component" : {
+    "type" : "list",
+    "value" : [
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "platform_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "live_casino"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "live-roulette"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "live-blackjack"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "baccarat"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "card-games"
+        }
+      },
+      {
+        "type" : "map",
+        "component" : {
+          "type" : "text",
+          "value" : "custom_category"
+        },
+        "id" : {
+          "type" : "text",
+          "value" : "game-shows"
+        }
+      }
+    ]
+  },
+  "type" : "component"
+}
