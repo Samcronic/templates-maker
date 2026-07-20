@@ -23,32 +23,39 @@
       "type": "list",
       "value": [
         {
-          "type": "text",
-          "value": {
-            "en": "Casino",
-            "de": "Casino",
-            "fi": "Kasino",
-            "no": "Kasino",
-            "pt": "Casino",
-            "es": "Casino",
-            "it": "Casinò",
-            "fr": "Casino",
-            "pl": "Kasyno",
-            "az": "Kazino",
-            "ru": "Казино",
-            "tr": "Casino",
-            "et": "Kasiino",
-            "hu": "Kaszinó",
-            "cs": "Kasino",
-            "sr": "Kazino",
-            "el": "Καζίνο",
-            "mk": "Казино",
-            "sq": "Kazino",
-            "sl": "Kazino",
-            "hr": "Kasino",
-            "bg": "Казино",
-            "ro": "Cazino",
-            "bn": "ক্যাসিনো"
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "casino"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Casino",
+              "de": "Casino",
+              "fi": "Kasino",
+              "no": "Kasino",
+              "pt": "Casino",
+              "es": "Casino",
+              "it": "Casinò",
+              "fr": "Casino",
+              "pl": "Kasyno",
+              "az": "Kazino",
+              "ru": "Казино",
+              "tr": "Casino",
+              "et": "Kasiino",
+              "hu": "Kaszinó",
+              "cs": "Kasino",
+              "sr": "Kazino",
+              "el": "Καζίνο",
+              "mk": "Казино",
+              "sq": "Kazino",
+              "sl": "Kazino",
+              "hr": "Kasino",
+              "bg": "Казино",
+              "ro": "Cazino",
+              "bn": "ক্যাসিনো"
+            }
           }
         }
       ]
