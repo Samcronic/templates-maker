@@ -536,19 +536,7 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "tunisia-vs-netherlands-for-round-3"
-          },
-          {
-            "type" : "text",
             "value" : "welcome-casino-bonus-netherlands-stage-1"
-          },
-          {
-            "type" : "text",
-            "value" : "welcome-sports-bonus-netherlands-sweden-belgium"
-          },
-          {
-            "type" : "text",
-            "value" : "welcome-sports-freebet-nl-se-de-be-at"
           },
           {
             "type" : "text",
@@ -557,6 +545,14 @@
           {
             "type" : "text",
             "value" : "welcome-casino-bonus-netherlands-stage-3"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-bonus-netherlands-sweden-belgium"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-sports-freebet-nl-se-de-be-at"
           },
           {
             "type" : "text",
