@@ -440,6 +440,10 @@
           },
           {
             "type" : "text",
+            "value" : "weekly-cashback-fi-nl-se"
+          },
+          {
+            "type" : "text",
             "value" : "monday-reload-bonus"
           },
           {
@@ -465,10 +469,6 @@
           {
             "type" : "text",
             "value" : "sunday-spinning-treat"
-          },
-          {
-            "type" : "text",
-            "value" : "weekly-cashback-fi-nl-se"
           },
           {
             "type" : "text",
@@ -576,6 +576,10 @@
           },
           {
             "type" : "text",
+            "value" : "weekly-cashback-fi-nl-se"
+          },
+          {
+            "type" : "text",
             "value" : "monday-reload-bonus"
           },
           {
@@ -601,10 +605,6 @@
           {
             "type" : "text",
             "value" : "sunday-spinning-treat"
-          },
-          {
-            "type" : "text",
-            "value" : "weekly-cashback-fi-nl-se"
           },
           {
             "type" : "text",
@@ -704,6 +704,10 @@
           },
           {
             "type" : "text",
+            "value" : "daily-cashback-gb"
+          },
+          {
+            "type" : "text",
             "value" : "monday-reload-bonus"
           },
           {
@@ -736,7 +740,7 @@
           },
           {
             "type" : "text",
-            "value" : "daily-cashback-gb"
+            "value" : "weekend-sports-freebet"
           },
           {
             "type" : "text",
@@ -756,10 +760,6 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "it-s-japan-vs-sweden"
-          },
-          {
-            "type" : "text",
             "value" : "welcome-casino-bonus-sweden"
           },
           {
@@ -777,6 +777,10 @@
           {
             "type" : "text",
             "value" : "welcome-crypto-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "weekly-cashback-fi-nl-se"
           },
           {
             "type" : "text",
@@ -805,10 +809,6 @@
           {
             "type" : "text",
             "value" : "sunday-spinning-treat"
-          },
-          {
-            "type" : "text",
-            "value" : "weekly-cashback-fi-nl-se"
           },
           {
             "type" : "text",
