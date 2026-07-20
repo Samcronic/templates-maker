@@ -46,6 +46,7 @@
       "promotions" : {
         "type" : "list",
         "value" : [
+
           {
             "type" : "text",
             "value" : "welcome-casino-bonus"
@@ -58,6 +59,7 @@
             "type" : "text",
             "value" : "welcome-sports-freebet"
           },
+
           {
             "type" : "text",
             "value" : "monday-reload-bonus"
@@ -98,22 +100,12 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-          {
-            "type" : "text",
-            "value" : "midweek-3-1"
-          },
+
           {
             "type" : "text",
             "value" : "margin"
           },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
-          },
+
           {
             "type" : "text",
             "value" : "ep-football"
@@ -170,6 +162,7 @@
             "type" : "text",
             "value" : "germany-vs-ecuador-every-goal-counts"
           },
+
           {
             "type" : "text",
             "value" : "welcome-casino-bonus-germany"
@@ -182,6 +175,7 @@
             "type" : "text",
             "value" : "welcome-sports-freebet-nl-se-de-be-at"
           },
+
           {
             "type" : "text",
             "value" : "monday-reload-bonus"
@@ -222,22 +216,12 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-          {
-            "type" : "text",
-            "value" : "midweek-3-1"
-          },
+
           {
             "type" : "text",
             "value" : "margin"
           },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
-          },
+
           {
             "type" : "text",
             "value" : "ep-football"
@@ -290,6 +274,7 @@
       "promotions" : {
         "type" : "list",
         "value" : [
+
           {
             "type" : "text",
             "value" : "welcome-casino-bonus-austria"
@@ -302,6 +287,7 @@
             "type" : "text",
             "value" : "welcome-sports-freebet-nl-se-de-be-at"
           },
+
           {
             "type" : "text",
             "value" : "monday-reload-bonus"
@@ -342,22 +328,12 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-          {
-            "type" : "text",
-            "value" : "midweek-3-1"
-          },
+
           {
             "type" : "text",
             "value" : "margin"
           },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
-          },
+
           {
             "type" : "text",
             "value" : "ep-football"
@@ -410,6 +386,7 @@
       "promotions" : {
         "type" : "list",
         "value" : [
+
           {
             "type" : "text",
             "value" : "welcome-casino-bonus-finland"
@@ -421,6 +398,11 @@
           {
             "type" : "text",
             "value" : "welcome-sports-freebet"
+          },
+
+          {
+            "type" : "text",
+            "value" : "weekly-cashback-fi-nl-se"
           },
           {
             "type" : "text",
@@ -452,10 +434,6 @@
           },
           {
             "type" : "text",
-            "value" : "weekly-cashback-fi-nl-se"
-          },
-          {
-            "type" : "text",
             "value" : "weekend-sports-reload-finland"
           },
           {
@@ -466,22 +444,12 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-          {
-            "type" : "text",
-            "value" : "midweek-3-1"
-          },
+
           {
             "type" : "text",
             "value" : "margin"
           },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
-          },
+
           {
             "type" : "text",
             "value" : "ep-football"
@@ -536,6 +504,11 @@
         "value" : [
           {
             "type" : "text",
+            "value" : "tunisia-vs-netherlands-for-round-3"
+          },
+
+          {
+            "type" : "text",
             "value" : "welcome-casino-bonus-netherlands-stage-1"
           },
           {
@@ -553,6 +526,10 @@
           {
             "type" : "text",
             "value" : "welcome-sports-freebet-nl-se-de-be-at"
+          },
+          {
+            "type" : "text",
+            "value" : "weekly-cashback-fi-nl-se"
           },
           {
             "type" : "text",
@@ -584,10 +561,6 @@
           },
           {
             "type" : "text",
-            "value" : "weekly-cashback-fi-nl-se"
-          },
-          {
-            "type" : "text",
             "value" : "weekend-sports-reload-netherlands"
           },
           {
@@ -600,19 +573,7 @@
           },
           {
             "type" : "text",
-            "value" : "midweek-3-1"
-          },
-          {
-            "type" : "text",
             "value" : "margin"
-          },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
           },
           {
             "type" : "text",
@@ -666,6 +627,7 @@
       "promotions" : {
         "type" : "list",
         "value" : [
+
           {
             "type" : "text",
             "value" : "welcome-casino-bonus-uk"
@@ -673,6 +635,10 @@
           {
             "type" : "text",
             "value" : "welcome-sports-freebet-uk"
+          },
+          {
+            "type" : "text",
+            "value" : "daily-cashback-gb"
           },
           {
             "type" : "text",
@@ -704,7 +670,7 @@
           },
           {
             "type" : "text",
-            "value" : "daily-cashback-gb"
+            "value" : "weekend-sports-freebet"
           },
           {
             "type" : "text",
@@ -722,10 +688,6 @@
       "promotions" : {
         "type" : "list",
         "value" : [
-          {
-            "type" : "text",
-            "value" : "it-s-japan-vs-sweden"
-          },
           {
             "type" : "text",
             "value" : "welcome-casino-bonus-sweden"
@@ -748,6 +710,10 @@
           },
           {
             "type" : "text",
+            "value" : "weekly-cashback-fi-nl-se"
+          },
+          {
+            "type" : "text",
             "value" : "monday-reload-bonus"
           },
           {
@@ -776,10 +742,6 @@
           },
           {
             "type" : "text",
-            "value" : "weekly-cashback-fi-nl-se"
-          },
-          {
-            "type" : "text",
             "value" : "weekend-sports-reload-sweden"
           },
           {
@@ -792,19 +754,7 @@
           },
           {
             "type" : "text",
-            "value" : "midweek-3-1"
-          },
-          {
-            "type" : "text",
             "value" : "margin"
-          },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
           },
           {
             "type" : "text",
@@ -858,6 +808,7 @@
       "promotions" : {
         "type" : "list",
         "value" : [
+
           {
             "type" : "text",
             "value" : "welcome-casino-bonus"
@@ -870,6 +821,7 @@
             "type" : "text",
             "value" : "welcome-sports-freebet-nl-se-de-be-at"
           },
+
           {
             "type" : "text",
             "value" : "monday-reload-bonus"
@@ -910,22 +862,12 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-          {
-            "type" : "text",
-            "value" : "midweek-3-1"
-          },
+
           {
             "type" : "text",
             "value" : "margin"
           },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
-          },
+
           {
             "type" : "text",
             "value" : "ep-football"
