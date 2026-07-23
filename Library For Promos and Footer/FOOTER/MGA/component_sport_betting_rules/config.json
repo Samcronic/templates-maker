@@ -1,46 +1,79 @@
 {
-  "id" : "sport_betting_rules",
-  "component" : {
-    "type" : "selector",
-    "*" : {
-      "type" : "reference",
-      "name" : "altenar"
+  "id": "sport_betting_rules",
+  "component": {
+    "type": "selector",
+    "*": {
+      "type": "reference",
+      "name": "altenar"
     }
   },
-  "references" : {
-    "altenar" : {
-      "type" : "map",
-      "template" : {
-        "type" : "template",
-        "name" : "sport_betting_rules.html"
+  "references": {
+    "altenar": {
+      "type": "map",
+      "template": {
+        "type": "template",
+        "name": "sport_betting_rules.html"
       },
-      "title" : {
-        "type" : "text",
-        "value" : {
-          "en" : "SPORT BETTING RULES",
-          "az" : "İDMAN MƏRC QAYDALARI",
-          "cz" : "PRAVIDLA SPORTOVNÍHO SÁZENÍ",
-          "de" : "SPORTWETTEN-REGELN",
-          "el" : "ΚΑΝΟΝΕΣ ΑΘΛΗΤΙΚΟΥ ΣΤΟΙΧΗΜΑΤΟΣ",
-          "es" : "REGLAS DE APUESTAS DEPORTIVAS",
-          "et" : "SPORDIENNUSTUSE REEGLID",
-          "fi" : "URHEILUVEDONLYÖNNIN SÄÄNNÖT",
-          "fr" : "RÈGLES DES PARIS SPORTIFS",
-          "gr" : "ΚΑΝΟΝΕΣ ΑΘΛΗΤΙΚΟΥ ΣΤΟΙΧΗΜΑΤΟΣ",
-          "hr" : "PRAVILA SPORTSKOG KLAĐENJA",
-          "hu" : "SPORTFOGADÁSI SZABÁLYOK",
-          "it" : "REGOLE DELLE SCOMMESSE SPORTIVE",
-          "no" : "REGLER FOR SPORTSSPILL",
-          "pl" : "ZASADY ZAKŁADÓW SPORTOWYCH",
-          "pt" : "REGRAS DE APOSTAS DESPORTIVAS",
-          "ru" : "ПРАВИЛА СТАВОК НА СПОРТ",
-          "sl" : "PRAVILA ŠPORTNIH STAV",
-          "sq" : "RREGULLAT E BASTEVE SPORTIVE",
-          "sr" : "PRAVILA SPORTSKOG KLAĐENJA",
-          "tr" : "SPOR BAHİS KURALLARI"
+      "title": {
+        "type": "text",
+        "value": {
+          "en": "SPORT BETTING RULES",
+          "az": "İDMAN MƏRC QAYDALARI",
+          "cz": "PRAVIDLA SPORTOVNÍHO SÁZENÍ",
+          "de": "SPORTWETTEN-REGELN",
+          "el": "ΚΑΝΟΝΕΣ ΑΘΛΗΤΙΚΟΥ ΣΤΟΙΧΗΜΑΤΟΣ",
+          "es": "REGLAS DE APUESTAS DEPORTIVAS",
+          "et": "SPORDIENNUSTUSE REEGLID",
+          "fi": "URHEILUVEDONLYÖNNIN SÄÄNNÖT",
+          "fr": "RÈGLES DES PARIS SPORTIFS",
+          "gr": "ΚΑΝΟΝΕΣ ΑΘΛΗΤΙΚΟΥ ΣΤΟΙΧΗΜΑΤΟΣ",
+          "hr": "PRAVILA SPORTSKOG KLAĐENJA",
+          "hu": "SPORTFOGADÁSI SZABÁLYOK",
+          "it": "REGOLE DELLE SCOMMESSE SPORTIVE",
+          "no": "REGLER FOR SPORTSSPILL",
+          "pl": "ZASADY ZAKŁADÓW SPORTOWYCH",
+          "pt": "REGRAS DE APOSTAS DESPORTIVAS",
+          "ru": "ПРАВИЛА СТАВОК НА СПОРТ",
+          "sl": "PRAVILA ŠPORTNIH STAV",
+          "sq": "RREGULLAT E BASTEVE SPORTIVE",
+          "sr": "PRAVILA SPORTSKOG KLAĐENJA",
+          "tr": "SPOR BAHİS KURALLARI"
+        }
+      }
+    },
+    "betby": {
+      "type": "map",
+      "template": {
+        "type": "template",
+        "name": "betby_sport_betting_rules.html"
+      },
+      "title": {
+        "type": "text",
+        "value": {
+          "en": "SPORT BETTING RULES",
+          "az": "İDMAN MƏRC QAYDALARI",
+          "cz": "PRAVIDLA SPORTOVNÍHO SÁZENÍ",
+          "de": "SPORTWETTEN-REGELN",
+          "el": "ΚΑΝΟΝΕΣ ΑΘΛΗΤΙΚΟΥ ΣΤΟΙΧΗΜΑΤΟΣ",
+          "es": "REGLAS DE APUESTAS DEPORTIVAS",
+          "et": "SPORDIENNUSTUSE REEGLID",
+          "fi": "URHEILUVEDONLYÖNNIN SÄÄNNÖT",
+          "fr": "RÈGLES DES PARIS SPORTIFS",
+          "gr": "ΚΑΝΟΝΕΣ ΑΘΛΗΤΙΚΟΥ ΣΤΟΙΧΗΜΑΤΟΣ",
+          "hr": "PRAVILA SPORTSKOG KLAĐENJA",
+          "hu": "SPORTFOGADÁSI SZABÁLYOK",
+          "it": "REGOLE DELLE SCOMMESSE SPORTIVE",
+          "no": "REGLER FOR SPORTSSPILL",
+          "pl": "ZASADY ZAKŁADÓW SPORTOWYCH",
+          "pt": "REGRAS DE APOSTAS DESPORTIVAS",
+          "ru": "ПРАВИЛА СТАВОК НА СПОРТ",
+          "sl": "PRAVILA ŠPORTNIH STAV",
+          "sq": "RREGULLAT E BASTEVE SPORTIVE",
+          "sr": "PRAVILA SPORTSKOG KLAĐENJA",
+          "tr": "SPOR BAHİS KURALLARI"
         }
       }
     }
   },
-  "type" : "component"
+  "type": "component"
 }
