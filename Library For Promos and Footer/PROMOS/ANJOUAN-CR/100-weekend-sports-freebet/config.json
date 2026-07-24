@@ -1,0 +1,308 @@
+{
+  "id": "100-weekend-sports-freebet",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "en": "100% Weekend Sports Freebet"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "en": "Bounce into the weekend with our ${max_amount} Freebet!\n2"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "100-weekend-sports-freebet.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "sports"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Sports",
+              "de": "Sport",
+              "fi": "Urheilu",
+              "no": "Sport",
+              "pt": "Esportes",
+              "es": "Deportes",
+              "it": "Sport",
+              "fr": "Sports",
+              "pl": "Sport",
+              "az": "İdman",
+              "ru": "Спорт",
+              "tr": "Spor",
+              "et": "Sport",
+              "hu": "Sport",
+              "cs": "Sport",
+              "sr": "Sportovi",
+              "el": "Στοίχημα",
+              "mk": "Спорт",
+              "sq": "Sporte",
+              "sl": "Športi",
+              "hr": "Sport",
+              "bg": "Спорт",
+              "ro": "Sporturi",
+              "bn": "স্পোর্টস"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./100-weekend-sports-freebet.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "Go all in as we match your deposit with an up to ${max_amount} Freebet!"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "How it works:"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "en": "Choose your preferred payment method"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "en": "Select this promotion from the drop-down list"
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "en": "Complete a deposit of at least ${amount} and your matching Freebet up to ${max_amount} will be credited automatically"
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "en": "Deposit Now"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/account/financials/deposit"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    },
+    "variables": {
+      "amount": {
+        "EUR": "€25",
+        "*": "€25",
+        "USD": "$25",
+        "NOK": "kr350",
+        "CAD": "C$30",
+        "CLP": "25,000CLP",
+        "PEN": "S/120",
+        "BRL": "R$20",
+        "AUD": "Α$30",
+        "NZD": "NZ$30",
+        "PLN": "90zł",
+        "CHF": "25CHF",
+        "ZAR": "500R",
+        "MXN": "$500",
+        "JPY": "¥4000",
+        "GBP": "£20",
+        "TRY": "1200 TL"
+      },
+      "max_amount": {
+        "EUR": "€100",
+        "*": "€100",
+        "USD": "$100",
+        "NOK": "kr1000",
+        "CAD": "C$100",
+        "CLP": "100,000CLP",
+        "PEN": "S/500",
+        "BRL": "R$100",
+        "AUD": "Α$100",
+        "NZD": "NZ$100",
+        "PLN": "400zł",
+        "CHF": "100CHF",
+        "ZAR": "2000R",
+        "MXN": "$2000",
+        "JPY": "¥15000",
+        "GBP": "£100",
+        "TRY": "5000 TL"
+      },
+      "max_odds": {
+        "BE": "5.00",
+        "SE": "5.00",
+        "NL": "5.00",
+        "FI": "5.00",
+        "NO": "5.00",
+        "PT": "5.00",
+        "IT": "5.00",
+        "CA": "5.00",
+        "PL": "5.00",
+        "DE": "5.00",
+        "ES": "5.00",
+        "FR": "5.00",
+        "*": "5.00",
+        "GB": "45662",
+        "CL": "5.00"
+      }
+    }
+  }
+}
