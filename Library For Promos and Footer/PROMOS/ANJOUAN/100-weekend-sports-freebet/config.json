@@ -12,7 +12,7 @@
     "description": {
       "type": "text",
       "value": {
-        "en": "Bounce into the weekend with our ${max_amount} Freebet!\n2"
+        "en": "Bounce into the weekend with our ${max_amount} Freebet!"
       }
     },
     "background": {
