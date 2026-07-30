@@ -1,121 +1,121 @@
 {
-  "id": "terms_and_conditions",
-  "component": {
-    "type": "selector",
-    "*": {
-      "type": "reference",
-      "name": "anjouan"
+  "id" : "terms_and_conditions",
+  "component" : {
+    "type" : "selector",
+    "*" : {
+      "type" : "reference",
+      "name" : "anjouan"
     },
-    "DE": {
-      "type": "reference",
-      "name": "costa_rica"
+    "DE" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "GB": {
-      "type": "reference",
-      "name": "costa_rica"
+    "GB" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "NL": {
-      "type": "reference",
-      "name": "costa_rica"
+    "NL" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "FR": {
-      "type": "reference",
-      "name": "costa_rica"
+    "FR" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "SE": {
-      "type": "reference",
-      "name": "costa_rica"
+    "SE" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "AT": {
-      "type": "reference",
-      "name": "costa_rica"
+    "AT" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "AU": {
-      "type": "reference",
-      "name": "costa_rica"
+    "AU" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "IT": {
-      "type": "reference",
-      "name": "costa_rica"
+    "IT" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "TR": {
-      "type": "reference",
-      "name": "costa_rica"
+    "TR" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "ES": {
-      "type": "reference",
-      "name": "costa_rica"
+    "ES" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "AZ": {
-      "type": "reference",
-      "name": "costa_rica"
+    "AZ" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "RU": {
-      "type": "reference",
-      "name": "costa_rica"
+    "RU" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "UZ": {
-      "type": "reference",
-      "name": "costa_rica"
+    "UZ" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "KZ": {
-      "type": "reference",
-      "name": "costa_rica"
+    "KZ" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     },
-    "IN": {
-      "type": "reference",
-      "name": "costa_rica"
+    "IN" : {
+      "type" : "reference",
+      "name" : "costa_rica"
     }
   },
-  "references": {
-    "anjouan": {
-      "type": "map",
-      "template": {
-        "type": "template",
-        "name": "terms_and_conditions_anjouan.html"
+  "references" : {
+    "anjouan" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "terms_and_conditions_anjouan.html"
       },
-      "title": {
-        "type": "text",
-        "value": {
-          "en": "TERMS & CONDITIONS",
-          "de": "GESCHÄFTSBEDINGUNGEN",
-          "es": "TÉRMINOS Y CONDICIONES",
-          "fi": "KÄYTTÖEHDOT",
-          "fr": "TERMES ET CONDITIONS",
-          "it": "TERMINI & CONDIZIONI",
-          "no": "BETINGELSER OG VILKÅR:",
-          "pt": "TERMOS E CONDIÇÕES"
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "TERMS & CONDITIONS",
+          "de" : "GESCHÄFTSBEDINGUNGEN",
+          "es" : "TÉRMINOS Y CONDICIONES",
+          "fi" : "KÄYTTÖEHDOT",
+          "fr" : "TERMES ET CONDITIONS",
+          "it" : "TERMINI & CONDIZIONI",
+          "no" : "BETINGELSER OG VILKÅR:",
+          "pt" : "TERMOS E CONDIÇÕES"
         }
       }
     },
-    "costa_rica": {
-      "type": "map",
-      "template": {
-        "type": "template",
-        "name": "terms_costa_rica.html"
+    "costa_rica" : {
+      "type" : "map",
+      "template" : {
+        "type" : "template",
+        "name" : "terms_costa_rica.html"
       },
-      "title": {
-        "type": "text",
-        "value": {
-          "en": "I. KEY DEFINITIONS AND WHAT MAKES UP THE TERMS & CONDITIONS",
-          "az": "I. ƏSAS ANLAYIŞLAR VƏ ŞƏRTLƏR VƏ QAYDALARA DAXİL OLANLAR",
-          "cs": "I. KLÍČOVÉ DEFINICE A CO TVOŘÍ PODMÍNKY",
-          "de": "I. WICHTIGE DEFINITIONEN UND BESTANDTEILE DER ALLGEMEINEN GESCHÄFTSBEDINGUNGEN",
-          "el": "I. ΒΑΣΙΚΟΙ ΟΡΙΣΜΟΙ ΚΑΙ ΤΙ ΑΠΟΤΕΛΕΙ ΤΟΥΣ ΟΡΟΥΣ ΚΑΙ ΠΡΟΫΠΟΘΕΣΕΙΣ",
-          "es": "I. DEFINICIONES CLAVE E INTEGRACIÓN DE LOS TÉRMINOS Y CONDICIONES",
-          "fi": "I. KESKEISET MÄÄRITELMÄT JA KÄYTTÖEHTOJEN MUODOSTUMINEN",
-          "fr": "I. DÉFINITIONS CLÉS ET ÉLÉMENTS CONSTITUTIFS DES CONDITIONS GÉNÉRALES",
-          "gr": "I. ΒΑΣΙΚΟΙ ΟΡΙΣΜΟΙ ΚΑΙ ΤΙ ΑΠΟΤΕΛΕΙ ΤΟΥΣ ΟΡΟΥΣ ΚΑΙ ΠΡΟΫΠΟΘΕΣΕΙΣ",
-          "it": "I. DEFINIZIONI CHIAVE E COMPOSIZIONE DEI TERMINI E CONDIZIONI",
-          "mk": "I. КЛУЧНИ ДЕФИНИЦИИ И ШТО ГИ СОЧИНУВА УСЛОВИТЕ И ОДРЕДБИТЕ",
-          "no": "I. NØKKELDEFINISJONER OG HVA VILKÅRENE OG BETINGELSENE BESTÅR AV",
-          "pl": "I. KLUCZOWE DEFINICJE I SKŁAD REGULAMINU",
-          "pt": "I. DEFINIÇÕES PRINCIPAIS E O QUE COMPÕE OS TERMOS E CONDIÇÕES",
-          "ru": "I. КЛЮЧЕВЫЕ ОПРЕДЕЛЕНИЯ И ЧТО СОСТАВЛЯЕТ ПРАВИЛА И УСЛОВИЯ",
-          "sr": "I. KLJUČNE DEFINICIJE I ŠTA ČINI OPŠTE USLOVE I ODREDBE"
+      "title" : {
+        "type" : "text",
+        "value" : {
+          "en" : "I. KEY DEFINITIONS AND WHAT MAKES UP THE TERMS & CONDITIONS",
+          "az" : "I. ƏSAS ANLAYIŞLAR VƏ ŞƏRTLƏR VƏ QAYDALARA DAXİL OLANLAR",
+          "cs" : "I. KLÍČOVÉ DEFINICE A CO TVOŘÍ PODMÍNKY",
+          "de" : "I. WICHTIGE DEFINITIONEN UND BESTANDTEILE DER ALLGEMEINEN GESCHÄFTSBEDINGUNGEN",
+          "el" : "I. ΒΑΣΙΚΟΙ ΟΡΙΣΜΟΙ ΚΑΙ ΤΙ ΑΠΟΤΕΛΕΙ ΤΟΥΣ ΟΡΟΥΣ ΚΑΙ ΠΡΟΫΠΟΘΕΣΕΙΣ",
+          "es" : "I. DEFINICIONES CLAVE E INTEGRACIÓN DE LOS TÉRMINOS Y CONDICIONES",
+          "fi" : "I. KESKEISET MÄÄRITELMÄT JA KÄYTTÖEHTOJEN MUODOSTUMINEN",
+          "fr" : "I. DÉFINITIONS CLÉS ET ÉLÉMENTS CONSTITUTIFS DES CONDITIONS GÉNÉRALES",
+          "gr" : "I. ΒΑΣΙΚΟΙ ΟΡΙΣΜΟΙ ΚΑΙ ΤΙ ΑΠΟΤΕΛΕΙ ΤΟΥΣ ΟΡΟΥΣ ΚΑΙ ΠΡΟΫΠΟΘΕΣΕΙΣ",
+          "it" : "I. DEFINIZIONI CHIAVE E COMPOSIZIONE DEI TERMINI E CONDIZIONI",
+          "mk" : "I. КЛУЧНИ ДЕФИНИЦИИ И ШТО ГИ СОЧИНУВА УСЛОВИТЕ И ОДРЕДБИТЕ",
+          "no" : "I. NØKKELDEFINISJONER OG HVA VILKÅRENE OG BETINGELSENE BESTÅR AV",
+          "pl" : "I. KLUCZOWE DEFINICJE I SKŁAD REGULAMINU",
+          "pt" : "I. DEFINIÇÕES PRINCIPAIS E O QUE COMPÕE OS TERMOS E CONDIÇÕES",
+          "ru" : "I. КЛЮЧЕВЫЕ ОПРЕДЕЛЕНИЯ И ЧТО СОСТАВЛЯЕТ ПРАВИЛА И УСЛОВИЯ",
+          "sr" : "I. KLJUČNE DEFINICIJE I ŠTA ČINI OPŠTE USLOVE I ODREDBE"
         }
       }
     }
   },
-  "type": "component"
+  "type" : "component"
 }
