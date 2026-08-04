@@ -7,31 +7,31 @@
       "type" : "reference",
       "name" : "ROW"
     },
-    "FI" : {
+    "country=FI" : {
       "type" : "reference",
       "name" : "Finland"
     },
-    "NL" : {
+    "country=NL" : {
       "type" : "reference",
       "name" : "Netherlands"
     },
-    "SE" : {
+    "country=SE" : {
       "type" : "reference",
       "name" : "Sweden"
     },
-    "GB" : {
+    "country=GB" : {
       "type" : "reference",
       "name" : "United-Kingdom"
     },
-    "DE" : {
+    "country=DE" : {
       "type" : "reference",
       "name" : "Germany"
     },
-    "AT" : {
+    "country=AT" : {
       "type" : "reference",
       "name" : "Austria"
     },
-    "BE" : {
+    "country=BE" : {
       "type" : "reference",
       "name" : "Belgium"
     }
@@ -46,7 +46,6 @@
       "promotions" : {
         "type" : "list",
         "value" : [
-
           {
             "type" : "text",
             "value" : "welcome-casino-bonus"
@@ -59,7 +58,6 @@
             "type" : "text",
             "value" : "welcome-sports-freebet"
           },
-
           {
             "type" : "text",
             "value" : "monday-reload-bonus"
@@ -100,12 +98,10 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-
           {
             "type" : "text",
             "value" : "margin-offer"
           },
-
           {
             "type" : "text",
             "value" : "ep-football"
@@ -160,12 +156,11 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "germany-vs-ecuador-every-goal-counts"
+            "value" : "welcome-casino-bonus"
           },
-
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-germany"
+            "value" : "welcome-casino-score-freebet"
           },
           {
             "type" : "text",
@@ -175,7 +170,6 @@
             "type" : "text",
             "value" : "welcome-sports-freebet-nl-se-de-be-at"
           },
-
           {
             "type" : "text",
             "value" : "monday-reload-bonus"
@@ -216,12 +210,10 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-
           {
             "type" : "text",
             "value" : "margin-offer"
           },
-
           {
             "type" : "text",
             "value" : "ep-football"
@@ -274,10 +266,13 @@
       "promotions" : {
         "type" : "list",
         "value" : [
-
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-austria"
+            "value" : "welcome-casino-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-score-freebet"
           },
           {
             "type" : "text",
@@ -287,7 +282,6 @@
             "type" : "text",
             "value" : "welcome-sports-freebet-nl-se-de-be-at"
           },
-
           {
             "type" : "text",
             "value" : "monday-reload-bonus"
@@ -328,12 +322,10 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-
           {
             "type" : "text",
             "value" : "margin-offer"
           },
-
           {
             "type" : "text",
             "value" : "ep-football"
@@ -386,10 +378,9 @@
       "promotions" : {
         "type" : "list",
         "value" : [
-
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-finland"
+            "value" : "welcome-casino-bonus"
           },
           {
             "type" : "text",
@@ -399,7 +390,6 @@
             "type" : "text",
             "value" : "welcome-sports-freebet"
           },
-
           {
             "type" : "text",
             "value" : "weekly-cashback-fi-nl-se"
@@ -444,12 +434,10 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-
           {
             "type" : "text",
             "value" : "margin-offer"
           },
-
           {
             "type" : "text",
             "value" : "ep-football"
@@ -504,20 +492,19 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "tunisia-vs-netherlands-for-round-3"
-          },
-
-          {
-            "type" : "text",
-            "value" : "welcome-casino-bonus-netherlands-stage-1"
+            "value" : "welcome-casino-bonus"
           },
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-netherlands-stage-2"
+            "value" : "welcome-casino-bonus-stage-2"
           },
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-netherlands-stage-3"
+            "value" : "welcome-casino-bonus-stage-3"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-score-freebet"
           },
           {
             "type" : "text",
@@ -570,6 +557,10 @@
           {
             "type" : "text",
             "value" : "accumulator-boost"
+          },
+          {
+            "type" : "text",
+            "value" : "midweek-3-"
           },
           {
             "type" : "text",
@@ -627,10 +618,13 @@
       "promotions" : {
         "type" : "list",
         "value" : [
-
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-uk"
+            "value" : "welcome-casino-bonus"
+          },
+          {
+            "type" : "text",
+            "value" : "welcome-casino-score-freebet"
           },
           {
             "type" : "text",
@@ -690,15 +684,11 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-sweden"
+            "value" : "welcome-casino-bonus"
           },
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-sweden-instant-bank-transfer"
-          },
-          {
-            "type" : "text",
-            "value" : "casino-reload-bonus-sweden-instant-bank-transfer"
+            "value" : "welcome-casino-score-freebet"
           },
           {
             "type" : "text",
@@ -808,7 +798,6 @@
       "promotions" : {
         "type" : "list",
         "value" : [
-
           {
             "type" : "text",
             "value" : "welcome-casino-bonus"
@@ -821,7 +810,6 @@
             "type" : "text",
             "value" : "welcome-sports-freebet-nl-se-de-be-at"
           },
-
           {
             "type" : "text",
             "value" : "monday-reload-bonus"
@@ -862,12 +850,14 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-
+          {
+            "type" : "text",
+            "value" : "midweek-3-"
+          },
           {
             "type" : "text",
             "value" : "margin-offer"
           },
-
           {
             "type" : "text",
             "value" : "ep-football"

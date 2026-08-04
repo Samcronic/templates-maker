@@ -106,21 +106,9 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-{
-            "type" : "text",
-            "value" : "midweek-3-1"
-          },
           {
             "type" : "text",
             "value" : "margin-offer"
-          },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
           },
           {
             "type" : "text",
@@ -176,7 +164,7 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-germany"
+            "value" : "welcome-casino-bonus"
           },
           {
             "type" : "text",
@@ -238,21 +226,9 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-{
-            "type" : "text",
-            "value" : "midweek-3-1"
-          },
           {
             "type" : "text",
             "value" : "margin-offer"
-          },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
           },
           {
             "type" : "text",
@@ -308,7 +284,7 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-austria"
+            "value" : "welcome-casino-bonus"
           },
           {
             "type" : "text",
@@ -370,21 +346,9 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-{
-            "type" : "text",
-            "value" : "midweek-3-1"
-          },
           {
             "type" : "text",
             "value" : "margin-offer"
-          },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
           },
           {
             "type" : "text",
@@ -440,7 +404,7 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-finland"
+            "value" : "welcome-casino-bonus"
           },
           {
             "type" : "text",
@@ -494,21 +458,9 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-{
-            "type" : "text",
-            "value" : "midweek-3-1"
-          },
           {
             "type" : "text",
             "value" : "margin-offer"
-          },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
           },
           {
             "type" : "text",
@@ -564,15 +516,15 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-netherlands-stage-1"
+            "value" : "welcome-casino-bonus"
           },
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-netherlands-stage-2"
+            "value" : "welcome-casino-bonus-stage-2"
           },
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-netherlands-stage-3"
+            "value" : "welcome-casino-bonus-stage-3"
           },
           {
             "type" : "text",
@@ -638,21 +590,13 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-{
+          {
             "type" : "text",
             "value" : "midweek-3-"
           },
           {
             "type" : "text",
             "value" : "margin-offer"
-          },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
           },
           {
             "type" : "text",
@@ -708,7 +652,7 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-uk"
+            "value" : "welcome-casino-bonus"
           },
           {
             "type" : "text",
@@ -760,7 +704,7 @@
           },
           {
             "type" : "text",
-            "value" : "100-weekend-sports-freebet"
+            "value" : "weekend-sports-freebet"
           },
           {
             "type" : "text",
@@ -780,7 +724,7 @@
         "value" : [
           {
             "type" : "text",
-            "value" : "welcome-casino-bonus-sweden"
+            "value" : "welcome-casino-bonus"
           },
           {
             "type" : "text",
@@ -846,21 +790,9 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-{
-            "type" : "text",
-            "value" : "midweek-3-1"
-          },
           {
             "type" : "text",
             "value" : "margin-offer"
-          },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
           },
           {
             "type" : "text",
@@ -974,21 +906,13 @@
             "type" : "text",
             "value" : "accumulator-boost"
           },
-{
+          {
             "type" : "text",
             "value" : "midweek-3-"
           },
           {
             "type" : "text",
             "value" : "margin-offer"
-          },
-          {
-            "type" : "text",
-            "value" : "pick-your-winner"
-          },
-          {
-            "type" : "text",
-            "value" : "golden-boot"
           },
           {
             "type" : "text",

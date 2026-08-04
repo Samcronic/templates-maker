@@ -2,823 +2,3905 @@
   "id": "welcome-casino-bonus",
   "type": "component",
   "component": {
-    "type": "map",
-    "title": {
-      "type": "text",
-      "value": {
-        "az": "Xoş Gəlmisən Casino Paketi",
-        "bg": "Казино пакет „Добре дошли“",
-        "cs": "Uvítací casino balíček",
-        "de": "Casino-Willkommenspaket",
-        "el": "Προσφορά Καλωσορίσματος",
-        "en": "Welcome Casino Package",
-        "es": "Paquete de Bienvenida del Casino",
-        "fi": "Tervetuliaiskasinopaketti",
-        "fr": "Package de bienvenue au casino",
-        "hr": "Kasino paket dobrodošlice",
-        "hu": "Üdvözlő kaszinóbónusz csomag",
-        "it": "Pacchetto Benvenuto Casinò",
-        "no": "Casino Velkomstpakke",
-        "pl": "Powitalny Pakiet Kasynowy",
-        "pt": "Pacote de Boas-Vindas do Casino",
-        "ro": "Pachet de bun venit în cazino",
-        "ru": "Приветственный пакет казино",
-        "sl": "Paket dobrodošlice v kazinoju",
-        "sr": "Kazino paket dobrodošlice",
-        "tr": "Hoş Geldin Casino Paketi",
-        "BR_pt": "Pacote de Boas-Vindas do Cassino",
-        "bn": "স্বাগতম ক্যাসিনো প্যাকেজ",
-        "mk": "Пакет за добредојде за казино",
-        "sq": "Paketa e Mirëseardhjes në Kazino",
-        "CL_es": "Paquete de Bienvenida del Casino"
+    "type": "selector",
+    "*": {
+      "type": "reference",
+      "name": "ROW"
+    },
+    "country=DE": {
+      "type": "reference",
+      "name": "Germany"
+    },
+    "country=AT": {
+      "type": "reference",
+      "name": "Austria"
+    },
+    "country=FI": {
+      "type": "reference",
+      "name": "Finland"
+    },
+    "country=NL": {
+      "type": "reference",
+      "name": "Netherlands"
+    },
+    "country=SE": {
+      "type": "reference",
+      "name": "Sweden"
+    },
+    "country=GB": {
+      "type": "reference",
+      "name": "Great Britain"
+    }
+  },
+  "references": {
+    "ROW": {
+      "type": "map",
+      "title" : {
+      "type" : "text",
+      "value" : {
+        "az" : "Xoş Gəlmisən Casino Paketi",
+        "bg" : "Казино пакет \u201eДобре дошли\u201c",
+        "cs" : "Uvítací casino balíček",
+        "de" : "Casino-Willkommenspaket",
+        "el" : "Προσφορά Καλωσορίσματος",
+        "en" : "Welcome Casino Package",
+        "es" : "Paquete de Bienvenida del Casino",
+        "fi" : "Tervetuliaiskasinopaketti",
+        "fr" : "Package de bienvenue au casino",
+        "hr" : "Kasino paket dobrodošlice",
+        "hu" : "Üdvözlő kaszinóbónusz csomag",
+        "it" : "Pacchetto Benvenuto Casinò",
+        "no" : "Casino Velkomstpakke",
+        "pl" : "Powitalny Pakiet Kasynowy",
+        "pt" : "Pacote de Boas-Vindas do Casino",
+        "ro" : "Pachet de bun venit în cazino",
+        "ru" : "Приветственный пакет казино",
+        "sl" : "Paket dobrodošlice v kazinoju",
+        "sr" : "Kazino paket dobrodošlice",
+        "tr" : "Hoş Geldin Casino Paketi",
+        "BR_pt" : "Pacote de Boas-Vindas do Cassino",
+        "bn" : "স্বাগতম ক্যাসিনো প্যাকেজ",
+        "mk" : "Пакет за добредојде за казино",
+        "sq" : "Paketa e Mirëseardhjes në Kazino",
+        "CL_es" : "Paquete de Bienvenida del Casino"
       }
     },
-    "description": {
-      "type": "text",
-      "value": {
-        "az": "${total_amount}-dək ${total_percentage} & ${total_fs_amount} FS ilə başla",
-        "bg": "Започни с ${total_percentage} до ${total_amount} и ${total_fs_amount} безплатни завъртания",
-        "cs": "Začněte s ${total_percentage} až do ${total_amount} + ${total_fs_amount} free spinů",
-        "de": "Mit ${total_percentage} bis zu ${total_amount} & ${total_fs_amount} GS loslegen",
-        "el": "${total_percentage} έως ${total_amount} και ${total_fs_amount} Free Spins",
-        "en": "Start with ${total_percentage} up to ${total_amount} & ${total_fs_amount} FS",
-        "es": "Comienza con ${total_percentage} hasta ${total_amount} y ${total_fs_amount} Giros Gratis",
-        "fi": "Aloita ${total_percentage}:lla, jopa ${total_amount} & ${total_fs_amount} IK",
-        "fr": "Commencez par ${total_percentage} jusqu'à ${total_amount} & ${total_fs_amount} TG",
-        "hr": "Započni s ${total_percentage} do ${total_amount} i ${total_fs_amount} besplatnih vrtnji",
-        "hu": "Indíts ${total_percentage}-os ${total_amount}-ig terjedő bónusszal és ${total_fs_amount} IP-vel",
-        "it": "Inizia con ${total_percentage} fino a ${total_amount} e ${total_fs_amount} GG",
-        "no": "Start med ${total_percentage} opptil ${total_amount} & ${total_fs_amount} GS",
-        "pl": "Rozpocznij z ${total_percentage} do ${total_amount} i ${total_fs_amount} darmowymi spinami",
-        "pt": "Começa com ${total_percentage} até ${total_amount} e ${total_fs_amount} Rodadas Grátis",
-        "ro": "Începe cu ${total_percentage} până la ${total_amount} și ${total_fs_amount} Rotiri Gratuite",
-        "ru": "Начните с ${total_percentage} до ${total_amount} и ${total_fs_amount} ФС",
-        "sl": "Začnite z ${total_percentage} do ${total_amount} in ${total_fs_amount} brezplačnih vrtljajev",
-        "sr": "Počnite sa bonusom od ${total_percentage} do ${total_amount} i ${total_fs_amount} BS",
-        "tr": "${total_percentage} ile başla -${total_amount}’e kadar ve ${total_fs_amount}\nFS ile başla",
-        "BR_pt": "Comece com ${total_percentage} até ${total_amount} e ${total_fs_amount} Rodadas Grátis",
-        "bn": "${total_percentage} থেকে ${total_amount} পর্যন্ত এবং ${total_fs_amount} ফ্রি স্পিন দিয়ে শুরু করুন।",
-        "mk": "Започни со ${total_percentage} до ${total_amount} и ${total_fs_amount} FS",
-        "sq": "Filloni me ${total_percentage} deri në ${total_amount} & ${total_fs_amount} FS.",
-        "CL_es": "Comienza con ${total_percentage} hasta ${total_amount} y ${total_fs_amount} Giros Gratis"
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "az" : "${total_amount}-dək ${total_percentage} & ${total_fs_amount} FS ilə başla",
+        "bg" : "Започни с ${total_percentage} до ${total_amount} и ${total_fs_amount} безплатни завъртания",
+        "cs" : "Začněte s ${total_percentage} až do ${total_amount} + ${total_fs_amount} free spinů",
+        "de" : "Mit ${total_percentage} bis zu ${total_amount} & ${total_fs_amount} GS loslegen",
+        "el" : "${total_percentage} έως ${total_amount} και ${total_fs_amount} Free Spins",
+        "en" : "Start with ${total_percentage} up to ${total_amount} & ${total_fs_amount} FS",
+        "es" : "Comienza con ${total_percentage} hasta ${total_amount} y ${total_fs_amount} Giros Gratis",
+        "fi" : "Aloita ${total_percentage}:lla, jopa ${total_amount} & ${total_fs_amount} IK",
+        "fr" : "Commencez par ${total_percentage} jusqu'à ${total_amount} & ${total_fs_amount} TG",
+        "hr" : "Započni s ${total_percentage} do ${total_amount} i ${total_fs_amount} besplatnih vrtnji",
+        "hu" : "Indíts ${total_percentage}-os ${total_amount}-ig terjedő bónusszal és ${total_fs_amount} IP-vel",
+        "it" : "Inizia con ${total_percentage} fino a ${total_amount} e ${total_fs_amount} GG",
+        "no" : "Start med ${total_percentage} opptil ${total_amount} & ${total_fs_amount} GS",
+        "pl" : "Rozpocznij z ${total_percentage} do ${total_amount} i ${total_fs_amount} darmowymi spinami",
+        "pt" : "Começa com ${total_percentage} até ${total_amount} e ${total_fs_amount} Rodadas Grátis",
+        "ro" : "Începe cu ${total_percentage} până la ${total_amount} și ${total_fs_amount} Rotiri Gratuite",
+        "ru" : "Начните с ${total_percentage} до ${total_amount} и ${total_fs_amount} ФС",
+        "sl" : "Začnite z ${total_percentage} do ${total_amount} in ${total_fs_amount} brezplačnih vrtljajev",
+        "sr" : "Počnite sa bonusom od ${total_percentage} do ${total_amount} i ${total_fs_amount} BS",
+        "tr" : "${total_percentage} ile başla -${total_amount}\u2019e kadar ve ${total_fs_amount}\nFS ile başla",
+        "BR_pt" : "Comece com ${total_percentage} até ${total_amount} e ${total_fs_amount} Rodadas Grátis",
+        "bn" : "${total_percentage} থেকে ${total_amount} পর্যন্ত এবং ${total_fs_amount} ফ্রি স্পিন দিয়ে শুরু করুন।",
+        "mk" : "Започни со ${total_percentage} до ${total_amount} и ${total_fs_amount} FS",
+        "sq" : "Filloni me ${total_percentage} deri në ${total_amount} & ${total_fs_amount} FS.",
+        "CL_es" : "Comienza con ${total_percentage} hasta ${total_amount} y ${total_fs_amount} Giros Gratis"
       }
     },
-    "background": {
-      "type": "image",
-      "name": "welcome-casino-bonus.jpg"
+    "background" : {
+      "type" : "image",
+      "name" : "welcome-casino-bonus.jpg"
     },
-    "tags": {
-      "type": "list",
-      "value": [
+    "tags" : {
+      "type" : "list",
+      "value" : [
         {
-          "type": "map",
-          "id": {
-            "type": "text",
-            "value": "casino"
+          "type" : "map",
+          "id" : {
+            "type" : "text",
+            "value" : "casino"
           },
-          "label": {
-            "type": "text",
-            "value": {
-              "en": "Casino",
-              "de": "Casino",
-              "fi": "Kasino",
-              "no": "Kasino",
-              "pt": "Casino",
-              "es": "Casino",
-              "it": "Casinò",
-              "fr": "Casino",
-              "pl": "Kasyno",
-              "az": "Kazino",
-              "ru": "Казино",
-              "tr": "Casino",
-              "et": "Kasiino",
-              "hu": "Kaszinó",
-              "cs": "Kasino",
-              "sr": "Kazino",
-              "el": "Καζίνο",
-              "mk": "Казино",
-              "sq": "Kazino",
-              "sl": "Kazino",
-              "hr": "Kasino",
-              "bg": "Казино",
-              "ro": "Cazino",
-              "bn": "ক্যাসিনো"
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Casino",
+              "de" : "Casino",
+              "fi" : "Kasino",
+              "no" : "Kasino",
+              "pt" : "Casino",
+              "es" : "Casino",
+              "it" : "Casinò",
+              "fr" : "Casino",
+              "pl" : "Kasyno",
+              "az" : "Kazino",
+              "ru" : "Казино",
+              "tr" : "Casino",
+              "et" : "Kasiino",
+              "hu" : "Kaszinó",
+              "cs" : "Kasino",
+              "sr" : "Kazino",
+              "el" : "Καζίνο",
+              "mk" : "Казино",
+              "sq" : "Kazino",
+              "sl" : "Kazino",
+              "hr" : "Kasino",
+              "bg" : "Казино",
+              "ro" : "Cazino",
+              "bn" : "ক্যাসিনো"
             }
           }
         }
       ]
     },
-    "terms": {
-      "type": "template",
-      "name": "./welcome-casino-bonus.html"
+    "terms" : {
+      "type" : "template",
+      "name" : "./welcome-casino-bonus.html"
     },
-    "lobby": {
-      "type": "list",
-      "value": [
+    "lobby" : {
+      "type" : "list",
+      "value" : [
         {
-          "type": "map",
-          "component": {
-            "type": "text",
-            "value": "slot"
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
           },
-          "id": {
-            "type": "text",
-            "value": "banner"
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
           },
-          "layout": {
-            "type": "map",
-            "space": {
-              "type": "text",
-              "value": "sm"
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
             }
           }
         },
         {
-          "type": "map",
-          "component": {
-            "type": "text",
-            "value": "slot"
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
           },
-          "id": {
-            "type": "text",
-            "value": "title"
+          "id" : {
+            "type" : "text",
+            "value" : "title"
           },
-          "layout": {
-            "type": "map",
-            "space": {
-              "type": "text",
-              "value": "sm"
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
             }
           }
         },
         {
-          "type": "map",
-          "component": {
-            "type": "text",
-            "value": "slot"
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
           },
-          "id": {
-            "type": "text",
-            "value": "description"
+          "id" : {
+            "type" : "text",
+            "value" : "description"
           },
-          "layout": {
-            "type": "map",
-            "space": {
-              "type": "text",
-              "value": "md"
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
             }
           }
         },
         {
-          "type": "map",
-          "component": {
-            "type": "text",
-            "value": "text"
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
           },
-          "value": {
-            "type": "text",
-            "value": {
-              "az": "İlk üç depozitin üzrə ${total_amount}-dək Casino Bonusları və \"${slot_game}\" oyununda ${total_fs_amount} Free Spins ilə Xoş Gəlmisən Casino Paketindən maksimum yararlan!",
-              "bg": "Възползвайте се максимално от вашия казино пакет „Добре дошли“ с до ${total_amount} в казино бонуси и ${total_fs_amount} безплатни завъртания на \"${slot_game}\" за първите ви три депозита!",
-              "cs": "Využijte svůj uvítací casino balíček naplno a získejte až ${total_amount} na casino bonusu a ${total_fs_amount} free spinů na \"${slot_game}\" během prvních tří vkladů!",
-              "de": "Nutzen Sie Ihr Casino-Willkommenspaket voll aus mit bis zu ${total_amount} Casino-Boni und ${total_fs_amount} Gratis-Spins auf „${slot_game}” für Ihre ersten drei Einzahlungen!",
-              "el": "Αξιοποιείς στο έπακρο την Προσφορά Καλωσορίσματος με έως ${total_amount} σε Καζίνο Μπόνους και ${total_fs_amount} Free Spins στο ${slot_game} με τις τρεις πρώτες καταθέσεις!",
-              "en": "Make the most of your Welcome Casino Package with up to ${total_amount} in Casino Bonuses and ${total_fs_amount} Free Spins on \"${slot_game}\" across your first three deposits!",
-              "es": "Aprovecha al máximo tu Paquete de Bienvenida del Casino con hasta ${total_amount} en Bonos del Casino y ${total_fs_amount} Giros Gratis en \"${slot_game}\" durante tus tres primeros depósitos.",
-              "fi": "Ota kaikki irti tervetuliaiskasinopaketistasi: ${total_amount} kasinobonuksina ja ${total_fs_amount} ilmaiskierrosta peliin ${slot_game} kolmella ensimmäisellä talletuksellasi!",
-              "fr": "Profitez de votre package de bienvenue au casino avec jusqu'à ${total_amount} de bonus de casino et ${total_fs_amount} de tours gratuits sur \"${slot_game}\" sur vos trois premiers dépôts !",
-              "hr": "Iskoristite svoj Kasino paket dobrodošlice uz do ${total_amount} u kasino bonusima i ${total_fs_amount} besplatnih vrtnji na \"${slot_game}\" kroz svoje prve tri uplate!",
-              "hu": "Hozd ki a legtöbbet az Üdvözlő kaszinóbónusz csomagból, amellyel akár ${total_amount} kaszinóbónuszt és ${total_fs_amount} Ingyen Pörgetést szerezhetsz a \"${slot_game}\" nyerőgépre az első három befizetésed után!",
-              "it": "Sfrutta al massimo il tuo pacchetto di benvenuto del casinò con fino a ${total_amount} in bonus casinò e ${total_fs_amount} giri gratuiti su “${slot_game}” sui tuoi primi tre depositi!",
-              "no": "Få mest mulig ut av ditt Casino-velkomstpakke med opptil ${total_amount} i casinobonuser og ${total_fs_amount} gratisspinn på \"${slot_game}\" for dine tre første innskudd!",
-              "pl": "Wykorzystaj w pełni swój Powitalny Pakiet Kasynowy – do ${total_amount} w Bonusach Kasynowych oraz ${total_fs_amount} darmowych spinów na \"${slot_game}” w ramach trzech pierwszych depozytów!",
-              "pt": "Aproveita ao máximo o teu Pacote de Boas-Vindas do Casino com até ${total_amount} em Bônus de Casino e ${total_fs_amount} Rodadas Grátis no \"${slot_game}\" ao longo dos teus três primeiros depósitos.",
-              "ro": "Profită la maxim de pachetul tău de bun venit în cazino cu până la ${total_amount} în bonusuri de cazino și ${total_fs_amount} Rotiri Gratuite la \"${slot_game}\" la primele 3 depuneri!",
-              "ru": "Воспользуйтесь максимально своим приветственным пакетом казино с бонусами до ${total_amount} и ${total_fs_amount} Фриспинов в игре \"${slot_game}\" за первые три депозита!",
-              "sl": "Izkoristite svoj paket dobrodošlice v kazinoju z do ${total_amount} v kazino bonusih in ${total_fs_amount} brezplačnih vrtljajev na \"${slot_game}\" pri vaših prvih treh vplačilih!",
-              "sr": "Iskoristite maksimalno svoj Kazino paket dobrodošlice sa bonusima do ${total_amount} i ${total_fs_amount} besplatnih spinova na „${slot_game}“ za prva tri depozita!          •${percentage_1} Kazino bonus za prvi depozit do ${amount_1} i ${fs_amount_1} BS",
-              "tr": "İlk üç yatırımın boyunca ${total_amount}’ye kadar Casino Bonusu ve \"${slot_game}\" oyununda ${total_fs_amount} Free Spins ile Hoş Geldin Casino Paketinden en iyi şekilde yararlan!",
-              "BR_pt": "Aproveite ao máximo o seu Pacote de Boas-Vindas do Cassino com até ${total_amount} em Bônus do Cassino e ${total_fs_amount} Rodadas Grátis no \"${slot_game}\" durante seus três primeiros depósitos.",
-              "bn": "আপনার প্রথম তিনটি ডিপোজিটের উপর ${total_amount} পর্যন্ত ক্যাসিনো বোনাস এবং \"${slot_game}\"-এ ${total_fs_amount} ফ্রি স্পিন সহ আপনার ওয়েলকাম ক্যাসিনো প্যাকেজের সর্বোচ্চ সুবিধা নিন!",
-              "mk": "Извлечи максимум од твојот Пакет за добредојде за казино со бонуси за казино до ${total_amount} и ${total_fs_amount} бесплатни вртења на “${slot_game}“ во текот на првите три депозити! •${percentage_1} бонус за казино при 1. депозит до ${amount_1} и ${fs_amount_1} FS",
-              "sq": "Shfrytëzoni sa më shumë Paketën e Mirëseardhjes në Kazino me deri në ${total_amount} bonuse kazinoje dhe ${total_fs_amount} Rrotullime Falas në \"${slot_game}\" gjatë tre depozitave tuaja të para!",
-              "CL_es": "Sácale el máximo provecho a tu Paquete de Bienvenida del Casino con hasta ${total_amount} en Bonos del Casino y ${total_fs_amount} Giros Gratis en \"${slot_game}\" durante tus primeros tres depósitos."
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "az" : "İlk üç depozitin üzrə ${total_amount}-dək Casino Bonusları və \"${slot_game}\" oyununda ${total_fs_amount} Free Spins ilə Xoş Gəlmisən Casino Paketindən maksimum yararlan!",
+              "bg" : "Възползвайте се максимално от вашия казино пакет \u201eДобре дошли\u201c с до ${total_amount} в казино бонуси и ${total_fs_amount} безплатни завъртания на \"${slot_game}\" за първите ви три депозита!",
+              "cs" : "Využijte svůj uvítací casino balíček naplno a získejte až ${total_amount} na casino bonusu a ${total_fs_amount} free spinů na \"${slot_game}\" během prvních tří vkladů!",
+              "de" : "Nutzen Sie Ihr Casino-Willkommenspaket voll aus mit bis zu ${total_amount} Casino-Boni und ${total_fs_amount} Gratis-Spins auf \u201e${slot_game}\u201d für Ihre ersten drei Einzahlungen!",
+              "el" : "Αξιοποιείς στο έπακρο την Προσφορά Καλωσορίσματος με έως ${total_amount} σε Καζίνο Μπόνους και ${total_fs_amount} Free Spins στο ${slot_game} με τις τρεις πρώτες καταθέσεις!",
+              "en" : "Make the most of your Welcome Casino Package with up to ${total_amount} in Casino Bonuses and ${total_fs_amount} Free Spins on \"${slot_game}\" across your first three deposits!",
+              "es" : "Aprovecha al máximo tu Paquete de Bienvenida del Casino con hasta ${total_amount} en Bonos del Casino y ${total_fs_amount} Giros Gratis en \"${slot_game}\" durante tus tres primeros depósitos.",
+              "fi" : "Ota kaikki irti tervetuliaiskasinopaketistasi: ${total_amount} kasinobonuksina ja ${total_fs_amount} ilmaiskierrosta peliin ${slot_game} kolmella ensimmäisellä talletuksellasi!",
+              "fr" : "Profitez de votre package de bienvenue au casino avec jusqu'à ${total_amount} de bonus de casino et ${total_fs_amount} de tours gratuits sur \"${slot_game}\" sur vos trois premiers dépôts !",
+              "hr" : "Iskoristite svoj Kasino paket dobrodošlice uz do ${total_amount} u kasino bonusima i ${total_fs_amount} besplatnih vrtnji na \"${slot_game}\" kroz svoje prve tri uplate!",
+              "hu" : "Hozd ki a legtöbbet az Üdvözlő kaszinóbónusz csomagból, amellyel akár ${total_amount} kaszinóbónuszt és ${total_fs_amount} Ingyen Pörgetést szerezhetsz a \"${slot_game}\" nyerőgépre az első három befizetésed után!",
+              "it" : "Sfrutta al massimo il tuo pacchetto di benvenuto del casinò con fino a ${total_amount} in bonus casinò e ${total_fs_amount} giri gratuiti su \u201c${slot_game}\u201d sui tuoi primi tre depositi!",
+              "no" : "Få mest mulig ut av ditt Casino-velkomstpakke med opptil ${total_amount} i casinobonuser og ${total_fs_amount} gratisspinn på \"${slot_game}\" for dine tre første innskudd!",
+              "pl" : "Wykorzystaj w pełni swój Powitalny Pakiet Kasynowy \u2013 do ${total_amount} w Bonusach Kasynowych oraz ${total_fs_amount} darmowych spinów na \"${slot_game}\u201d w ramach trzech pierwszych depozytów!",
+              "pt" : "Aproveita ao máximo o teu Pacote de Boas-Vindas do Casino com até ${total_amount} em Bônus de Casino e ${total_fs_amount} Rodadas Grátis no \"${slot_game}\" ao longo dos teus três primeiros depósitos.",
+              "ro" : "Profită la maxim de pachetul tău de bun venit în cazino cu până la ${total_amount} în bonusuri de cazino și ${total_fs_amount} Rotiri Gratuite la \"${slot_game}\" la primele 3 depuneri!",
+              "ru" : "Воспользуйтесь максимально своим приветственным пакетом казино с бонусами до ${total_amount} и ${total_fs_amount} Фриспинов в игре \"${slot_game}\" за первые три депозита!",
+              "sl" : "Izkoristite svoj paket dobrodošlice v kazinoju z do ${total_amount} v kazino bonusih in ${total_fs_amount} brezplačnih vrtljajev na \"${slot_game}\" pri vaših prvih treh vplačilih!",
+              "sr" : "Iskoristite maksimalno svoj Kazino paket dobrodošlice sa bonusima do ${total_amount} i ${total_fs_amount} besplatnih spinova na \u201e${slot_game}\u201c za prva tri depozita!          \u2022${percentage_1} Kazino bonus za prvi depozit do ${amount_1} i ${fs_amount_1} BS",
+              "tr" : "İlk üç yatırımın boyunca ${total_amount}\u2019ye kadar Casino Bonusu ve \"${slot_game}\" oyununda ${total_fs_amount} Free Spins ile Hoş Geldin Casino Paketinden en iyi şekilde yararlan!",
+              "BR_pt" : "Aproveite ao máximo o seu Pacote de Boas-Vindas do Cassino com até ${total_amount} em Bônus do Cassino e ${total_fs_amount} Rodadas Grátis no \"${slot_game}\" durante seus três primeiros depósitos.",
+              "bn" : "আপনার প্রথম তিনটি ডিপোজিটের উপর ${total_amount} পর্যন্ত ক্যাসিনো বোনাস এবং \"${slot_game}\"-এ ${total_fs_amount} ফ্রি স্পিন সহ আপনার ওয়েলকাম ক্যাসিনো প্যাকেজের সর্বোচ্চ সুবিধা নিন!",
+              "mk" : "Извлечи максимум од твојот Пакет за добредојде за казино со бонуси за казино до ${total_amount} и ${total_fs_amount} бесплатни вртења на \u201c${slot_game}\u201c во текот на првите три депозити! \u2022${percentage_1} бонус за казино при 1. депозит до ${amount_1} и ${fs_amount_1} FS",
+              "sq" : "Shfrytëzoni sa më shumë Paketën e Mirëseardhjes në Kazino me deri në ${total_amount} bonuse kazinoje dhe ${total_fs_amount} Rrotullime Falas në \"${slot_game}\" gjatë tre depozitave tuaja të para!",
+              "CL_es" : "Sácale el máximo provecho a tu Paquete de Bienvenida del Casino con hasta ${total_amount} en Bonos del Casino y ${total_fs_amount} Giros Gratis en \"${slot_game}\" durante tus primeros tres depósitos."
             }
           },
-          "layout": {
-            "type": "map",
-            "space": {
-              "type": "text",
-              "value": "md"
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
             }
           }
         },
         {
-          "type": "map",
-          "component": {
-            "type": "text",
-            "value": "list"
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
           },
-          "items": {
-            "type": "list",
-            "value": [
+          "items" : {
+            "type" : "list",
+            "value" : [
               {
-                "type": "text",
-                "value": {
-                  "az": "1-ci depozit üçün ${amount_1}-dək ${percentage_1} Casino Bonusu & ${fs_amount_1} FS",
-                  "bg": "${percentage_1} казино бонус за първи депозит до ${amount_1} и ${fs_amount_1} безплатни завъртания",
-                  "cs": "${percentage_1} casino bonus k 1. vkladu až do ${amount_1} + ${fs_amount_1} free spinů",
-                  "de": "${percentage_1} Casino-Bonus zur 1. Einzahlung bis zu ${amount_1} & ${fs_amount_1} GS",
-                  "el": "${percentage_1} Καζίνο Μπόνους 1ης Κατάθεσης έως ${amount_1} & ${fs_amount_1} FS",
-                  "en": "${percentage_1} 1st Deposit Casino Bonus up to ${amount_1} & ${fs_amount_1} FS",
-                  "es": "${percentage_1} Bono del Casino en el 1.º Depósito hasta ${amount_1} + ${fs_amount_1} Giros Gratis",
-                  "fi": "${percentage_1} 1. talletuksen kasinobonus, jopa ${amount_1}, ja ${fs_amount_1} IK",
-                  "fr": "${percentage_1} Bonus de casino sur le 1er dépôt jusqu'à ${amount_1} & ${fs_amount_1} TG",
-                  "hr": "${percentage_1} bonus na 1. uplatu do ${amount_1} i ${fs_amount_1} FS",
-                  "hu": "${percentage_1}-os 1. befizetés utáni kaszinóbónusz ${amount_1}-ig + ${fs_amount_1} IP",
-                  "it": "${percentage_1} Bonus casinò sul primo deposito fino a ${amount_1} e ${fs_amount_1} GG",
-                  "no": "${percentage_1} casinobonus på første innskudd opptil ${amount_1} & ${fs_amount_1} GS",
-                  "pl": "${percentage_1} Bonus Kasynowy za 1. depozyt do ${amount_1} + ${fs_amount_1} Darmowych Spinów",
-                  "pt": "${percentage_1} Bônus do Casino no 1.º Depósito até ${amount_1} + ${fs_amount_1} Rodadas Grátis",
-                  "ro": "${percentage_1} Bonus de cazino la prima depunere de până la ${amount_1} și ${fs_amount_1} Rotiri Gratuite",
-                  "ru": "${percentage_1} Бонус казино за первый депозит до ${amount_1} и ${fs_amount_1} Фриспинов",
-                  "sl": "${percentage_1} bonus na 1. vplačilo do ${amount_1} & ${fs_amount_1} brezplačnih vrtljajev",
-                  "sr": "${percentage_1} Kazino bonus za prvi depozit do ${amount_1} i ${fs_amount_1} BS",
-                  "tr": "1. yatırım için ${amount_1}’ye kadar ${percentage_1} Casino Bonusu & ${fs_amount_1} FS",
-                  "BR_pt": "${percentage_1} Bônus do Cassino no 1º Depósito até ${amount_1} + ${fs_amount_1} Rodadas Grátis",
-                  "bn": "${percentage_1} প্রথম ডিপোজিট ক্যাসিনো বোনাস ${amount_1} পর্যন্ত এবং ${fs_amount_1} ফ্রি স্পিন",
-                  "mk": "${percentage_1} бонус за казино при 1. депозит до ${amount_1} и ${fs_amount_1} FS",
-                  "sq": "${percentage_1} Bonus për Depozitën e Parë deri në ${amount_1} & ${fs_amount_1} FS",
-                  "CL_es": "${percentage_1} Bono del Casino en el 1.er Depósito hasta ${amount_1} + ${fs_amount_1} Giros Gratis"
+                "type" : "text",
+                "value" : {
+                  "az" : "1-ci depozit üçün ${amount_1}-dək ${percentage_1} Casino Bonusu & ${fs_amount_1} FS",
+                  "bg" : "${percentage_1} казино бонус за първи депозит до ${amount_1} и ${fs_amount_1} безплатни завъртания",
+                  "cs" : "${percentage_1} casino bonus k 1. vkladu až do ${amount_1} + ${fs_amount_1} free spinů",
+                  "de" : "${percentage_1} Casino-Bonus zur 1. Einzahlung bis zu ${amount_1} & ${fs_amount_1} GS",
+                  "el" : "${percentage_1} Καζίνο Μπόνους 1ης Κατάθεσης έως ${amount_1} & ${fs_amount_1} FS",
+                  "en" : "${percentage_1} 1st Deposit Casino Bonus up to ${amount_1} & ${fs_amount_1} FS",
+                  "es" : "${percentage_1} Bono del Casino en el 1.º Depósito hasta ${amount_1} + ${fs_amount_1} Giros Gratis",
+                  "fi" : "${percentage_1} 1. talletuksen kasinobonus, jopa ${amount_1}, ja ${fs_amount_1} IK",
+                  "fr" : "${percentage_1} Bonus de casino sur le 1er dépôt jusqu'à ${amount_1} & ${fs_amount_1} TG",
+                  "hr" : "${percentage_1} bonus na 1. uplatu do ${amount_1} i ${fs_amount_1} FS",
+                  "hu" : "${percentage_1}-os 1. befizetés utáni kaszinóbónusz ${amount_1}-ig + ${fs_amount_1} IP",
+                  "it" : "${percentage_1} Bonus casinò sul primo deposito fino a ${amount_1} e ${fs_amount_1} GG",
+                  "no" : "${percentage_1} casinobonus på første innskudd opptil ${amount_1} & ${fs_amount_1} GS",
+                  "pl" : "${percentage_1} Bonus Kasynowy za 1. depozyt do ${amount_1} + ${fs_amount_1} Darmowych Spinów",
+                  "pt" : "${percentage_1} Bônus do Casino no 1.º Depósito até ${amount_1} + ${fs_amount_1} Rodadas Grátis",
+                  "ro" : "${percentage_1} Bonus de cazino la prima depunere de până la ${amount_1} și ${fs_amount_1} Rotiri Gratuite",
+                  "ru" : "${percentage_1} Бонус казино за первый депозит до ${amount_1} и ${fs_amount_1} Фриспинов",
+                  "sl" : "${percentage_1} bonus na 1. vplačilo do ${amount_1} & ${fs_amount_1} brezplačnih vrtljajev",
+                  "sr" : "${percentage_1} Kazino bonus za prvi depozit do ${amount_1} i ${fs_amount_1} BS",
+                  "tr" : "1. yatırım için ${amount_1}\u2019ye kadar ${percentage_1} Casino Bonusu & ${fs_amount_1} FS",
+                  "BR_pt" : "${percentage_1} Bônus do Cassino no 1º Depósito até ${amount_1} + ${fs_amount_1} Rodadas Grátis",
+                  "bn" : "${percentage_1} প্রথম ডিপোজিট ক্যাসিনো বোনাস ${amount_1} পর্যন্ত এবং ${fs_amount_1} ফ্রি স্পিন",
+                  "mk" : "${percentage_1} бонус за казино при 1. депозит до ${amount_1} и ${fs_amount_1} FS",
+                  "sq" : "${percentage_1} Bonus për Depozitën e Parë deri në ${amount_1} & ${fs_amount_1} FS",
+                  "CL_es" : "${percentage_1} Bono del Casino en el 1.er Depósito hasta ${amount_1} + ${fs_amount_1} Giros Gratis"
                 }
               },
               {
-                "type": "text",
-                "value": {
-                  "az": "2-ci depozit üçün ${amount_2}-dək ${percentage_2} Casino Bonusu & ${fs_amount_2} FS",
-                  "bg": "${percentage_2} казино бонус за втори депозит до ${amount_2} и ${fs_amount_2} безплатни завъртания",
-                  "cs": "${percentage_2} casino bonus k 2. vkladu až do ${amount_2} + ${fs_amount_2} free spinů",
-                  "de": "${percentage_2} Casino-Bonus zur 2. Einzahlung bis zu ${amount_2} & ${fs_amount_2} GS",
-                  "el": "${percentage_2} Καζίνο Μπόνους 2ης Κατάθεσης έως ${amount_2} & ${fs_amount_2} FS",
-                  "en": "${percentage_2} 2nd Deposit Casino Bonus up to ${amount_2} & ${fs_amount_2} FS",
-                  "es": "${percentage_2} Bono del Casino en el 2.º Depósito hasta ${amount_2} + ${fs_amount_2} Giros Gratis",
-                  "fi": "${percentage_2} 2. talletuksen kasinobonus, jopa ${amount_2}, ja ${fs_amount_2} IK",
-                  "fr": "${percentage_2} Bonus de casino sur le 2ème dépôt jusqu'à ${amount_2} & ${fs_amount_2} TG",
-                  "hr": "${percentage_2} bonus na 2. uplatu do ${amount_2} i ${fs_amount_2} FS",
-                  "hu": "${percentage_2}-os 2. befizetés utáni kaszinóbónusz ${amount_2}-ig + ${fs_amount_2} IP",
-                  "it": "${percentage_2} Bonus casinò sul secondo deposito fino a ${amount_2} e ${fs_amount_2} GG",
-                  "no": "${percentage_2} casinobonus på 2. innskudd opptil ${amount_2} & ${fs_amount_2} GS",
-                  "pl": "${percentage_2} Bonus Kasynowy za 2. depozyt do ${amount_2} + ${fs_amount_2} Darmowych Spinów",
-                  "pt": "${percentage_2} Bônus do Casino no 2.º Depósito até ${amount_2} + ${fs_amount_2} Rodadas Grátis",
-                  "ro": "${percentage_2} Bonus de cazino la a doua depunere de până la ${amount_2} și ${fs_amount_2} Rotiri Gratuite",
-                  "ru": "${percentage_2} Бонус казино на второй депозит до ${amount_2} и ${fs_amount_2} Фриспинов",
-                  "sl": "${percentage_2} bonus na 2. vplačilo do ${amount_2} & ${fs_amount_2} brezplačnih vrtljajev",
-                  "sr": "${percentage_2} Kazino bonus za drugi depozit do ${amount_2} i ${fs_amount_2} BS",
-                  "tr": "2. yatırım için ${amount_2}’ye kadar ${percentage_2} Casino Bonusu & ${fs_amount_2} FS",
-                  "BR_pt": "${percentage_2} Bônus do Cassino no 2º Depósito até ${amount_2} + ${fs_amount_2} Rodadas Grátis",
-                  "bn": "${percentage_2} দ্বিতীয় ডিপোজিট ক্যাসিনো বোনাস ${amount_2} পর্যন্ত এবং ${fs_amount_2} ফ্রি স্পিন",
-                  "mk": "${percentage_2} бонус за казино при 2. депозит до ${amount_2} и ${fs_amount_2} FS",
-                  "sq": "${percentage_2} Bonus për Depozitën e Dytë deri në ${amount_2} & ${fs_amount_2} FS",
-                  "CL_es": "${percentage_2} Bono del Casino en el 2.º Depósito hasta ${amount_2} + ${fs_amount_2} Giros Gratis"
+                "type" : "text",
+                "value" : {
+                  "az" : "2-ci depozit üçün ${amount_2}-dək ${percentage_2} Casino Bonusu & ${fs_amount_2} FS",
+                  "bg" : "${percentage_2} казино бонус за втори депозит до ${amount_2} и ${fs_amount_2} безплатни завъртания",
+                  "cs" : "${percentage_2} casino bonus k 2. vkladu až do ${amount_2} + ${fs_amount_2} free spinů",
+                  "de" : "${percentage_2} Casino-Bonus zur 2. Einzahlung bis zu ${amount_2} & ${fs_amount_2} GS",
+                  "el" : "${percentage_2} Καζίνο Μπόνους 2ης Κατάθεσης έως ${amount_2} & ${fs_amount_2} FS",
+                  "en" : "${percentage_2} 2nd Deposit Casino Bonus up to ${amount_2} & ${fs_amount_2} FS",
+                  "es" : "${percentage_2} Bono del Casino en el 2.º Depósito hasta ${amount_2} + ${fs_amount_2} Giros Gratis",
+                  "fi" : "${percentage_2} 2. talletuksen kasinobonus, jopa ${amount_2}, ja ${fs_amount_2} IK",
+                  "fr" : "${percentage_2} Bonus de casino sur le 2ème dépôt jusqu'à ${amount_2} & ${fs_amount_2} TG",
+                  "hr" : "${percentage_2} bonus na 2. uplatu do ${amount_2} i ${fs_amount_2} FS",
+                  "hu" : "${percentage_2}-os 2. befizetés utáni kaszinóbónusz ${amount_2}-ig + ${fs_amount_2} IP",
+                  "it" : "${percentage_2} Bonus casinò sul secondo deposito fino a ${amount_2} e ${fs_amount_2} GG",
+                  "no" : "${percentage_2} casinobonus på 2. innskudd opptil ${amount_2} & ${fs_amount_2} GS",
+                  "pl" : "${percentage_2} Bonus Kasynowy za 2. depozyt do ${amount_2} + ${fs_amount_2} Darmowych Spinów",
+                  "pt" : "${percentage_2} Bônus do Casino no 2.º Depósito até ${amount_2} + ${fs_amount_2} Rodadas Grátis",
+                  "ro" : "${percentage_2} Bonus de cazino la a doua depunere de până la ${amount_2} și ${fs_amount_2} Rotiri Gratuite",
+                  "ru" : "${percentage_2} Бонус казино на второй депозит до ${amount_2} и ${fs_amount_2} Фриспинов",
+                  "sl" : "${percentage_2} bonus na 2. vplačilo do ${amount_2} & ${fs_amount_2} brezplačnih vrtljajev",
+                  "sr" : "${percentage_2} Kazino bonus za drugi depozit do ${amount_2} i ${fs_amount_2} BS",
+                  "tr" : "2. yatırım için ${amount_2}\u2019ye kadar ${percentage_2} Casino Bonusu & ${fs_amount_2} FS",
+                  "BR_pt" : "${percentage_2} Bônus do Cassino no 2º Depósito até ${amount_2} + ${fs_amount_2} Rodadas Grátis",
+                  "bn" : "${percentage_2} দ্বিতীয় ডিপোজিট ক্যাসিনো বোনাস ${amount_2} পর্যন্ত এবং ${fs_amount_2} ফ্রি স্পিন",
+                  "mk" : "${percentage_2} бонус за казино при 2. депозит до ${amount_2} и ${fs_amount_2} FS",
+                  "sq" : "${percentage_2} Bonus për Depozitën e Dytë deri në ${amount_2} & ${fs_amount_2} FS",
+                  "CL_es" : "${percentage_2} Bono del Casino en el 2.º Depósito hasta ${amount_2} + ${fs_amount_2} Giros Gratis"
                 }
               },
               {
-                "type": "text",
-                "value": {
-                  "az": "3-cü depozit üçün ${amount_3}-dək ${percentage_3} Casino Bonusu & ${fs_amount_3}  FS",
-                  "bg": "${percentage_3} казино бонус за трети депозит до ${amount_3} и ${fs_amount_3} безплатни завъртания",
-                  "cs": "${percentage_3} casino bonus k 3. vkladu až do ${amount_3} + ${fs_amount_3} free spinů",
-                  "de": "${percentage_3} Casino-Bonus zur 3. Einzahlung bis zu ${amount_3} & ${fs_amount_3} GS",
-                  "el": "${percentage_3} Καζίνο Μπόνους 3ης Κατάθεσης έως ${amount_3} & ${fs_amount_3} FS",
-                  "en": "${percentage_3} 3rd Deposit Casino Bonus up to ${amount_3} & ${fs_amount_3} FS",
-                  "es": "${percentage_3} Bono del Casino en el 3.º Depósito hasta ${amount_3} + ${fs_amount_3} Giros Gratis",
-                  "fi": "${percentage_3} 3. talletuksen kasinobonus, jopa ${amount_3}, ja ${fs_amount_3} IK",
-                  "fr": "${percentage_3} Bonus de casino sur le 3ème dépôt jusqu'à ${amount_3} & ${fs_amount_3} TG",
-                  "hr": "${percentage_3} bonus na 3. uplatu do ${amount_3} i ${fs_amount_3} FS",
-                  "hu": "${percentage_3}-os 3. befizetés utáni kaszinóbónusz ${amount_3}-ig + ${fs_amount_3} IP",
-                  "it": "${percentage_3} Bonus casinò sul terzo deposito fino a ${amount_3} e ${fs_amount_3} GG",
-                  "no": "${percentage_3} casinobonus på 3. innskudd opptil ${amount_3} & ${fs_amount_3} GS",
-                  "pl": "${percentage_3} Bonus Kasynowy za 3. depozyt do ${amount_3} + ${fs_amount_3} Darmowych Spinów",
-                  "pt": "${percentage_3} Bônus do Casino no 3.º Depósito até ${amount_3} + ${fs_amount_3} Rodadas Grátis",
-                  "ro": "${percentage_3} Bonus de cazino la a treia depunere de până la ${amount_3} și ${fs_amount_3} Rotiri Gratuite",
-                  "ru": "${percentage_3} Бонус казино на третий депозит до ${amount_3} и ${fs_amount_3} Фриспинов",
-                  "sl": "${percentage_3} bonus na 3. vplačilo do ${amount_3} & ${fs_amount_3} brezplačnih vrtljajev",
-                  "sr": "${percentage_3} Kazino bonus za treći depozit do ${amount_3} i ${fs_amount_3} BS",
-                  "tr": "3. yatırım için ${amount_3}’ye kadar ${percentage_3} Casino Bonusu & ${fs_amount_3} FS",
-                  "BR_pt": "${percentage_3} Bônus do Cassino no 3º Depósito até ${amount_3} + ${fs_amount_3} Rodadas Grátis",
-                  "bn": "${percentage_3} তৃতীয় ডিপোজিট ক্যাসিনো বোনাস ${amount_3} পর্যন্ত এবং ${fs_amount_3} ফ্রি স্পিন",
-                  "mk": "${percentage_3} бонус за казино при 3. депозит до ${amount_3} и ${fs_amount_3} FS",
-                  "sq": "${percentage_3} Bonus për Depozitën e Tretë deri në ${amount_3} & ${fs_amount_3} FS 🎰",
-                  "CL_es": "${percentage_3} Bono del Casino en el 3.er Depósito hasta ${amount_3} + ${fs_amount_3} Giros Gratis"
+                "type" : "text",
+                "value" : {
+                  "az" : "3-cü depozit üçün ${amount_3}-dək ${percentage_3} Casino Bonusu & ${fs_amount_3}  FS",
+                  "bg" : "${percentage_3} казино бонус за трети депозит до ${amount_3} и ${fs_amount_3} безплатни завъртания",
+                  "cs" : "${percentage_3} casino bonus k 3. vkladu až do ${amount_3} + ${fs_amount_3} free spinů",
+                  "de" : "${percentage_3} Casino-Bonus zur 3. Einzahlung bis zu ${amount_3} & ${fs_amount_3} GS",
+                  "el" : "${percentage_3} Καζίνο Μπόνους 3ης Κατάθεσης έως ${amount_3} & ${fs_amount_3} FS",
+                  "en" : "${percentage_3} 3rd Deposit Casino Bonus up to ${amount_3} & ${fs_amount_3} FS",
+                  "es" : "${percentage_3} Bono del Casino en el 3.º Depósito hasta ${amount_3} + ${fs_amount_3} Giros Gratis",
+                  "fi" : "${percentage_3} 3. talletuksen kasinobonus, jopa ${amount_3}, ja ${fs_amount_3} IK",
+                  "fr" : "${percentage_3} Bonus de casino sur le 3ème dépôt jusqu'à ${amount_3} & ${fs_amount_3} TG",
+                  "hr" : "${percentage_3} bonus na 3. uplatu do ${amount_3} i ${fs_amount_3} FS",
+                  "hu" : "${percentage_3}-os 3. befizetés utáni kaszinóbónusz ${amount_3}-ig + ${fs_amount_3} IP",
+                  "it" : "${percentage_3} Bonus casinò sul terzo deposito fino a ${amount_3} e ${fs_amount_3} GG",
+                  "no" : "${percentage_3} casinobonus på 3. innskudd opptil ${amount_3} & ${fs_amount_3} GS",
+                  "pl" : "${percentage_3} Bonus Kasynowy za 3. depozyt do ${amount_3} + ${fs_amount_3} Darmowych Spinów",
+                  "pt" : "${percentage_3} Bônus do Casino no 3.º Depósito até ${amount_3} + ${fs_amount_3} Rodadas Grátis",
+                  "ro" : "${percentage_3} Bonus de cazino la a treia depunere de până la ${amount_3} și ${fs_amount_3} Rotiri Gratuite",
+                  "ru" : "${percentage_3} Бонус казино на третий депозит до ${amount_3} и ${fs_amount_3} Фриспинов",
+                  "sl" : "${percentage_3} bonus na 3. vplačilo do ${amount_3} & ${fs_amount_3} brezplačnih vrtljajev",
+                  "sr" : "${percentage_3} Kazino bonus za treći depozit do ${amount_3} i ${fs_amount_3} BS",
+                  "tr" : "3. yatırım için ${amount_3}\u2019ye kadar ${percentage_3} Casino Bonusu & ${fs_amount_3} FS",
+                  "BR_pt" : "${percentage_3} Bônus do Cassino no 3º Depósito até ${amount_3} + ${fs_amount_3} Rodadas Grátis",
+                  "bn" : "${percentage_3} তৃতীয় ডিপোজিট ক্যাসিনো বোনাস ${amount_3} পর্যন্ত এবং ${fs_amount_3} ফ্রি স্পিন",
+                  "mk" : "${percentage_3} бонус за казино при 3. депозит до ${amount_3} и ${fs_amount_3} FS",
+                  "sq" : "${percentage_3} Bonus për Depozitën e Tretë deri në ${amount_3} & ${fs_amount_3} FS 🎰",
+                  "CL_es" : "${percentage_3} Bono del Casino en el 3.er Depósito hasta ${amount_3} + ${fs_amount_3} Giros Gratis"
                 }
               }
             ]
           },
-          "variant": {
-            "type": "text",
-            "value": "unordered"
+          "variant" : {
+            "type" : "text",
+            "value" : "unordered"
           },
-          "layout": {
-            "type": "map",
-            "space": {
-              "type": "text",
-              "value": "md"
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
             }
           }
         },
         {
-          "type": "map",
-          "component": {
-            "type": "text",
-            "value": "text"
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
           },
-          "value": {
-            "type": "text",
-            "value": {
-              "az": "Necə işləyir:",
-              "bg": "Как работи:",
-              "cs": "Jak bonus získat:",
-              "de": "So funktioniert es:",
-              "el": "Πώς λειτουργεί:",
-              "en": "How it works:",
-              "es": "Como funciona:",
-              "fi": "Toimi näin:",
-              "fr": "Comment cela fonctionne-t-il:",
-              "hr": "Kako funkcionira:",
-              "hu": "Hogyan működik:",
-              "it": "Como funciona:",
-              "no": "Hvordan det fungerer:",
-              "pl": "Jak to zrobić:",
-              "pt": "Como funciona:",
-              "ro": "Cum funcționează:",
-              "ru": "Как это работает:",
-              "sl": "Kako izkoristiti paket:",
-              "sr": "Kako to funkcioniše:",
-              "tr": "Nasıl çalışır:",
-              "BR_pt": "Como funciona:",
-              "bn": "এটি যেভাবে কাজ করে:",
-              "mk": "Како функционира:",
-              "sq": "Si funksionon:",
-              "CL_es": "Cómo funciona:"
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "az" : "Necə işləyir:",
+              "bg" : "Как работи:",
+              "cs" : "Jak bonus získat:",
+              "de" : "So funktioniert es:",
+              "el" : "Πώς λειτουργεί:",
+              "en" : "How it works:",
+              "es" : "Como funciona:",
+              "fi" : "Toimi näin:",
+              "fr" : "Comment cela fonctionne-t-il:",
+              "hr" : "Kako funkcionira:",
+              "hu" : "Hogyan működik:",
+              "it" : "Como funciona:",
+              "no" : "Hvordan det fungerer:",
+              "pl" : "Jak to zrobić:",
+              "pt" : "Como funciona:",
+              "ro" : "Cum funcționează:",
+              "ru" : "Как это работает:",
+              "sl" : "Kako izkoristiti paket:",
+              "sr" : "Kako to funkcioniše:",
+              "tr" : "Nasıl çalışır:",
+              "BR_pt" : "Como funciona:",
+              "bn" : "এটি যেভাবে কাজ করে:",
+              "mk" : "Како функционира:",
+              "sq" : "Si funksionon:",
+              "CL_es" : "Cómo funciona:"
             }
           },
-          "layout": {
-            "type": "map",
-            "space": {
-              "type": "text",
-              "value": "md"
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
             }
           }
         },
         {
-          "type": "map",
-          "component": {
-            "type": "text",
-            "value": "list"
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
           },
-          "items": {
-            "type": "list",
-            "value": [
+          "items" : {
+            "type" : "list",
+            "value" : [
               {
-                "type": "text",
-                "value": {
-                  "az": "Üstünlük verdiyin ödəniş üsulunu seç",
-                  "bg": "Изберете предпочитания от вас метод за плащане",
-                  "cs": "Vyberte si preferovanou platební možnost",
-                  "de": "Wählen Sie Ihre bevorzugte Zahlungsoption",
-                  "el": "Επιλέγεις τον τρόπο πληρωμής που προτιμάς",
-                  "en": "Choose your preferred payment option",
-                  "es": "Elige tu método de pago preferido",
-                  "fi": "Valitse haluamasi maksutapa",
-                  "fr": "Choisissez votre mode de paiement préféré",
-                  "hr": "Odaberite željeni način plaćanja",
-                  "hu": "Válaszd ki a használni kívánt fizetési módot",
-                  "it": "Scegli l'opzione di pagamento che preferisci.",
-                  "no": "Velg din foretrukne betalingsmåte",
-                  "pl": "Wybierz preferowaną metodę płatności",
-                  "pt": "Escolhe o teu método de pagamento preferido",
-                  "ro": "Alege metoda de plată dorită",
-                  "ru": "Выберите предпочтительный способ оплаты.",
-                  "sl": "Izberite svojo želeno možnost plačila",
-                  "sr": "Izaberite svoju omiljenu opciju plaćanja",
-                  "tr": "Tercih ettiğin ödeme yöntemini seç",
-                  "BR_pt": "Escolha sua forma de pagamento preferida",
-                  "bn": "আপনার পছন্দের পেমেন্ট পদ্ধতি বেছে নিন",
-                  "mk": "Избери ја претпочитаната опција за плаќање",
-                  "sq": "Zgjidhni metodën tuaj të preferuar të pagesës.",
-                  "CL_es": "Elige tu método de pago preferido"
+                "type" : "text",
+                "value" : {
+                  "az" : "Üstünlük verdiyin ödəniş üsulunu seç",
+                  "bg" : "Изберете предпочитания от вас метод за плащане",
+                  "cs" : "Vyberte si preferovanou platební možnost",
+                  "de" : "Wählen Sie Ihre bevorzugte Zahlungsoption",
+                  "el" : "Επιλέγεις τον τρόπο πληρωμής που προτιμάς",
+                  "en" : "Choose your preferred payment option",
+                  "es" : "Elige tu método de pago preferido",
+                  "fi" : "Valitse haluamasi maksutapa",
+                  "fr" : "Choisissez votre mode de paiement préféré",
+                  "hr" : "Odaberite željeni način plaćanja",
+                  "hu" : "Válaszd ki a használni kívánt fizetési módot",
+                  "it" : "Scegli l'opzione di pagamento che preferisci.",
+                  "no" : "Velg din foretrukne betalingsmåte",
+                  "pl" : "Wybierz preferowaną metodę płatności",
+                  "pt" : "Escolhe o teu método de pagamento preferido",
+                  "ro" : "Alege metoda de plată dorită",
+                  "ru" : "Выберите предпочтительный способ оплаты.",
+                  "sl" : "Izberite svojo želeno možnost plačila",
+                  "sr" : "Izaberite svoju omiljenu opciju plaćanja",
+                  "tr" : "Tercih ettiğin ödeme yöntemini seç",
+                  "BR_pt" : "Escolha sua forma de pagamento preferida",
+                  "bn" : "আপনার পছন্দের পেমেন্ট পদ্ধতি বেছে নিন",
+                  "mk" : "Избери ја претпочитаната опција за плаќање",
+                  "sq" : "Zgjidhni metodën tuaj të preferuar të pagesës.",
+                  "CL_es" : "Elige tu método de pago preferido"
                 }
               },
               {
-                "type": "text",
-                "value": {
-                  "az": "Açılan siyahıdan bu təklifi seç",
-                  "bg": "Изберете тази оферта от падащото меню и",
-                  "cs": "Vyberte tuto nabídku z drop-down seznamu a",
-                  "de": "Wählen Sie dieses Angebot aus der Auswahlliste und",
-                  "el": "Επιλέγεις αυτή την προσφορά από τη λίστα",
-                  "en": "Select this offer from the drop-down list and",
-                  "es": "Selecciona esta oferta en la lista desplegable",
-                  "fi": "Valitse tämä tarjous pudotusvalikosta ja",
-                  "fr": "Sélectionnez cette offre dans la liste et",
-                  "hr": "Odaberite ovu ponudu u padajućem izborniku",
-                  "hu": "Válaszd ki ezt az ajánlatot a legördülő menüből",
-                  "it": "Seleziona questa offerta dall'elenco a discesa e",
-                  "no": "Velg dette tilbudet fra rullegardinlisten og",
-                  "pl": "Zaznacz tę ofertę z listy rozwijanej",
-                  "pt": "Seleciona esta oferta na lista suspensa",
-                  "ro": "Selectează această ofertă din listă",
-                  "ru": "Выберите это предложение из раскрывающегося списка и",
-                  "sl": "Izberite to ponudbo iz padajočega seznama in",
-                  "sr": "Odaberite ovu promociju iz padajuće liste i",
-                  "tr": "Açılır listeden bu teklifi seç",
-                  "BR_pt": "Selecione esta oferta na lista suspensa",
-                  "bn": "ড্রপ-ডাউন তালিকা থেকে এই অফারটি নির্বাচন করুন এবং",
-                  "mk": "Избери ја оваа понуда од паѓачката листа и",
-                  "sq": "Zgjidhni këtë ofertë nga lista zbritëse dhe",
-                  "CL_es": "Selecciona esta oferta en la lista desplegable"
+                "type" : "text",
+                "value" : {
+                  "az" : "Açılan siyahıdan bu təklifi seç",
+                  "bg" : "Изберете тази оферта от падащото меню и",
+                  "cs" : "Vyberte tuto nabídku z drop-down seznamu a",
+                  "de" : "Wählen Sie dieses Angebot aus der Auswahlliste und",
+                  "el" : "Επιλέγεις αυτή την προσφορά από τη λίστα",
+                  "en" : "Select this offer from the drop-down list and",
+                  "es" : "Selecciona esta oferta en la lista desplegable",
+                  "fi" : "Valitse tämä tarjous pudotusvalikosta ja",
+                  "fr" : "Sélectionnez cette offre dans la liste et",
+                  "hr" : "Odaberite ovu ponudu u padajućem izborniku",
+                  "hu" : "Válaszd ki ezt az ajánlatot a legördülő menüből",
+                  "it" : "Seleziona questa offerta dall'elenco a discesa e",
+                  "no" : "Velg dette tilbudet fra rullegardinlisten og",
+                  "pl" : "Zaznacz tę ofertę z listy rozwijanej",
+                  "pt" : "Seleciona esta oferta na lista suspensa",
+                  "ro" : "Selectează această ofertă din listă",
+                  "ru" : "Выберите это предложение из раскрывающегося списка и",
+                  "sl" : "Izberite to ponudbo iz padajočega seznama in",
+                  "sr" : "Odaberite ovu promociju iz padajuće liste i",
+                  "tr" : "Açılır listeden bu teklifi seç",
+                  "BR_pt" : "Selecione esta oferta na lista suspensa",
+                  "bn" : "ড্রপ-ডাউন তালিকা থেকে এই অফারটি নির্বাচন করুন এবং",
+                  "mk" : "Избери ја оваа понуда од паѓачката листа и",
+                  "sq" : "Zgjidhni këtë ofertë nga lista zbritëse dhe",
+                  "CL_es" : "Selecciona esta oferta en la lista desplegable"
                 }
               },
               {
-                "type": "text",
-                "value": {
-                  "az": "${min_deposit} və ya daha çox depozit et",
-                  "bg": "Депозирайте ${min_deposit} или повече",
-                  "cs": "vložte ${min_deposit} nebo více",
-                  "de": "Zahlen Sie ${min_deposit} oder mehr ein",
-                  "el": "Καταθέτεις ${min_deposit} ή περισσότερα",
-                  "en": "Deposit ${min_deposit} or more",
-                  "es": "Deposita ${min_deposit} o más",
-                  "fi": "talleta vähintään ${min_deposit}",
-                  "fr": "Dépôt ${min_deposit} ou plus",
-                  "hr": "Uplatite ${min_deposit} ili više",
-                  "hu": "Fizess be legalább ${min_deposit}-ot",
-                  "it": "Deposita almeno ${min_deposit}.",
-                  "no": "Sett inn ${min_deposit} eller mer",
-                  "pl": "Wpłać minimum ${min_deposit} lub więcej",
-                  "pt": "Deposita ${min_deposit} ou mais",
-                  "ro": "Depune ${min_deposit} sau mai mult",
-                  "ru": "Внесите депозит ${min_deposit} или более.",
-                  "sl": "Vplačajte ${min_deposit} ali več",
-                  "sr": "Uplatite najmanje ${min_deposit}",
-                  "tr": "${min_deposit} veya üzeri yatırım yap",
-                  "BR_pt": "Deposite ${min_deposit} ou mais",
-                  "bn": "${min_deposit} বা তার বেশি ডিপোজিট করুন",
-                  "mk": "Уплати депозит од ${min_deposit} или повеќе",
-                  "sq": "Depozitoni ${min_deposit} ose më shumë.",
-                  "CL_es": "Deposita ${min_deposit} o más"
+                "type" : "text",
+                "value" : {
+                  "az" : "${min_deposit} və ya daha çox depozit et",
+                  "bg" : "Депозирайте ${min_deposit} или повече",
+                  "cs" : "vložte ${min_deposit} nebo více",
+                  "de" : "Zahlen Sie ${min_deposit} oder mehr ein",
+                  "el" : "Καταθέτεις ${min_deposit} ή περισσότερα",
+                  "en" : "Deposit ${min_deposit} or more",
+                  "es" : "Deposita ${min_deposit} o más",
+                  "fi" : "talleta vähintään ${min_deposit}",
+                  "fr" : "Dépôt ${min_deposit} ou plus",
+                  "hr" : "Uplatite ${min_deposit} ili više",
+                  "hu" : "Fizess be legalább ${min_deposit}-ot",
+                  "it" : "Deposita almeno ${min_deposit}.",
+                  "no" : "Sett inn ${min_deposit} eller mer",
+                  "pl" : "Wpłać minimum ${min_deposit} lub więcej",
+                  "pt" : "Deposita ${min_deposit} ou mais",
+                  "ro" : "Depune ${min_deposit} sau mai mult",
+                  "ru" : "Внесите депозит ${min_deposit} или более.",
+                  "sl" : "Vplačajte ${min_deposit} ali več",
+                  "sr" : "Uplatite najmanje ${min_deposit}",
+                  "tr" : "${min_deposit} veya üzeri yatırım yap",
+                  "BR_pt" : "Deposite ${min_deposit} ou mais",
+                  "bn" : "${min_deposit} বা তার বেশি ডিপোজিট করুন",
+                  "mk" : "Уплати депозит од ${min_deposit} или повеќе",
+                  "sq" : "Depozitoni ${min_deposit} ose më shumë.",
+                  "CL_es" : "Deposita ${min_deposit} o más"
                 }
               },
               {
-                "type": "text",
-                "value": {
-                  "az": "Növbəti Bonus və FS-ləri açmaq üçün prosesi təkrarla",
-                  "bg": "Повторете процеса, за да отключите следващия си бонус и безплатни завъртания",
-                  "cs": "Zopakujte postup a odemkněte další bonus a free spiny",
-                  "de": "Wiederholen Sie den Vorgang, um Ihren nächsten Bonus & GS freizuschalten",
-                  "el": "Επαναλαμβάνεις τη διαδικασία για να ξεκλειδώσεις το επόμενο Μπόνους & FS",
-                  "en": "Repeat the process to unlock your next Bonus & FS",
-                  "es": "Repite el proceso para desbloquear tu siguiente Bono y Giros Gratis",
-                  "fi": "Avaa seuraava bonus ja IK:t toistamalla prosessi",
-                  "fr": "Répétez l'opération pour débloquer votre prochain Bonus & TG",
-                  "hr": "Ponovite postupak kako biste otključali sljedeći bonus i besplatne vrtnje",
-                  "hu": "Ismételd meg a folyamatot a következő bónusz és IP-k megszerzéséhez",
-                  "it": "Ripeti la procedura per sbloccare il tuo prossimo bonus e GG.",
-                  "no": "Gjenta prosessen for å låse opp din neste bonus og GS",
-                  "pl": "Powtórz proces, aby odblokować kolejne Bonusy i Spiny",
-                  "pt": "Repete o processo para desbloquear o teu próximo Bônus e Rodadas Grátis",
-                  "ro": "Repetă acest proces pentru a declanșa următorul bonus și pachet de rotiri gratuite",
-                  "ru": "Повторите процесс, чтобы разблокировать следующий бонус и ФС.",
-                  "sl": "Ponovite postopek, da odklenete naslednji bonus in brezplačne vrtljaje",
-                  "sr": "Ponovite postupak da biste otključali sledeći bonus i BS",
-                  "tr": "Bir sonraki Bonus ve FS’leri açmak için işlemi tekrarla",
-                  "BR_pt": "Repita o processo para desbloquear seu próximo Bônus e Rodadas Grátis",
-                  "bn": "আপনার পরবর্তী বোনাস এবং ফ্রি স্পিন আনলক করতে একই প্রক্রিয়া পুনরাবৃত্তি করুন।",
-                  "mk": "Повтори го процесот за да го отклучиш следниот бонус и FS",
-                  "sq": "Përsëriteni procesin për të zhbllokuar Bonusin dhe FS-të tuaja të radhës.",
-                  "CL_es": "Repite el proceso para desbloquear tu siguiente Bono y Giros Gratis"
+                "type" : "text",
+                "value" : {
+                  "az" : "Növbəti Bonus və FS-ləri açmaq üçün prosesi təkrarla",
+                  "bg" : "Повторете процеса, за да отключите следващия си бонус и безплатни завъртания",
+                  "cs" : "Zopakujte postup a odemkněte další bonus a free spiny",
+                  "de" : "Wiederholen Sie den Vorgang, um Ihren nächsten Bonus & GS freizuschalten",
+                  "el" : "Επαναλαμβάνεις τη διαδικασία για να ξεκλειδώσεις το επόμενο Μπόνους & FS",
+                  "en" : "Repeat the process to unlock your next Bonus & FS",
+                  "es" : "Repite el proceso para desbloquear tu siguiente Bono y Giros Gratis",
+                  "fi" : "Avaa seuraava bonus ja IK:t toistamalla prosessi",
+                  "fr" : "Répétez l'opération pour débloquer votre prochain Bonus & TG",
+                  "hr" : "Ponovite postupak kako biste otključali sljedeći bonus i besplatne vrtnje",
+                  "hu" : "Ismételd meg a folyamatot a következő bónusz és IP-k megszerzéséhez",
+                  "it" : "Ripeti la procedura per sbloccare il tuo prossimo bonus e GG.",
+                  "no" : "Gjenta prosessen for å låse opp din neste bonus og GS",
+                  "pl" : "Powtórz proces, aby odblokować kolejne Bonusy i Spiny",
+                  "pt" : "Repete o processo para desbloquear o teu próximo Bônus e Rodadas Grátis",
+                  "ro" : "Repetă acest proces pentru a declanșa următorul bonus și pachet de rotiri gratuite",
+                  "ru" : "Повторите процесс, чтобы разблокировать следующий бонус и ФС.",
+                  "sl" : "Ponovite postopek, da odklenete naslednji bonus in brezplačne vrtljaje",
+                  "sr" : "Ponovite postupak da biste otključali sledeći bonus i BS",
+                  "tr" : "Bir sonraki Bonus ve FS\u2019leri açmak için işlemi tekrarla",
+                  "BR_pt" : "Repita o processo para desbloquear seu próximo Bônus e Rodadas Grátis",
+                  "bn" : "আপনার পরবর্তী বোনাস এবং ফ্রি স্পিন আনলক করতে একই প্রক্রিয়া পুনরাবৃত্তি করুন।",
+                  "mk" : "Повтори го процесот за да го отклучиш следниот бонус и FS",
+                  "sq" : "Përsëriteni procesin për të zhbllokuar Bonusin dhe FS-të tuaja të radhës.",
+                  "CL_es" : "Repite el proceso para desbloquear tu siguiente Bono y Giros Gratis"
                 }
               }
             ]
           },
-          "variant": {
-            "type": "text",
-            "value": "ordered"
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
           },
-          "layout": {
-            "type": "map",
-            "space": {
-              "type": "text",
-              "value": "md"
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
             }
           }
         },
         {
-          "type": "map",
-          "component": {
-            "type": "text",
-            "value": "link"
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
           },
-          "text": {
-            "type": "text",
-            "value": {
-              "az": "İNDİ DEPOZİT ET",
-              "bg": "ДЕПОЗИРАЙТЕ СЕГА",
-              "cs": "VLOŽIT PENÍZE",
-              "de": "JETZT EINZAHLEN",
-              "el": "ΚΑΤΑΘΕΣΗ",
-              "en": "DEPOSIT NOW",
-              "es": "DEPOSITAR AHORA",
-              "fi": "TALLETA NYT",
-              "fr": "DÉPOSER MAINTENANT",
-              "hr": "UPLATITE SADA",
-              "hu": "FIZESS BE MOST",
-              "it": "DEPOSITARE ORA",
-              "no": "SETT INN NÅ",
-              "pl": "WPŁAĆ TERAZ",
-              "pt": "DEPOSITE AGORA",
-              "ro": "DEPUNE ACUM",
-              "ru": "ДЕПОЗИТ СЕЙЧАС",
-              "sl": "VPLAČAJ ZDAJ",
-              "sr": "UPLATI SADA",
-              "tr": "HEMEN YATIRIM YAP",
-              "BR_pt": "DEPOSITE AGORA",
-              "bn": "এখনই ডিপোজিট করুন",
-              "mk": "УПЛАТИ СЕГА",
-              "sq": "DEPOZITO TANI",
-              "CL_es": "DEPOSITAR AHORA"
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "az" : "İNDİ DEPOZİT ET",
+              "bg" : "ДЕПОЗИРАЙТЕ СЕГА",
+              "cs" : "VLOŽIT PENÍZE",
+              "de" : "JETZT EINZAHLEN",
+              "el" : "ΚΑΤΑΘΕΣΗ",
+              "en" : "DEPOSIT NOW",
+              "es" : "DEPOSITAR AHORA",
+              "fi" : "TALLETA NYT",
+              "fr" : "DÉPOSER MAINTENANT",
+              "hr" : "UPLATITE SADA",
+              "hu" : "FIZESS BE MOST",
+              "it" : "DEPOSITARE ORA",
+              "no" : "SETT INN NÅ",
+              "pl" : "WPŁAĆ TERAZ",
+              "pt" : "DEPOSITE AGORA",
+              "ro" : "DEPUNE ACUM",
+              "ru" : "ДЕПОЗИТ СЕЙЧАС",
+              "sl" : "VPLAČAJ ZDAJ",
+              "sr" : "UPLATI SADA",
+              "tr" : "HEMEN YATIRIM YAP",
+              "BR_pt" : "DEPOSITE AGORA",
+              "bn" : "এখনই ডিপোজিট করুন",
+              "mk" : "УПЛАТИ СЕГА",
+              "sq" : "DEPOZITO TANI",
+              "CL_es" : "DEPOSITAR AHORA"
             }
           },
-          "align": {
-            "type": "text",
-            "value": "center"
+          "align" : {
+            "type" : "text",
+            "value" : "center"
           },
-          "link": {
-            "type": "link",
-            "to": "/account/financials/deposit"
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
           },
-          "layout": {
-            "type": "map",
-            "space": {
-              "type": "text",
-              "value": "md"
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
             }
           }
         },
         {
-          "type": "map",
-          "component": {
-            "type": "text",
-            "value": "template"
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
           },
-          "id": {
-            "type": "text",
-            "value": "terms"
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
           },
-          "height": {
-            "type": "text",
-            "value": "sm"
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
           }
         }
       ]
     },
-    "variables": {
-      "total_amount": {
-        "ALL": "200,000 ALL",
-        "ARS": "4.000.000 ARS",
-        "AUD": "A$2000",
-        "AZN": "₼4000",
-        "BRL": "R$12000",
-        "CAD": "C$2000",
-        "CHF": "Fr2000",
-        "CLP": "$2.000.000",
-        "CZK": "50 000 Kč",
-        "EUR": "€2000",
-        "GBP": "£2000",
-        "HUF": "800 000 Ft",
-        "INR": "200,000 INR",
-        "JPY": "¥300,000",
-        "KZT": "1 400 000 KZT",
-        "MKD": "100,000 MKD",
-        "MXN": "$40000",
-        "NGN": "₦4,000,000",
-        "NOK": "kr20000",
-        "NZD": "NZ$2000",
-        "PEN": "S/.8000",
-        "PLN": "10000zł",
-        "RON": "10,000 RON",
-        "RSD": "200,000 RSD",
-        "RUB": "200 000 RUB",
-        "TRY": "100000 TL",
-        "USD": "$2000",
-        "UZS": "30 000 000 so'm",
-        "ZAR": "R40000"
+    "variables" : {
+      "total_amount" : {
+        "ALL" : "200,000 ALL",
+        "ARS" : "4.000.000 ARS",
+        "AUD" : "A$2000",
+        "AZN" : "\u20bc4000",
+        "BRL" : "R$12000",
+        "CAD" : "C$2000",
+        "CHF" : "Fr2000",
+        "CLP" : "$2.000.000",
+        "CZK" : "50 000 Kč",
+        "EUR" : "\u20ac2000",
+        "GBP" : "£2000",
+        "HUF" : "800 000 Ft",
+        "INR" : "200,000 INR",
+        "JPY" : "¥300,000",
+        "KZT" : "1 400 000 KZT",
+        "MKD" : "100,000 MKD",
+        "MXN" : "$40000",
+        "NGN" : "\u20a64,000,000",
+        "NOK" : "kr20000",
+        "NZD" : "NZ$2000",
+        "PEN" : "S/.8000",
+        "PLN" : "10000zł",
+        "RON" : "10,000 RON",
+        "RSD" : "200,000 RSD",
+        "RUB" : "200 000 RUB",
+        "TRY" : "100000 TL",
+        "USD" : "$2000",
+        "UZS" : "30 000 000 so'm",
+        "ZAR" : "R40000"
       },
-      "amount_1": {
-        "ALL": "75,000 ALL",
-        "ARS": "1.500.000 ARS",
-        "AUD": "A$750",
-        "AZN": "₼1500",
-        "BRL": "R$4500",
-        "CAD": "C$750",
-        "CHF": "Fr750",
-        "CLP": "$750.000",
-        "CZK": "18 750 Kč",
-        "EUR": "€750",
-        "GBP": "£750",
-        "HUF": "300 000 Ft",
-        "INR": "75,000 INR",
-        "JPY": "¥112,500",
-        "KZT": "525 000 KZT",
-        "MKD": "37,500 MKD",
-        "MXN": "$15000",
-        "NGN": "₦1,500,000",
-        "NOK": "kr7500",
-        "NZD": "NZ$750",
-        "PEN": "S/.3000",
-        "PLN": "3750zł",
-        "RON": "3,750 RON",
-        "RSD": "75,000 RSD",
-        "RUB": "75 000 RUB",
-        "TRY": "37500 TL",
-        "USD": "$750",
-        "UZS": "11 250 000 so'm",
-        "ZAR": "R15000"
+      "amount_1" : {
+        "ALL" : "75,000 ALL",
+        "ARS" : "1.500.000 ARS",
+        "AUD" : "A$750",
+        "AZN" : "\u20bc1500",
+        "BRL" : "R$4500",
+        "CAD" : "C$750",
+        "CHF" : "Fr750",
+        "CLP" : "$750.000",
+        "CZK" : "18 750 Kč",
+        "EUR" : "\u20ac750",
+        "GBP" : "£750",
+        "HUF" : "300 000 Ft",
+        "INR" : "75,000 INR",
+        "JPY" : "¥112,500",
+        "KZT" : "525 000 KZT",
+        "MKD" : "37,500 MKD",
+        "MXN" : "$15000",
+        "NGN" : "\u20a61,500,000",
+        "NOK" : "kr7500",
+        "NZD" : "NZ$750",
+        "PEN" : "S/.3000",
+        "PLN" : "3750zł",
+        "RON" : "3,750 RON",
+        "RSD" : "75,000 RSD",
+        "RUB" : "75 000 RUB",
+        "TRY" : "37500 TL",
+        "USD" : "$750",
+        "UZS" : "11 250 000 so'm",
+        "ZAR" : "R15000"
       },
-      "amount_2": {
-        "ALL": "75,000 ALL",
-        "ARS": "1.500.000 ARS",
-        "AUD": "A$750",
-        "AZN": "₼1500",
-        "BRL": "R$4500",
-        "CAD": "C$750",
-        "CHF": "Fr750",
-        "CLP": "$750.000",
-        "CZK": "18 750 Kč",
-        "EUR": "€750",
-        "GBP": "£750",
-        "HUF": "300 000 Ft",
-        "INR": "75,000 INR",
-        "JPY": "¥112,500",
-        "KZT": "525 000 KZT",
-        "MKD": "37,500 MKD",
-        "MXN": "$15000",
-        "NGN": "₦1,500,000",
-        "NOK": "kr7500",
-        "NZD": "NZ$750",
-        "PEN": "S/.3000",
-        "PLN": "3750zł",
-        "RON": "3,750 RON",
-        "RSD": "75,000 RSD",
-        "RUB": "75 000 RUB",
-        "TRY": "37500 TL",
-        "USD": "$750",
-        "UZS": "11 250 000 so'm",
-        "ZAR": "R15000"
+      "amount_2" : {
+        "ALL" : "75,000 ALL",
+        "ARS" : "1.500.000 ARS",
+        "AUD" : "A$750",
+        "AZN" : "\u20bc1500",
+        "BRL" : "R$4500",
+        "CAD" : "C$750",
+        "CHF" : "Fr750",
+        "CLP" : "$750.000",
+        "CZK" : "18 750 Kč",
+        "EUR" : "\u20ac750",
+        "GBP" : "£750",
+        "HUF" : "300 000 Ft",
+        "INR" : "75,000 INR",
+        "JPY" : "¥112,500",
+        "KZT" : "525 000 KZT",
+        "MKD" : "37,500 MKD",
+        "MXN" : "$15000",
+        "NGN" : "\u20a61,500,000",
+        "NOK" : "kr7500",
+        "NZD" : "NZ$750",
+        "PEN" : "S/.3000",
+        "PLN" : "3750zł",
+        "RON" : "3,750 RON",
+        "RSD" : "75,000 RSD",
+        "RUB" : "75 000 RUB",
+        "TRY" : "37500 TL",
+        "USD" : "$750",
+        "UZS" : "11 250 000 so'm",
+        "ZAR" : "R15000"
       },
-      "amount_3": {
-        "ALL": "50,000 ALL",
-        "ARS": "1.000.000 ARS",
-        "AUD": "A$500",
-        "AZN": "₼1000",
-        "BRL": "R$3000",
-        "CAD": "C$500",
-        "CHF": "Fr500",
-        "CLP": "$500.000",
-        "CZK": "12 500 Kč",
-        "EUR": "€500",
-        "GBP": "£500",
-        "HUF": "200 000 Ft",
-        "INR": "50,000 INR",
-        "JPY": "¥75,000",
-        "KZT": "350 000 KZT",
-        "MKD": "25,000 MKD",
-        "MXN": "$10000",
-        "NGN": "₦1,000,000",
-        "NOK": "kr5000",
-        "NZD": "NZ$500",
-        "PEN": "S/.2000",
-        "PLN": "2500zł",
-        "RON": "2,500 RON",
-        "RSD": "50,000 RSD",
-        "RUB": "50 000 RUB",
-        "TRY": "25000 TL",
-        "USD": "$500",
-        "UZS": "7 500 000 so'm",
-        "ZAR": "R10000"
+      "amount_3" : {
+        "ALL" : "50,000 ALL",
+        "ARS" : "1.000.000 ARS",
+        "AUD" : "A$500",
+        "AZN" : "\u20bc1000",
+        "BRL" : "R$3000",
+        "CAD" : "C$500",
+        "CHF" : "Fr500",
+        "CLP" : "$500.000",
+        "CZK" : "12 500 Kč",
+        "EUR" : "\u20ac500",
+        "GBP" : "£500",
+        "HUF" : "200 000 Ft",
+        "INR" : "50,000 INR",
+        "JPY" : "¥75,000",
+        "KZT" : "350 000 KZT",
+        "MKD" : "25,000 MKD",
+        "MXN" : "$10000",
+        "NGN" : "\u20a61,000,000",
+        "NOK" : "kr5000",
+        "NZD" : "NZ$500",
+        "PEN" : "S/.2000",
+        "PLN" : "2500zł",
+        "RON" : "2,500 RON",
+        "RSD" : "50,000 RSD",
+        "RUB" : "50 000 RUB",
+        "TRY" : "25000 TL",
+        "USD" : "$500",
+        "UZS" : "7 500 000 so'm",
+        "ZAR" : "R10000"
       },
-      "min_fs_value": {
-        "ALL": "10 ALL",
-        "ARS": "20 ARS",
-        "AUD": "A$0.10",
-        "AZN": "₼0.20",
-        "BRL": "R$0.10",
-        "CAD": "C$0.10",
-        "CHF": "Fr0.10",
-        "CLP": "$25",
-        "CZK": "2.5 Kč",
-        "EUR": "€0.10",
-        "GBP": "£0.10",
-        "HUF": "30 Ft",
-        "INR": "7 INR",
-        "JPY": "¥20",
-        "KZT": "40 KZT",
-        "MKD": "5 MKD",
-        "MXN": "$0.50",
-        "NGN": "₦40",
-        "NOK": "kr1",
-        "NZD": "NZ$0.10",
-        "PEN": "S/.0.10",
-        "PLN": "0.40zł",
-        "RON": "0.5 RON",
-        "RSD": "10 RSD",
-        "RUB": "8 RUB",
-        "TRY": "1 TL",
-        "USD": "$0.10",
-        "UZS": "800 so'm",
-        "ZAR": "R1.50"
+      "min_fs_value" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.20",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "2.5 Kč",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.50",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.10",
+        "PLN" : "0.40zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "1 TL",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.50"
       },
-      "min_deposit": {
-        "ALL": "2,000 ALL",
-        "ARS": "2.500 ARS",
-        "AUD": "A$25",
-        "AZN": "₼25",
-        "BRL": "R$50",
-        "CAD": "C$25",
-        "CHF": "Fr25",
-        "CLP": "$20.000",
-        "CZK": "500 Kč",
-        "EUR": "€25",
-        "GBP": "£25",
-        "HUF": "8 750 Ft",
-        "INR": "2,500 INR",
-        "JPY": "¥3,750",
-        "KZT": "3 750 KZT",
-        "MKD": "1,250 MKD",
-        "MXN": "$150",
-        "NGN": "₦2,500",
-        "NOK": "kr250",
-        "NZD": "NZ$25",
-        "PEN": "S/.25",
-        "PLN": "100zł",
-        "RON": "100 RON",
-        "RSD": "2,500 RSD",
-        "RUB": "1 250 RUB",
-        "TRY": "250 TL",
-        "USD": "$25",
-        "UZS": "250 000 so'm",
-        "ZAR": "R250"
+      "min_deposit" : {
+        "ALL" : "2,000 ALL",
+        "ARS" : "2.500 ARS",
+        "AUD" : "A$25",
+        "AZN" : "\u20bc25",
+        "BRL" : "R$50",
+        "CAD" : "C$25",
+        "CHF" : "Fr25",
+        "CLP" : "$20.000",
+        "CZK" : "500 Kč",
+        "EUR" : "\u20ac25",
+        "GBP" : "£25",
+        "HUF" : "8 750 Ft",
+        "INR" : "2,500 INR",
+        "JPY" : "¥3,750",
+        "KZT" : "3 750 KZT",
+        "MKD" : "1,250 MKD",
+        "MXN" : "$150",
+        "NGN" : "\u20a62,500",
+        "NOK" : "kr250",
+        "NZD" : "NZ$25",
+        "PEN" : "S/.25",
+        "PLN" : "100zł",
+        "RON" : "100 RON",
+        "RSD" : "2,500 RSD",
+        "RUB" : "1 250 RUB",
+        "TRY" : "250 TL",
+        "USD" : "$25",
+        "UZS" : "250 000 so'm",
+        "ZAR" : "R250"
       },
-      "total_percentage": {
-        "*": "350%",
-        "FR": "350%",
-        "TR": "% 350"
+      "total_percentage" : {
+        "*" : "350%",
+        "FR" : "350%",
+        "TR" : "% 350"
       },
-      "percentage_1": {
-        "*": "125%",
-        "FR": "125%",
-        "TR": "% 125"
+      "percentage_1" : {
+        "*" : "125%",
+        "FR" : "125%",
+        "TR" : "% 125"
       },
-      "percentage_2": {
-        "*": "100%",
-        "FR": "100%",
-        "TR": "% 100"
+      "percentage_2" : {
+        "*" : "100%",
+        "FR" : "100%",
+        "TR" : "% 100"
       },
-      "percentage_3": {
-        "*": "125%",
-        "FR": "125%",
-        "TR": "% 125"
+      "percentage_3" : {
+        "*" : "125%",
+        "FR" : "125%",
+        "TR" : "% 125"
       },
-      "slot_game": {
-        "*": "Bigger Bass Splash",
-        "FR": "Wilds of Fortune",
-        "TR": "Bigger Bass Splash"
+      "slot_game" : {
+        "*" : "Bigger Bass Splash",
+        "FR" : "Wilds of Fortune",
+        "TR" : "Bigger Bass Splash"
       },
-      "total_fs_amount": {
-        "*": "1000",
-        "FR": "1000",
-        "TR": "1000"
+      "total_fs_amount" : {
+        "*" : "1000",
+        "FR" : "1000",
+        "TR" : "1000"
       },
-      "fs_amount_1": {
-        "*": "250",
-        "FR": "250",
-        "TR": "250"
+      "fs_amount_1" : {
+        "*" : "250",
+        "FR" : "250",
+        "TR" : "250"
       },
-      "fs_amount_2": {
-        "*": "250",
-        "FR": "250",
-        "TR": "250"
+      "fs_amount_2" : {
+        "*" : "250",
+        "FR" : "250",
+        "TR" : "250"
       },
-      "fs_amount_3": {
-        "*": "500",
-        "FR": "500",
-        "TR": "500"
+      "fs_amount_3" : {
+        "*" : "500",
+        "FR" : "500",
+        "TR" : "500"
       },
-      "wagering_req": {
-        "*": "x30",
-        "FR": "x30",
-        "TR": "x30"
+      "wagering_req" : {
+        "*" : "x30",
+        "FR" : "x30",
+        "TR" : "x30"
       }
+    }
+    },
+    "Germany": {
+      "type": "map",
+        "title" : {
+      "type" : "text",
+      "value" : {
+        "de" : "Casino-Willkommenspaket",
+        "en" : "Welcome Casino Package"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "de" : "Starten Sie mit 250% bis zu ${amount_3} & 1.000GS!",
+        "en" : "Kickstart with 250% up to ${amount_3} & 1000FS!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "welcome-casino-bonus.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "id" : {
+            "type" : "text",
+            "value" : "casino"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Casino",
+              "de" : "Casino",
+              "fi" : "Kasino",
+              "no" : "Kasino",
+              "pt" : "Casino",
+              "es" : "Casino",
+              "it" : "Casinò",
+              "fr" : "Casino",
+              "pl" : "Kasyno",
+              "az" : "Kazino",
+              "ru" : "Казино",
+              "tr" : "Casino",
+              "et" : "Kasiino",
+              "hu" : "Kaszinó",
+              "cs" : "Kasino",
+              "sr" : "Kazino",
+              "el" : "Καζίνο",
+              "mk" : "Казино",
+              "sq" : "Kazino",
+              "sl" : "Kazino",
+              "hr" : "Kasino",
+              "bg" : "Казино",
+              "ro" : "Cazino",
+              "bn" : "ক্যাসিনো"
+            }
+          }
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./welcome-casino-bonus-germany.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "de" : "Ihre ersten drei Einzahlungen sind der Auftakt zu einem unvergesslichen Abenteuer.\nMachen Sie sich bereit für Spannung ohne Ende mit unserem Casino-Willkommenspaket:",
+              "en" : "Your first three deposits set the stage for an unforgettable adventure.\nGet ready for non stop excitement with our Welcome Casino Package:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "150% Bonus bis zu ${amount_1} auf Ihre 1. Einzahlung",
+                  "en" : "150% Bonus up to ${amount_1} on your 1st deposit"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "100% Bonus bis zu ${amount_2} auf Ihre 2. Einzahlung",
+                  "en" : "100% Bonus up to ${amount_2} on your 2nd deposit"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "200% bis zu 1.000 GS auf \"Big Bass Splash\" bei Ihrer dritten Einzahlung",
+                  "en" : "200% up to 1000 FS on \"Big Bass Splash\" on your 3rd deposit"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "unordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "de" : "Wie es funktioniert:",
+              "en" : "How it works:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "Wählen Sie Ihre bevorzugte Zahlungsmethode",
+                  "en" : "Choose your preferred payment option"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "Wählen Sie dieses Angebot aus der Auswahlliste aus und zahlen Sie ${min_deposit}+ ein",
+                  "en" : "Select this offer from the drop-down list and Deposit ${min_deposit}+"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "Wiederholen Sie den Vorgang, um das nächste Angebot freizuschalten, denn ein neuer einzigartiger Preis wartet auf Sie!",
+                  "en" : "Repeat the process to unlock the next offer because a new unique prize awaits!"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "de" : "JETZT EINZAHLEN",
+              "en" : "DEPOSIT NOW"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount_1" : {
+        "ALL" : "100,000 ALL",
+        "ARS" : "100000 ARS",
+        "AUD" : "A$1500",
+        "AZN" : "\u20bc1000",
+        "BRL" : "R$6000",
+        "CAD" : "C$1500",
+        "CHF" : "Fr1000",
+        "CLP" : "$800000",
+        "CZK" : "Kč20000",
+        "EUR" : "\u20ac1000",
+        "GBP" : "£1000",
+        "HUF" : "350000 Ft",
+        "INR" : "100000 INR",
+        "JPY" : "¥150000",
+        "KZT" : "150000 KZT",
+        "MKD" : "50,000 MKD",
+        "MXN" : "$20,000",
+        "NGN" : "\u20a6100000",
+        "NOK" : "kr10.000",
+        "NZD" : "NZ$1500",
+        "PEN" : "S/.1000",
+        "PLN" : "4000zł",
+        "RON" : "5,000 RON",
+        "RSD" : "100,000 RSD",
+        "RUB" : "50000 RUB",
+        "TRY" : "\u20ba10000",
+        "USD" : "$1000",
+        "UZS" : "10000000 so'm",
+        "ZAR" : "R20,000"
+      },
+      "amount_2" : {
+        "ALL" : "200,000 ALL",
+        "ARS" : "200000 ARS",
+        "AUD" : "A$3000",
+        "AZN" : "\u20bc2000",
+        "BRL" : "R$12000",
+        "CAD" : "C$3000",
+        "CHF" : "Fr2000",
+        "CLP" : "$1600000",
+        "CZK" : "Kč40000",
+        "EUR" : "\u20ac2000",
+        "GBP" : "£2000",
+        "HUF" : "700000 Ft",
+        "INR" : "200000 INR",
+        "JPY" : "¥300000",
+        "KZT" : "300000 KZT",
+        "MKD" : "100,000 MKD",
+        "MXN" : "$40,000",
+        "NGN" : "\u20a6200000",
+        "NOK" : "kr20.000",
+        "NZD" : "NZ$3000",
+        "PEN" : "S/.2000",
+        "PLN" : "8000zł",
+        "RON" : "10,000 RON",
+        "RSD" : "200,000 RSD",
+        "RUB" : "100000 RUB",
+        "TRY" : "\u20ba20000",
+        "USD" : "$2000",
+        "UZS" : "20000000 so'm",
+        "ZAR" : "R40,000"
+      },
+      "amount_3" : {
+        "ALL" : "300,000 ALL",
+        "ARS" : "300000 ARS",
+        "AUD" : "A$4500",
+        "AZN" : "\u20bc3000",
+        "BRL" : "R$18000",
+        "CAD" : "C$4500",
+        "CHF" : "Fr3000",
+        "CLP" : "$2400000",
+        "CZK" : "Kč60000",
+        "EUR" : "\u20ac3000",
+        "GBP" : "£3000",
+        "HUF" : "1050000 Ft",
+        "INR" : "300000 INR",
+        "JPY" : "¥450000",
+        "KZT" : "450000 KZT",
+        "MKD" : "150,000 MKD",
+        "MXN" : "$60,000",
+        "NGN" : "\u20a6300000",
+        "NOK" : "kr30.000",
+        "NZD" : "NZ$4500",
+        "PEN" : "S/.3000",
+        "PLN" : "12000zł",
+        "RON" : "15,000 RON",
+        "RSD" : "300,000 RSD",
+        "RUB" : "150000 RUB",
+        "TRY" : "\u20ba30000",
+        "USD" : "$3000",
+        "UZS" : "30000000 so'm",
+        "ZAR" : "R60,000"
+      },
+      "min_bet" : {
+        "ALL" : "40 ALL",
+        "ARS" : "50 ARS",
+        "AUD" : "A$0.5",
+        "AZN" : "\u20bc1",
+        "BRL" : "R$3",
+        "CAD" : "C$0.5",
+        "CHF" : "Fr0.5",
+        "CLP" : "$250",
+        "CZK" : "Kč10",
+        "EUR" : "\u20ac0.5",
+        "GBP" : "£0.5",
+        "HUF" : "175 Ft",
+        "INR" : "50 INR",
+        "JPY" : "¥80",
+        "KZT" : "50 KZT",
+        "MKD" : "25 MKD",
+        "MXN" : "$10",
+        "NGN" : "\u20a650",
+        "NOK" : "kr5",
+        "NZD" : "NZ$0.5",
+        "PEN" : "S/.1",
+        "PLN" : "2zł",
+        "RON" : "2 RON",
+        "RSD" : "50 RSD",
+        "RUB" : "50 RUB",
+        "TRY" : "\u20ba5",
+        "USD" : "$0.5",
+        "UZS" : "5000 so'm",
+        "ZAR" : "R10"
+      },
+      "max_bet" : {
+        "ALL" : "400 ALL",
+        "ARS" : "500 ARS",
+        "AUD" : "A$5",
+        "AZN" : "\u20bc10",
+        "BRL" : "R$30",
+        "CAD" : "C$5",
+        "CHF" : "Fr5",
+        "CLP" : "$2500",
+        "CZK" : "Kč100",
+        "EUR" : "\u20ac5",
+        "GBP" : "£5",
+        "HUF" : "1750 Ft",
+        "INR" : "500 INR",
+        "JPY" : "¥800",
+        "KZT" : "500 KZT",
+        "MKD" : "250 MKD",
+        "MXN" : "$100",
+        "NGN" : "\u20a6500",
+        "NOK" : "kr50",
+        "NZD" : "NZ$5",
+        "PEN" : "S/.10",
+        "PLN" : "20zł",
+        "RON" : "20 RON",
+        "RSD" : "500 RSD",
+        "RUB" : "500 RUB",
+        "TRY" : "\u20ba50",
+        "USD" : "$5",
+        "UZS" : "50000 so'm",
+        "ZAR" : "R100"
+      },
+      "min_spin_value" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.2",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.50",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.40zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "\u20ba1",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.50"
+      },
+      "min_spin_value_2" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.2",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.10",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.10zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "\u20ba1",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R0.10"
+      },
+      "min_fs_winnings" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.2",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.50",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.40zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "\u20ba1",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.50"
+      },
+      "min_deposit" : {
+        "ALL" : "1,600 ALL",
+        "ARS" : "2000 ARS",
+        "AUD" : "A$30",
+        "AZN" : "\u20bc20",
+        "BRL" : "R$20",
+        "CAD" : "C$30",
+        "CHF" : "Fr25",
+        "CLP" : "$16000",
+        "CZK" : "Kč400",
+        "EUR" : "\u20ac20",
+        "GBP" : "£25",
+        "HUF" : "7000 Ft",
+        "INR" : "2000 INR",
+        "JPY" : "¥3000",
+        "KZT" : "3000 KZT",
+        "MKD" : "1,000 MKD",
+        "MXN" : "$500",
+        "NGN" : "\u20a62000",
+        "NOK" : "kr350",
+        "NZD" : "NZ$30",
+        "PEN" : "S/.20",
+        "PLN" : "90zł",
+        "RON" : "80 RON",
+        "RSD" : "2,000 RSD",
+        "RUB" : "1000 RUB",
+        "TRY" : "\u20ba200",
+        "USD" : "$25",
+        "UZS" : "200000 so'm",
+        "ZAR" : "R500"
+      }
+    }
+    },
+    "Austria": {
+      "type": "map",
+        "title" : {
+      "type" : "text",
+      "value" : {
+        "de" : "Casino-Willkommenspaket",
+        "en" : "Welcome Casino Package"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "de" : "Starten Sie mit 250% bis zu ${amount_3} & 1.000GS!",
+        "en" : "Kickstart with 250% up to ${amount_3} & 1000FS!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "welcome-casino-bonus.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "id" : {
+            "type" : "text",
+            "value" : "casino"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Casino",
+              "de" : "Casino",
+              "fi" : "Kasino",
+              "no" : "Kasino",
+              "pt" : "Casino",
+              "es" : "Casino",
+              "it" : "Casinò",
+              "fr" : "Casino",
+              "pl" : "Kasyno",
+              "az" : "Kazino",
+              "ru" : "Казино",
+              "tr" : "Casino",
+              "et" : "Kasiino",
+              "hu" : "Kaszinó",
+              "cs" : "Kasino",
+              "sr" : "Kazino",
+              "el" : "Καζίνο",
+              "mk" : "Казино",
+              "sq" : "Kazino",
+              "sl" : "Kazino",
+              "hr" : "Kasino",
+              "bg" : "Казино",
+              "ro" : "Cazino",
+              "bn" : "ক্যাসিনো"
+            }
+          }
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./welcome-casino-bonus-austria.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "de" : "Ihre ersten drei Einzahlungen sind der Auftakt zu einem unvergesslichen Abenteuer.\nMachen Sie sich bereit für Spannung ohne Ende mit unserem Casino-Willkommenspaket:",
+              "en" : "Your first three deposits set the stage for an unforgettable adventure.\nGet ready for non stop excitement with our Welcome Casino Package:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "150% Bonus bis zu ${amount_1} auf Ihre 1. Einzahlung",
+                  "en" : "150% Bonus up to ${amount_1} on your 1st deposit"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "100% Bonus bis zu ${amount_2} auf Ihre 2. Einzahlung",
+                  "en" : "100% Bonus up to ${amount_2} on your 2nd deposit"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "200% bis zu 1.000 GS auf \"Big Bass Splash\" bei Ihrer dritten Einzahlung",
+                  "en" : "200% up to 1000 FS on \"Big Bass Splash\" on your 3rd deposit"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "unordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "de" : "Wie es funktioniert:",
+              "en" : "How it works:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "Wählen Sie Ihre bevorzugte Zahlungsmethode",
+                  "en" : "Choose your preferred payment option"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "Wählen Sie dieses Angebot aus der Auswahlliste aus und zahlen Sie ${min_deposit}+ ein",
+                  "en" : "Select this offer from the drop-down list and Deposit ${min_deposit}+"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "de" : "Wiederholen Sie den Vorgang, um das nächste Angebot freizuschalten, denn ein neuer einzigartiger Preis wartet auf Sie!",
+                  "en" : "Repeat the process to unlock the next offer because a new unique prize awaits!"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "de" : "JETZT EINZAHLEN",
+              "en" : "DEPOSIT NOW"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount_1" : {
+        "ALL" : "100,000 ALL",
+        "ARS" : "100000 ARS",
+        "AUD" : "A$1500",
+        "AZN" : "\u20bc1000",
+        "BRL" : "R$6000",
+        "CAD" : "C$1500",
+        "CHF" : "Fr1000",
+        "CLP" : "$800000",
+        "CZK" : "Kč20000",
+        "EUR" : "\u20ac1000",
+        "GBP" : "£1000",
+        "HUF" : "350000 Ft",
+        "INR" : "100000 INR",
+        "JPY" : "¥150000",
+        "KZT" : "150000 KZT",
+        "MKD" : "50,000 MKD",
+        "MXN" : "$20000",
+        "NGN" : "\u20a6100000",
+        "NOK" : "kr10.000",
+        "NZD" : "NZ$1500",
+        "PEN" : "S/.1000",
+        "PLN" : "4000zł",
+        "RON" : "5,000 RON",
+        "RSD" : "100,000 RSD",
+        "RUB" : "50000 RUB",
+        "TRY" : "\u20ba10000",
+        "USD" : "$1000",
+        "UZS" : "10000000 so'm",
+        "ZAR" : "R20,000"
+      },
+      "amount_2" : {
+        "ALL" : "200,000 ALL",
+        "ARS" : "200000 ARS",
+        "AUD" : "A$3000",
+        "AZN" : "\u20bc2000",
+        "BRL" : "R$12000",
+        "CAD" : "C$3000",
+        "CHF" : "Fr2000",
+        "CLP" : "$1600000",
+        "CZK" : "Kč40000",
+        "EUR" : "\u20ac2000",
+        "GBP" : "£2000",
+        "HUF" : "700000 Ft",
+        "INR" : "200000 INR",
+        "JPY" : "¥300000",
+        "KZT" : "300000 KZT",
+        "MKD" : "100,000 MKD",
+        "MXN" : "$40000",
+        "NGN" : "\u20a6200000",
+        "NOK" : "kr20.000",
+        "NZD" : "NZ$3000",
+        "PEN" : "S/.2000",
+        "PLN" : "8000zł",
+        "RON" : "10,000 RON",
+        "RSD" : "200,000 RSD",
+        "RUB" : "100000 RUB",
+        "TRY" : "\u20ba20000",
+        "USD" : "$2000",
+        "UZS" : "20000000 so'm",
+        "ZAR" : "R40,000"
+      },
+      "amount_3" : {
+        "ALL" : "300,000 ALL",
+        "ARS" : "300000 ARS",
+        "AUD" : "A$4500",
+        "AZN" : "\u20bc3000",
+        "BRL" : "R$18000",
+        "CAD" : "C$4500",
+        "CHF" : "Fr3000",
+        "CLP" : "$2400000",
+        "CZK" : "Kč60000",
+        "EUR" : "\u20ac3000",
+        "GBP" : "£3000",
+        "HUF" : "1050000 Ft",
+        "INR" : "300000 INR",
+        "JPY" : "¥450000",
+        "KZT" : "450000 KZT",
+        "MKD" : "150,000 MKD",
+        "MXN" : "$60000",
+        "NGN" : "\u20a6300000",
+        "NOK" : "kr30.000",
+        "NZD" : "NZ$4500",
+        "PEN" : "S/.3000",
+        "PLN" : "12000zł",
+        "RON" : "15,000 RON",
+        "RSD" : "300,000 RSD",
+        "RUB" : "150000 RUB",
+        "TRY" : "\u20ba30000",
+        "USD" : "$3000",
+        "UZS" : "30000000 so'm",
+        "ZAR" : "R60,000"
+      },
+      "min_bet" : {
+        "ALL" : "40 ALL",
+        "ARS" : "50 ARS",
+        "AUD" : "A$0.5",
+        "AZN" : "\u20bc1",
+        "BRL" : "R$3",
+        "CAD" : "C$0.5",
+        "CHF" : "Fr0.5",
+        "CLP" : "$250",
+        "CZK" : "Kč10",
+        "EUR" : "\u20ac0.5",
+        "GBP" : "£0.5",
+        "HUF" : "175 Ft",
+        "INR" : "50 INR",
+        "JPY" : "¥80",
+        "KZT" : "50 KZT",
+        "MKD" : "25 MKD",
+        "MXN" : "$10",
+        "NGN" : "\u20a650",
+        "NOK" : "kr5",
+        "NZD" : "NZ$0.5",
+        "PEN" : "S/.1",
+        "PLN" : "2zł",
+        "RON" : "2 RON",
+        "RSD" : "50 RSD",
+        "RUB" : "50 RUB",
+        "TRY" : "\u20ba5",
+        "USD" : "$0.5",
+        "UZS" : "5000 so'm",
+        "ZAR" : "R10"
+      },
+      "max_bet" : {
+        "ALL" : "400 ALL",
+        "ARS" : "500 ARS",
+        "AUD" : "A$5",
+        "AZN" : "\u20bc10",
+        "BRL" : "R$30",
+        "CAD" : "C$5",
+        "CHF" : "Fr5",
+        "CLP" : "$2500",
+        "CZK" : "Kč100",
+        "EUR" : "\u20ac5",
+        "GBP" : "£5",
+        "HUF" : "1750 Ft",
+        "INR" : "500 INR",
+        "JPY" : "¥800",
+        "KZT" : "500 KZT",
+        "MKD" : "250 MKD",
+        "MXN" : "$100",
+        "NGN" : "\u20a6500",
+        "NOK" : "kr50",
+        "NZD" : "NZ$5",
+        "PEN" : "S/.10",
+        "PLN" : "20zł",
+        "RON" : "20 RON",
+        "RSD" : "500 RSD",
+        "RUB" : "500 RUB",
+        "TRY" : "\u20ba50",
+        "USD" : "$5",
+        "UZS" : "50000 so'm",
+        "ZAR" : "R100"
+      },
+      "min_spin_value" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.2",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.50",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.40zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "\u20ba1",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.50"
+      },
+      "min_fs_winnings" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.2",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.50",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.40zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "\u20ba1",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.50"
+      },
+      "min_deposit" : {
+        "ALL" : "1,600 ALL",
+        "ARS" : "2000 ARS",
+        "AUD" : "A$30",
+        "AZN" : "\u20bc20",
+        "BRL" : "R$20",
+        "CAD" : "C$30",
+        "CHF" : "Fr25",
+        "CLP" : "$16000",
+        "CZK" : "Kč400",
+        "EUR" : "\u20ac20",
+        "GBP" : "£25",
+        "HUF" : "7000 Ft",
+        "INR" : "2000 INR",
+        "JPY" : "¥3000",
+        "KZT" : "3000 KZT",
+        "MKD" : "1,000 MKD",
+        "MXN" : "$500",
+        "NGN" : "\u20a62000",
+        "NOK" : "kr350",
+        "NZD" : "NZ$30",
+        "PEN" : "S/.20",
+        "PLN" : "90zł",
+        "RON" : "80 RON",
+        "RSD" : "2,000 RSD",
+        "RUB" : "1000 RUB",
+        "TRY" : "\u20ba200",
+        "USD" : "$25",
+        "UZS" : "200000 so'm",
+        "ZAR" : "R500"
+      }
+    }
+    },
+    "Finland": {
+      "type": "map",
+        "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Welcome Casino Package",
+        "fi" : "Tervetuliaiskasinopaketti",
+        "fr" : "Paquet de bienvenue au casino"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Kickstart with 225% up to ${amount} & 500 FS!",
+        "fi" : "Aloita 225% bonuksella, jopa ${amount} + 500 IK",
+        "fr" : "Démarrez avec 225% jusqu'à ${amount} & 500 tours gratuits !"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "welcome-casino-bonus.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "id" : {
+            "type" : "text",
+            "value" : "casino"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Casino",
+              "de" : "Casino",
+              "fi" : "Kasino",
+              "no" : "Kasino",
+              "pt" : "Casino",
+              "es" : "Casino",
+              "it" : "Casinò",
+              "fr" : "Casino",
+              "pl" : "Kasyno",
+              "az" : "Kazino",
+              "ru" : "Казино",
+              "tr" : "Casino",
+              "et" : "Kasiino",
+              "hu" : "Kaszinó",
+              "cs" : "Kasino",
+              "sr" : "Kazino",
+              "el" : "Καζίνο",
+              "mk" : "Казино",
+              "sq" : "Kazino",
+              "sl" : "Kazino",
+              "hr" : "Kasino",
+              "bg" : "Казино",
+              "ro" : "Cazino",
+              "bn" : "ক্যাসিনো"
+            }
+          }
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./welcome-casino-bonus-finland.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Kickstart the fun with a 225% Bonus + 500 Free Spins, all yours to enjoy!",
+              "fi" : "Aloita hauskanpito 225% bonuksella + 500 ilmaiskierroksella!",
+              "fr" : "Commencez à vous amuser avec un Bonus de 225% + 500 tours gratuits, à vous d`en profiter !"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "100% up to ${amount_1} & 50 FS on 'Big Bass Splash' with your 1st Deposit",
+                  "fi" : "100%, jopa ${amount_1}, ja 50 IK pelissä 'Big Bass Splash' 1. talletuksella",
+                  "fr" : "100% jusqu`à ${amount_1} & 50 TG sur 'Big Bass Splash' avec votre 1er dépôt"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "75% up to ${amount_2} & 100 FS on 'Big Bass Splash' with 2nd Deposit",
+                  "fi" : "75%, jopa ${amount_2}, ja 100 IK pelissä 'Big Bass Splash' 2. talletuksella",
+                  "fr" : "75% jusqu`à ${amount_2} & 100 TG sur 'Big Bass Splash' avec votre 2ème dépôt"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "50% up to ${amount_3} & 350 FS on 'Big Bass Splash' with 3rd Deposit",
+                  "fi" : "50%, jopa ${amount_3}, ja 350 IK pelissä 'Big Bass Splash' 3. talletuksella",
+                  "fr" : "50% jusqu`à ${amount_3} & 350 TG sur 'Big Bass Splash' avec 3ème dépôt"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "unordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "How it works:",
+              "fi" : "Näin se toimii:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Choose your preferred payment option",
+                  "fi" : "Valitse haluamasi maksutapa",
+                  "fr" : "Choisissez votre option de paiement préférée"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Select this offer from the drop-down list and Deposit ${min_deposit}+",
+                  "fi" : "Valitse tämä tarjous pudotusvalikosta ja talleta vähintään ${min_deposit}+",
+                  "fr" : "Sélectionnez cette offre dans la liste et déposez ${min_deposit}+"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Repeat the process to unlock the next offer because a new unique prize awaits!",
+                  "fi" : "Toista prosessi halutessasi ja avaa seuraava tarjous!",
+                  "fr" : "Répétez le processus pour débloquer l'offre suivante car un nouveau prix unique vous attend !"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "DEPOSIT NOW",
+              "fi" : "TALLETA NYT",
+              "fr" : "DÉPOSER MAINTENANT"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount" : {
+        "ALL" : "150,000 ALL",
+        "ARS" : "150000 ARS",
+        "AUD" : "A$2000",
+        "AZN" : "\u20bc1500",
+        "BRL" : "R$9000",
+        "CAD" : "C$2000",
+        "CHF" : "Fr1,500",
+        "CLP" : "$1200000",
+        "CZK" : "Kč30000",
+        "EUR" : "\u20ac1,500",
+        "GBP" : "£1,500",
+        "HUF" : "525000 Ft",
+        "INR" : "150000 INR",
+        "JPY" : "¥225000",
+        "KZT" : "225000 KZT",
+        "MKD" : "75,000 MKD",
+        "MXN" : "$30,000",
+        "NGN" : "\u20a6150000",
+        "NOK" : "kr15000",
+        "NZD" : "NZ$2000",
+        "PEN" : "S/.1500",
+        "PLN" : "6000zł",
+        "RON" : "7,500 RON",
+        "RSD" : "150,000 RSD",
+        "RUB" : "75000 RUB",
+        "TRY" : "\u20ba15000",
+        "USD" : "$1,500",
+        "UZS" : "15000000 so'm",
+        "ZAR" : "R30,000"
+      },
+      "amount_1" : {
+        "ALL" : "25,000 ALL",
+        "ARS" : "25000 ARS",
+        "AUD" : "A$350",
+        "AZN" : "\u20bc250",
+        "BRL" : "R1500",
+        "CAD" : "C$350",
+        "CHF" : "Fr250",
+        "CLP" : "$200000",
+        "CZK" : "Kč5000",
+        "EUR" : "\u20ac250",
+        "GBP" : "£250",
+        "HUF" : "87500 Ft",
+        "INR" : "25000 INR",
+        "JPY" : "¥37500",
+        "KZT" : "37500 KZT",
+        "MKD" : "12,500 MKD",
+        "MXN" : "$5,000",
+        "NGN" : "\u20a625000",
+        "NOK" : "kr2500",
+        "NZD" : "NZ$350",
+        "PEN" : "S/.250",
+        "PLN" : "1000zł",
+        "RON" : "1,250 RON",
+        "RSD" : "25,000 RSD",
+        "RUB" : "12500 RUB",
+        "TRY" : "\u20ba2500",
+        "USD" : "$250",
+        "UZS" : "2500000 so'm",
+        "ZAR" : "R5,000"
+      },
+      "amount_2" : {
+        "ALL" : "50,000 ALL",
+        "ARS" : "50000 ARS",
+        "AUD" : "A$750",
+        "AZN" : "\u20bc500",
+        "BRL" : "R$3000",
+        "CAD" : "C$750",
+        "CHF" : "Fr500",
+        "CLP" : "$400000",
+        "CZK" : "Kč10000",
+        "EUR" : "\u20ac500",
+        "GBP" : "£500",
+        "HUF" : "175000 Ft",
+        "INR" : "50000 INR",
+        "JPY" : "¥75000",
+        "KZT" : "75000 KZT",
+        "MKD" : "25,000 MKD",
+        "MXN" : "$10,000",
+        "NGN" : "\u20a650000",
+        "NOK" : "kr5000",
+        "NZD" : "NZ$750",
+        "PEN" : "S/.500",
+        "PLN" : "2000zł",
+        "RON" : "2,500 RON",
+        "RSD" : "50,000 RSD",
+        "RUB" : "25000 RUB",
+        "TRY" : "\u20ba5000",
+        "USD" : "$500",
+        "UZS" : "5000000 so'm",
+        "ZAR" : "R10,000"
+      },
+      "amount_3" : {
+        "ALL" : "75,000 ALL",
+        "ARS" : "75000 ARS",
+        "AUD" : "A$900",
+        "AZN" : "\u20bc750",
+        "BRL" : "R$4500",
+        "CAD" : "C$900",
+        "CHF" : "Fr750",
+        "CLP" : "$600000",
+        "CZK" : "Kč15000",
+        "EUR" : "\u20ac750",
+        "GBP" : "£750",
+        "HUF" : "262500 Ft",
+        "INR" : "75000 INR",
+        "JPY" : "¥112500",
+        "KZT" : "112500 KZT",
+        "MKD" : "37,500 MKD",
+        "MXN" : "$15,000",
+        "NGN" : "\u20a675000",
+        "NOK" : "kr7500",
+        "NZD" : "NZ$900",
+        "PEN" : "S/.750",
+        "PLN" : "3000zł",
+        "RON" : "3,750 RON",
+        "RSD" : "75,000 RSD",
+        "RUB" : "37500 RUB",
+        "TRY" : "\u20ba7500",
+        "USD" : "$750",
+        "UZS" : "7500000 so'm",
+        "ZAR" : "R15,000"
+      },
+      "min_bet" : {
+        "ALL" : "40 ALL",
+        "ARS" : "50 ARS",
+        "AUD" : "A$0.5",
+        "AZN" : "\u20bc1",
+        "BRL" : "R$3",
+        "CAD" : "C$0.50",
+        "CHF" : "Fr0.5",
+        "CLP" : "$250",
+        "CZK" : "Kč10",
+        "EUR" : "\u20ac0.5",
+        "GBP" : "£0.5",
+        "HUF" : "175 Ft",
+        "INR" : "50 INR",
+        "JPY" : "¥80",
+        "KZT" : "50 KZT",
+        "MKD" : "25 MKD",
+        "MXN" : "$10",
+        "NGN" : "\u20a650",
+        "NOK" : "kr5",
+        "NZD" : "NZ$0.50",
+        "PEN" : "S/.1",
+        "PLN" : "2zł",
+        "RON" : "2 RON",
+        "RSD" : "50 RSD",
+        "RUB" : "50 RUB",
+        "TRY" : "\u20ba5",
+        "USD" : "$0.5",
+        "UZS" : "5000 so'm",
+        "ZAR" : "R10"
+      },
+      "max_bet" : {
+        "ALL" : "400 ALL",
+        "ARS" : "500 ARS",
+        "AUD" : "A$5",
+        "AZN" : "\u20bc10",
+        "BRL" : "R$30",
+        "CAD" : "C$5",
+        "CHF" : "Fr5",
+        "CLP" : "$2500",
+        "CZK" : "Kč100",
+        "EUR" : "\u20ac5",
+        "GBP" : "£5",
+        "HUF" : "1750 Ft",
+        "INR" : "500 INR",
+        "JPY" : "¥800",
+        "KZT" : "500 KZT",
+        "MKD" : "250 MKD",
+        "MXN" : "$100",
+        "NGN" : "\u20a6500",
+        "NOK" : "kr50",
+        "NZD" : "NZ$5",
+        "PEN" : "S/.10",
+        "PLN" : "20zł",
+        "RON" : "20 RON",
+        "RSD" : "500 RSD",
+        "RUB" : "500 RUB",
+        "TRY" : "\u20ba50",
+        "USD" : "$5",
+        "UZS" : "50000 so'm",
+        "ZAR" : "R100"
+      },
+      "min_spin_value" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.2",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.50",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.40zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "\u20ba1",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.50"
+      },
+      "min_fs_winnings" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.2",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.50",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.40zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "\u20ba1",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.50"
+      },
+      "min_deposit" : {
+        "ALL" : "2,000 ALL",
+        "ARS" : "2500 ARS",
+        "AUD" : "A$30",
+        "AZN" : "\u20bc25",
+        "BRL" : "R$20",
+        "CAD" : "C$30",
+        "CHF" : "Fr25",
+        "CLP" : "$20000",
+        "CZK" : "Kč500",
+        "EUR" : "\u20ac25",
+        "GBP" : "£25",
+        "HUF" : "8750 Ft",
+        "INR" : "2500 INR",
+        "JPY" : "¥3750",
+        "KZT" : "3750 KZT",
+        "MKD" : "1,250 MKD",
+        "MXN" : "$500",
+        "NGN" : "\u20a62500",
+        "NOK" : "kr350",
+        "NZD" : "NZ$30",
+        "PEN" : "S/.25",
+        "PLN" : "0.40zł",
+        "RON" : "100 RON",
+        "RSD" : "2,500 RSD",
+        "RUB" : "1250 RUB",
+        "TRY" : "\u20ba250",
+        "USD" : "$25",
+        "UZS" : "250000 so'm",
+        "ZAR" : "R500"
+      }
+    }
+    },
+    "Netherlands": {
+      "type": "map",
+        "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Welcome Casino Bonus"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "${percentage} up to ${amount_1} & ${fs_amount} FS to kick off your play!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "welcome-casino-bonus.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "id" : {
+            "type" : "text",
+            "value" : "casino"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Casino",
+              "de" : "Casino",
+              "fi" : "Kasino",
+              "no" : "Kasino",
+              "pt" : "Casino",
+              "es" : "Casino",
+              "it" : "Casinò",
+              "fr" : "Casino",
+              "pl" : "Kasyno",
+              "az" : "Kazino",
+              "ru" : "Казино",
+              "tr" : "Casino",
+              "et" : "Kasiino",
+              "hu" : "Kaszinó",
+              "cs" : "Kasino",
+              "sr" : "Kazino",
+              "el" : "Καζίνο",
+              "mk" : "Казино",
+              "sq" : "Kazino",
+              "sl" : "Kazino",
+              "hr" : "Kasino",
+              "bg" : "Казино",
+              "ro" : "Cazino",
+              "bn" : "ক্যাসিনো"
+            }
+          }
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./welcome-casino-bonus-stage-1.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Let the casino excitement begin!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+                {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Unlock your Welcome Casino Bonus of ${percentage} up to ${amount_1} & ${fs_amount} Free Spins on \"${slot_game_1}\" with your first deposit and dive into unforgettable fun!"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+                {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "It`s super easy! Simply:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Choose your preferred payment option"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Select your offer from the drop-down list and deposit ${min_deposit} or more"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Enjoy your bonus, activate your FS and start spinning"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "DEPOSIT NOW"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount_1" : {
+        "ALL" : "150,000 ALL",
+        "ARS" : "3,000,000 ARS",
+        "AUD" : "A$1500",
+        "AZN" : "\u20bc3000",
+        "BRL" : "R$9000",
+        "CAD" : "C$1500",
+        "CHF" : "Fr1500",
+        "CLP" : "$1,500,000",
+        "CZK" : "Kč37500",
+        "EUR" : "\u20ac1500",
+        "GBP" : "£1500",
+        "HUF" : "600,000 Ft",
+        "INR" : "150,000 INR",
+        "JPY" : "¥225,000",
+        "KZT" : "1 050 000 KZT",
+        "MKD" : "75,000 MKD",
+        "MXN" : "$30000",
+        "NGN" : "\u20a63,000,000",
+        "NOK" : "kr15.000",
+        "NZD" : "NZ$1500",
+        "PEN" : "S/.6000",
+        "PLN" : "7500zl",
+        "RON" : "7500 RON",
+        "RSD" : "150,000 RSD",
+        "RUB" : "150 000 RUB",
+        "TRY" : "75000 TL",
+        "USD" : "$1500",
+        "UZS" : "22,500,000 so'm",
+        "ZAR" : "R30000"
+      },
+      "min_spin_value_1" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.20",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.1",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.5",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.4zl",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "1 TL",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.5"
+      },
+      "min_spin_value_2" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.20",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.1",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.5",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.4zl",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "1 TL",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.5"
+      },
+      "min_deposit" : {
+        "ALL" : "1,600 ALL",
+        "ARS" : "2000 ARS",
+        "AUD" : "A$20",
+        "AZN" : "\u20bc20",
+        "BRL" : "R$40",
+        "CAD" : "C$20",
+        "CHF" : "Fr20",
+        "CLP" : "$16,000",
+        "CZK" : "Kč400",
+        "EUR" : "\u20ac20",
+        "GBP" : "£20",
+        "HUF" : "7000 Ft",
+        "INR" : "2000 INR",
+        "JPY" : "¥3000",
+        "KZT" : "3 000 KZT",
+        "MKD" : "1,000 MKD",
+        "MXN" : "$120",
+        "NGN" : "\u20a62,000",
+        "NOK" : "kr200",
+        "NZD" : "NZ$20",
+        "PEN" : "S/.20",
+        "PLN" : "80zl",
+        "RON" : "80 RON",
+        "RSD" : "2,000 RSD",
+        "RUB" : "1 000 RUB",
+        "TRY" : "200 TL",
+        "USD" : "$20",
+        "UZS" : "200,000 so'm",
+        "ZAR" : "R200"
+      },
+      "percentage" : {
+        "NL" : "150%"
+      },
+      "slot_game_1" : {
+        "NL" : "Big Bass Splash"
+      },
+      "slot_game_2" : {
+        "NL" : "Wilds of Fortune"
+      },
+      "fs_amount" : {
+        "NL" : "150"
+      },
+      "wagering_req" : {
+        "NL" : "x35"
+      }
+    }
+    },
+    "Sweden": {
+      "type": "map",
+        "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Welcome Casino Package"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Kickstart with 250% up to ${amount_3} & 4000 FS!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "welcome-casino-bonus.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "id" : {
+            "type" : "text",
+            "value" : "casino"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Casino",
+              "de" : "Casino",
+              "fi" : "Kasino",
+              "no" : "Kasino",
+              "pt" : "Casino",
+              "es" : "Casino",
+              "it" : "Casinò",
+              "fr" : "Casino",
+              "pl" : "Kasyno",
+              "az" : "Kazino",
+              "ru" : "Казино",
+              "tr" : "Casino",
+              "et" : "Kasiino",
+              "hu" : "Kaszinó",
+              "cs" : "Kasino",
+              "sr" : "Kazino",
+              "el" : "Καζίνο",
+              "mk" : "Казино",
+              "sq" : "Kazino",
+              "sl" : "Kazino",
+              "hr" : "Kasino",
+              "bg" : "Казино",
+              "ro" : "Cazino",
+              "bn" : "ক্যাসিনো"
+            }
+          }
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./welcome-casino-bonus-sweden.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Your first three deposits set the stage for an unforgettable adventure.\nGet ready for non stop excitement with our Welcome Casino Package:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "150% Bonus up to ${amount_1} on your 1st deposit"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "100% Bonus up to ${amount_2} on your 2nd deposit"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "250% up to 4000 FS on \"Big Bass Splash\" on your 3rd deposit"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "unordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "How it works:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Choose your preferred payment option"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Select this offer from the drop-down list and Deposit ${min_deposit}+"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Repeat the process to unlock the next offer because a new unique prize awaits!"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "DEPOSIT NOW"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount_1" : {
+        "ALL" : "200,000 ALL",
+        "ARS" : "200000 ARS",
+        "AUD" : "A$3000",
+        "AZN" : "\u20bc2000",
+        "BRL" : "R$12500",
+        "CAD" : "C$3000",
+        "CHF" : "Fr2000",
+        "CLP" : "$1600000",
+        "CZK" : "Kč40000",
+        "EUR" : "\u20ac2000",
+        "GBP" : "£2000",
+        "HUF" : "700000 Ft",
+        "INR" : "200000 INR",
+        "JPY" : "¥300000",
+        "KZT" : "300000 KZT",
+        "MKD" : "100,000 MKD",
+        "MXN" : "$40,000",
+        "NGN" : "\u20a6200000",
+        "NOK" : "kr20.000",
+        "NZD" : "NZ$3000",
+        "PEN" : "S/.2000",
+        "PLN" : "8000zł",
+        "RON" : "10,000 RON",
+        "RSD" : "200,000 RSD",
+        "RUB" : "100000 RUB",
+        "TRY" : "\u20ba20000",
+        "USD" : "$2000",
+        "UZS" : "20000000 so'm",
+        "ZAR" : "R40,000"
+      },
+      "amount_2" : {
+        "ALL" : "200,000 ALL",
+        "ARS" : "200000 ARS",
+        "AUD" : "A$3000",
+        "AZN" : "\u20bc2000",
+        "BRL" : "R$12500",
+        "CAD" : "C$3000",
+        "CHF" : "Fr2000",
+        "CLP" : "$1600000",
+        "CZK" : "Kč40000",
+        "EUR" : "\u20ac2000",
+        "GBP" : "£2000",
+        "HUF" : "700000 Ft",
+        "INR" : "200000 INR",
+        "JPY" : "¥300000",
+        "KZT" : "300000 KZT",
+        "MKD" : "100,000 MKD",
+        "MXN" : "$40,000",
+        "NGN" : "\u20a6200000",
+        "NOK" : "kr20.000",
+        "NZD" : "NZ$3000",
+        "PEN" : "S/.2000",
+        "PLN" : "8000zł",
+        "RON" : "10,000 RON",
+        "RSD" : "200,000 RSD",
+        "RUB" : "100000 RUB",
+        "TRY" : "\u20ba20000",
+        "USD" : "$2000",
+        "UZS" : "20000000 so'm",
+        "ZAR" : "R40,000"
+      },
+      "amount_3" : {
+        "ALL" : "400,000 ALL",
+        "ARS" : "400000 ARS",
+        "AUD" : "A$6000",
+        "AZN" : "\u20bc4000",
+        "BRL" : "R$25000",
+        "CAD" : "C$6000",
+        "CHF" : "Fr4000",
+        "CLP" : "$3200000",
+        "CZK" : "Kč80000",
+        "EUR" : "\u20ac4000",
+        "GBP" : "£4000",
+        "HUF" : "1400000 Ft",
+        "INR" : "400000 INR",
+        "JPY" : "¥600000",
+        "KZT" : "600000 KZT",
+        "MKD" : "200,000 MKD",
+        "MXN" : "$80,000",
+        "NGN" : "\u20a6400000",
+        "NOK" : "kr40.000",
+        "NZD" : "NZ$6000",
+        "PEN" : "S/.4000",
+        "PLN" : "16000zł",
+        "RON" : "20,000 RON",
+        "RSD" : "400,000 RSD",
+        "RUB" : "200000 RUB",
+        "TRY" : "\u20ba40000",
+        "USD" : "$4000",
+        "UZS" : "40000000 so'm",
+        "ZAR" : "R80,000"
+      },
+      "min_bet" : {
+        "ALL" : "40 ALL",
+        "ARS" : "50 ARS",
+        "AUD" : "A$0.5",
+        "AZN" : "\u20bc1",
+        "BRL" : "R$3",
+        "CAD" : "C$0.5",
+        "CHF" : "Fr0.5",
+        "CLP" : "$250",
+        "CZK" : "Kč10",
+        "EUR" : "\u20ac0.5",
+        "GBP" : "£0.5",
+        "HUF" : "175 Ft",
+        "INR" : "50 INR",
+        "JPY" : "¥80",
+        "KZT" : "50 KZT",
+        "MKD" : "25 MKD",
+        "MXN" : "$10",
+        "NGN" : "\u20a650",
+        "NOK" : "kr5",
+        "NZD" : "NZ$0.5",
+        "PEN" : "S/.1",
+        "PLN" : "2zł",
+        "RON" : "2 RON",
+        "RSD" : "50 RSD",
+        "RUB" : "50 RUB",
+        "TRY" : "\u20ba5",
+        "USD" : "$0.5",
+        "UZS" : "5000 so'm",
+        "ZAR" : "R10"
+      },
+      "max_bet" : {
+        "ALL" : "400 ALL",
+        "ARS" : "500 ARS",
+        "AUD" : "A$5",
+        "AZN" : "\u20bc10",
+        "BRL" : "R$30",
+        "CAD" : "C$5",
+        "CHF" : "Fr5",
+        "CLP" : "$2500",
+        "CZK" : "Kč100",
+        "EUR" : "\u20ac5",
+        "GBP" : "£5",
+        "HUF" : "1750 Ft",
+        "INR" : "500 INR",
+        "JPY" : "¥800",
+        "KZT" : "500 KZT",
+        "MKD" : "250 MKD",
+        "MXN" : "$100",
+        "NGN" : "\u20a6500",
+        "NOK" : "kr50",
+        "NZD" : "NZ$5",
+        "PEN" : "S/.10",
+        "PLN" : "20zł",
+        "RON" : "20 RON",
+        "RSD" : "500 RSD",
+        "RUB" : "500 RUB",
+        "TRY" : "\u20ba50",
+        "USD" : "$5",
+        "UZS" : "50000 so'm",
+        "ZAR" : "R100"
+      },
+      "min_spin_value_1" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.2",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.50",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.40zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "\u20ba1",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.50"
+      },
+      "min_spin_value_2" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.2",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.10",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.10zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "\u20ba1",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R0.10"
+      },
+      "min_fs_winnings" : {
+        "ALL" : "10 ALL",
+        "ARS" : "20 ARS",
+        "AUD" : "A$0.10",
+        "AZN" : "\u20bc0.2",
+        "BRL" : "R$0.10",
+        "CAD" : "C$0.10",
+        "CHF" : "Fr0.10",
+        "CLP" : "$25",
+        "CZK" : "Kč2.5",
+        "EUR" : "\u20ac0.10",
+        "GBP" : "£0.10",
+        "HUF" : "30 Ft",
+        "INR" : "7 INR",
+        "JPY" : "¥20",
+        "KZT" : "40 KZT",
+        "MKD" : "5 MKD",
+        "MXN" : "$0.50",
+        "NGN" : "\u20a640",
+        "NOK" : "kr1",
+        "NZD" : "NZ$0.10",
+        "PEN" : "S/.0.1",
+        "PLN" : "0.40zł",
+        "RON" : "0.5 RON",
+        "RSD" : "10 RSD",
+        "RUB" : "8 RUB",
+        "TRY" : "\u20ba1",
+        "USD" : "$0.10",
+        "UZS" : "800 so'm",
+        "ZAR" : "R1.50"
+      },
+      "min_deposit" : {
+        "ALL" : "1,600 ALL",
+        "ARS" : "2000 ARS",
+        "AUD" : "A$30",
+        "AZN" : "\u20bc20",
+        "BRL" : "R$20",
+        "CAD" : "C$30",
+        "CHF" : "Fr25",
+        "CLP" : "$16000",
+        "CZK" : "Kč400",
+        "EUR" : "\u20ac20",
+        "GBP" : "£25",
+        "HUF" : "7000 Ft",
+        "INR" : "2000 INR",
+        "JPY" : "¥3000",
+        "KZT" : "3000 KZT",
+        "MKD" : "1,000 MKD",
+        "MXN" : "$500",
+        "NGN" : "\u20a62000",
+        "NOK" : "kr350",
+        "NZD" : "NZ$30",
+        "PEN" : "S/.20",
+        "PLN" : "90zł",
+        "RON" : "80 RON",
+        "RSD" : "2,000 RSD",
+        "RUB" : "1000 RUB",
+        "TRY" : "\u20ba200",
+        "USD" : "$25",
+        "UZS" : "200000 so'm",
+        "ZAR" : "R500"
+      }
+    }
+    },
+    "Great Britain": {
+      "type": "map",
+        "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Welcome Casino Bonus"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Get started with 250% up to ${amount}!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "welcome-casino-bonus.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "id" : {
+            "type" : "text",
+            "value" : "casino"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Casino",
+              "de" : "Casino",
+              "fi" : "Kasino",
+              "no" : "Kasino",
+              "pt" : "Casino",
+              "es" : "Casino",
+              "it" : "Casinò",
+              "fr" : "Casino",
+              "pl" : "Kasyno",
+              "az" : "Kazino",
+              "ru" : "Казино",
+              "tr" : "Casino",
+              "et" : "Kasiino",
+              "hu" : "Kaszinó",
+              "cs" : "Kasino",
+              "sr" : "Kazino",
+              "el" : "Καζίνο",
+              "mk" : "Казино",
+              "sq" : "Kazino",
+              "sl" : "Kazino",
+              "hr" : "Kasino",
+              "bg" : "Казино",
+              "ro" : "Cazino",
+              "bn" : "ক্যাসিনো"
+            }
+          }
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./welcome-casino-bonus-united-kingdom.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Step into the fun and claim your 250% Welcome Casino Bonus up to ${amount}!\nBegin your adventure and explore all the exciting games waiting for you!\nHow it works:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Choose your preferred payment option"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Select this promotion from the drop-down list"
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Deposit ${min_deposit} or more, and we`ll add your Bonus"
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "unordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "DEPOSIT NOW"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/account/financials/deposit"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    },
+    "variables" : {
+      "amount" : {
+        "ALL" : "1,000,000 ALL",
+        "ARS" : "1000000 ARS",
+        "AUD" : "A$15000",
+        "AZN" : "\u20bc10000",
+        "BRL" : "R$60.000",
+        "CAD" : "C$15000",
+        "CHF" : "Fr10000",
+        "CLP" : "$8,000,000",
+        "CZK" : "Kč200000",
+        "EUR" : "\u20ac10000",
+        "GBP" : "£10000",
+        "HUF" : "3500000 Ft",
+        "INR" : "1000000 INR",
+        "JPY" : "¥1500000",
+        "KZT" : "1 500 000 KZT",
+        "MKD" : "500,000 MKD",
+        "MXN" : "$60000",
+        "NGN" : "\u20a61,000,000",
+        "NOK" : "kr100.000",
+        "NZD" : "NZ$15000",
+        "PEN" : "S/.10000",
+        "PLN" : "40000zl",
+        "RON" : "50,000 RON",
+        "RSD" : "1,000,000 RSD",
+        "RUB" : "500 000 RUB",
+        "TRY" : "100000 TL",
+        "USD" : "$10000",
+        "UZS" : "100,000,000 so'm",
+        "ZAR" : "R100000"
+      },
+      "min_bet" : {
+        "ALL" : "40 ALL",
+        "ARS" : "50 ARS",
+        "AUD" : "A$0.5",
+        "AZN" : "\u20bc1",
+        "BRL" : "R$3",
+        "CAD" : "C$0.5",
+        "CHF" : "Fr0.5",
+        "CLP" : "$250",
+        "CZK" : "Kč10",
+        "EUR" : "\u20ac0.50",
+        "GBP" : "£0.50",
+        "HUF" : "175 Ft",
+        "INR" : "50 INR",
+        "JPY" : "¥80",
+        "KZT" : "50 KZT",
+        "MKD" : "25 MKD",
+        "MXN" : "$5",
+        "NGN" : "\u20a650",
+        "NOK" : "kr5",
+        "NZD" : "NZ$0.5",
+        "PEN" : "S/.1",
+        "PLN" : "2zl",
+        "RON" : "2 RON",
+        "RSD" : "50 RSD",
+        "RUB" : "50 RUB",
+        "TRY" : "5 TL",
+        "USD" : "$0.5",
+        "UZS" : "5,000 so'm",
+        "ZAR" : "R5"
+      },
+      "max_bet" : {
+        "ALL" : "400 ALL",
+        "ARS" : "500 ARS",
+        "AUD" : "A$5",
+        "AZN" : "\u20bc10",
+        "BRL" : "R$30",
+        "CAD" : "C$5",
+        "CHF" : "Fr5",
+        "CLP" : "$2,500",
+        "CZK" : "Kč100",
+        "EUR" : "\u20ac5",
+        "GBP" : "£5",
+        "HUF" : "1750 Ft",
+        "INR" : "500 INR",
+        "JPY" : "¥800",
+        "KZT" : "500 KZT",
+        "MKD" : "250 MKD",
+        "MXN" : "$50",
+        "NGN" : "\u20a6500",
+        "NOK" : "kr50",
+        "NZD" : "NZ$5",
+        "PEN" : "S/.10",
+        "PLN" : "20zl",
+        "RON" : "20 RON",
+        "RSD" : "500 RSD",
+        "RUB" : "500 RUB",
+        "TRY" : "50 TL",
+        "USD" : "$5",
+        "UZS" : "50,000 so'm",
+        "ZAR" : "R50"
+      },
+      "min_deposit" : {
+        "ALL" : "1,600 ALL",
+        "ARS" : "2000 ARS",
+        "AUD" : "A$30",
+        "AZN" : "\u20bc20",
+        "BRL" : "R$20",
+        "CAD" : "C$30",
+        "CHF" : "Fr20",
+        "CLP" : "$16,000",
+        "CZK" : "Kč400",
+        "EUR" : "\u20ac20",
+        "GBP" : "£20",
+        "HUF" : "7000 Ft",
+        "INR" : "2000 INR",
+        "JPY" : "¥3000",
+        "KZT" : "3 000 KZT",
+        "MKD" : "1,000 MKD",
+        "MXN" : "$120",
+        "NGN" : "\u20a62,000",
+        "NOK" : "kr350",
+        "NZD" : "NZ$30",
+        "PEN" : "S/.20",
+        "PLN" : "80zl",
+        "RON" : "80 RON",
+        "RSD" : "2,000 RSD",
+        "RUB" : "1 000 RUB",
+        "TRY" : "200 TL",
+        "USD" : "$25",
+        "UZS" : "200,000 so'm",
+        "ZAR" : "R200"
+      }
+    }
     }
   }
 }
