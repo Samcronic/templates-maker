@@ -708,15 +708,15 @@
           },
           {
             "type" : "text",
-            "value" : "bore-draw-bonus-united-kingdom"
-          },
-          {
-            "type" : "text",
             "value" : "early-payout-1st-half-result-united-kingdom"
           },
           {
             "type" : "text",
             "value" : "early-payout-full-time-result-united-kingdom"
+          },
+          {
+            "type" : "text",
+            "value" : "bore-draw-bonus-united-kingdom"
           },
           {
             "type" : "text",
