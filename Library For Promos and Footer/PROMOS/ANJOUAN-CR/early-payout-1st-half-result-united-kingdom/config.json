@@ -1,0 +1,245 @@
+{
+  "id": "early-payout-1st-half-result-united-kingdom",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "en": "Early Payout 1st Half Result"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "en": "Win early if your team is two goals ahead!"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "early-payout-1st-half-result-united-kingdom.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "sports"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Sports",
+              "de": "Sport",
+              "fi": "Urheilu",
+              "no": "Sport",
+              "pt": "Esportes",
+              "es": "Deportes",
+              "it": "Sport",
+              "fr": "Sports",
+              "pl": "Sport",
+              "az": "İdman",
+              "ru": "Спорт",
+              "tr": "Spor",
+              "et": "Sport",
+              "hu": "Sport",
+              "cs": "Sport",
+              "sr": "Sportovi",
+              "el": "Στοίχημα",
+              "mk": "Спорт",
+              "sq": "Sporte",
+              "sl": "Športi",
+              "hr": "Sport",
+              "bg": "Спорт",
+              "ro": "Sporturi",
+              "bn": "স্পোর্টস"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./early-payout-1st-half-result-united-kingdom.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "Get 2 goals clear before the break and enjoy an Early Payout on your 1st Half bet out! No need to wait for the whistle!"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "How it works:"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "en": "Place a pre-match bet on the 1st Half Result market (1x2) for eligible competitions."
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "en": "If your team leads by 2 goals at any stage of the 1st Half, we will pay out your bet early."
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "en": "BET NOW"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/sports"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    }
+  }
+}
