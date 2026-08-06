@@ -823,6 +823,7 @@
       },
       "slot_game" : {
         "*" : "Bigger Bass Splash",
+        "CA" : "Wilds of Fortune",
         "FR" : "Wilds of Fortune",
         "TR" : "Bigger Bass Splash"
       },
