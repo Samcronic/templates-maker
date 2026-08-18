@@ -13,7 +13,7 @@
     "description": {
       "type": "text",
       "value": {
-        "en": "Enjoy all the weekend sports action with a ${percentage} up to up to ${amount} Sports Reload!\nA ${percentage} up to ${amount} Reload for an adrenaline kick!",
+        "en": "A ${percentage} up to ${amount} Reload for an adrenaline kick!",
         "fi": "Nauti viikonloppuna urheilusta ja hanki ${percentage} jopa 100€ urheilureload!"
       }
     },
