@@ -1,0 +1,415 @@
+{
+  "id": "premier-league-0-margin",
+  "type": "component",
+  "component": {
+    "type": "map",
+    "title": {
+      "type": "text",
+      "value": {
+        "en": "Premier League 0% Margin",
+        "de": "Premier League 0% Marge",
+        "fi": "Valioliigan 0%-marginaali",
+        "no": "Premier League 0% Margin",
+        "pt": "Premier League com Margem de 0%",
+        "BR_pt": "Premier League com Margem de 0%",
+        "es": "Premier League con Margen de 0%",
+        "CL_es": "Premier League con Margen del 0%",
+        "it": "Premier League: margine dello 0%",
+        "fr": "Premier League : marge de 0%",
+        "pl": "Premier League z marżą 0%",
+        "tr": "Premier League'de %0 Marj",
+        "ru": "Премьер-лига: маржа 0%",
+        "az": "İngiltərə Premyer Liqasında 0% Marja",
+        "ee": "Premier League 0% marginaaliga",
+        "hu": "Premier League 0% Margin",
+        "cs": "0% Margin Premier League"
+      }
+    },
+    "description": {
+      "type": "text",
+      "value": {
+        "en": "Better odds on every match, all season long",
+        "de": "Bessere Quoten bei jedem Spiel, die ganze Saison über",
+        "fi": "Paremmat kertoimet jokaiseen otteluun, koko kauden",
+        "no": "Bedre odds på hver kamp, ​​hele sesongen",
+        "pt": "Melhores probabilidades em todos os jogos, durante toda a temporada",
+        "BR_pt": "Melhores probabilidades em todos os jogos, durante toda a temporada",
+        "es": "Mejores probabilidades en cada partido, durante toda la temporada",
+        "CL_es": "Mejores probabilidades en todos los partidos, durante toda la temporada",
+        "it": "Quote migliori su ogni partita, per tutta la stagione",
+        "fr": "De meilleures cotes sur chaque match, tout au long de la saison",
+        "pl": "Lepsze kursy na każdy mecz przez cały sezon",
+        "tr": "Her maçta daha iyi oranlar, tüm sezon boyunca",
+        "ru": "Лучшие коэффициенты на каждый матч на протяжении всего сезона",
+        "az": "Hər matçda daha sərfəli əmsallar, bütün mövsüm boyu",
+        "ee": "Paremad šansid igal matšil, terve hooaja vältel",
+        "hu": "Jobb szorzók minden mérkőzésre, az egész szezonban",
+        "cs": "Lepší kurzy na každý zápas po celou sezonu"
+      }
+    },
+    "background": {
+      "type": "image",
+      "name": "premier-league-0-margin.jpg"
+    },
+    "tags": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "id": {
+            "type": "text",
+            "value": "sports"
+          },
+          "label": {
+            "type": "text",
+            "value": {
+              "en": "Sports",
+              "de": "Sport",
+              "fi": "Urheilu",
+              "no": "Sport",
+              "pt": "Esportes",
+              "es": "Deportes",
+              "it": "Sport",
+              "fr": "Sports",
+              "pl": "Sport",
+              "az": "İdman",
+              "ru": "Спорт",
+              "tr": "Spor",
+              "et": "Sport",
+              "hu": "Sport",
+              "cs": "Sport",
+              "sr": "Sportovi",
+              "el": "Στοίχημα",
+              "mk": "Спорт",
+              "sq": "Sporte",
+              "sl": "Športi",
+              "hr": "Sport",
+              "bg": "Спорт",
+              "ro": "Sporturi",
+              "bn": "স্পোর্টস"
+            }
+          }
+        }
+      ]
+    },
+    "terms": {
+      "type": "template",
+      "name": "./premier-league-0-margin.html"
+    },
+    "lobby": {
+      "type": "list",
+      "value": [
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "banner"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "title"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "slot"
+          },
+          "id": {
+            "type": "text",
+            "value": "description"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "From the top of the table to the relegation battles, the Premier League never backs down! Neither does this offer. Get 0% Margin on every fixture, every matchweek, all season long!",
+              "de": "Von der Tabellenspitze bis hin zum Abstiegskampf gibt es in der Premier League immer etwas zu erleben! Genauso wie bei diesem Angebot. Sichern Sie sich 0% Marge bei jedem Spiel, in jedem Spieltag und die ganze Saison über!",
+              "fi": "Sarjataulukon kärjestä putoamistaisteluihin Valioliiga ei hellitä koskaan! Eikä tämä tarjouskaan. Saat 0%-marginaalin jokaiseen otteluun jokaisella otteluviikolla, koko kauden ajan!",
+              "no": "Fra toppen av tabellen til nedrykkskampene gir Premier League seg aldri! Heller ikke dette tilbudet. Få 0% Μargin på alle kamper, hver kampuke, hele sesongen!",
+              "pt": "Da luta pelo título à batalha pela permanência, a Premier League nunca abranda! E esta oferta também não. Desfruta de Margem de 0% em todos os jogos, todas as jornadas e durante toda a temporada.",
+              "BR_pt": "Da disputa pelo título à briga contra o rebaixamento, a Premier League nunca para! E esta oferta também não. Aproveite Margem de 0% em todos os jogos, todas as rodadas e durante toda a temporada.",
+              "es": "Desde la lucha por el título hasta la batalla por la permanencia, ¡la Premier League nunca se detiene! Y esta oferta tampoco. Disfruta de Margen del 0% en todos los partidos, todas las jornadas y durante toda la temporada.",
+              "CL_es": "Desde la pelea por el título hasta la lucha por no descender, ¡la Premier League nunca para! Y esta promoción tampoco. Disfruta de Margen del 0% en todos los partidos, todas las fechas y durante toda la temporada.",
+              "it": "Dalla vetta della classifica alle lotte per la retrocessione, la Premier League non si ferma mai! E nemmeno questa offerta. Approfitta di un margine dello 0% su ogni incontro, ogni giornata, per tutta la stagione!",
+              "fr": "Du haut du classement aux luttes pour le maintien, la Premier League ne faiblit jamais ! Et cette offre non plus. Bénéficiez d`une marge de 0% sur chaque rencontre, chaque journée, tout au long de la saison !",
+              "pl": "Od walki o mistrzostwo po zaciętą rywalizację o utrzymanie, Premier League nigdy nie zwalnia tempa! Ta oferta również. Korzystaj z marży 0% przy każdym meczu, w każdej kolejce, przez cały sezon!",
+              "tr": "Zirve yarışından kümede kalma mücadelesine kadar Premier League hiç hız kesmez! Bu teklif de öyle. Tüm sezon boyunca her hafta, her maçta %0 Marj fırsatından yararlanın!",
+              "ru": "От вершины турнирной таблицы до борьбы за выживание — Премьер-лига никогда не сдается! И это предложение тоже. Получайте маржу 0% на каждый матч, каждый игровой тур и на протяжении всего сезона!",
+              "az": "Liderlik uğrunda mübarizədən autsayderlərin savaşına qədər Premyer Liqa heç vaxt geri çəkilmir! Bu təklif də elədir. Bütün mövsüm ərzində hər turda, hər oyunda 0% Marja əldə edin!",
+              "ee": "Tabeli tipust väljalangemislahinguteni – Premier League ei taandu kunagi! See pakkumine samuti mitte. Saa 0% marginaali igalt kohtumiselt, igal matšinädalal, kogu hooaja vältel!",
+              "hu": "A tabella élmezőnyétől a kiesés elkerüléséért vívott harcig a Premier League izgalmai az egész idényben garantáltak! Csakúgy, mint ez az ajánlat. Élvezd a 0% Margin előnyeit minden forduló minden mérkőzésén, az egész idény során!",
+              "cs": "Premier League má náboj v každém kole, od velkých šlágrů až po zápasy, kde jde o záchranu. Tahle nabídka drží stejné tempo: 0% Margin na každý zápas, každé kolo a celou sezonu!"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "Head to the 1X2 market on any Premier League game and lock in better value, week after week.",
+              "de": "Besuchen Sie den 1X2-Markt für jedes Premier-League-Spiel und sichern Sie sich Woche für Woche einen höheren Wert.",
+              "fi": "Suuntaa 1X2-markkinoille missä tahansa Valioliigan pelissä ja varmista parempi arvo viikko toisensa jälkeen.",
+              "no": "Gå til 1X2 markedet på hvilken som helst Premier League kamp og sikre deg bedre verdi, uke etter uke.",
+              "pt": "Acede ao mercado 1X2 de qualquer jogo da Premier League e garante melhores probabilidades semana após semana.",
+              "BR_pt": "Acesse o mercado 1X2 de qualquer partida da Premier League e garanta melhores probabilidades semana após semana.",
+              "es": "Accede al mercado 1X2 de cualquier partido de la Premier League y consigue mejores probabilidades semana tras semana.",
+              "CL_es": "Entra al mercado 1X2 de cualquier partido de la Premier League y consigue mejores probabilidades semana tras semana.",
+              "it": "Vai al mercato 1X2 di qualsiasi partita della Premier League e assicurati un valore migliore, settimana dopo settimana.",
+              "fr": "Rendez-vous sur le marché 1X2 de n`importe quel match de Premier League et profitez d`un meilleur rapport qualité-prix, semaine après semaine.",
+              "pl": "Przejdź do zakładów 1X2 dla dowolnego meczu Premier League i ciesz się korzystniejszymi kursami tydzień po tygodniu.",
+              "tr": "Herhangi bir Premier League maçının 1X2 pazarına gidin ve her hafta daha avantajlı oranları yakalayın.",
+              "ru": "Перейдите в рынок «1X2» на любой игре Премьер-лиги и обеспечьте себе более выгодные условия неделя за неделей.",
+              "az": "İstənilən Premyer Liqa oyununun 1X2 bazarına keçin və hər həftə daha sərfəli əmsallardan yararlanın.",
+              "ee": "Suundu 1X2 turule mis tahes Premier League’i mängus ja saa parem pakkumine, nädalast nädalasse.",
+              "hu": "Látogass el bármely Premier League-mérkőzés 1X2 piacára, és fogadj jobb szorzókkal minden héten.",
+              "cs": "Vyberte si libovolný zápas Premier League, otevřete trh 1X2 a sázejte s lepší hodnotou týden za týdnem."
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "text"
+          },
+          "value": {
+            "type": "text",
+            "value": {
+              "en": "How it works:",
+              "de": "So geht`s:",
+              "fi": "Toimi näin:",
+              "no": "Slik fungerer det:",
+              "pt": "Como funciona:",
+              "BR_pt": "Como funciona:",
+              "es": "Cómo funciona:",
+              "CL_es": "¿Cómo funciona?",
+              "it": "Come funziona:",
+              "fr": "Comment ça marche :",
+              "pl": "Jak to działa:",
+              "tr": "Nasıl çalışır:",
+              "ru": "Как это работает:",
+              "az": "Bu necə işləyir:",
+              "ee": "Kuidas see toimib:",
+              "hu": "Így működik:",
+              "cs": "Jak se zapojit:"
+            }
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "sm"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "list"
+          },
+          "items": {
+            "type": "list",
+            "value": [
+              {
+                "type": "text",
+                "value": {
+                  "en": "Select any Premier League fixture.",
+                  "de": "Wählen Sie ein beliebiges Premier-League-Spiel aus.",
+                  "fi": "Valitse mikä tahansa Valioliigan ottelu.",
+                  "no": "Velg en hvilken som helst Premier League kamp.",
+                  "pt": "Seleciona qualquer jogo da Premier League.",
+                  "BR_pt": "Selecione qualquer partida da Premier League.",
+                  "es": "Selecciona cualquier partido de la Premier League.",
+                  "CL_es": "Selecciona cualquier partido de la Premier League.",
+                  "it": "Seleziona qualsiasi incontro della Premier League.",
+                  "fr": "Sélectionnez n`importe quel match de Premier League.",
+                  "pl": "Wybierz dowolny mecz Premier League.",
+                  "tr": "Herhangi bir Premier League maçını seçin.",
+                  "ru": "Выберите любой матч Премьер-лиги.",
+                  "az": "İstənilən Premyer Liqa oyununu seçin.",
+                  "ee": "Vali ükskõik milline Premier League’i kohtumine.",
+                  "hu": "Válassz ki egy Premier League-mérkőzést.",
+                  "cs": "Vyberte si zápas Premier League."
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "en": "Choose a selection from the 1X2 market.",
+                  "de": "Treffen Sie eine Auswahl aus dem 1X2-Markt.",
+                  "fi": "Valitse valinta 1X2-markkinasta.",
+                  "no": "Velg et alternativ fra 1X2 markedet.",
+                  "pt": "Escolhe uma seleção no mercado 1X2.",
+                  "BR_pt": "Escolha uma seleção no mercado 1X2.",
+                  "es": "Elige una selección del mercado 1X2.",
+                  "CL_es": "Elige una selección del mercado 1X2.",
+                  "it": "Scegli una selezione dal mercato 1X2.",
+                  "fr": "Choisissez un pari sur le marché 1X2.",
+                  "pl": "Wybierz typ z zakładów 1X2.",
+                  "tr": "1X2 pazarından bir seçim yapın.",
+                  "ru": "Сделайте ставку на исход 1X2.",
+                  "az": "1X2 bazarından seçim edin.",
+                  "ee": "Tee valik 1X2 turul.",
+                  "hu": "Válassz egy kimenetelt az 1X2 piacról.",
+                  "cs": "Zvolte tip na trhu 1X2."
+                }
+              },
+              {
+                "type": "text",
+                "value": {
+                  "en": "Place your bet and enjoy 0% Margin on every eligible match.",
+                  "de": "Platzieren Sie Ihre Wette und genießen Sie eine 0%-Marge bei jedem teilnahmeberechtigten Spiel.",
+                  "fi": "Aseta vetosi ja nauti 0%-marginaalista jokaisessa kelvollisessa ottelussa.",
+                  "no": "Plasser innsatsen din og få 0% Μargin på alle kvalifiserte kamper.",
+                  "pt": "Faz a tua aposta e desfruta de Margem de 0% em todos os jogos elegíveis.",
+                  "BR_pt": "Faça sua aposta e aproveite a Margem de 0% em todas as partidas elegíveis.",
+                  "es": "Realiza tu apuesta y disfruta del Margen del 0% en todos los partidos elegibles.",
+                  "CL_es": "Haz tu apuesta y disfruta del Margen del 0% en todos los partidos elegibles.",
+                  "it": "Piazza la tua scommessa e approfitta del margine dello 0% su ogni partita idonea.",
+                  "fr": "Placez votre pari et profitez d`une marge de 0% sur chaque match éligible.",
+                  "pl": "Postaw zakład i korzystaj z marży 0% na każdym kwalifikującym się meczu.",
+                  "tr": "Bahsinizi yapın ve uygun maçlarda %0 Marj avantajından yararlanın.",
+                  "ru": "Сделайте ставку и воспользуйтесь 0% маржой на каждый соответствующий матч.",
+                  "az": "Mərcinizi yerləşdirin və uyğun oyunlarda 0% Marjadan yararlanın.",
+                  "ee": "Tee panus ja naudi igal osaleval matšil 0% marginaali.",
+                  "hu": "Tedd meg a fogadásodat, és élvezd a 0% Margin előnyeit minden jogosult mérkőzésen.",
+                  "cs": "Podejte sázku a užijte si 0% Margin na každém kvalifikačním zápase."
+                }
+              }
+            ]
+          },
+          "variant": {
+            "type": "text",
+            "value": "ordered"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "link"
+          },
+          "text": {
+            "type": "text",
+            "value": {
+              "en": "BET NOW",
+              "de": "JETZT WETTEN",
+              "fi": "LYÖ VETOA NYT",
+              "no": "SPILL NÅ",
+              "pt": "APOSTAR AGORA",
+              "BR_pt": "APOSTAR AGORA",
+              "es": "APUESTA AHORA",
+              "CL_es": "APUESTA AHORA",
+              "it": "SCOMMETTI ORA",
+              "fr": "PARIEZ MAINTENANT",
+              "pl": "POSTAW TERAZ",
+              "tr": "HEMEN BAHİS YAP",
+              "ru": "СТАВЬТЕ СЕЙЧАС",
+              "az": "İNDİ MƏRC ET",
+              "ee": "PANUSTA KOHE",
+              "hu": "FOGADJ MOST",
+              "cs": "VSADIT TEĎ"
+            }
+          },
+          "align": {
+            "type": "text",
+            "value": "center"
+          },
+          "link": {
+            "type": "link",
+            "to": "/sports"
+          },
+          "layout": {
+            "type": "map",
+            "space": {
+              "type": "text",
+              "value": "md"
+            }
+          }
+        },
+        {
+          "type": "map",
+          "component": {
+            "type": "text",
+            "value": "template"
+          },
+          "id": {
+            "type": "text",
+            "value": "terms"
+          },
+          "height": {
+            "type": "text",
+            "value": "sm"
+          }
+        }
+      ]
+    }
+  }
+}

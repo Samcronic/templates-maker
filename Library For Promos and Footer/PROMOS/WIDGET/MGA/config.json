@@ -94,6 +94,10 @@
             "type" : "text",
             "value" : "midweek-reload-sports-bonus"
           },
+                    {
+            "type" : "text",
+            "value" : "premier-league-0-margin"
+          },
           {
             "type" : "text",
             "value" : "accumulator-boost"
@@ -205,6 +209,10 @@
           {
             "type" : "text",
             "value" : "midweek-reload-sports-bonus-germany-austria"
+          },
+                    {
+            "type" : "text",
+            "value" : "premier-league-0-margin"
           },
           {
             "type" : "text",
@@ -318,6 +326,10 @@
             "type" : "text",
             "value" : "midweek-reload-sports-bonus-germany-austria"
           },
+                    {
+            "type" : "text",
+            "value" : "premier-league-0-margin"
+          },
           {
             "type" : "text",
             "value" : "accumulator-boost"
@@ -429,6 +441,10 @@
           {
             "type" : "text",
             "value" : "midweek-reload-sports-bonus-finland"
+          },
+                    {
+            "type" : "text",
+            "value" : "premier-league-0-margin"
           },
           {
             "type" : "text",
@@ -553,6 +569,10 @@
           {
             "type" : "text",
             "value" : "midweek-reload-sports-bonus-netherlands"
+          },
+                    {
+            "type" : "text",
+            "value" : "premier-league-0-margin"
           },
           {
             "type" : "text",
@@ -738,6 +758,10 @@
             "type" : "text",
             "value" : "midweek-reload-sports-bonus-sweden"
           },
+                    {
+            "type" : "text",
+            "value" : "premier-league-0-margin"
+          },
           {
             "type" : "text",
             "value" : "accumulator-boost"
@@ -845,6 +869,10 @@
           {
             "type" : "text",
             "value" : "midweek-reload-sports-bonus"
+          },
+                    {
+            "type" : "text",
+            "value" : "premier-league-0-margin"
           },
           {
             "type" : "text",
