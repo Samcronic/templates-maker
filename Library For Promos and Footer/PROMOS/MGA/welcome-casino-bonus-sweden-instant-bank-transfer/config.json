@@ -1,23 +1,23 @@
 {
-  "id" : "casino-reload-bonus-sweden-instant-bank-transfer",
+  "id" : "welcome-casino-bonus-sweden-instant-bank-transfer",
   "type" : "component",
   "component" : {
     "type" : "map",
     "title" : {
       "type" : "text",
       "value" : {
-        "en" : "Only via Instant Bank Transfer"
+        "en" : "Welcome Casino Bonus"
       }
     },
     "description" : {
       "type" : "text",
       "value" : {
-        "en" : "Unlimited ${percentage} Reload Bonuses with ${wagering_req} wagering"
+        "en" : "${percentage} up to ${amount} powered by Instant Bank Transfer"
       }
     },
     "background" : {
       "type" : "image",
-      "name" : "casino-reload-bonus-sweden-instant-bank-transfer.jpg"
+      "name" : "welcome-casino-bonus-sweden-instant-bank-transfer.webp"
     },
     "tags" : {
       "type" : "list",
@@ -62,7 +62,7 @@
     },
     "terms" : {
       "type" : "template",
-      "name" : "./casino-reload-bonus-sweden-instant-bank-transfer.html"
+      "name" : "./welcome-casino-bonus-sweden-instant-bank-transfer.html"
     },
     "lobby" : {
       "type" : "list",
@@ -130,7 +130,7 @@
           "value" : {
             "type" : "text",
             "value" : {
-              "en" : "A ${percentage} Casino Reload Bonus up to ${amount} with ONLY ${wagering_req} wagering is up for grabs UNLIMITED TIMES!\nExclusively available via Instant Bank Transfer.\nHere's how to make it yours:"
+              "en" : "Kick off your next Casino adventure with Instant Bank Transfer and a ${percentage} Welcome Bonus up to ${amount}!\nAnd here\u2019s the real game-changer: it comes with just ${wagering_req} wagering requirement.\nTo enjoy:"
             }
           },
           "layout" : {
@@ -166,12 +166,6 @@
                 "type" : "text",
                 "value" : {
                   "en" : "Deposit ${min_deposit} or more, and we'll add your Bonus"
-                }
-              },
-              {
-                "type" : "text",
-                "value" : {
-                  "en" : "Repeat the process as many times as you wish"
                 }
               }
             ]
@@ -235,8 +229,8 @@
     },
     "variables" : {
       "amount" : {
-        "EUR" : "\u20ac500",
-        "*" : "\u20ac500"
+        "EUR" : "\u20ac1000",
+        "*" : "\u20ac1000"
       },
       "max_bet" : {
         "EUR" : "\u20ac5",
@@ -251,10 +245,10 @@
         "*" : "\u20ac20"
       },
       "percentage" : {
-        "*" : "150%"
+        "*" : "200%"
       },
       "wagering_req" : {
-        "*" : "x20"
+        "*" : "x25"
       }
     }
   }
