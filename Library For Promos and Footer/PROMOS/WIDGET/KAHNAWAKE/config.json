@@ -164,10 +164,6 @@
           },
           {
             "type" : "text",
-            "value" : "welcome-casino-score-freebet"
-          },
-          {
-            "type" : "text",
             "value" : "welcome-sports-bonus-germany-austria"
           },
           {
@@ -277,10 +273,6 @@
           {
             "type" : "text",
             "value" : "welcome-casino-bonus"
-          },
-          {
-            "type" : "text",
-            "value" : "welcome-casino-score-freebet"
           },
           {
             "type" : "text",
@@ -520,10 +512,6 @@
           },
           {
             "type" : "text",
-            "value" : "welcome-casino-score-freebet"
-          },
-          {
-            "type" : "text",
             "value" : "welcome-sports-bonus-netherlands-sweden-belgium"
           },
           {
@@ -640,10 +628,6 @@
           },
           {
             "type" : "text",
-            "value" : "welcome-casino-score-freebet"
-          },
-          {
-            "type" : "text",
             "value" : "welcome-sports-freebet-uk"
           },
           {
@@ -713,10 +697,6 @@
           {
             "type" : "text",
             "value" : "welcome-casino-bonus"
-          },
-          {
-            "type" : "text",
-            "value" : "welcome-casino-score-freebet"
           },
           {
             "type" : "text",
