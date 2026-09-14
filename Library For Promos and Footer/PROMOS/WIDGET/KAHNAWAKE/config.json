@@ -580,10 +580,6 @@
           },
           {
             "type" : "text",
-            "value" : "midweek-3-"
-          },
-          {
-            "type" : "text",
             "value" : "margin-offer"
           },
           {
@@ -889,10 +885,6 @@
           {
             "type" : "text",
             "value" : "accumulator-boost"
-          },
-          {
-            "type" : "text",
-            "value" : "midweek-3-"
           },
           {
             "type" : "text",
