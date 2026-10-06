@@ -94,9 +94,13 @@
             "type" : "text",
             "value" : "midweek-reload-sports-bonus"
           },
-                    {
+          {
             "type" : "text",
             "value" : "premier-league-0-margin"
+          },
+          {
+            "type" : "text",
+            "value" : "live-streaming"
           },
           {
             "type" : "text",
@@ -164,11 +168,11 @@
           },
           {
             "type" : "text",
-            "value" : "welcome-sports-bonus-germany-austria"
+            "value" : "welcome-sports-bonus"
           },
           {
             "type" : "text",
-            "value" : "welcome-sports-freebet-nl-se-de-be-at"
+            "value" : "welcome-sports-freebet"
           },
           {
             "type" : "text",
@@ -200,15 +204,19 @@
           },
           {
             "type" : "text",
-            "value" : "weekend-sports-reload-bonus-germany-austria"
+            "value" : "weekend-sports-reload"
           },
           {
             "type" : "text",
-            "value" : "midweek-reload-sports-bonus-germany-austria"
+            "value" : "midweek-reload-sports-bonus"
           },
-                    {
+          {
             "type" : "text",
             "value" : "premier-league-0-margin"
+          },
+          {
+            "type" : "text",
+            "value" : "live-streaming"
           },
           {
             "type" : "text",
@@ -276,11 +284,11 @@
           },
           {
             "type" : "text",
-            "value" : "welcome-sports-bonus-germany-austria"
+            "value" : "welcome-sports-bonus"
           },
           {
             "type" : "text",
-            "value" : "welcome-sports-freebet-nl-se-de-be-at"
+            "value" : "welcome-sports-freebet"
           },
           {
             "type" : "text",
@@ -312,15 +320,19 @@
           },
           {
             "type" : "text",
-            "value" : "weekend-sports-reload-bonus-germany-austria"
+            "value" : "weekend-sports-reload"
           },
           {
             "type" : "text",
-            "value" : "midweek-reload-sports-bonus-germany-austria"
+            "value" : "midweek-reload-sports"
           },
-                    {
+          {
             "type" : "text",
             "value" : "premier-league-0-margin"
+          },
+          {
+            "type" : "text",
+            "value" : "live-streaming"
           },
           {
             "type" : "text",
@@ -428,15 +440,19 @@
           },
           {
             "type" : "text",
-            "value" : "weekend-sports-reload-bonus-finland"
+            "value" : "weekend-sports-reload"
           },
           {
             "type" : "text",
             "value" : "midweek-reload-sports-bonus-finland"
           },
-                    {
+          {
             "type" : "text",
             "value" : "premier-league-0-margin"
+          },
+          {
+            "type" : "text",
+            "value" : "live-streaming"
           },
           {
             "type" : "text",
@@ -512,11 +528,11 @@
           },
           {
             "type" : "text",
-            "value" : "welcome-sports-bonus-netherlands-sweden-belgium"
+            "value" : "welcome-sports-bonus"
           },
           {
             "type" : "text",
-            "value" : "welcome-sports-freebet-nl-se-de-be-at"
+            "value" : "welcome-sports-freebet"
           },
           {
             "type" : "text",
@@ -552,15 +568,19 @@
           },
           {
             "type" : "text",
-            "value" : "weekend-sports-reload-bonus-netherlands"
+            "value" : "weekend-sports-reload"
           },
           {
             "type" : "text",
-            "value" : "midweek-reload-sports-bonus-netherlands"
+            "value" : "midweek-reload-sports-bonus"
           },
-                    {
+          {
             "type" : "text",
             "value" : "premier-league-0-margin"
+          },
+          {
+            "type" : "text",
+            "value" : "live-streaming"
           },
           {
             "type" : "text",
@@ -700,11 +720,11 @@
           },
           {
             "type" : "text",
-            "value" : "welcome-sports-bonus-netherlands-sweden-belgium"
+            "value" : "welcome-sports-bonus"
           },
           {
             "type" : "text",
-            "value" : "welcome-sports-freebet-nl-se-de-be-at"
+            "value" : "welcome-sports-freebet"
           },
           {
             "type" : "text",
@@ -740,15 +760,19 @@
           },
           {
             "type" : "text",
-            "value" : "weekend-sports-reload-bonus-sweden"
+            "value" : "weekend-sports-reload"
           },
           {
             "type" : "text",
-            "value" : "midweek-reload-sports-bonus-sweden"
+            "value" : "midweek-reload-sports-bonus"
           },
-                    {
+          {
             "type" : "text",
             "value" : "premier-league-0-margin"
+          },
+          {
+            "type" : "text",
+            "value" : "live-streaming"
           },
           {
             "type" : "text",
@@ -816,11 +840,11 @@
           },
           {
             "type" : "text",
-            "value" : "welcome-sports-bonus-netherlands-sweden-belgium"
+            "value" : "welcome-sports-bonus"
           },
           {
             "type" : "text",
-            "value" : "welcome-sports-freebet-nl-se-de-be-at"
+            "value" : "welcome-sports-freebet"
           },
           {
             "type" : "text",
@@ -858,9 +882,13 @@
             "type" : "text",
             "value" : "midweek-reload-sports-bonus"
           },
-                    {
+          {
             "type" : "text",
             "value" : "premier-league-0-margin"
+          },
+          {
+            "type" : "text",
+            "value" : "live-streaming"
           },
           {
             "type" : "text",
