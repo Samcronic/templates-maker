@@ -65,7 +65,7 @@
     },
     "background" : {
       "type" : "image",
-      "name" : "welcome-sports-bonus.jpg"
+      "name" : "welcome-sports-bonus.webp"
     },
     "tags" : {
       "type" : "list",
