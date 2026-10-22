@@ -1,0 +1,393 @@
+{
+  "id" : "live-streaming",
+  "type" : "component",
+  "component" : {
+    "type" : "map",
+    "title" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Live Streaming",
+        "de" : "Live-Streaming",
+        "fi" : "Live-lähetys",
+        "no" : "Live stream",
+        "pt" : "Video ao vivo",
+        "BR_pt" : "Transmissão ao Vivo",
+        "es" : "Transmisión en Vivo",
+        "CL_es" : "Transmisión en Vivo",
+        "it" : "Live Streaming",
+        "fr" : "Streaming en direct",
+        "pl" : "Nadawanie Na  Żywo",
+        "tr" : "Live Streaming",
+        "ru" : "Live Streaming",
+        "az" : "Live Streaming",
+        "ee" : "Otseülekanne",
+        "hu" : "Live Streaming",
+        "cs" : "Live Streaming"
+      }
+    },
+    "description" : {
+      "type" : "text",
+      "value" : {
+        "en" : "Watch real-time the match you bet on!",
+        "de" : "Verfolgen Sie das Spiel, auf das Sie gewettet haben, in Echtzeit!",
+        "fi" : "Katso livenä ottelua, johon olet asettanut vedon!",
+        "no" : "Se kampen du satser på i sanntid!",
+        "pt" : "Vê em tempo real o jogo em que apostaste!",
+        "BR_pt" : "Assista em tempo real à partida em que você apostou!",
+        "es" : "¡Mira en tiempo real el partido en el que apostaste!",
+        "CL_es" : "¡Mira en vivo el partido en el que hiciste tu apuesta!",
+        "it" : "Guarda in tempo reale la partita su cui stai scommettendo!",
+        "fr" : "Regardez en temps réel le match sur lequel vous avez misé !",
+        "pl" : "Oglądaj na żywo mecz, który obstawiasz!",
+        "tr" : "Bahis yaptığınız karşılaşmayı gerçek zamanlı izleyin!",
+        "ru" : "Смотрите матч, на который вы сделали ставку, в режиме реального времени!",
+        "az" : "Mərc etdiyiniz qarşılaşmanı real vaxtda izləyin!",
+        "ee" : "Vaata reaalajas matši, millele sa panustasid!",
+        "hu" : "Kövesd élőben a mérkőzést, amelyre fogadtál!",
+        "cs" : "Sledujte zápas, na který sázíte!"
+      }
+    },
+    "background" : {
+      "type" : "image",
+      "name" : "LiveStreaming.jpg"
+    },
+    "tags" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "id" : {
+            "type" : "text",
+            "value" : "sports"
+          },
+          "label" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Sports",
+              "de" : "Sport",
+              "fi" : "Urheilu",
+              "no" : "Sport",
+              "pt" : "Esportes",
+              "es" : "Deportes",
+              "it" : "Sport",
+              "fr" : "Sports",
+              "pl" : "Sport",
+              "az" : "İdman",
+              "ru" : "Спорт",
+              "tr" : "Spor",
+              "et" : "Sport",
+              "hu" : "Sport",
+              "cs" : "Sport",
+              "sr" : "Sportovi",
+              "el" : "Στοίχημα",
+              "mk" : "Спорт",
+              "sq" : "Sporte",
+              "sl" : "Športi",
+              "hr" : "Sport",
+              "bg" : "Спорт",
+              "ro" : "Sporturi",
+              "bn" : "স্পোর্টস"
+            }
+          }
+        }
+      ]
+    },
+    "terms" : {
+      "type" : "template",
+      "name" : "./live-streaming.html"
+    },
+    "lobby" : {
+      "type" : "list",
+      "value" : [
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "banner"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "title"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "slot"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "description"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "Experience the action as it happens with the brand-new Live Streaming feature! Tune in live and catch every thrilling moment as it unfolds.",
+              "de" : "Erleben Sie das Geschehen hautnah mit der brandneuen Live-Streaming-Funktion! Schalten Sie live ein und verfolgen Sie jeden spannenden Moment in Echtzeit.",
+              "fi" : "Koe toiminta reaaliajassa täysin uudella Live-lähetysominaisuudella! Liity mukaan suoraan lähetykseen ja nauti jokaisesta jännittävästä hetkestä.",
+              "no" : "Opplev handlingen mens den skjer med den splitter nye direktestrømmingsfunksjonen! Følg med direkte og få med deg hvert eneste spennende øyeblikk mens det utfolder seg.",
+              "pt" : "Vive toda a ação em tempo real com a nova funcionalidade de Transmissão em Direto! Acompanha em direto e não percas nenhum momento emocionante.",
+              "BR_pt" : "Viva toda a ação em tempo real com o novo recurso de Transmissão ao Vivo! Acompanhe ao vivo e não perca nenhum momento emocionante.",
+              "es" : "¡Vive la acción en tiempo real con la nueva función de Transmisión en Vivo! Conéctate en directo y disfruta de cada momento emocionante mientras sucede.",
+              "CL_es" : "¡Vive toda la acción al momento con la nueva función de Transmisión en Vivo! Conéctate en directo y no te pierdas ningún momento emocionante.",
+              "it" : "Vivi l`azione in tempo reale con la nuovissima funzione di streaming live! Sintonizzati in diretta e non perderti nemmeno un momento emozionante.",
+              "fr" : "Vivez l`action en direct grâce à la toute nouvelle fonctionnalité de diffusion en direct ! Connectez-vous en direct et ne manquez aucun moment palpitant au fur et à mesure qu`il se déroule.",
+              "pl" : "Poczuj meczowe emocje na żywo dzięki nowej funkcji Live Streaming! Śledź akcję w czasie rzeczywistym i nie przegap żadnego kluczowego momentu.",
+              "tr" : "Yepyeni Canlı Yayın özelliğiyle maç heyecanını anbean yaşayın! Canlı yayına katılın ve karşılaşmanın her heyecan verici anını gerçekleştiği anda takip edin.",
+              "ru" : "Ощутите всю остроту событий в режиме реального времени с помощью новой функции прямой трансляции! Подключайтесь к трансляции и не пропустите ни одного захватывающего момента.",
+              "az" : "Tamamilə yeni Canlı Yayım funksiyası ilə oyunun həyəcanını anbaan yaşayın! Canlı yayımı izləyin və qarşılaşmanın hər bir həyəcanlı anını baş verdiyi anda qaçırmayın.",
+              "ee" : "Saa kogu möllust kohe osa meie uhiuue otseülekande funktsiooniga! Jälgi ülekannet ja saa osa igast põnevast hetkest kohe, kui see sünnib.",
+              "hu" : "Éld át az eseményeket valós időben a vadonatúj Élő közvetítés funkcióval! Kapcsolódj be élőben, és kövesd minden izgalmas pillanat alakulását.",
+              "cs" : "Užijte si zápas přímo v jeho průběhu díky nové funkci Live Streaming. Sledujte přenos živě a mějte přehled o každém důležitém momentu."
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "How it works:",
+              "de" : "So geht`s:",
+              "fi" : "Toimi näin:",
+              "no" : "Slik fungerer det:",
+              "pt" : "Como funciona:",
+              "BR_pt" : "Como funciona:",
+              "es" : "Cómo funciona:",
+              "CL_es" : "Cómo funciona:",
+              "it" : "Come funziona:",
+              "fr" : "Comment ça marche :",
+              "pl" : "Jak to działa:",
+              "tr" : "Nasıl çalışır:",
+              "ru" : "Как это работает:",
+              "az" : "Necə işləyir:",
+              "ee" : "Kuidas see toimib:",
+              "hu" : "Hogyan működik:",
+              "cs" : "Jak se zapojit:"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "sm"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "list"
+          },
+          "items" : {
+            "type" : "list",
+            "value" : [
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Log in to your account and head to the Live Betting section.",
+                  "de" : "Melden Sie sich bei Ihrem Konto an und gehen Sie zum Bereich \"Live-Wetten\".",
+                  "fi" : "Kirjaudu tiliisi ja suuntaa live-vedonlyöntiosioon.",
+                  "no" : "Logg inn på kontoen din og gå til Live Spill seksjonen.",
+                  "pt" : "Inicia sessão na tua conta e acede à secção de Apostas ao Vivo.",
+                  "BR_pt" : "Acesse sua conta e vá até a seção de Apostas ao Vivo.",
+                  "es" : "Inicia sesión en tu cuenta y dirígete a la sección de Apuestas en Vivo.",
+                  "CL_es" : "Inicia sesión en tu cuenta y entra a la sección de Apuestas en Vivo.",
+                  "it" : "Accedi al tuo account e vai alla sezione \u201cScommesse live\u201d.",
+                  "fr" : "Connectez-vous à votre compte et rendez-vous dans la rubrique \"Paris en direct\".",
+                  "pl" : "Zaloguj się na swoje konto i przejdź do sekcji Zakładów na żywo.",
+                  "tr" : "Hesabınıza giriş yapın ve Canlı Bahis bölümüne gidin.",
+                  "ru" : "Войдите в свою учетную запись и перейдите в раздел \"Ставки в реальном времени\".",
+                  "az" : "Hesabınıza daxil olun və Canlı Mərc bölməsinə keçin.",
+                  "ee" : "Logi oma kontole sisse ja mine jaotisesse Reaalajas panustamine.",
+                  "hu" : "Jelentkezz be a fiókodba, majd lépj az Élő fogadás részre.",
+                  "cs" : "Přihlaste se ke svému účtu a přejděte do sekce Live Betting."
+                }
+              },
+              {
+                "type" : "text",
+                "value" : {
+                  "en" : "Click on the Streaming option and enjoy the matches live.",
+                  "de" : "Klicken Sie auf die Option \"Streaming\" und genießen Sie die Spiele live.",
+                  "fi" : "Napsauta Live-lähetysvaihtoehtoa ja nauti otteluista livenä.",
+                  "no" : "Klikk på strømmealternativet og se kampene direkte.",
+                  "pt" : "Clica na opção de Transmissão e desfruta dos jogos em direto.",
+                  "BR_pt" : "Clique na opção de Transmissão e aproveite as partidas ao vivo.",
+                  "es" : "Haz clic en la opción de Transmisión y disfruta de los partidos en vivo.",
+                  "CL_es" : "Haz clic en la opción de Transmisión y disfruta de los partidos en vivo.",
+                  "it" : "Clicca sull`opzione Streaming e goditi le partite in diretta.",
+                  "fr" : "Cliquez sur l`option \"Streaming\" et profitez des matchs en direct.",
+                  "pl" : "Kliknij opcję Streaming i oglądaj wybrane mecze na żywo.",
+                  "tr" : "Yayın seçeneğine tıklayın ve karşılaşmaları canlı izleyin.",
+                  "ru" : "Нажмите на опцию \"Трансляции\" и наслаждайтесь матчами в прямом эфире.",
+                  "az" : "Yayım seçiminə klikləyin və qarşılaşmaları canlı izləyin.",
+                  "ee" : "Klõpsa valikul Otseülekanne ja naudi matše reaalajas.",
+                  "hu" : "Kattints a Közvetítés lehetőségre, és élvezd a mérkőzéseket élőben.",
+                  "cs" : "Klikněte na možnost Streaming a sledujte zápas živě."
+                }
+              }
+            ]
+          },
+          "variant" : {
+            "type" : "text",
+            "value" : "ordered"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "text"
+          },
+          "value" : {
+            "type" : "text",
+            "value" : {
+              "en" : "* Available only for selected matches and events",
+              "de" : "* Nur für ausgewählte Spiele und Veranstaltungen verfügbar",
+              "fi" : "* Saatavana vain valikoiduille otteluille ja tapahtumille",
+              "no" : "* Kun tilgjengelig for utvalgte kamper og arrangementer",
+              "pt" : "* Disponível apenas para jogos e eventos selecionados",
+              "BR_pt" : "* Disponível apenas para partidas e eventos selecionados",
+              "es" : "* Disponible únicamente para partidos y eventos seleccionados",
+              "CL_es" : "* Disponible solo para partidos y eventos seleccionados",
+              "it" : "* Disponibile solo per alcune partite ed eventi selezionati",
+              "fr" : "* Disponible uniquement pour certains matchs et événements",
+              "pl" : "* Dostępne tylko dla wybranych meczów i wydarzeń.",
+              "tr" : "* Yalnızca seçili karşılaşmalar ve etkinliklerde kullanılabilir.",
+              "ru" : "* Доступно только для отдельных матчей и событий",
+              "az" : "* Yalnız seçilmiş qarşılaşmalar və tədbirlər üçün əlçatandır.",
+              "ee" : "* Saadaval ainult valitud matšide ja ürituste puhul",
+              "hu" : "* Csak egyes mérkőzéseknél és eseményeknél érhető el",
+              "cs" : "* Dostupné pouze u vybraných zápasů a událostí"
+            }
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "link"
+          },
+          "text" : {
+            "type" : "text",
+            "value" : {
+              "en" : "BET NOW",
+              "de" : "JETZT WETTEN",
+              "fi" : "LYÖ VETOA NYT",
+              "no" : "SPILL NÅ",
+              "pt" : "APOSTAR AGORA",
+              "BR_pt" : "APOSTAR AGORA",
+              "es" : "APUESTA AHORA",
+              "CL_es" : "APUESTA AHORA",
+              "it" : "SCOMMETTI ORA",
+              "fr" : "PARIEZ MAINTENANT",
+              "pl" : "POSTAW TERAZ",
+              "tr" : "HEMEN BAHİS YAP",
+              "ru" : "СТАВЬТЕ СЕЙЧАС",
+              "az" : "İNDİ MƏRC ET",
+              "ee" : "PANUSTA KOHE",
+              "hu" : "FOGADJ MOST",
+              "cs" : "VSADIT TEĎ"
+            }
+          },
+          "align" : {
+            "type" : "text",
+            "value" : "center"
+          },
+          "link" : {
+            "type" : "link",
+            "to" : "/sports?page=live"
+          },
+          "layout" : {
+            "type" : "map",
+            "space" : {
+              "type" : "text",
+              "value" : "md"
+            }
+          }
+        },
+        {
+          "type" : "map",
+          "component" : {
+            "type" : "text",
+            "value" : "template"
+          },
+          "id" : {
+            "type" : "text",
+            "value" : "terms"
+          },
+          "height" : {
+            "type" : "text",
+            "value" : "sm"
+          }
+        }
+      ]
+    }
+  }
+}
