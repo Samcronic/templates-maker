@@ -15,7 +15,7 @@
         "fr" : "Avantages VIP",
         "pl" : "Przywileje VIP",
         "hu" : "VIP Jellemzők",
-        "cz" : "VIP Výhody"
+        "cs" : "VIP Výhody"
       }
     },
     "cards" : {
@@ -40,7 +40,7 @@
               "fr" : "Retraits Rapides",
               "pl" : "Szybkie Wypłaty",
               "hu" : "Gyors Kifizetések",
-              "cz" : "Rychlé Výběry"
+              "cs" : "Rychlé Výběry"
             }
           },
           "description" : {
@@ -59,7 +59,7 @@
               "tr" : "Para çekme işlemlerinizin hızlı bir şekilde tamamlanmasını sağlayacak ve herhangi bir sorunuz olduğunda anında yanıt vermek için hazır bulunacağız.",
               "pl" : "Zapewnimy, że Twoje wypłaty będą przetwarzane szybko, a my będziemy dostępni, aby odpowiedzieć na wszelkie pytania, które możesz mieć bez opóźnień.",
               "hu" : "Biz biztosítjuk, hogy a kifizetéseid gyorsan feldolgozásra kerüljenek, és készen állunk arra, hogy minden kérdésedre azonnal válaszoljunk.",
-              "cz" : "Zajistíme, aby vaše výběry byly zpracovány rychle, a budeme k dispozici, abychom bez prodlení odpověděli na jakékoli dotazy, které můžete mít."
+              "cs" : "Zajistíme, aby vaše výběry byly zpracovány rychle, a budeme k dispozici, abychom bez prodlení odpověděli na jakékoli dotazy, které můžete mít."
             }
           }
         },
@@ -82,7 +82,7 @@
               "fr" : "Gestionnaire de Compte VIP Dédié",
               "pl" : "Dedykowany Opiekun Konta VIP",
               "hu" : "Dedikált VIP Fiókmenedzser",
-              "cz" : "Vyhrazený VIP Account Manager"
+              "cs" : "Vyhrazený VIP Account Manager"
             }
           },
           "description" : {
@@ -101,7 +101,7 @@
               "tr" : "Kişisel Hesap Yöneticiniz, karşılaşabileceğiniz her türlü sorunu çözmek ve oyun deneyiminizi geliştirmek için burada.",
               "pl" : "Twój osobisty opiekun konta jest tutaj, aby rozwiązać wszelkie problemy, które możesz mieć i poprawić Twoje doświadczenie z grą.",
               "hu" : "Személyes fiókmenedzserünk itt van, hogy kezelje az esetleges problémákat és javítsa a játékélményedet.",
-              "cz" : "Váš osobní správce účtu je zde, aby řešil jakékoli problémy, které můžete mít, a zlepšil váš herní zážitek."
+              "cs" : "Váš osobní správce účtu je zde, aby řešil jakékoli problémy, které můžete mít, a zlepšil váš herní zážitek."
             }
           }
         },
@@ -124,7 +124,7 @@
               "fr" : "Offres Exclusives",
               "pl" : "Ekskluzywne Oferty",
               "hu" : "Exkluzív Ajánlatok",
-              "cz" : "Exkluzivní Nabídky"
+              "cs" : "Exkluzivní Nabídky"
             }
           },
           "description" : {
@@ -143,7 +143,7 @@
               "tr" : "Çevrim şartları çok düşük olan yatırımlara özel bonuslar, cashback bonusları ve size özel diğer ayrıcalıklı promosyonlar sizi bekliyor.",
               "pl" : "Czekają na Ciebie spersonalizowane promocje, takie jak bonusy depozytowe z bardzo niskimi wymaganiami obrotu, bonusy cashback i inne przysmaki.",
               "hu" : "Személyre szabott promóciók, mint például a nagyon alacsony megforgatási követelményekkel rendelkező befizetési bónuszok, cashback bónuszok és egyéb finomságok várnak rád.",
-              "cz" : "Čekají na vás personalizované akce, jako jsou bonusy za vklad s velmi nízkými požadavky na sázení, cashback bonusy a další dobroty."
+              "cs" : "Čekají na vás personalizované akce, jako jsou bonusy za vklad s velmi nízkými požadavky na sázení, cashback bonusy a další dobroty."
             }
           }
         }
