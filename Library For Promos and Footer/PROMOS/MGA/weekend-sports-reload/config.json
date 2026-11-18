@@ -106,7 +106,7 @@
     },
     "terms" : {
       "type" : "template",
-      "name" : "./weekend-sports-reload.html"
+      "name" : "./weekend-sports-reload-bonus.html"
     },
     "lobby" : {
       "type" : "list",
