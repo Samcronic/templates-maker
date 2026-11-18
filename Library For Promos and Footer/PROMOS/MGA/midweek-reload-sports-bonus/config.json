@@ -61,7 +61,7 @@
     },
     "background" : {
       "type" : "image",
-      "name" : "midweek-reload-sports.jpg"
+      "name" : "midweek-sports-reload.jpg"
     },
     "tags" : {
       "type" : "list",
@@ -106,7 +106,7 @@
     },
     "terms" : {
       "type" : "template",
-      "name" : "./midweek-reload-sports.html"
+      "name" : "./midweek-sports-reload.html"
     },
     "lobby" : {
       "type" : "list",
