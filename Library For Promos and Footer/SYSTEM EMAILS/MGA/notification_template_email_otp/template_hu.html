@@ -1,0 +1,64 @@
+<html style="background-color: #F9FAFB; color: #1F2937;">
+  <@attribute name="subject" value="Erősítse meg e-mail címét"/>
+  <body style="margin:0; padding:0;">
+
+    <p style="max-width:600px; padding:8px; margin:auto;">
+      <img 
+        src="BRAND_LOGO_URL" 
+        alt="header image" 
+        style="display:block; padding:8px 0 30px; width:100%;" 
+      />
+    </p>
+
+    <h3 style="font-family:sans-serif; max-width:600px; margin:auto; padding:10px 8px; text-align:center;">
+      E-mail cím megerősítése
+    </h3>
+
+    <p style="font-family:sans-serif; max-width:600px; font-size:16px; margin:auto; padding:10px 8px; text-align:center;">
+      Használja az alábbi egyszeri jelszót (OTP) e-mail címe megerősítéséhez:
+      <br /><br />
+
+      <span style="
+        display:inline-block;
+        font-size:28px;
+        font-weight:700;
+        letter-spacing:6px;
+        background-color:#ffffff;
+        padding:12px 20px;
+        border-radius:8px;
+        border:1px solid #e5e7eb;
+      ">
+        ${otp}
+      </span>
+
+      <br /><br />
+
+      Ez a kód hamarosan lejár. Ha nem Ön kérte, nyugodtan figyelmen kívül hagyhatja ezt az e-mailt.
+
+      <br /><br /><br />
+
+      <em>
+        Üdvözlettel,
+        <br /><br />
+        A(z) <strong>${brandName}</strong> csapata
+      </em>
+
+      <br /><br />
+    </p>
+
+    <p style="
+      font-family:sans-serif;
+      max-width:600px;
+      font-size:11px;
+      margin:auto;
+      padding:8px;
+      border-top:1px solid #c6c6c6;
+      line-height:1rem;
+      text-align:center;
+    ">
+      <br />
+      COPYRIGHT @ ${brandName} ${.now?string('yyyy')} MINDEN JOG FENNTARTVA
+    </p>
+
+  </body>
+</html>
